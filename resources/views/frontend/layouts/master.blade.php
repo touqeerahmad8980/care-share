@@ -4,7 +4,7 @@
     @include('frontend.layouts.head')
 </head>
 <body>
-<div class="{{ $app_settings->layout ? '' : 'container' }}">
+<div>
     <!-- Page Preloder -->
     <div id="preloder">
         <div class="loader"></div>
