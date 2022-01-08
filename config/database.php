@@ -1,5 +1,4 @@
 <?php
-  $DATABASE_URL=parse_url('postgres://lyrtkgpsnehscq:062239c51a0127a0af17b8ef8d8c45cefc26726aa41d7cc2752726176bc060b2@ec2-100-25-72-111.compute-1.amazonaws.com:5432/d8aimr6u4278tj');
 
 return [
 
@@ -14,7 +13,7 @@ return [
    |
    */
 
-  'default' => env('DB_CONNECTION', 'pgsql'),
+  'default' => env('DB_CONNECTION', 'mysql'),
 
    /*
    |--------------------------------------------------------------------------
@@ -41,38 +40,13 @@ return [
       'foreign_key_constraints' => env('DB_FOREIGN_KEYS', true),
     ],
 
-    'mysql' => [
-      'driver' => 'mysql',
-      'host' => env('DB_HOST', '127.0.0.1'),
-      'port' => env('DB_PORT', '3307'),
-      'database' => env('DB_DATABASE', 'laravel_react_blog'),
-      'username' => env('DB_USERNAME', 'root'),
-      'password' => env('DB_PASSWORD', ''),
-      'unix_socket' => env('DB_SOCKET', ''),
-      'charset' => 'utf8',
-      'collation' => 'utf8_general_ci',
-      'prefix' => '',
-      'prefix_indexes' => true,
-      'strict' => true,
-      'engine' => null,
-      'options' => extension_loaded('pdo_mysql') ? array_filter([
-        PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
-      ]) : [],
-      'dump' => [
-        'dump_binary_path' => 'D:\laragon\bin\mysql\mysql-5.7.24-winx64\bin', // only the path, so without `mysqldump` or `pg_dump`
-        'use_single_transaction',
-        'timeout' => 60 * 5, // 5 minute timeout
-         // 'exclude_tables' => ['table1', 'table2'],
-         // 'add_extra_option' => '--optionname=optionvalue',
-      ]
-    ],
     // 'mysql' => [
     //   'driver' => 'mysql',
-    //   'host' => env('DB_HOST', 'sql6.freemysqlhosting.net'),
-    //   'port' => env('DB_PORT', '3306'),
-    //   'database' => env('DB_DATABASE', 'sql6464190'),
-    //   'username' => env('DB_USERNAME', 'sql6464190'),
-    //   'password' => env('DB_PASSWORD', 'skCM3dKk2m'),
+    //   'host' => env('DB_HOST', '127.0.0.1'),
+    //   'port' => env('DB_PORT', '3307'),
+    //   'database' => env('DB_DATABASE', 'laravel_react_blog'),
+    //   'username' => env('DB_USERNAME', 'root'),
+    //   'password' => env('DB_PASSWORD', ''),
     //   'unix_socket' => env('DB_SOCKET', ''),
     //   'charset' => 'utf8',
     //   'collation' => 'utf8_general_ci',
@@ -91,31 +65,44 @@ return [
     //      // 'add_extra_option' => '--optionname=optionvalue',
     //   ]
     // ],
+    'mysql' => [
+      'driver' => 'mysql',
+      'host' => env('DB_HOST', 'sql6.freemysqlhosting.net'),
+      'port' => env('DB_PORT', '3306'),
+      'database' => env('DB_DATABASE', 'sql6464190'),
+      'username' => env('DB_USERNAME', 'sql6464190'),
+      'password' => env('DB_PASSWORD', 'skCM3dKk2m'),
+      'unix_socket' => env('DB_SOCKET', ''),
+      'charset' => 'utf8',
+      'collation' => 'utf8_general_ci',
+      'prefix' => '',
+      'prefix_indexes' => true,
+      'strict' => true,
+      'engine' => null,
+      'options' => extension_loaded('pdo_mysql') ? array_filter([
+        PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
+      ]) : [],
+      'dump' => [
+        'dump_binary_path' => 'D:\laragon\bin\mysql\mysql-5.7.24-winx64\bin', // only the path, so without `mysqldump` or `pg_dump`
+        'use_single_transaction',
+        'timeout' => 60 * 5, // 5 minute timeout
+         // 'exclude_tables' => ['table1', 'table2'],
+         // 'add_extra_option' => '--optionname=optionvalue',
+      ]
+    ],
 
-    // 'pgsql' => [
-    //   'driver' => 'pgsql',
-    //   'host' => env('DB_HOST', '127.0.0.1'),
-    //   'port' => env('DB_PORT', '5432'),
-    //   'database' => env('DB_DATABASE', 'forge'),
-    //   'username' => env('DB_USERNAME', 'forge'),
-    //   'password' => env('DB_PASSWORD', ''),
-    //   'charset' => 'utf8',
-    //   'prefix' => '',
-    //   'prefix_indexes' => true,
-    //   'schema' => 'public',
-    //   'sslmode' => 'prefer',
-    // ],
     'pgsql' => [
-        'driver' => 'pgsql',
-        'host' => $DATABASE_URL["host"],
-        'port' => $DATABASE_URL["port"],
-        'database' => ltrim($DATABASE_URL["path"], "/"),
-        'username' => $DATABASE_URL["user"],
-        'password' => $DATABASE_URL["pass"],
-        'charset' => 'utf8',
-        'prefix' => '',
-        'schema' => 'public',
-        'sslmode' => 'require'
+      'driver' => 'pgsql',
+      'host' => env('DB_HOST', '127.0.0.1'),
+      'port' => env('DB_PORT', '5432'),
+      'database' => env('DB_DATABASE', 'forge'),
+      'username' => env('DB_USERNAME', 'forge'),
+      'password' => env('DB_PASSWORD', ''),
+      'charset' => 'utf8',
+      'prefix' => '',
+      'prefix_indexes' => true,
+      'schema' => 'public',
+      'sslmode' => 'prefer',
     ],
 
     'sqlsrv' => [
