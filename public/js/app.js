@@ -6527,6 +6527,25 @@ exports.push([module.i, "\n/* header css */\n.start-header {\n    box-shadow: 0 
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/pages/Home.css":
+/*!********************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./resources/js/components/pages/Home.css ***!
+  \********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".home-banner{\n\n}\n.home-banner .banner{\n    background-color: #0e1d2c;\n    padding: 60px 0px;\n}\n.home-banner h2{\n    font-size: 30px;\n    color: #eb5757;\n    font-weight: 600;\n    margin: 30px 0px 10px;\n}\n.home-banner h1{\n    font-size: 100px;\n    color: #fff;\n    font-weight: 700;\n}\n.home-banner p{\n    font-size: 20px;\n    color: #fff;\n    margin-bottom: 30px;\n}\n.home-banner .button{\n    font-size: 16px;\n    box-shadow: none;\n    padding: 15px 25px;\n    background-color: #51c185;\n    border: none;\n    font-weight: 500;\n}\n\n.home-banner .button:hover{\n    background-color: #eb5757;\n}\n\n.home-banner span{\n    font-size: 16px;\n    font-weight: 600;\n    color: #fff;\n    margin: 0px 25px;\n}\n\n.home-banner .image{\n    max-width: 480px;\n    float: right;\n}\n\n\n@media (max-width:800px) {\n    .home-banner .banner{\n        padding: 50px 0px;\n    }\n    .home-banner h2{\n        font-size: 22px;\n        margin: 0;\n    }\n    .home-banner h1{\n        font-size: 60px;\n    }\n    .home-banner p{\n        font-size: 17px;\n    }\n    .home-banner p br{\n        display: none;\n    }\n    .home-banner .button{\n        font-size: 14px;\n        padding: 10px 15px;\n    }\n    .home-banner .image{\n        width: 100%;\n        margin-top: 30px;\n    }\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/lib/css-base.js":
 /*!*************************************************!*\
   !*** ./node_modules/css-loader/lib/css-base.js ***!
@@ -66560,17 +66579,6 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./public/assets/images/BG_image_8.png":
-/*!*********************************************!*\
-  !*** ./public/assets/images/BG_image_8.png ***!
-  \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/BG_image_8.png?5cccdc70f102a3f4cb66f71b9c10efc0";
-
-/***/ }),
-
 /***/ "./resources/js/app.js":
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
@@ -66793,6 +66801,17 @@ module.exports = "/images/thyroid-cancer.svg?13470bf5a190a5490486530694cd0604";
 
 /***/ }),
 
+/***/ "./resources/js/assets/images/careshare-banner-image.jpg":
+/*!***************************************************************!*\
+  !*** ./resources/js/assets/images/careshare-banner-image.jpg ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/careshare-banner-image.jpg?5974ada7ef72ba109f2f162d47b0e46c";
+
+/***/ }),
+
 /***/ "./resources/js/assets/images/careshare-logo.png":
 /*!*******************************************************!*\
   !*** ./resources/js/assets/images/careshare-logo.png ***!
@@ -66812,6 +66831,17 @@ module.exports = "/images/careshare-logo.png?b922cdd01b58fe7ac1ce54b2c0b0f031";
 /***/ (function(module, exports) {
 
 module.exports = "/images/chervon-down.svg?4d59eb90978701c89fe8054966acefaf";
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/whatsapp-icon.png":
+/*!******************************************************!*\
+  !*** ./resources/js/assets/images/whatsapp-icon.png ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/whatsapp-icon.png?ca3d4052b8d3d72156021517a7d6bc6a";
 
 /***/ }),
 
@@ -66956,193 +66986,6 @@ function (_Component) {
 }(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
 
 react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(App, null), document.getElementById('app'));
-
-/***/ }),
-
-/***/ "./resources/js/components/blocks/Block_Grid.js":
-/*!******************************************************!*\
-  !*** ./resources/js/components/blocks/Block_Grid.js ***!
-  \******************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-
-
-
-var Block_Grid = function Block_Grid(props) {
-  var description = props.post.description.substring(0, 150);
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-md-6"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "blog-item"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "blog-thumb set-bg img-thumbnail",
-    src: '../' + props.post.file_path
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "blog-content"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "/blog/" + props.post.id
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", null, props.post.title)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "blog-meta"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    className: "fa fa-calendar-o"
-  }), " ", props.post.created_at)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, description, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "/blog/" + props.post.id,
-    className: "text-green"
-  }, "read more")))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Block_Grid);
-
-/***/ }),
-
-/***/ "./resources/js/components/blocks/Block_List_Left.js":
-/*!***********************************************************!*\
-  !*** ./resources/js/components/blocks/Block_List_Left.js ***!
-  \***********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-
-
-
-var Block_List_Left = function Block_List_Left(props) {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "recent-post-widget"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "rp-item"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "rp-thumb set-bg ",
-    src: '../' + props.post.file_path
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "rp-content"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "/blog/" + props.post.id
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", null, props.post.title)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    className: "fa fa-clock-o"
-  }), " ", props.post.created_at))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Block_List_Left);
-
-/***/ }),
-
-/***/ "./resources/js/components/common/BlogWidget.js":
-/*!******************************************************!*\
-  !*** ./resources/js/components/common/BlogWidget.js ***!
-  \******************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return BlogWidget; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _blocks_Block_List_Left__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../blocks/Block_List_Left */ "./resources/js/components/blocks/Block_List_Left.js");
-/* harmony import */ var _blocks_Block_Grid__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../blocks/Block_Grid */ "./resources/js/components/blocks/Block_Grid.js");
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
-
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-
-
-
-
-
-var BlogWidget =
-/*#__PURE__*/
-function (_Component) {
-  _inherits(BlogWidget, _Component);
-
-  function BlogWidget() {
-    var _this;
-
-    _classCallCheck(this, BlogWidget);
-
-    _this = _possibleConstructorReturn(this, _getPrototypeOf(BlogWidget).call(this));
-
-    _defineProperty(_assertThisInitialized(_this), "fetchPosts", function () {
-      axios__WEBPACK_IMPORTED_MODULE_1___default.a.get('/api/blogWidget', {
-        params: {
-          category: _this.props.category,
-          limit: _this.props.limit
-        }
-      }).then(function (response) {
-        _this.setState({
-          posts: response.data.result
-        });
-      })["catch"](function (error) {
-        console.log(error);
-      });
-    });
-
-    _defineProperty(_assertThisInitialized(_this), "renderPosts", function () {
-      return _this.state.posts.map(function (data, index) {
-        if (_this.props.layout === "list") {
-          return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_blocks_Block_List_Left__WEBPACK_IMPORTED_MODULE_2__["default"], {
-            key: data.id,
-            post: data
-          });
-        } else {
-          return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_blocks_Block_Grid__WEBPACK_IMPORTED_MODULE_3__["default"], {
-            key: data.id,
-            post: data
-          });
-        }
-      });
-    });
-
-    _this.state = {
-      posts: []
-    };
-    return _this;
-  }
-
-  _createClass(BlogWidget, [{
-    key: "componentDidMount",
-    value: function componentDidMount() {
-      this.fetchPosts();
-    }
-  }, {
-    key: "render",
-    value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, this.renderPosts());
-    }
-  }]);
-
-  return BlogWidget;
-}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
-
-
 
 /***/ }),
 
@@ -67444,6 +67287,36 @@ var About = function About() {
 
 /***/ }),
 
+/***/ "./resources/js/components/pages/Home.css":
+/*!************************************************!*\
+  !*** ./resources/js/components/pages/Home.css ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--6-1!../../../../node_modules/postcss-loader/src??ref--6-2!./Home.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/pages/Home.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./resources/js/components/pages/Index.js":
 /*!************************************************!*\
   !*** ./resources/js/components/pages/Index.js ***!
@@ -67455,59 +67328,49 @@ var About = function About() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _common_BlogWidget__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../common/BlogWidget */ "./resources/js/components/common/BlogWidget.js");
-/* harmony import */ var _public_assets_images_BG_image_8_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../public/assets/images/BG_image_8.png */ "./public/assets/images/BG_image_8.png");
-/* harmony import */ var _public_assets_images_BG_image_8_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_public_assets_images_BG_image_8_png__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _assets_images_careshare_banner_image_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../assets/images/careshare-banner-image.jpg */ "./resources/js/assets/images/careshare-banner-image.jpg");
+/* harmony import */ var _assets_images_careshare_banner_image_jpg__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_assets_images_careshare_banner_image_jpg__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _assets_images_whatsapp_icon_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/images/whatsapp-icon.png */ "./resources/js/assets/images/whatsapp-icon.png");
+/* harmony import */ var _assets_images_whatsapp_icon_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_images_whatsapp_icon_png__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _Home_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Home.css */ "./resources/js/components/pages/Home.css");
+/* harmony import */ var _Home_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Home_css__WEBPACK_IMPORTED_MODULE_3__);
+ // import BlogWidget from '../common/BlogWidget'
+// import SideImage from '../../../../public/assets/images/BG_image_8.png'
+
 
 
 
 
 var Home = function Home() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "container m-top-60"
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    className: "home-banner"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "banner"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "row"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-md-8 col-sm-12 post-list"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "post-item"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "post-content"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Welcome To Laravel React Blog"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "justify"
+    className: "col-md-6"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "24*7 PERSONALIZED"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "CANCER CARE"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    "class": "mt-0"
+  }, "JUST AT A CLICK"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "From diangnosis to treatment to recovery ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "and beyond-guiding you at each step."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    href: "#",
+    className: "btn btn-primary button"
+  }, "Sign up For Free Consultation"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "or"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _assets_images_whatsapp_icon_png__WEBPACK_IMPORTED_MODULE_2___default.a,
+    width: "45"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-6"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _public_assets_images_BG_image_8_png__WEBPACK_IMPORTED_MODULE_2___default.a,
-    className: "img-thumbnail",
-    width: "300",
-    alt: ""
-  }), "The necessity of quality education for the underprivileged children of Chittagong Hill Tracts was felt for a long time. With the splendid aim of preparing the next generation of this region as responsible and educated citizens of the country the General Officer Commanding of 24 Infantry Division and Area Commander of Chittagong area laid the foundation stone of Khagrachari Cantonment Public School & College (KCPSC) on April 27, 2002. The institution was formally inaugurated on December 28, 2005 by Chief of Army Staff Lt Gen Moyeen U Ahmed. Maj Asif Iqbal, AEC was the first Principal of the Institution. KCPSC is located right beside Khagrachari Cantonment in an area of 9.42 acre of land surrounded by pictorial / charming green hills. The structural design of the modern state of art buildings of the institution greatly charms visitors. On the north side of the campus there is a hillside lake with a sculpture of white lotus symbolizing beauty and unity of multicultural communities of Khagrachari. The hostel of the institution was built with a view to imparting education to the students living in remote places of the Chittagong Hill Tracts. The hostel life is a perfect example of the cultural and ethnic diversity of this region. The four storied hostel building has a capacity of 100 students. We have a plan to start Language Club, Debate Club, Music & Dance Club to explore and nourish the hidden potentiality of the young learners. The motto of the institution is to impart education, discipline and morality. It has a flag of navy blue colour with the monogram of the institution in the middle...", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "",
-    className: "text-green"
-  }, " Read More"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-sm-12 col-md-4 sidebar"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "widget"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
-    className: "widget-title"
-  }, "Notice Board"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "recent-post-widget"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_common_BlogWidget__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    category: "Latest News",
-    limit: "5",
-    layout: "list"
-  }))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-    className: "blog-section spad"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "row"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-md-12 col-sm-12 section-title text-center"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "LATEST NEWS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Get latest breaking news & top stories today")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-md-12 col-sm-12"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_common_BlogWidget__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    category: "Latest News",
-    limit: "4",
-    layout: "grid"
-  })))));
+    src: _assets_images_careshare_banner_image_jpg__WEBPACK_IMPORTED_MODULE_1___default.a,
+    className: "image"
+  })))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container",
+    style: {
+      height: 400
+    }
+  }, " ")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);

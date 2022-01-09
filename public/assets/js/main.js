@@ -52,24 +52,24 @@ $(window).on('load', function() {
 		$('.hs-item').height((window_h)-((header_h)+(nav_h)));
 	}
 
-	$('.hero-slider').owlCarousel({
-		loop: true,
-		nav: false,
-		dots: true,
-		mouseDrag: false,
-		animateOut: 'fadeOut',
-    	animateIn: 'fadeIn',
-		items: 1,
-		autoplay: true
-	});
+	// $('.hero-slider').owlCarousel({
+	// 	loop: true,
+	// 	nav: false,
+	// 	dots: true,
+	// 	mouseDrag: false,
+	// 	animateOut: 'fadeOut',
+    // 	animateIn: 'fadeIn',
+	// 	items: 1,
+	// 	autoplay: true
+	// });
 
 
 	/*------------------
 		Counter
 	--------------------*/
-	$(".counter").countdown("2018/07/01", function(event) {
-		$(this).html(event.strftime("<div class='counter-item'><h4>%D</h4>Days</div>" + "<div class='counter-item'><h4>%H</h4>hours</div>" + "<div class='counter-item'><h4>%M</h4>Mins</div>" + "<div class='counter-item'><h4>%S</h4>secs</div>"));
-	});
+	// $(".counter").countdown("2018/07/01", function(event) {
+	// 	$(this).html(event.strftime("<div class='counter-item'><h4>%D</h4>Days</div>" + "<div class='counter-item'><h4>%H</h4>hours</div>" + "<div class='counter-item'><h4>%M</h4>Mins</div>" + "<div class='counter-item'><h4>%S</h4>secs</div>"));
+	// });
 
 
 	/*------------------
@@ -96,16 +96,16 @@ $(window).on('load', function() {
 	/*------------------
 		Testimonial
 	--------------------*/
-	$('.testimonial-slider').owlCarousel({
-		loop: true,
-		nav: true,
-		dots: true,
-		animateOut: 'fadeOutUp',
-		animateIn: 'fadeInUp',
-		navText: ['<i class="fa fa-angle-left"></i>', '</i><i class="fa fa-angle-right"></i>'],
-		items: 1,
-		autoplay: true
-	});
+	// $('.testimonial-slider').owlCarousel({
+	// 	loop: true,
+	// 	nav: true,
+	// 	dots: true,
+	// 	animateOut: 'fadeOutUp',
+	// 	animateIn: 'fadeInUp',
+	// 	navText: ['<i class="fa fa-angle-left"></i>', '</i><i class="fa fa-angle-right"></i>'],
+	// 	items: 1,
+	// 	autoplay: true
+	// });
 
 
 
