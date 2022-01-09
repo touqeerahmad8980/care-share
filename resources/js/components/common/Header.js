@@ -1,47 +1,83 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
-import logo from '../../../../public/assets/images/laravel.png'
+// import {Link} from 'react-router-dom'
+import logo from '../../assets/images/careshare-logo.png';
+import chervonDown from '../../assets/images/chervon-down.svg';
+import BreastCancer from '../../assets/images/cancer-category-icons/breast-cancer.svg';
+import OvarianCancer from '../../assets/images/cancer-category-icons/ovarian-cancer.svg';
+import ThroatCancer from '../../assets/images/cancer-category-icons/throat-cancer.svg';
+import LungCancer from '../../assets/images/cancer-category-icons/lung-cancer.svg';
+import PancreaticCancer from '../../assets/images/cancer-category-icons/pancreatic-cancer.svg';
+import HeadandNeckCancer from '../../assets/images/cancer-category-icons/head-and-neck-cancer.svg';
+import BoneCancer from '../../assets/images/cancer-category-icons/bone-cancer.svg';
+import BloodCancer from '../../assets/images/cancer-category-icons/blood-cancer.svg';
+import Coloncancer from '../../assets/images/cancer-category-icons/colon-cancer.svg';
+import LiverCancer from '../../assets/images/cancer-category-icons/liver-cancer.svg';
+import SkinCancer from '../../assets/images/cancer-category-icons/skin-cancer.svg';
+import BrainCancer from '../../assets/images/cancer-category-icons/brain-cancer.svg';
+import StomachCancer from '../../assets/images/cancer-category-icons/stomach-cancer.svg';
+import TesticularCancer from '../../assets/images/cancer-category-icons/testicular-cancer.svg';
+import ProstateCancer from '../../assets/images/cancer-category-icons/prostate-cancer.svg';
+import ThyroidCancer from '../../assets/images/cancer-category-icons/thyroid-cancer.svg';
+import BladderCancer from '../../assets/images/cancer-category-icons/bladder-cancer.svg';
+import GallbladderCancer from '../../assets/images/cancer-category-icons/gallbladder-cancer.svg';
+import './Header.css';
 
 const Header = () => (
-    <div>
-        <section className="topbar">
+    <div className="hero-anime">
+        <div className="navigation-wrap start-header start-style">
             <div className="container">
                 <div className="row">
-                    <p><i className="fa fa-phone"></i> 88 01851334234 || Email : <i className="fa fa-envelope"></i>
-                        info@w3xplorers.com</p>
-                </div>
-            </div>
-        </section>
-        <section className="logo_bar">
-            <div className="container">
-                <div className="row">
-                    <a href="" className="site-logo"><img src={logo} alt="logo" width="200px"/></a>
-                    <div className="header-info">
-                        <div className="hf-item">
-                            <i className="fa fa-clock-o"></i>
-                            <p><span>Working Days:</span>Saturday - Thursday: 08 AM - 4.00 PM</p>
-                        </div>
-                        <div className="hf-item">
-                            <i className="fa fa-map-marker"></i>
-                            <p><span>Location : </span> Didar Market, Chittagong</p>
-                        </div>
+                    <div className="col-12">
+                        <nav className="navbar navbar-expand-md navbar-light m-0">
+
+                            <a className="navbar-brand p-3" href="https://front.codes/" target="_blank"><img src={logo} alt="" /></a>
+
+                            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span className="navbar-toggler-icon"></span>
+                            </button>
+
+                            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul className="navbar-nav ml-auto py-4 py-md-0" style={{alignItems:"center"}}>
+                                    <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-5">
+                                        <a className="nav-link" href="#">HOME</a>
+                                    </li>
+                                    <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-5">
+                                        <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">ABOUT CANCER <img height="9" src={chervonDown} /></a>
+                                        <div className="dropdown-menu cancer-dropdown">
+                                            <a className="dropdown-item" href="#"><img src={BreastCancer} /> Breast Cancer</a>
+                                            <a className="dropdown-item" href="#"><img src={OvarianCancer} /> Ovarian Cancer</a>
+                                            <a className="dropdown-item" href="#"><img src={ThroatCancer} /> Throat Cancer</a>
+                                            <a className="dropdown-item" href="#"><img src={LungCancer} /> Lung Cancer</a>
+                                            <a className="dropdown-item" href="#"><img src={HeadandNeckCancer} /> Head and Neck Cancer</a>
+                                            <a className="dropdown-item" href="#"><img src={BoneCancer} /> Bone Cancer</a>
+                                            <a className="dropdown-item" href="#"><img src={PancreaticCancer} /> Pancreatic Cancer</a>
+                                            <a className="dropdown-item" href="#"><img src={Coloncancer} /> Colon cancer</a>
+                                            <a className="dropdown-item" href="#"><img src={LiverCancer} /> Liver Cancer</a>
+                                            <a className="dropdown-item" href="#"><img src={BloodCancer} /> Blood Cancer</a>
+                                            <a className="dropdown-item" href="#"><img src={TesticularCancer} /> Testicular Cancer</a>
+                                            <a className="dropdown-item" href="#"><img src={ThyroidCancer} /> Thyroid Cancer</a>
+                                            <a className="dropdown-item" href="#"><img src={ProstateCancer} /> Prostate Cancer</a>
+                                            <a className="dropdown-item" href="#"><img src={GallbladderCancer} /> Gallbladder Cancer</a>
+                                            <a className="dropdown-item" href="#"><img src={SkinCancer} /> Skin Cancer</a>
+                                            <a className="dropdown-item" href="#"><img src={BladderCancer} /> Bladder Cancer</a>
+                                            <a className="dropdown-item" href="#"><img src={BrainCancer} /> Brain Cancer</a>
+                                            <a className="dropdown-item" href="#"><img src={StomachCancer} /> Stomach Cancer</a>
+                                        </div>
+                                    </li>
+                                    <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-5">
+                                        <a className="nav-link" href="#">BLOGS</a>
+                                    </li>
+                                    <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-5 signup-btn-wrap">
+                                        <button className="btn btn-primary header-signup-btn" type="button">SIGNUP FOR FREE CONSULTATION</button>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </nav>
                     </div>
                 </div>
             </div>
-        </section>
-        <nav className="nav-section">
-            <div className="container">
-                <div className="row">
-                    <div id='cssmenu'>
-                        <ul>
-                            <li className='active'><Link className='navbar-brand' to='/'>Home</Link></li>
-                            <li><Link className='navbar-brand' to='/about'>About</Link></li>
-                            <li><Link className='navbar-brand' to='/blog'>Blog</Link></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </nav>
+        </div>
     </div>
 )
 

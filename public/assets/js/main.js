@@ -2,7 +2,7 @@
 ------------------------------------
 	Unica - University Template
 	Version: 1.0
- ------------------------------------ 
+ ------------------------------------
  ====================================*/
 
 
@@ -16,7 +16,7 @@ $(window).on('load', function() {
 	/*------------------
 		Preloder
 	--------------------*/
-	$(".loader").fadeOut(); 
+	$(".loader").fadeOut();
 	$("#preloder").delay(400).fadeOut("slow");
 
 });
@@ -40,7 +40,7 @@ $(window).on('load', function() {
 		$(this).css('background-image', 'url(' + bg + ')');
 	});
 
-	
+
 	/*------------------
 		Hero Slider
 	--------------------*/
@@ -78,7 +78,7 @@ $(window).on('load', function() {
 	$('.gallery').find('.gallery-item').each(function() {
 		var pi_height1 = $(this).width(),
 		pi_height2 = pi_height1/2;
-		
+
 		if($(this).hasClass('gi-long') && window_w > 991){
 			$(this).css('height', pi_height2);
 		}else{
@@ -90,7 +90,7 @@ $(window).on('load', function() {
 		itemSelector: '.gallery-item',
 		columnWidth: '.grid-sizer'
 	});
-	
+
 
 
 	/*------------------
@@ -106,7 +106,7 @@ $(window).on('load', function() {
 		items: 1,
 		autoplay: true
 	});
-	
+
 
 
 	/*------------------
@@ -118,7 +118,32 @@ $(window).on('load', function() {
 		removalDelay: 400,
 	});
 
+    // header js
 
+
+    $(function() {
+        var header = $(".start-style");
+        $(window).scroll(function() {
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 10) {
+                header.removeClass('start-style').addClass("scroll-on");
+            } else {
+                header.removeClass("scroll-on").addClass('start-style');
+            }
+        });
+    });
+
+    //Menu On Hover
+
+    $(document).on('mouseenter mouseleave','.nav-item',function(e){
+            if ($(window).width() > 750) {
+                var _d=$(e.target).closest('.nav-item');_d.addClass('show');
+                setTimeout(function(){
+                _d[_d.is(':hover')?'addClass':'removeClass']('show');
+                },1);
+            }
+    });
 
 })(jQuery);
 

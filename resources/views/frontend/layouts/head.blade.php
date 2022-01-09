@@ -6,7 +6,9 @@
 <meta name="author" content="ADD AUTHOR INFORMATION">
 <meta name="robots" content="index, follow">
 <meta name="csrf-token" content="{{ csrf_token() }}">
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@100;300;400;500;600;700;800&display=swap" rel="stylesheet">
 <!-- Favicons -->
 <link rel="shortcut icon" href="{{asset('/assets/images/laravel.png')}}">
 

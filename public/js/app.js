@@ -6508,6 +6508,112 @@ module.exports = exports['default'];
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/common/Header.css":
+/*!***********************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./resources/js/components/common/Header.css ***!
+  \***********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n/* header css */\n.start-header {\n    box-shadow: 0 0px 20px 0 rgb(138 155 165 / 15%);\n    background-color: #fff;\n}\n.start-header.scroll-on {\n\tbox-shadow: 0 5px 10px 0 rgba(138, 155, 165, 0.15);\n\tpadding: 10px 0;\n\ttransition : all 0.3s ease-out;\n}\n.start-header.scroll-on .navbar-brand img{\n\theight: 24px;\n\ttransition : all 0.3s ease-out;\n}\n.navigation-wrap{\n\tposition: fixed;\n\twidth: 100%;\n\ttop: 0;\n\tleft: 0;\n\tz-index: 1000;\n\ttransition : all 0.3s ease-out;\n}\n.navbar{\n\tpadding: 0;\n}\n.navbar-brand{\n    height: auto;\n}\n.navbar-brand img{\n\theight: 75px;\n\ttransition : all 0.3s ease-out;\n}\n.navbar-toggler {\n\tfloat: right;\n\tborder: none;\n\tpadding-right: 0;\n}\n.navbar-toggler:active,\n.navbar-toggler:focus {\n\toutline: none;\n}\n.navbar-light .navbar-toggler-icon {\n\twidth: 24px;\n\theight: 17px;\n\tbackground-image: none;\n\tposition: relative;\n\tborder-bottom: 1px solid #000;\n    transition: all 300ms linear;\n}\n.navbar-light .navbar-toggler-icon:after,\n.navbar-light .navbar-toggler-icon:before{\n\twidth: 24px;\n\tposition: absolute;\n\theight: 1px;\n\tbackground-color: #000;\n\ttop: 0;\n\tleft: 0;\n\tcontent: '';\n\tz-index: 2;\n    transition: all 300ms linear;\n}\n.navbar-light .navbar-toggler-icon:after{\n\ttop: 8px;\n}\n.navbar-toggler[aria-expanded=\"true\"] .navbar-toggler-icon:after {\n\t-webkit-transform: rotate(45deg);\n\t        transform: rotate(45deg);\n}\n.navbar-toggler[aria-expanded=\"true\"] .navbar-toggler-icon:before {\n\t-webkit-transform: translateY(8px) rotate(-45deg);\n\t        transform: translateY(8px) rotate(-45deg);\n}\n.navbar-toggler[aria-expanded=\"true\"] .navbar-toggler-icon {\n\tborder-color: transparent;\n}\n.nav-link{\n\tcolor: #212121 !important;\n    transition: all 200ms linear;\n}\n.nav-item:hover .nav-link{\n\tcolor: #eb5757 !important;\n}\n.nav-item.active .nav-link{\n\tcolor: #eb5757 !important;\n}\n.nav-link {\n\tposition: relative;\n\tpadding: 5px 0 !important;\n\tdisplay: inline-block;\n}\n.nav-item:after{\n\tposition: absolute;\n\tbottom: -5px;\n\tleft: 0;\n\twidth: 100%;\n\theight: 2px;\n\tcontent: '';\n\tbackground-color: #eb5757;\n\topacity: 0;\n    transition: all 200ms linear;\n}\n.nav-item:hover:after{\n\tbottom: 0;\n\topacity: 1;\n}\n.nav-item.active:hover:after{\n\topacity: 0;\n}\n.nav-item{\n\tposition: relative;\n    transition: all 200ms linear;\n}\n\n.nav-item .dropdown-menu {\n    -webkit-transform: translate3d(0, 10px, 0);\n            transform: translate3d(0, 10px, 0);\n    visibility: hidden;\n    opacity: 0;\n\tmax-height: 0;\n    display: block;\n\tpadding: 0;\n\tmargin: 0;\n    transition: all 200ms linear;\n}\n.nav-item.show .dropdown-menu {\n    opacity: 1;\n    visibility: visible;\n\tmax-height: 999px;\n    -webkit-transform: translate3d(0, 0px, 0);\n            transform: translate3d(0, 0px, 0);\n}\n.dropdown-menu {\n\tpadding: 10px!important;\n\tmargin: 0;\n\tfont-size: 13px;\n\tletter-spacing: 1px;\n\tcolor: #212121;\n\tbackground-color: #fcfaff;\n\tborder: none;\n\tborder-radius: 3px;\n\tbox-shadow: 0px 5px 24px 0  rgba(138, 155, 165, 0.15);\n    transition: all 200ms linear;\n    border-radius: 5px !important;\n    padding-top: 20px !important;\n}\n.dropdown-toggle::after {\n\tdisplay: none;\n}\n\n.dropdown-item {\n\tpadding: 3px 15px;\n\tcolor: #212121;\n\tborder-radius: 2px;\n    transition: all 200ms linear;\n    background-color: transparent !important;\n}\n.dropdown-item:hover,\n.dropdown-item:focus {\n\tcolor: #ff308b;\n}\n\n\n@media (min-width: 767px) {\n    .hero-anime{\n        height: 97px;\n    }\n    #navbarSupportedContent{\n        display: flex !important;\n        justify-content: flex-end !important;\n    }\n    .cancer-dropdown{\n        flex-wrap: wrap;\n        min-width: 100%;\n        width: 850px;\n        display: flex !important;\n        left: -340px;\n        background-color: #fff;\n        margin-top: 32px !important;\n    }\n    .cancer-dropdown .dropdown-item{\n        max-width: 207px;\n        margin-bottom: 10px;\n        padding-right: 0;\n    }\n}\n\n@media (max-width: 767px) {\n    .hero-anime{\n        height: 97px;\n    }\n    .navbar::after,\n    .navbar::before{\n        display: none;\n    }\n    .nav-item{\n        width: 100%;\n        padding: 0 !important;\n    }\n\t.nav-item:after{\n\t\tdisplay: none;\n\t}\n    .cancer-dropdown{\n        display: flex !important;\n        flex-wrap: wrap;\n        justify-content: space-between;\n    }\n    .cancer-dropdown.show{\n        max-height: 240px !important;\n        overflow: scroll;\n    }\n    .cancer-dropdown .dropdown-item{\n        width: 48%;\n        padding: 5px 0;\n        font-size: 12px;\n        white-space: pre-wrap;\n        position: relative;\n        padding-left: 30px;\n    }\n    .cancer-dropdown .dropdown-item img{\n        width: 24px;\n        height: 24px;\n        position: absolute;\n        left: 0;\n    }\n\t/* .nav-item-dopwdown::before {\n\t\tposition: absolute;\n\t\tdisplay: block;\n\t\ttop: 15px;\n\t\tleft: 0;\n\t\twidth: 11px;\n\t\theight: 1px;\n\t\tcontent: \"\";\n\t\tborder: none;\n\t\tbackground-color: #000;\n\t\tvertical-align: 0;\n\t}\n\t.dropdown-toggle::after {\n\t\tposition: absolute;\n\t\tdisplay: block;\n\t\ttop: 10px;\n\t\tleft: -14px;\n\t\twidth: 1px;\n\t\theight: 11px;\n\t\tcontent: \"\";\n\t\tborder: none;\n\t\tbackground-color: #000;\n\t\tvertical-align: 0;\n\t\ttransition: all 200ms linear;\n\t} */\n\t.dropdown-toggle[aria-expanded=\"true\"]::after{\n\t\t-webkit-transform: rotate(90deg);\n\t\t        transform: rotate(90deg);\n\t\topacity: 0;\n\t}\n\t.dropdown-menu {\n\t\tpadding: 0 !important;\n\t\tbackground-color: transparent;\n\t\tbox-shadow: none;\n\t\ttransition: all 200ms linear;\n\t}\n\t.dropdown-toggle[aria-expanded=\"true\"] + .dropdown-menu {\n\t\tmargin-top: 10px !important;\n\t\tmargin-bottom: 20px !important;\n\t}\n    .signup-btn-wrap{\n        margin-top: 10px;\n    }\n}\n\n.logo {\n\tposition: absolute;\n\tbottom: 30px;\n\tright: 30px;\n\tdisplay: block;\n\tz-index: 100;\n\ttransition: all 250ms linear;\n}\n.logo img {\n\theight: 26px;\n\twidth: auto;\n\tdisplay: block;\n  -webkit-filter: brightness(10%);\n          filter: brightness(10%);\n\ttransition: all 250ms linear;\n}\n\n.signup-btn-wrap::after{\n    display: none;\n}\n\n.signup-btn-wrap button{\n    background-color: #51c185;\n    border: none;\n    padding: 8px 20px;\n    border-radius: 20px;\n    outline: none;\n}\n\n.signup-btn-wrap button:hover{\n    background-color: #eb5757;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/lib/css-base.js":
+/*!*************************************************!*\
+  !*** ./node_modules/css-loader/lib/css-base.js ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/*
+	MIT License http://www.opensource.org/licenses/mit-license.php
+	Author Tobias Koppers @sokra
+*/
+// css base code, injected by the css-loader
+module.exports = function(useSourceMap) {
+	var list = [];
+
+	// return the list of modules as css string
+	list.toString = function toString() {
+		return this.map(function (item) {
+			var content = cssWithMappingToString(item, useSourceMap);
+			if(item[2]) {
+				return "@media " + item[2] + "{" + content + "}";
+			} else {
+				return content;
+			}
+		}).join("");
+	};
+
+	// import a list of modules into the list
+	list.i = function(modules, mediaQuery) {
+		if(typeof modules === "string")
+			modules = [[null, modules, ""]];
+		var alreadyImportedModules = {};
+		for(var i = 0; i < this.length; i++) {
+			var id = this[i][0];
+			if(typeof id === "number")
+				alreadyImportedModules[id] = true;
+		}
+		for(i = 0; i < modules.length; i++) {
+			var item = modules[i];
+			// skip already imported module
+			// this implementation is not 100% perfect for weird media query combinations
+			//  when a module is imported multiple times with different media queries.
+			//  I hope this will never occur (Hey this way we have smaller bundles)
+			if(typeof item[0] !== "number" || !alreadyImportedModules[item[0]]) {
+				if(mediaQuery && !item[2]) {
+					item[2] = mediaQuery;
+				} else if(mediaQuery) {
+					item[2] = "(" + item[2] + ") and (" + mediaQuery + ")";
+				}
+				list.push(item);
+			}
+		}
+	};
+	return list;
+};
+
+function cssWithMappingToString(item, useSourceMap) {
+	var content = item[1] || '';
+	var cssMapping = item[3];
+	if (!cssMapping) {
+		return content;
+	}
+
+	if (useSourceMap && typeof btoa === 'function') {
+		var sourceMapping = toComment(cssMapping);
+		var sourceURLs = cssMapping.sources.map(function (source) {
+			return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'
+		});
+
+		return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
+	}
+
+	return [content].join('\n');
+}
+
+// Adapted from convert-source-map (MIT)
+function toComment(sourceMap) {
+	// eslint-disable-next-line no-undef
+	var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
+	var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;
+
+	return '/*# ' + data + ' */';
+}
+
+
+/***/ }),
+
 /***/ "./node_modules/fbjs/lib/emptyFunction.js":
 /*!************************************************!*\
   !*** ./node_modules/fbjs/lib/emptyFunction.js ***!
@@ -61071,7 +61177,7 @@ exports.default = _PaginationBoxView2.default;
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext */
+/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext, BrowserRouter, HashRouter, Link, NavLink */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -65770,6 +65876,515 @@ if (false) {} else {
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/lib/addStyles.js":
+/*!****************************************************!*\
+  !*** ./node_modules/style-loader/lib/addStyles.js ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+	MIT License http://www.opensource.org/licenses/mit-license.php
+	Author Tobias Koppers @sokra
+*/
+
+var stylesInDom = {};
+
+var	memoize = function (fn) {
+	var memo;
+
+	return function () {
+		if (typeof memo === "undefined") memo = fn.apply(this, arguments);
+		return memo;
+	};
+};
+
+var isOldIE = memoize(function () {
+	// Test for IE <= 9 as proposed by Browserhacks
+	// @see http://browserhacks.com/#hack-e71d8692f65334173fee715c222cb805
+	// Tests for existence of standard globals is to allow style-loader
+	// to operate correctly into non-standard environments
+	// @see https://github.com/webpack-contrib/style-loader/issues/177
+	return window && document && document.all && !window.atob;
+});
+
+var getTarget = function (target, parent) {
+  if (parent){
+    return parent.querySelector(target);
+  }
+  return document.querySelector(target);
+};
+
+var getElement = (function (fn) {
+	var memo = {};
+
+	return function(target, parent) {
+                // If passing function in options, then use it for resolve "head" element.
+                // Useful for Shadow Root style i.e
+                // {
+                //   insertInto: function () { return document.querySelector("#foo").shadowRoot }
+                // }
+                if (typeof target === 'function') {
+                        return target();
+                }
+                if (typeof memo[target] === "undefined") {
+			var styleTarget = getTarget.call(this, target, parent);
+			// Special case to return head of iframe instead of iframe itself
+			if (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {
+				try {
+					// This will throw an exception if access to iframe is blocked
+					// due to cross-origin restrictions
+					styleTarget = styleTarget.contentDocument.head;
+				} catch(e) {
+					styleTarget = null;
+				}
+			}
+			memo[target] = styleTarget;
+		}
+		return memo[target]
+	};
+})();
+
+var singleton = null;
+var	singletonCounter = 0;
+var	stylesInsertedAtTop = [];
+
+var	fixUrls = __webpack_require__(/*! ./urls */ "./node_modules/style-loader/lib/urls.js");
+
+module.exports = function(list, options) {
+	if (typeof DEBUG !== "undefined" && DEBUG) {
+		if (typeof document !== "object") throw new Error("The style-loader cannot be used in a non-browser environment");
+	}
+
+	options = options || {};
+
+	options.attrs = typeof options.attrs === "object" ? options.attrs : {};
+
+	// Force single-tag solution on IE6-9, which has a hard limit on the # of <style>
+	// tags it will allow on a page
+	if (!options.singleton && typeof options.singleton !== "boolean") options.singleton = isOldIE();
+
+	// By default, add <style> tags to the <head> element
+        if (!options.insertInto) options.insertInto = "head";
+
+	// By default, add <style> tags to the bottom of the target
+	if (!options.insertAt) options.insertAt = "bottom";
+
+	var styles = listToStyles(list, options);
+
+	addStylesToDom(styles, options);
+
+	return function update (newList) {
+		var mayRemove = [];
+
+		for (var i = 0; i < styles.length; i++) {
+			var item = styles[i];
+			var domStyle = stylesInDom[item.id];
+
+			domStyle.refs--;
+			mayRemove.push(domStyle);
+		}
+
+		if(newList) {
+			var newStyles = listToStyles(newList, options);
+			addStylesToDom(newStyles, options);
+		}
+
+		for (var i = 0; i < mayRemove.length; i++) {
+			var domStyle = mayRemove[i];
+
+			if(domStyle.refs === 0) {
+				for (var j = 0; j < domStyle.parts.length; j++) domStyle.parts[j]();
+
+				delete stylesInDom[domStyle.id];
+			}
+		}
+	};
+};
+
+function addStylesToDom (styles, options) {
+	for (var i = 0; i < styles.length; i++) {
+		var item = styles[i];
+		var domStyle = stylesInDom[item.id];
+
+		if(domStyle) {
+			domStyle.refs++;
+
+			for(var j = 0; j < domStyle.parts.length; j++) {
+				domStyle.parts[j](item.parts[j]);
+			}
+
+			for(; j < item.parts.length; j++) {
+				domStyle.parts.push(addStyle(item.parts[j], options));
+			}
+		} else {
+			var parts = [];
+
+			for(var j = 0; j < item.parts.length; j++) {
+				parts.push(addStyle(item.parts[j], options));
+			}
+
+			stylesInDom[item.id] = {id: item.id, refs: 1, parts: parts};
+		}
+	}
+}
+
+function listToStyles (list, options) {
+	var styles = [];
+	var newStyles = {};
+
+	for (var i = 0; i < list.length; i++) {
+		var item = list[i];
+		var id = options.base ? item[0] + options.base : item[0];
+		var css = item[1];
+		var media = item[2];
+		var sourceMap = item[3];
+		var part = {css: css, media: media, sourceMap: sourceMap};
+
+		if(!newStyles[id]) styles.push(newStyles[id] = {id: id, parts: [part]});
+		else newStyles[id].parts.push(part);
+	}
+
+	return styles;
+}
+
+function insertStyleElement (options, style) {
+	var target = getElement(options.insertInto)
+
+	if (!target) {
+		throw new Error("Couldn't find a style target. This probably means that the value for the 'insertInto' parameter is invalid.");
+	}
+
+	var lastStyleElementInsertedAtTop = stylesInsertedAtTop[stylesInsertedAtTop.length - 1];
+
+	if (options.insertAt === "top") {
+		if (!lastStyleElementInsertedAtTop) {
+			target.insertBefore(style, target.firstChild);
+		} else if (lastStyleElementInsertedAtTop.nextSibling) {
+			target.insertBefore(style, lastStyleElementInsertedAtTop.nextSibling);
+		} else {
+			target.appendChild(style);
+		}
+		stylesInsertedAtTop.push(style);
+	} else if (options.insertAt === "bottom") {
+		target.appendChild(style);
+	} else if (typeof options.insertAt === "object" && options.insertAt.before) {
+		var nextSibling = getElement(options.insertAt.before, target);
+		target.insertBefore(style, nextSibling);
+	} else {
+		throw new Error("[Style Loader]\n\n Invalid value for parameter 'insertAt' ('options.insertAt') found.\n Must be 'top', 'bottom', or Object.\n (https://github.com/webpack-contrib/style-loader#insertat)\n");
+	}
+}
+
+function removeStyleElement (style) {
+	if (style.parentNode === null) return false;
+	style.parentNode.removeChild(style);
+
+	var idx = stylesInsertedAtTop.indexOf(style);
+	if(idx >= 0) {
+		stylesInsertedAtTop.splice(idx, 1);
+	}
+}
+
+function createStyleElement (options) {
+	var style = document.createElement("style");
+
+	if(options.attrs.type === undefined) {
+		options.attrs.type = "text/css";
+	}
+
+	if(options.attrs.nonce === undefined) {
+		var nonce = getNonce();
+		if (nonce) {
+			options.attrs.nonce = nonce;
+		}
+	}
+
+	addAttrs(style, options.attrs);
+	insertStyleElement(options, style);
+
+	return style;
+}
+
+function createLinkElement (options) {
+	var link = document.createElement("link");
+
+	if(options.attrs.type === undefined) {
+		options.attrs.type = "text/css";
+	}
+	options.attrs.rel = "stylesheet";
+
+	addAttrs(link, options.attrs);
+	insertStyleElement(options, link);
+
+	return link;
+}
+
+function addAttrs (el, attrs) {
+	Object.keys(attrs).forEach(function (key) {
+		el.setAttribute(key, attrs[key]);
+	});
+}
+
+function getNonce() {
+	if (false) {}
+
+	return __webpack_require__.nc;
+}
+
+function addStyle (obj, options) {
+	var style, update, remove, result;
+
+	// If a transform function was defined, run it on the css
+	if (options.transform && obj.css) {
+	    result = typeof options.transform === 'function'
+		 ? options.transform(obj.css) 
+		 : options.transform.default(obj.css);
+
+	    if (result) {
+	    	// If transform returns a value, use that instead of the original css.
+	    	// This allows running runtime transformations on the css.
+	    	obj.css = result;
+	    } else {
+	    	// If the transform function returns a falsy value, don't add this css.
+	    	// This allows conditional loading of css
+	    	return function() {
+	    		// noop
+	    	};
+	    }
+	}
+
+	if (options.singleton) {
+		var styleIndex = singletonCounter++;
+
+		style = singleton || (singleton = createStyleElement(options));
+
+		update = applyToSingletonTag.bind(null, style, styleIndex, false);
+		remove = applyToSingletonTag.bind(null, style, styleIndex, true);
+
+	} else if (
+		obj.sourceMap &&
+		typeof URL === "function" &&
+		typeof URL.createObjectURL === "function" &&
+		typeof URL.revokeObjectURL === "function" &&
+		typeof Blob === "function" &&
+		typeof btoa === "function"
+	) {
+		style = createLinkElement(options);
+		update = updateLink.bind(null, style, options);
+		remove = function () {
+			removeStyleElement(style);
+
+			if(style.href) URL.revokeObjectURL(style.href);
+		};
+	} else {
+		style = createStyleElement(options);
+		update = applyToTag.bind(null, style);
+		remove = function () {
+			removeStyleElement(style);
+		};
+	}
+
+	update(obj);
+
+	return function updateStyle (newObj) {
+		if (newObj) {
+			if (
+				newObj.css === obj.css &&
+				newObj.media === obj.media &&
+				newObj.sourceMap === obj.sourceMap
+			) {
+				return;
+			}
+
+			update(obj = newObj);
+		} else {
+			remove();
+		}
+	};
+}
+
+var replaceText = (function () {
+	var textStore = [];
+
+	return function (index, replacement) {
+		textStore[index] = replacement;
+
+		return textStore.filter(Boolean).join('\n');
+	};
+})();
+
+function applyToSingletonTag (style, index, remove, obj) {
+	var css = remove ? "" : obj.css;
+
+	if (style.styleSheet) {
+		style.styleSheet.cssText = replaceText(index, css);
+	} else {
+		var cssNode = document.createTextNode(css);
+		var childNodes = style.childNodes;
+
+		if (childNodes[index]) style.removeChild(childNodes[index]);
+
+		if (childNodes.length) {
+			style.insertBefore(cssNode, childNodes[index]);
+		} else {
+			style.appendChild(cssNode);
+		}
+	}
+}
+
+function applyToTag (style, obj) {
+	var css = obj.css;
+	var media = obj.media;
+
+	if(media) {
+		style.setAttribute("media", media)
+	}
+
+	if(style.styleSheet) {
+		style.styleSheet.cssText = css;
+	} else {
+		while(style.firstChild) {
+			style.removeChild(style.firstChild);
+		}
+
+		style.appendChild(document.createTextNode(css));
+	}
+}
+
+function updateLink (link, options, obj) {
+	var css = obj.css;
+	var sourceMap = obj.sourceMap;
+
+	/*
+		If convertToAbsoluteUrls isn't defined, but sourcemaps are enabled
+		and there is no publicPath defined then lets turn convertToAbsoluteUrls
+		on by default.  Otherwise default to the convertToAbsoluteUrls option
+		directly
+	*/
+	var autoFixUrls = options.convertToAbsoluteUrls === undefined && sourceMap;
+
+	if (options.convertToAbsoluteUrls || autoFixUrls) {
+		css = fixUrls(css);
+	}
+
+	if (sourceMap) {
+		// http://stackoverflow.com/a/26603875
+		css += "\n/*# sourceMappingURL=data:application/json;base64," + btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))) + " */";
+	}
+
+	var blob = new Blob([css], { type: "text/css" });
+
+	var oldSrc = link.href;
+
+	link.href = URL.createObjectURL(blob);
+
+	if(oldSrc) URL.revokeObjectURL(oldSrc);
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/lib/urls.js":
+/*!***********************************************!*\
+  !*** ./node_modules/style-loader/lib/urls.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+/**
+ * When source maps are enabled, `style-loader` uses a link element with a data-uri to
+ * embed the css on the page. This breaks all relative urls because now they are relative to a
+ * bundle instead of the current page.
+ *
+ * One solution is to only use full urls, but that may be impossible.
+ *
+ * Instead, this function "fixes" the relative urls to be absolute according to the current page location.
+ *
+ * A rudimentary test suite is located at `test/fixUrls.js` and can be run via the `npm test` command.
+ *
+ */
+
+module.exports = function (css) {
+  // get current location
+  var location = typeof window !== "undefined" && window.location;
+
+  if (!location) {
+    throw new Error("fixUrls requires window.location");
+  }
+
+	// blank or null?
+	if (!css || typeof css !== "string") {
+	  return css;
+  }
+
+  var baseUrl = location.protocol + "//" + location.host;
+  var currentDir = baseUrl + location.pathname.replace(/\/[^\/]*$/, "/");
+
+	// convert each url(...)
+	/*
+	This regular expression is just a way to recursively match brackets within
+	a string.
+
+	 /url\s*\(  = Match on the word "url" with any whitespace after it and then a parens
+	   (  = Start a capturing group
+	     (?:  = Start a non-capturing group
+	         [^)(]  = Match anything that isn't a parentheses
+	         |  = OR
+	         \(  = Match a start parentheses
+	             (?:  = Start another non-capturing groups
+	                 [^)(]+  = Match anything that isn't a parentheses
+	                 |  = OR
+	                 \(  = Match a start parentheses
+	                     [^)(]*  = Match anything that isn't a parentheses
+	                 \)  = Match a end parentheses
+	             )  = End Group
+              *\) = Match anything and then a close parens
+          )  = Close non-capturing group
+          *  = Match anything
+       )  = Close capturing group
+	 \)  = Match a close parens
+
+	 /gi  = Get all matches, not the first.  Be case insensitive.
+	 */
+	var fixedCss = css.replace(/url\s*\(((?:[^)(]|\((?:[^)(]+|\([^)(]*\))*\))*)\)/gi, function(fullMatch, origUrl) {
+		// strip quotes (if they exist)
+		var unquotedOrigUrl = origUrl
+			.trim()
+			.replace(/^"(.*)"$/, function(o, $1){ return $1; })
+			.replace(/^'(.*)'$/, function(o, $1){ return $1; });
+
+		// already a full url? no change
+		if (/^(#|data:|http:\/\/|https:\/\/|file:\/\/\/|\s*$)/i.test(unquotedOrigUrl)) {
+		  return fullMatch;
+		}
+
+		// convert the url to a full url
+		var newUrl;
+
+		if (unquotedOrigUrl.indexOf("//") === 0) {
+		  	//TODO: should we add protocol?
+			newUrl = unquotedOrigUrl;
+		} else if (unquotedOrigUrl.indexOf("/") === 0) {
+			// path should be relative to the base url
+			newUrl = baseUrl + unquotedOrigUrl; // already starts with '/'
+		} else {
+			// path should be relative to current directory
+			newUrl = currentDir + unquotedOrigUrl.replace(/^\.\//, ""); // Strip leading './'
+		}
+
+		// send back the fixed url(...)
+		return "url(" + JSON.stringify(newUrl) + ")";
+	});
+
+	// send back the fixed css
+	return fixedCss;
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/tiny-invariant/dist/tiny-invariant.esm.js":
 /*!****************************************************************!*\
   !*** ./node_modules/tiny-invariant/dist/tiny-invariant.esm.js ***!
@@ -65956,17 +66571,6 @@ module.exports = "/images/BG_image_8.png?5cccdc70f102a3f4cb66f71b9c10efc0";
 
 /***/ }),
 
-/***/ "./public/assets/images/laravel.png":
-/*!******************************************!*\
-  !*** ./public/assets/images/laravel.png ***!
-  \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/laravel.png?a329f334903bef3ce3466f9d1df56c1d";
-
-/***/ }),
-
 /***/ "./resources/js/app.js":
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
@@ -65988,6 +66592,226 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 
 __webpack_require__(/*! ./components/Main */ "./resources/js/components/Main.js");
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/cancer-category-icons/bladder-cancer.svg":
+/*!*****************************************************************************!*\
+  !*** ./resources/js/assets/images/cancer-category-icons/bladder-cancer.svg ***!
+  \*****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/bladder-cancer.svg?fa7d4022d14a62dba730857cf90609f2";
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/cancer-category-icons/blood-cancer.svg":
+/*!***************************************************************************!*\
+  !*** ./resources/js/assets/images/cancer-category-icons/blood-cancer.svg ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/blood-cancer.svg?639cd6058c8bff3995da9f0159b23994";
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/cancer-category-icons/bone-cancer.svg":
+/*!**************************************************************************!*\
+  !*** ./resources/js/assets/images/cancer-category-icons/bone-cancer.svg ***!
+  \**************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/bone-cancer.svg?9969d9c05435ea4ec0a4c9c6416a35c4";
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/cancer-category-icons/brain-cancer.svg":
+/*!***************************************************************************!*\
+  !*** ./resources/js/assets/images/cancer-category-icons/brain-cancer.svg ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/brain-cancer.svg?cf6ed717cc52455f94094c1cb721408d";
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/cancer-category-icons/breast-cancer.svg":
+/*!****************************************************************************!*\
+  !*** ./resources/js/assets/images/cancer-category-icons/breast-cancer.svg ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/breast-cancer.svg?3d0aee006a8988ba9b13afc378c7eeb3";
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/cancer-category-icons/colon-cancer.svg":
+/*!***************************************************************************!*\
+  !*** ./resources/js/assets/images/cancer-category-icons/colon-cancer.svg ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/colon-cancer.svg?9c88fed3b596adb0b3b7be5fb78c05c0";
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/cancer-category-icons/gallbladder-cancer.svg":
+/*!*********************************************************************************!*\
+  !*** ./resources/js/assets/images/cancer-category-icons/gallbladder-cancer.svg ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/gallbladder-cancer.svg?50318fc63156c36f821cb8b29b48602e";
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/cancer-category-icons/head-and-neck-cancer.svg":
+/*!***********************************************************************************!*\
+  !*** ./resources/js/assets/images/cancer-category-icons/head-and-neck-cancer.svg ***!
+  \***********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/head-and-neck-cancer.svg?df9e95fcc7564dc3eb51636f305abb4e";
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/cancer-category-icons/liver-cancer.svg":
+/*!***************************************************************************!*\
+  !*** ./resources/js/assets/images/cancer-category-icons/liver-cancer.svg ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/liver-cancer.svg?7958b78eeeaa3a4a3154475dacf83b88";
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/cancer-category-icons/lung-cancer.svg":
+/*!**************************************************************************!*\
+  !*** ./resources/js/assets/images/cancer-category-icons/lung-cancer.svg ***!
+  \**************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/lung-cancer.svg?c292e40ae5282f01b96fe087cc4afdb2";
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/cancer-category-icons/ovarian-cancer.svg":
+/*!*****************************************************************************!*\
+  !*** ./resources/js/assets/images/cancer-category-icons/ovarian-cancer.svg ***!
+  \*****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/ovarian-cancer.svg?20eb9face964a46f68ac95a1205a6177";
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/cancer-category-icons/pancreatic-cancer.svg":
+/*!********************************************************************************!*\
+  !*** ./resources/js/assets/images/cancer-category-icons/pancreatic-cancer.svg ***!
+  \********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/pancreatic-cancer.svg?bf7a7bfa1db7c4cadd4d385835bb0bcb";
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/cancer-category-icons/prostate-cancer.svg":
+/*!******************************************************************************!*\
+  !*** ./resources/js/assets/images/cancer-category-icons/prostate-cancer.svg ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/prostate-cancer.svg?b5b21207acdeb0d25389e44ec94cfebe";
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/cancer-category-icons/skin-cancer.svg":
+/*!**************************************************************************!*\
+  !*** ./resources/js/assets/images/cancer-category-icons/skin-cancer.svg ***!
+  \**************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/skin-cancer.svg?8e42007570a3fbcd4d0dfad1081edd64";
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/cancer-category-icons/stomach-cancer.svg":
+/*!*****************************************************************************!*\
+  !*** ./resources/js/assets/images/cancer-category-icons/stomach-cancer.svg ***!
+  \*****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/stomach-cancer.svg?8e0216e40c2c7d0571c4f3f0969dcdfe";
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/cancer-category-icons/testicular-cancer.svg":
+/*!********************************************************************************!*\
+  !*** ./resources/js/assets/images/cancer-category-icons/testicular-cancer.svg ***!
+  \********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/testicular-cancer.svg?250ef10edbec76c91e70d43cfe1aacff";
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/cancer-category-icons/throat-cancer.svg":
+/*!****************************************************************************!*\
+  !*** ./resources/js/assets/images/cancer-category-icons/throat-cancer.svg ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/throat-cancer.svg?e923cb2f988a6c05b91769e02471ed70";
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/cancer-category-icons/thyroid-cancer.svg":
+/*!*****************************************************************************!*\
+  !*** ./resources/js/assets/images/cancer-category-icons/thyroid-cancer.svg ***!
+  \*****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/thyroid-cancer.svg?13470bf5a190a5490486530694cd0604";
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/careshare-logo.png":
+/*!*******************************************************!*\
+  !*** ./resources/js/assets/images/careshare-logo.png ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/careshare-logo.png?b922cdd01b58fe7ac1ce54b2c0b0f031";
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/chervon-down.svg":
+/*!*****************************************************!*\
+  !*** ./resources/js/assets/images/chervon-down.svg ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/chervon-down.svg?4d59eb90978701c89fe8054966acefaf";
 
 /***/ }),
 
@@ -66322,6 +67146,36 @@ function (_Component) {
 
 /***/ }),
 
+/***/ "./resources/js/components/common/Header.css":
+/*!***************************************************!*\
+  !*** ./resources/js/components/common/Header.css ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--6-1!../../../../node_modules/postcss-loader/src??ref--6-2!./Header.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/common/Header.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./resources/js/components/common/Header.js":
 /*!**************************************************!*\
   !*** ./resources/js/components/common/Header.js ***!
@@ -66333,67 +67187,230 @@ function (_Component) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var _public_assets_images_laravel_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../public/assets/images/laravel.png */ "./public/assets/images/laravel.png");
-/* harmony import */ var _public_assets_images_laravel_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_public_assets_images_laravel_png__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _assets_images_careshare_logo_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../assets/images/careshare-logo.png */ "./resources/js/assets/images/careshare-logo.png");
+/* harmony import */ var _assets_images_careshare_logo_png__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_assets_images_careshare_logo_png__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _assets_images_chervon_down_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/images/chervon-down.svg */ "./resources/js/assets/images/chervon-down.svg");
+/* harmony import */ var _assets_images_chervon_down_svg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_images_chervon_down_svg__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _assets_images_cancer_category_icons_breast_cancer_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../assets/images/cancer-category-icons/breast-cancer.svg */ "./resources/js/assets/images/cancer-category-icons/breast-cancer.svg");
+/* harmony import */ var _assets_images_cancer_category_icons_breast_cancer_svg__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_assets_images_cancer_category_icons_breast_cancer_svg__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _assets_images_cancer_category_icons_ovarian_cancer_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../assets/images/cancer-category-icons/ovarian-cancer.svg */ "./resources/js/assets/images/cancer-category-icons/ovarian-cancer.svg");
+/* harmony import */ var _assets_images_cancer_category_icons_ovarian_cancer_svg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_assets_images_cancer_category_icons_ovarian_cancer_svg__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _assets_images_cancer_category_icons_throat_cancer_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../assets/images/cancer-category-icons/throat-cancer.svg */ "./resources/js/assets/images/cancer-category-icons/throat-cancer.svg");
+/* harmony import */ var _assets_images_cancer_category_icons_throat_cancer_svg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_assets_images_cancer_category_icons_throat_cancer_svg__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _assets_images_cancer_category_icons_lung_cancer_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../assets/images/cancer-category-icons/lung-cancer.svg */ "./resources/js/assets/images/cancer-category-icons/lung-cancer.svg");
+/* harmony import */ var _assets_images_cancer_category_icons_lung_cancer_svg__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_assets_images_cancer_category_icons_lung_cancer_svg__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _assets_images_cancer_category_icons_pancreatic_cancer_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../assets/images/cancer-category-icons/pancreatic-cancer.svg */ "./resources/js/assets/images/cancer-category-icons/pancreatic-cancer.svg");
+/* harmony import */ var _assets_images_cancer_category_icons_pancreatic_cancer_svg__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_assets_images_cancer_category_icons_pancreatic_cancer_svg__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _assets_images_cancer_category_icons_head_and_neck_cancer_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../assets/images/cancer-category-icons/head-and-neck-cancer.svg */ "./resources/js/assets/images/cancer-category-icons/head-and-neck-cancer.svg");
+/* harmony import */ var _assets_images_cancer_category_icons_head_and_neck_cancer_svg__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_assets_images_cancer_category_icons_head_and_neck_cancer_svg__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _assets_images_cancer_category_icons_bone_cancer_svg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../assets/images/cancer-category-icons/bone-cancer.svg */ "./resources/js/assets/images/cancer-category-icons/bone-cancer.svg");
+/* harmony import */ var _assets_images_cancer_category_icons_bone_cancer_svg__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_assets_images_cancer_category_icons_bone_cancer_svg__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _assets_images_cancer_category_icons_blood_cancer_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../assets/images/cancer-category-icons/blood-cancer.svg */ "./resources/js/assets/images/cancer-category-icons/blood-cancer.svg");
+/* harmony import */ var _assets_images_cancer_category_icons_blood_cancer_svg__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_assets_images_cancer_category_icons_blood_cancer_svg__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _assets_images_cancer_category_icons_colon_cancer_svg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../assets/images/cancer-category-icons/colon-cancer.svg */ "./resources/js/assets/images/cancer-category-icons/colon-cancer.svg");
+/* harmony import */ var _assets_images_cancer_category_icons_colon_cancer_svg__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_assets_images_cancer_category_icons_colon_cancer_svg__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _assets_images_cancer_category_icons_liver_cancer_svg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../assets/images/cancer-category-icons/liver-cancer.svg */ "./resources/js/assets/images/cancer-category-icons/liver-cancer.svg");
+/* harmony import */ var _assets_images_cancer_category_icons_liver_cancer_svg__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_assets_images_cancer_category_icons_liver_cancer_svg__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var _assets_images_cancer_category_icons_skin_cancer_svg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../assets/images/cancer-category-icons/skin-cancer.svg */ "./resources/js/assets/images/cancer-category-icons/skin-cancer.svg");
+/* harmony import */ var _assets_images_cancer_category_icons_skin_cancer_svg__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_assets_images_cancer_category_icons_skin_cancer_svg__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var _assets_images_cancer_category_icons_brain_cancer_svg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../assets/images/cancer-category-icons/brain-cancer.svg */ "./resources/js/assets/images/cancer-category-icons/brain-cancer.svg");
+/* harmony import */ var _assets_images_cancer_category_icons_brain_cancer_svg__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_assets_images_cancer_category_icons_brain_cancer_svg__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var _assets_images_cancer_category_icons_stomach_cancer_svg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../assets/images/cancer-category-icons/stomach-cancer.svg */ "./resources/js/assets/images/cancer-category-icons/stomach-cancer.svg");
+/* harmony import */ var _assets_images_cancer_category_icons_stomach_cancer_svg__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_assets_images_cancer_category_icons_stomach_cancer_svg__WEBPACK_IMPORTED_MODULE_15__);
+/* harmony import */ var _assets_images_cancer_category_icons_testicular_cancer_svg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../../assets/images/cancer-category-icons/testicular-cancer.svg */ "./resources/js/assets/images/cancer-category-icons/testicular-cancer.svg");
+/* harmony import */ var _assets_images_cancer_category_icons_testicular_cancer_svg__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_assets_images_cancer_category_icons_testicular_cancer_svg__WEBPACK_IMPORTED_MODULE_16__);
+/* harmony import */ var _assets_images_cancer_category_icons_prostate_cancer_svg__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../../assets/images/cancer-category-icons/prostate-cancer.svg */ "./resources/js/assets/images/cancer-category-icons/prostate-cancer.svg");
+/* harmony import */ var _assets_images_cancer_category_icons_prostate_cancer_svg__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(_assets_images_cancer_category_icons_prostate_cancer_svg__WEBPACK_IMPORTED_MODULE_17__);
+/* harmony import */ var _assets_images_cancer_category_icons_thyroid_cancer_svg__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../../assets/images/cancer-category-icons/thyroid-cancer.svg */ "./resources/js/assets/images/cancer-category-icons/thyroid-cancer.svg");
+/* harmony import */ var _assets_images_cancer_category_icons_thyroid_cancer_svg__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(_assets_images_cancer_category_icons_thyroid_cancer_svg__WEBPACK_IMPORTED_MODULE_18__);
+/* harmony import */ var _assets_images_cancer_category_icons_bladder_cancer_svg__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../../assets/images/cancer-category-icons/bladder-cancer.svg */ "./resources/js/assets/images/cancer-category-icons/bladder-cancer.svg");
+/* harmony import */ var _assets_images_cancer_category_icons_bladder_cancer_svg__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(_assets_images_cancer_category_icons_bladder_cancer_svg__WEBPACK_IMPORTED_MODULE_19__);
+/* harmony import */ var _assets_images_cancer_category_icons_gallbladder_cancer_svg__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../../assets/images/cancer-category-icons/gallbladder-cancer.svg */ "./resources/js/assets/images/cancer-category-icons/gallbladder-cancer.svg");
+/* harmony import */ var _assets_images_cancer_category_icons_gallbladder_cancer_svg__WEBPACK_IMPORTED_MODULE_20___default = /*#__PURE__*/__webpack_require__.n(_assets_images_cancer_category_icons_gallbladder_cancer_svg__WEBPACK_IMPORTED_MODULE_20__);
+/* harmony import */ var _Header_css__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./Header.css */ "./resources/js/components/common/Header.css");
+/* harmony import */ var _Header_css__WEBPACK_IMPORTED_MODULE_21___default = /*#__PURE__*/__webpack_require__.n(_Header_css__WEBPACK_IMPORTED_MODULE_21__);
+ // import {Link} from 'react-router-dom'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 var Header = function Header() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-    className: "topbar"
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "hero-anime"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "navigation-wrap start-header start-style"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "row"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    className: "fa fa-phone"
-  }), " 88 01851334234 || Email : ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    className: "fa fa-envelope"
-  }), "info@w3xplorers.com")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-    className: "logo_bar"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "container"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "row"
+    className: "col-12"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
+    className: "navbar navbar-expand-md navbar-light m-0"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "",
-    className: "site-logo"
+    className: "navbar-brand p-3",
+    href: "https://front.codes/",
+    target: "_blank"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _public_assets_images_laravel_png__WEBPACK_IMPORTED_MODULE_2___default.a,
-    alt: "logo",
-    width: "200px"
+    src: _assets_images_careshare_logo_png__WEBPACK_IMPORTED_MODULE_1___default.a,
+    alt: ""
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: "navbar-toggler",
+    type: "button",
+    "data-toggle": "collapse",
+    "data-target": "#navbarSupportedContent",
+    "aria-controls": "navbarSupportedContent",
+    "aria-expanded": "false",
+    "aria-label": "Toggle navigation"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "navbar-toggler-icon"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "header-info"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "hf-item"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    className: "fa fa-clock-o"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Working Days:"), "Saturday - Thursday: 08 AM - 4.00 PM")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "hf-item"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    className: "fa fa-map-marker"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Location : "), " Didar Market, Chittagong")))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
-    className: "nav-section"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "container"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "row"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    id: "cssmenu"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "active"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    className: "navbar-brand",
-    to: "/"
-  }, "Home")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    className: "navbar-brand",
-    to: "/about"
-  }, "About")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    className: "navbar-brand",
-    to: "/blog"
-  }, "Blog"))))))));
+    className: "collapse navbar-collapse",
+    id: "navbarSupportedContent"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: "navbar-nav ml-auto py-4 py-md-0",
+    style: {
+      alignItems: "center"
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "nav-item pl-4 pl-md-0 ml-0 ml-md-5"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "nav-link",
+    href: "#"
+  }, "HOME")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "nav-item pl-4 pl-md-0 ml-0 ml-md-5"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "nav-link dropdown-toggle",
+    "data-toggle": "dropdown",
+    href: "#",
+    role: "button",
+    "aria-haspopup": "true",
+    "aria-expanded": "false"
+  }, "ABOUT CANCER ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    height: "9",
+    src: _assets_images_chervon_down_svg__WEBPACK_IMPORTED_MODULE_2___default.a
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "dropdown-menu cancer-dropdown"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "dropdown-item",
+    href: "#"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _assets_images_cancer_category_icons_breast_cancer_svg__WEBPACK_IMPORTED_MODULE_3___default.a
+  }), " Breast Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "dropdown-item",
+    href: "#"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _assets_images_cancer_category_icons_ovarian_cancer_svg__WEBPACK_IMPORTED_MODULE_4___default.a
+  }), " Ovarian Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "dropdown-item",
+    href: "#"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _assets_images_cancer_category_icons_throat_cancer_svg__WEBPACK_IMPORTED_MODULE_5___default.a
+  }), " Throat Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "dropdown-item",
+    href: "#"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _assets_images_cancer_category_icons_lung_cancer_svg__WEBPACK_IMPORTED_MODULE_6___default.a
+  }), " Lung Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "dropdown-item",
+    href: "#"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _assets_images_cancer_category_icons_head_and_neck_cancer_svg__WEBPACK_IMPORTED_MODULE_8___default.a
+  }), " Head and Neck Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "dropdown-item",
+    href: "#"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _assets_images_cancer_category_icons_bone_cancer_svg__WEBPACK_IMPORTED_MODULE_9___default.a
+  }), " Bone Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "dropdown-item",
+    href: "#"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _assets_images_cancer_category_icons_pancreatic_cancer_svg__WEBPACK_IMPORTED_MODULE_7___default.a
+  }), " Pancreatic Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "dropdown-item",
+    href: "#"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _assets_images_cancer_category_icons_colon_cancer_svg__WEBPACK_IMPORTED_MODULE_11___default.a
+  }), " Colon cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "dropdown-item",
+    href: "#"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _assets_images_cancer_category_icons_liver_cancer_svg__WEBPACK_IMPORTED_MODULE_12___default.a
+  }), " Liver Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "dropdown-item",
+    href: "#"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _assets_images_cancer_category_icons_blood_cancer_svg__WEBPACK_IMPORTED_MODULE_10___default.a
+  }), " Blood Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "dropdown-item",
+    href: "#"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _assets_images_cancer_category_icons_testicular_cancer_svg__WEBPACK_IMPORTED_MODULE_16___default.a
+  }), " Testicular Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "dropdown-item",
+    href: "#"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _assets_images_cancer_category_icons_thyroid_cancer_svg__WEBPACK_IMPORTED_MODULE_18___default.a
+  }), " Thyroid Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "dropdown-item",
+    href: "#"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _assets_images_cancer_category_icons_prostate_cancer_svg__WEBPACK_IMPORTED_MODULE_17___default.a
+  }), " Prostate Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "dropdown-item",
+    href: "#"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _assets_images_cancer_category_icons_gallbladder_cancer_svg__WEBPACK_IMPORTED_MODULE_20___default.a
+  }), " Gallbladder Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "dropdown-item",
+    href: "#"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _assets_images_cancer_category_icons_skin_cancer_svg__WEBPACK_IMPORTED_MODULE_13___default.a
+  }), " Skin Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "dropdown-item",
+    href: "#"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _assets_images_cancer_category_icons_bladder_cancer_svg__WEBPACK_IMPORTED_MODULE_19___default.a
+  }), " Bladder Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "dropdown-item",
+    href: "#"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _assets_images_cancer_category_icons_brain_cancer_svg__WEBPACK_IMPORTED_MODULE_14___default.a
+  }), " Brain Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "dropdown-item",
+    href: "#"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _assets_images_cancer_category_icons_stomach_cancer_svg__WEBPACK_IMPORTED_MODULE_15___default.a
+  }), " Stomach Cancer"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "nav-item pl-4 pl-md-0 ml-0 ml-md-5"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "nav-link",
+    href: "#"
+  }, "BLOGS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "nav-item pl-4 pl-md-0 ml-0 ml-md-5 signup-btn-wrap"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: "btn btn-primary header-signup-btn",
+    type: "button"
+  }, "SIGNUP FOR FREE CONSULTATION"))))))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
