@@ -101,6 +101,90 @@
     float: right;
 }
 
+.package_section{
+    background-color: #f2f5f8;
+    padding: 60px 0 70px;
+}
+
+.package_section .packages_wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.package_section .packages_wrap .single_package{
+    background-color: #fff;
+    width: calc(25% - 22.2px);
+    padding: 30px 30px 35px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.package_section .packages_wrap .single_package .title{
+    font-size: 18px;
+    font-weight: 700;
+    color: #3e5061;
+    margin-bottom: 20px;
+}
+
+.package_section .packages_wrap .single_package .price{
+    font-size: 28px;
+    font-weight: 700;
+    color: #eb5757;
+}
+
+.package_section .packages_wrap .single_package .price_cut{
+    font-size: 28px;
+    font-weight: 300;
+    color: #eb5757;
+    text-decoration: line-through;
+    margin-bottom: 20px;
+}
+
+.package_section .packages_wrap .single_package .btn-primary{
+    background-color: #51c185;
+    width: 100%;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-weight: 500;
+    font-size: 16px;
+    box-shadow: none;
+}
+
+.package_section .packages_wrap .single_package .btn-primary:hover{
+    background-color: #eb5757;
+}
+
+.package_section .feature_list{
+    margin-top: 40px;
+    list-style: none;
+}
+
+.package_section .feature_list li{
+    font-size: 20px;
+    color: #3e5061;
+    line-height: 1.754;
+    position: relative;
+    padding-left: 30px;
+}
+
+.package_section .feature_list li img{
+    position: absolute;
+    left: 0;
+    top: 9px;
+}
+
+.section_desc .inline-logo{
+    width: 210px;
+    margin-top: -7px;
+}
+
+.hospital_section{
+    padding: 60px 0 70px;
+}
+
 @media (min-width:800px) {
     .choose_careshare_section .step_blocks_wrap .single_block{
         border-radius: 8px 0 0 8px;
@@ -168,4 +252,26 @@
     .choose_careshare_section{
         padding: 40px 0;
     }
+
+    .package_section .packages_wrap{
+        flex-wrap: wrap;
+    }
+
+    .package_section .packages_wrap .single_package{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .package_section .feature_list{
+        margin-top: 10px;
+    }
+
+    .package_section .feature_list li{
+        font-size: 18px;
+    }
+
+    .package_section{
+        padding: 40px 0;
+    }
+
 }

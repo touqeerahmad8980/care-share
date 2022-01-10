@@ -5,6 +5,8 @@ import careshareBannerImage from '../../assets/images/careshare-banner-image.jpg
 import treatmentBeforeStep from '../../assets/images/treatment-before-step.png';
 import treatmentDuringStep from '../../assets/images/treatment-during-step.png';
 import treatmentAfterStep from '../../assets/images/treatment-after-step.png';
+import caresharePlusInline from '../../assets/images/careshare-plus-inline.png';
+import checkIcon from '../../assets/images/check-icon.png';
 import whatsappIcon from '../../assets/images/whatsapp-icon.png';
 
 import './Home.css';
@@ -23,7 +25,7 @@ const Home = () => {
                             <div className='col-md-6'>
                                 <h2>24*7 PERSONALIZED</h2>
                                 <h1>CANCER CARE</h1>
-                                <h2 class="mt-0">JUST AT A CLICK</h2>
+                                <h2 className="mt-0">JUST AT A CLICK</h2>
                                 <p>From diangnosis to treatment to recovery <br />and beyond-guiding you at each step.</p>
                                 <button href='#' className='btn btn-primary button'>Sign up For Free Consultation</button>
                                 <span>or</span>
@@ -87,6 +89,56 @@ const Home = () => {
                             </ul>
                             <img src={treatmentAfterStep} className="step_img" />
                         </div>
+                    </div>
+                </div>
+            </section>
+            <section className='section_grey package_section'>
+                <div className='container'>
+                    <div className='row_wrap mb-5 text-center'>
+                        <h2 className='section_heading mb-4'>Begin Your Journey To Cancer Free Life Today!</h2>
+                        <p className='section_desc'>Join <img className='inline-logo' src={caresharePlusInline} /> as early user and get unlimited benefits at just 1/10th of the cost: <br />Better outcomes of your treatment with</p>
+                    </div>
+                    <div className='packages_wrap'>
+                        <div className='single_package'>
+                            <h4 className='title'>One Month</h4>
+                            <h3 className="price">Rs. 2499</h3>
+                            <p className='price_cut'>Rs. 24,999</p>
+                            <a className='btn btn-primary'>Pay Now</a>
+                        </div>
+                        <div className='single_package'>
+                            <h4 className='title'>Three Months</h4>
+                            <h3 className="price">Rs. 6999</h3>
+                            <p className='price_cut'>Rs. 69,999</p>
+                            <a className='btn btn-primary'>Pay Now</a>
+                        </div>
+                        <div className='single_package'>
+                            <h4 className='title'>Six Months</h4>
+                            <h3 className="price">Rs. 10,999</h3>
+                            <p className='price_cut'>Rs. 109,999</p>
+                            <a className='btn btn-primary'>Pay Now</a>
+                        </div>
+                        <div className='single_package'>
+                            <h4 className='title'>Limetime</h4>
+                            <h3 className="price">Rs. 20,999</h3>
+                            <p className='price_cut'>Rs. 209,999</p>
+                            <a className='btn btn-primary'>Pay Now</a>
+                        </div>
+                    </div>
+                    <ul className='feature_list'>
+                        <li><img src={checkIcon} className='mr-3' /> Regular Health Tracking</li>
+                        <li><img src={checkIcon} className='mr-3' /> 24*7 Real-Time Symptom Management</li>
+                        <li><img src={checkIcon} className='mr-3' /> Personalized Onco-Nutritional Plan With Unlimited Access To Nutritionist</li>
+                        <li><img src={checkIcon} className='mr-3' /> Tailor Made Naturopathy, Yoga And Mental Health Sessions For You And Caregivers</li>
+                        <li><img src={checkIcon} className='mr-3' /> Real Time Unlimited Access To Dedicated Doctor</li>
+                        <li><img src={checkIcon} className='mr-3' /> Medication And Test Reminders With Family In Loop</li>
+                    </ul>
+                </div>
+            </section>
+            <section className='hospital_section'>
+                <div className='container'>
+                    <div className='row_wrap mb-5 text-center'>
+                        <h2 className='section_heading mb-2'>Know Our Senior Oncologists</h2>
+                        <p className='section_desc'>Our doctors have a rich 10+ years of experience and are trained at the top cancer institutes<br /> such as Tata Memorial, AIIMS, and Memorial Sloan Kettering (US)</p>
                     </div>
                 </div>
             </section>

@@ -86,10 +86,10 @@ $(window).on('load', function() {
 		}
 	});
 
-	$('.gallery').masonry({
-		itemSelector: '.gallery-item',
-		columnWidth: '.grid-sizer'
-	});
+	// $('.gallery').masonry({
+	// 	itemSelector: '.gallery-item',
+	// 	columnWidth: '.grid-sizer'
+	// });
 
 
 
