@@ -41,11 +41,87 @@
     margin: 0px 25px;
 }
 
+.section_heading{
+    font-size: 35px;
+    font-weight: 600;
+    color: #0e1d2c;
+}
+
+.section_desc{
+    font-size: 18px;
+    color: #3e5061;
+}
+
 .home-banner .image{
     max-width: 480px;
     float: right;
 }
 
+.choose_careshare_section{
+    padding: 60px 0 100px;
+}
+
+.choose_careshare_section .step_blocks_wrap{
+    display: flex;
+}
+
+.choose_careshare_section .step_blocks_wrap .single_block{
+    background-color: #0e1d2c;
+    padding: 30px 40px;
+    color: #fff;
+}
+
+.choose_careshare_section .step_blocks_wrap .single_block.pink{
+    background-color: #eb5757;
+}
+
+.choose_careshare_section .step_blocks_wrap .single_block.green{
+    background-color: #51c185;
+}
+
+.choose_careshare_section .step_blocks_wrap .single_block h3{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.25;
+}
+
+.choose_careshare_section .step_blocks_wrap .single_block ul{
+    margin-left: 20px;
+    min-height: 150px;
+}
+.choose_careshare_section .step_blocks_wrap .single_block li{
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.choose_careshare_section .step_blocks_wrap .single_block .step_img{
+    max-height: 150px;
+    float: right;
+}
+
+@media (min-width:800px) {
+    .choose_careshare_section .step_blocks_wrap .single_block{
+        border-radius: 8px 0 0 8px;
+        flex: 0 0 27%;
+        transition: all .3s;
+    }
+    .choose_careshare_section .step_blocks_wrap .single_block.active{
+        flex: 0 0 46%;
+    }
+    .choose_careshare_section .step_blocks_wrap .single_block ul{
+        max-height: 150px;
+        /* overflow: hidden; */
+    }
+    .choose_careshare_section .step_blocks_wrap .single_block.pink{
+        margin-left: -8px;
+    }
+    .choose_careshare_section .step_blocks_wrap .single_block.green{
+        margin-left: -8px;
+        border-radius: 8px;
+    }
+}
 
 @media (max-width:800px) {
     .home-banner .banner{
@@ -72,5 +148,24 @@
     .home-banner .image{
         width: 100%;
         margin-top: 30px;
+    }
+    .choose_careshare_section .step_blocks_wrap{
+        flex-direction: column;
+    }
+
+    .section_heading{
+        font-size: 30px;
+    }
+
+    .section_desc{
+        font-size: 16px;
+    }
+
+    .section_desc br{
+        display: none;
+    }
+
+    .choose_careshare_section{
+        padding: 40px 0;
     }
 }
