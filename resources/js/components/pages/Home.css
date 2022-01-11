@@ -101,7 +101,7 @@
     float: right;
 }
 
-.package_section{
+.section_grey{
     background-color: #f2f5f8;
     padding: 60px 0 70px;
 }
@@ -182,7 +182,114 @@
 }
 
 .hospital_section{
+    padding: 60px 0 120px;
+}
+
+.hospital_section .row_wrap{
+    margin-bottom: 40px !important;
+}
+
+.hospital_section .slick-custom-dots{
+    bottom: -60px;
+}
+
+.hospital_section .slick-custom-dots li button:before{
+    font-size: 13px;
+}
+
+.hospital_section .slick-custom-dots li.slick-active button:before{
+    color: #51c185;
+}
+
+.hospital_section .slick-arrow{
+    display: none !important;
+}
+
+.hr_line{
+    height: 1px;
+    width: 100%;
+    background-color: #cbcbcb;
+}
+
+.warriors_section{
     padding: 60px 0 70px;
+}
+
+.warriors_section .row_wrap{
+    margin-bottom: 50px;
+}
+
+.warriors_section .warrior_wrap {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.warriors_section .warrior_wrap .single_warrior{
+    position: relative;
+    max-width: 330px;
+    padding-left: 76px;
+}
+
+.warriors_section .warrior_wrap .single_warrior h3{
+    font-size: 17px;
+    font-weight: 700;
+    color: #0e1d2c;
+    margin-bottom: 20px;
+}
+
+.warriors_section .warrior_wrap .single_warrior p{
+    font-size: 14px;
+    color: #3e5061;
+    font-style: italic;
+    line-height: 1.75;
+}
+
+.warriors_section .warrior_wrap .single_warrior .comma_icon{
+    position: absolute;
+    width: 55px;
+    left: 0;
+    top: 0;
+}
+
+.warriors_section .warrior_wrap .single_warrior .user_wrap img{
+    border-radius: 50%;
+    width: 90px;
+    box-shadow: 0 0 6px 3px #c3c3c3;
+}
+
+.warriors_section .warrior_wrap .single_warrior .user_wrap{
+    margin-top: 25px;
+    font-size: 17px;
+    color: #0e1d2c;
+}
+
+.warriors_section .warrior_wrap .single_warrior h4{
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.warriors_section .help_link{
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: underline;
+    color: #eb5757;
+    text-align: center;
+    display: block;
+}
+
+.video_section .btn-primary{
+    font-size: 13px;
+    box-shadow: none;
+    padding: 15px 45px;
+    background-color: #51c185;
+    border: none;
+    font-weight: 500;
+}
+
+.video_section .btn-primary:hover{
+    background-color: #eb5757;
 }
 
 @media (min-width:800px) {
@@ -245,6 +352,7 @@
         font-size: 16px;
     }
 
+    .section_heading br,
     .section_desc br{
         display: none;
     }
@@ -274,4 +382,15 @@
         padding: 40px 0;
     }
 
+    .hospital_section{
+        padding: 40px 0 100px;
+    }
+
+    .video_section{
+        padding: 40px 0;
+    }
+
+    .warriors_section .warrior_wrap .single_warrior{
+        margin-bottom: 20px;
+    }
 }

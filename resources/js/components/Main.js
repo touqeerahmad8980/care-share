@@ -6,6 +6,7 @@ import Home from './pages/Index';
 import About from './pages/About';
 import Blog from './pages/News';
 import NewsDetails from './pages/NewsDetails'
+import Footer from './common/Footer';
 
 class App extends Component {
     render() {
@@ -19,6 +20,7 @@ class App extends Component {
                         <Route exact path='/blog' component={Blog}/>
                         <Route exact path="/blog/:id" component={NewsDetails} />
                     </Switch>
+                    <Footer />
                 </div>
             </BrowserRouter>
         )

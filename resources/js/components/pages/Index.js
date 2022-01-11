@@ -1,20 +1,41 @@
 import React from 'react'
-// import BlogWidget from '../common/BlogWidget'
-// import SideImage from '../../../../public/assets/images/BG_image_8.png'
 import careshareBannerImage from '../../assets/images/careshare-banner-image.jpg';
 import treatmentBeforeStep from '../../assets/images/treatment-before-step.png';
 import treatmentDuringStep from '../../assets/images/treatment-during-step.png';
 import treatmentAfterStep from '../../assets/images/treatment-after-step.png';
 import caresharePlusInline from '../../assets/images/careshare-plus-inline.png';
+import videoImg from '../../assets/images/video-img.png';
+import Logo1 from '../../assets/images/logo-1.jpg';
+import avatar1 from '../../assets/images/avatar-1.jpg';
 import checkIcon from '../../assets/images/check-icon.png';
 import whatsappIcon from '../../assets/images/whatsapp-icon.png';
-
+import commaIcon from '../../assets/images/comma-icon.png';
+import Slider from "react-slick";
 import './Home.css';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const Home = () => {
 
     const [activeStep, setActiveStep] = React.useState('blue')
     const { innerWidth: screenWidth } = window;
+    const hospitalSliderSettings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        dotsClass: "slick-dots slick-custom-dots",
+        responsive: [
+            {
+              breakpoint: 800,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
+    };
 
     return (
         <div>
@@ -139,6 +160,68 @@ const Home = () => {
                     <div className='row_wrap mb-5 text-center'>
                         <h2 className='section_heading mb-2'>Know Our Senior Oncologists</h2>
                         <p className='section_desc'>Our doctors have a rich 10+ years of experience and are trained at the top cancer institutes<br /> such as Tata Memorial, AIIMS, and Memorial Sloan Kettering (US)</p>
+                    </div>
+                    <div>
+                        <Slider {...hospitalSliderSettings}>
+                            {Array(12).fill("").map(() => (
+                                <div>
+                                    <img src={Logo1} style={{maxWidth:240,margin:"auto"}} />
+                                </div>
+                            ))}
+                        </Slider>
+                    </div>
+                </div>
+            </section>
+            <div className='container'>
+                <div className='hr_line'></div>
+            </div>
+            <section className='warriors_section'>
+                <div className='container'>
+                    <div className='row_wrap text-center'>
+                        <h2 className='section_heading mb-2'>This is what our warriors have to say!</h2>
+                    </div>
+                    <div className='warrior_wrap'>
+                        <div className='single_warrior'>
+                            <img className='comma_icon' src={commaIcon} />
+                            <h3>No Waiting Time</h3>
+                            <p>"Whenever my father has any symptoms, I'll just put that in the CareShare app and I will immediately get management instructions. It even automatically gets the consultation done when needed. It has made our lives much simpler. I highly...”</p>
+                            <div className='user_wrap'>
+                                <img src={avatar1} />
+                                <h4>- Mandeep Kaur</h4>
+                            </div>
+                        </div>
+                        <div className='single_warrior'>
+                            <img className='comma_icon' src={commaIcon} />
+                            <h3>24/7 Remote Monitoring</h3>
+                            <p>"It was late at night around 2 am during lockdown when my mother ( breast cancer patient), had stomach pain and vomiting. We were too afraid to go to the hospital due to covid. We just put the symptoms in the app and within 2 minutes, we got...”</p>
+                            <div className='user_wrap'>
+                                <img src={avatar1} />
+                                <h4>- Punit Sharma</h4>
+                            </div>
+                        </div>
+                        <div className='single_warrior'>
+                            <img className='comma_icon' src={commaIcon} />
+                            <h3>Empowers the Whole Family</h3>
+                            <p>"When my brother was diagnosed with gastric cancer in 2017 and I was in the US, I used to call him every day and keep a record of his symptoms in a diary. In March 2021, I came to visit him due to his relapse, I came across CareShare through our oncologist in KIMS. When ...”</p>
+                            <div className='user_wrap'>
+                                <img src={avatar1} />
+                                <h4>- Kishan Reddy</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <a className='help_link' href='javascript:void(0)'>WE WANT TO HELP YOU TOO - GET IN TOUCH NOW!</a>
+                </div>
+            </section>
+            <section className='section_grey video_section'>
+                <div className='container'>
+                    <div className='row_wrap mb-5 text-center'>
+                        <h2 className='section_heading mb-4'>You Are A Warrior, We Have Well-trained Soldiers.<br /> Let's Battle Out Cancer Together!</h2>
+                    </div>
+                    <div className='text-center'>
+                        <img src={videoImg} style={{maxWidth:450,width:"100%",margin:"auto"}} />
+                    </div>
+                    <div className='text-center mt-5'>
+                        <a href='#' className='btn btn-primary mt-3'>Sign up For Free Consultation</a>
                     </div>
                 </div>
             </section>
