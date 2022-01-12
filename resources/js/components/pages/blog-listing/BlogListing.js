@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom';
 import blogImage from '../../../assets/images/blog-image.jpg';
 import './BlogListing.css';
 
@@ -17,10 +18,10 @@ const BlogListing = () => {
                        {Array(15).fill("").map(() => (
                         <div className='col-sm-4'>
                             <div className='single_blog'>
-                                    <img className='blog_img' src={blogImage} />
-                                    <h3>Are Clinical Trials The Right Option For You ?</h3>
+                                    <NavLink to='/blog/1'><img className='blog_img' src={blogImage} /></NavLink>
+                                    <NavLink to='/blog/1'><h3>Are Clinical Trials The Right Option For You ?</h3></NavLink>
                                     <p className='date'>December 17, 2021</p>
-                                    <p className='desc'>Clinical trials are research investigations used to determine the safety and efficacy of new tests or treatments. These cancer clinical trials help study the new cancer medications, procedures, and...<a href='#'>Read More</a></p>
+                                    <p className='desc'>Clinical trials are research investigations used to determine the safety and efficacy of new tests or treatments. These cancer clinical trials help study the new cancer medications, procedures, and...<NavLink to='/blog/1'>Read More</NavLink></p>
                             </div>
                         </div>
                        ))}

@@ -5,6 +5,7 @@ import Header from './common/Header';
 import Home from './pages/home/Home';
 import BlogListing from './pages/blog-listing/BlogListing';
 import Footer from './common/Footer';
+import BlogDetail from './pages/blog-detail/BlogDetail';
 
 class App extends Component {
     render() {
@@ -15,6 +16,7 @@ class App extends Component {
                     <Switch>
                         <Route exact path='/' component={Home}/>
                         <Route path='/blogs' component={BlogListing}/>
+                        <Route path='/blog/:id' component={BlogDetail}/>
                     </Switch>
                     <Footer />
                 </div>
