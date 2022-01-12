@@ -1,0 +1,105 @@
+.blog_detail_page .banner{
+    background-color: #0e1d2c;
+    padding: 60px 0px;
+}
+
+.blog_detail_page .banner .banner_heading{
+    font-size: 41px;
+    color: #fff;
+    font-weight: 600;
+    max-width: 620px;
+    margin: auto;
+    line-height: 1.5;
+}
+
+.blog_detail_page .detail_section{
+    padding: 70px 0;
+}
+
+.blog_detail_page .detail_section .heading{
+    font-size: 35px;
+    color: #0e1d2c;
+    font-weight: 600;
+}
+
+.blog_detail_page .detail_section .date{
+    font-size: 14px;
+    color: #878787;
+    margin: 10px 0 20px;
+}
+
+.blog_detail_page .detail_section .desc{
+    font-size: 16px;
+    color: #3e5061;
+    line-height: 1.75;
+}
+
+.blog_detail_page .detail_section .desc a{
+    color: #51c185;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.blog_detail_page a:hover{
+    color: #eb5757 !important;
+}
+
+.blog_detail_page .detail_section .categories_listing {
+    margin-top: 35px;
+}
+
+.blog_detail_page .detail_section .single_category {
+    background-color: #0e1d2c;
+    border-radius: 10px;
+    padding: 15px 25px;
+    margin-bottom: 30px;
+}
+
+.blog_detail_page .detail_section .single_category h3 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.5;
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    transition: all .3s;
+}
+
+.blog_detail_page .detail_section .single_category h3:hover {
+    color: #51c185;
+}
+
+.blog_detail_page .detail_section .single_category h3::after {
+    content: "";
+    position: absolute;
+    background-color: #51c185;
+    width: 110px;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+}
+
+.blog_detail_page .detail_section .single_category p {
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+.blog_detail_page .detail_section .single_category a{
+    color: #51c185;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+
+@media (max-width:800px) {
+    .blog_detail_page .banner .banner_heading{
+        font-size: 30px;
+    }
+
+    .blog_detail_page .detail_section{
+        padding: 40px 0;
+    }
+}
