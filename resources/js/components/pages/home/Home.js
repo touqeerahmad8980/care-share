@@ -1,15 +1,15 @@
 import React from 'react'
-import careshareBannerImage from '../../assets/images/careshare-banner-image.jpg';
-import treatmentBeforeStep from '../../assets/images/treatment-before-step.png';
-import treatmentDuringStep from '../../assets/images/treatment-during-step.png';
-import treatmentAfterStep from '../../assets/images/treatment-after-step.png';
-import caresharePlusInline from '../../assets/images/careshare-plus-inline.png';
-import videoImg from '../../assets/images/video-img.png';
-import Logo1 from '../../assets/images/logo-1.jpg';
-import avatar1 from '../../assets/images/avatar-1.jpg';
-import checkIcon from '../../assets/images/check-icon.png';
-import whatsappIcon from '../../assets/images/whatsapp-icon.png';
-import commaIcon from '../../assets/images/comma-icon.png';
+import careshareBannerImage from '../../../assets/images/careshare-banner-image.jpg';
+import treatmentBeforeStep from '../../../assets/images/treatment-before-step.png';
+import treatmentDuringStep from '../../../assets/images/treatment-during-step.png';
+import treatmentAfterStep from '../../../assets/images/treatment-after-step.png';
+import caresharePlusInline from '../../../assets/images/careshare-plus-inline.png';
+import videoImg from '../../../assets/images/video-img.png';
+import Logo1 from '../../../assets/images/logo-1.jpg';
+import avatar1 from '../../../assets/images/avatar-1.jpg';
+import checkIcon from '../../../assets/images/check-icon.png';
+import whatsappIcon from '../../../assets/images/whatsapp-icon.png';
+import commaIcon from '../../../assets/images/comma-icon.png';
 import Slider from "react-slick";
 import './Home.css';
 import "slick-carousel/slick/slick.css";

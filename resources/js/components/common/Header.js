@@ -21,6 +21,7 @@ import ThyroidCancer from '../../assets/images/cancer-category-icons/thyroid-can
 import BladderCancer from '../../assets/images/cancer-category-icons/bladder-cancer.svg';
 import GallbladderCancer from '../../assets/images/cancer-category-icons/gallbladder-cancer.svg';
 import './Header.css';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => (
     <div className="hero-anime">
@@ -39,7 +40,7 @@ const Header = () => (
                             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul className="navbar-nav ml-auto py-4 py-md-0" style={{alignItems:"center"}}>
                                     <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-5">
-                                        <a className="nav-link" href="#">HOME</a>
+                                        <NavLink className="nav-link" to="/">HOME</NavLink>
                                     </li>
                                     <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-5">
                                         <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">ABOUT CANCER <img height="9" src={chervonDown} /></a>
@@ -65,7 +66,7 @@ const Header = () => (
                                         </div>
                                     </li>
                                     <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-5">
-                                        <a className="nav-link" href="#">BLOGS</a>
+                                        <NavLink className="nav-link" to="/blogs">BLOGS</NavLink>
                                     </li>
                                     <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-5 signup-btn-wrap">
                                         <button className="btn btn-primary header-signup-btn" type="button">SIGNUP FOR FREE CONSULTATION</button>

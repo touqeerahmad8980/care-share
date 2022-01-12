@@ -2,10 +2,8 @@ import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import Header from './common/Header';
-import Home from './pages/Index';
-import About from './pages/About';
-import Blog from './pages/News';
-import NewsDetails from './pages/NewsDetails'
+import Home from './pages/home/Home';
+import BlogListing from './pages/blog-listing/BlogListing';
 import Footer from './common/Footer';
 
 class App extends Component {
@@ -16,9 +14,7 @@ class App extends Component {
                     <Header />
                     <Switch>
                         <Route exact path='/' component={Home}/>
-                        <Route path='/about' component={About}/>
-                        <Route exact path='/blog' component={Blog}/>
-                        <Route exact path="/blog/:id" component={NewsDetails} />
+                        <Route path='/blogs' component={BlogListing}/>
                     </Switch>
                     <Footer />
                 </div>
