@@ -21,8 +21,8 @@ const BlogDetail = () => {
                         {Array(15).fill("").map(() => (
                             <div className='col-sm-4'>
                                 <div className='single_category'>
-                                    <NavLink to="/"><h3>Diagnosis of pancreatic cancer</h3></NavLink>
-                                    <p>Doctors employ a variety of physical tests to diagnose pancreatic cancer and other related disorders. They look at the eyes, the skin, and the... <NavLink to="/">Read More</NavLink></p>
+                                    <NavLink to="/blog/1/1"><h3>Diagnosis of pancreatic cancer</h3></NavLink>
+                                    <p>Doctors employ a variety of physical tests to diagnose pancreatic cancer and other related disorders. They look at the eyes, the skin, and the... <NavLink to="/blog/1/1">Read More</NavLink></p>
                                 </div>
                             </div>
                         ))}

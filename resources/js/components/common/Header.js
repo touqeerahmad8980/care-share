@@ -31,7 +31,7 @@ const Header = () => (
                     <div className="col-12">
                         <nav className="navbar navbar-expand-md navbar-light m-0">
 
-                            <a className="navbar-brand p-3" href="https://front.codes/" target="_blank"><img src={logo} alt="" /></a>
+                            <NavLink className="navbar-brand p-3" to="/" ><img src={logo} /></NavLink>
 
                             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span className="navbar-toggler-icon"></span>

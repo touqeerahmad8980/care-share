@@ -6,6 +6,7 @@ import Home from './pages/home/Home';
 import BlogListing from './pages/blog-listing/BlogListing';
 import Footer from './common/Footer';
 import BlogDetail from './pages/blog-detail/BlogDetail';
+import BlogDetailCategory from './pages/blog-detail-category/BlogDetailCategory';
 
 class App extends Component {
     render() {
@@ -15,8 +16,10 @@ class App extends Component {
                     <Header />
                     <Switch>
                         <Route exact path='/' component={Home}/>
-                        <Route path='/blogs' component={BlogListing}/>
-                        <Route path='/blog/:id' component={BlogDetail}/>
+                        <Route exact path='/blogs' component={BlogListing}/>
+                        <Route exact path='/blog/:id' component={BlogDetail}/>
+                        <Route exact path='/blog/:id/:categoryId' component={BlogDetailCategory}/>
+                        <Route path="*" component={Home} />
                     </Switch>
                     <Footer />
                 </div>
