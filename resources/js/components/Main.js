@@ -7,6 +7,7 @@ import BlogListing from './pages/blog-listing/BlogListing';
 import Footer from './common/Footer';
 import BlogDetail from './pages/blog-detail/BlogDetail';
 import BlogDetailCategory from './pages/blog-detail-category/BlogDetailCategory';
+import BlogWidget from './common/BlogWidget';
 
 class App extends Component {
     render() {

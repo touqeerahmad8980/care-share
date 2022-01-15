@@ -5,10 +5,10 @@
         <div class="col-md-12">
             <div class="box box-success">
                 <div class="box-header with-border">
-                    <p class="panel-title"> All Notice & News
+                    <p class="panel-title"> All Blogs
                         @can('stdclass-create')
                             <button class="btn btn-success" onclick="create()"><i class="glyphicon glyphicon-plus"></i>
-                                New Notice & News
+                                New Blog
                             </button>
                         @endcan
                     </p>
@@ -78,7 +78,7 @@
         function create() {
 
             $("#modal_data").empty();
-            $('.modal-title').text('Add New News'); // Set Title to Bootstrap modal title
+            $('.modal-title').text('Add New Blogs'); // Set Title to Bootstrap modal title
 
             $.ajax({
                 type: 'GET',

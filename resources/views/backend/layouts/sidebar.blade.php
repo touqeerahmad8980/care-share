@@ -32,7 +32,7 @@
             </a>
             <ul class="treeview-menu">
                 <li><a href="{{ URL :: to('/admin/news') }}">
-                        <i class="fa fa-globe"></i> <span> Notice Board & News</span></a>
+                        <i class="fa fa-globe"></i> <span> Blogs</span></a>
                 </li>
             </ul>
         </li>

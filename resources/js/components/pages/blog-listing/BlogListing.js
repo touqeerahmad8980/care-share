@@ -1,9 +1,45 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { NavLink } from 'react-router-dom';
 import blogImage from '../../../assets/images/blog-image.jpg';
 import './BlogListing.css';
 
 const BlogListing = () => {
+
+    const [posts, setPosts] = useState([]);
+
+    useEffect(() => {
+        fetchPosts();
+    },[])
+
+
+    const fetchPosts = () => {
+
+        axios.get('/api/blogWidget', {
+            // params: {
+            //     category: this.props.category, limit: this.props.limit
+            // }
+        })
+            .then(response => {
+                setPosts(response.data.result)
+            })
+            .catch(error => {
+                console.log(error);
+            });
+    }
+
+
+    const renderPosts = () => {
+        return posts.map((data, index) => (
+            <div className='col-sm-4'>
+                <div className='single_blog'>
+                        <NavLink to={"/blog/" + data.id}><img className='blog_img' src={'../' + data.file_path} /></NavLink>
+                        <NavLink to={"/blog/" + data.id}><h3>{data.title}</h3></NavLink>
+                        <p className='date'>{data.created_at}</p>
+                        <p className='desc'>{data.description}<NavLink to={"/blog/" + data.id}>Read More</NavLink></p>
+                </div>
+            </div>
+        ));
+    }
 
     return (
         <div className='blog_listing_page'>
@@ -15,7 +51,7 @@ const BlogListing = () => {
            <section className='listing_section'>
                <div className='container'>
                    <div className='listing_wrap row'>
-                       {Array(15).fill("").map(() => (
+                       {/* {Array(15).fill("").map(() => (
                         <div className='col-sm-4'>
                             <div className='single_blog'>
                                     <NavLink to='/blog/1'><img className='blog_img' src={blogImage} /></NavLink>
@@ -24,7 +60,8 @@ const BlogListing = () => {
                                     <p className='desc'>Clinical trials are research investigations used to determine the safety and efficacy of new tests or treatments. These cancer clinical trials help study the new cancer medications, procedures, and...<NavLink to='/blog/1'>Read More</NavLink></p>
                             </div>
                         </div>
-                       ))}
+                       ))} */}
+                       {renderPosts()}
                    </div>
                    <div className='hr_line mb-4'></div>
                    <ul class="pagination">

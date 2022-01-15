@@ -15,7 +15,7 @@ export default class BlogWidget extends Component {
         this.fetchPosts();
     }
 
-    
+
     fetchPosts = () => {
 
         axios.get('/api/blogWidget', {

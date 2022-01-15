@@ -26,9 +26,10 @@ class NewsApiController extends Controller
 
    public function blogWidget(Request $request)
    {
-      $category = $request->input('category');
-      $limit = $request->input('limit');
-      $pagData = DB::table('news')->where('category', $category)->limit($limit)->get();
+    //   $category = $request->input('category');
+    //   $limit = $request->input('limit');
+    //   $pagData = DB::table('news')->where('category', $category)->limit($limit)->get();
+      $pagData = DB::table('news')->get();
       return response()->json(['result' => $pagData]);
    }
 }

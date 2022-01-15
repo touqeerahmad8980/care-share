@@ -17,9 +17,8 @@
     <div class="form-group col-md-4 col-sm-12">
         <label for=""> Category </label>
         <select name="category" id="category" class="form-control" required>
-            <option value="Notice Board">Notice Board</option>
-            <option value="Latest News">Latest News</option>
-            <option value="Job News">Job News</option>
+            <option value="all">All</option>
+            <option value="cancer">Cancer</option>
         </select>
         <span id="error_category" class="has-error"></span>
     </div>
