@@ -36,6 +36,11 @@ Route::delete('backups/delete/{file_name}', 'BackupController@delete');
 Route::resource('news', 'NewsController');
 Route::get('/allNews', 'NewsController@allNews')->name('allNews.news');
 
+
+// category controller
+Route::resource('category', 'NewsCategory');
+// Route::get('/allNews', 'NewsController@allNews')->name('allNews.news');
+
 /* ===== Frontend End =========== */
 
 
