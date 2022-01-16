@@ -27,9 +27,9 @@
             <button type="submit" class="btn btn-success button-submit"
                     data-loading-text="Loading..."><span class="fa fa-save fa-fw"></span> Save
             </button>
-            <button type="button" class="btn btn-default" data-dismiss="modal"><span
+            <a href="/admin/news" class="btn btn-default" data-dismiss="modal"><span
                     class="fa fa-times-circle fa-fw"></span> Cancel
-            </button>
+            </a>
         </div>
         <div class="clearfix"></div>
     </form>
