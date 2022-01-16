@@ -24,9 +24,10 @@ class NewsCategory extends Controller
     *
     * @return \Illuminate\Http\Response
     */
-   public function index()
+   public function index($news_id)
    {
-      return view('backend.admin.category.create');
+      return view('backend.admin.category.create')
+      ->with('news_id', $news_id);
    }
 
     /**
@@ -48,13 +49,52 @@ class NewsCategory extends Controller
         $category = new Category();
 
         $category->title = $request->input('title');
-        $category->content = $request->input('description');
-        $category->status = $request->input('content');
-        $category->new_id = $request->input('news_id');
+        $category->description = $request->input('description');
+        $category->content = $request->input('content');
+        // $category->status = $request->input('content');
+        $category->news_id = $request->input('news_id');
 
         $category->save();
 
         // store tags
         return response()->json(['data' => $category, 'message' => 'Created successfully'], 201);
     }
+
+    /**
+     * success response method.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function upload(Request $request)
+    {
+        // if($request->hasFile('upload')) {
+        //     $originName = $request->file('upload')->getClientOriginalName();
+        //     $fileName = pathinfo($originName, PATHINFO_FILENAME);
+        //     $extension = $request->file('upload')->getClientOriginalExtension();
+        //     $fileName = $fileName.'_'.time().'.'.$extension;
+
+        //     $request->file('upload')->move(public_path('images'), $fileName);
+
+        //     $CKEditorFuncNum = $request->input('CKEditorFuncNum');
+        //     $url = asset('images/'.$fileName);
+        //     $msg = 'Image uploaded successfully';
+        //     $response = "<script>window.parent.CKEDITOR.tools.callFunction($CKEditorFuncNum, '$url', '$msg')</script>";
+
+        //     @header('Content-type: text/html; charset=utf-8');
+        //     echo $response;
+        // }
+        if ($request->hasFile('upload')) {
+            $originName = $request->file('upload')->getClientOriginalName();
+            $fileName = pathinfo($originName, PATHINFO_FILENAME);
+            $extension = $request->file('upload')->getClientOriginalExtension();
+            $fileName = $fileName . '_' . time() . '.' . $extension;
+
+            $request->file('upload')->move(public_path('media'), $fileName);
+
+            $url = asset('media/' . $fileName);
+            return response()->json(['fileName' => $fileName, 'uploaded'=> 1, 'url' => $url]);
+
+
+        }
+   }
 }

@@ -40,6 +40,7 @@ Route::get('/allNews', 'NewsController@allNews')->name('allNews.news');
 // category controller
 Route::get('/category/{news_id}', 'NewsCategory@index');
 Route::post('/category/{news_id}', 'NewsCategory@store');
+Route::post('images/upload', 'NewsCategory@upload')->name('ckeditor.upload');
 
 /* ===== Frontend End =========== */
 
