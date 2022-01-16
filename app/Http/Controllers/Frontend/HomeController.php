@@ -17,7 +17,8 @@ class HomeController extends Controller
 
    public function news()
    {
-      $latest_news = News::where('category', 'Latest News')->where('status', 1)->orderby('created_at', 'desc')->take(4)->get();
+    //   $latest_news = News::where('category', 'Latest News')->where('status', 1)->orderby('created_at', 'desc')->take(4)->get();
+      $latest_news = News::where('status', 1)->orderby('created_at', 'desc')->take(4)->get();
       return View::make('frontend.index', compact('latest_news'));
    }
 
