@@ -17,6 +17,12 @@
             <span id="error_description" class="has-error"></span>
         </div>
         <div class="clearfix"></div>
+        <div class="form-group col-md-12 col-sm-12">
+            <label for=""> Content </label>
+            <textarea name="editor1"></textarea>
+            <span id="error_description" class="has-error"></span>
+        </div>
+        <div class="clearfix"></div>
         <div class="form-group col-md-12">
             <button type="submit" class="btn btn-success button-submit"
                     data-loading-text="Loading..."><span class="fa fa-save fa-fw"></span> Save
@@ -27,6 +33,10 @@
         </div>
         <div class="clearfix"></div>
     </form>
+    <script src="https://cdn.ckeditor.com/4.17.1/standard/ckeditor.js"></script>
+    <script>
+        CKEDITOR.replace( 'editor1' );
+    </script>
 @stop
 
 

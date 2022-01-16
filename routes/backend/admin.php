@@ -38,8 +38,8 @@ Route::get('/allNews', 'NewsController@allNews')->name('allNews.news');
 
 
 // category controller
-Route::resource('category', 'NewsCategory');
-// Route::get('/allNews', 'NewsController@allNews')->name('allNews.news');
+Route::get('/admin/category/{news_id}', 'NewsController@index');
+Route::post('/admin/category/{news_id}', 'NewsController@store');
 
 /* ===== Frontend End =========== */
 

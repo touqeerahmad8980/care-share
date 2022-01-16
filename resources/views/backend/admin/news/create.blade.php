@@ -41,11 +41,6 @@
         </script>
         <span id="error_photo" class="has-error"></span>
     </div>
-    <div class="form-group col-md-12">
-        <a href="/admin/category" class="btn btn-success button-submit"
-                data-loading-text="Loading..."><span class="fa fa-plus fa-fw"></span> Add Category
-        </a>
-    </div>
     <div class="clearfix"></div>
     <div class="form-group col-md-12">
         <button type="submit" class="btn btn-success button-submit"
