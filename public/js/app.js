@@ -6703,7 +6703,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, ".blog_listing_page .banner{\n    background-color: #0e1d2c;\n    padding: 60px 0px;\n}\n\n.blog_listing_page .banner .banner_heading{\n    font-size: 45px;\n    color: #fff;\n    font-weight: 700;\n}\n\n.blog_listing_page .listing_section{\n    padding: 100px 0;\n}\n\n.blog_listing_page .listing_section .listing_wrap .single_blog{\n    margin-bottom: 55px;\n}\n\n.blog_listing_page .listing_section .listing_wrap .single_blog .blog_img{\n    width: 100%;\n    max-height: 225px;\n    min-height: 225px;\n    border-radius: 10px;\n    transition: all .3s;\n}\n\n.blog_listing_page .listing_section .listing_wrap .single_blog .blog_img:hover{\n    opacity: 0.8;\n}\n\n.blog_listing_page .listing_section .listing_wrap .single_blog h3{\n    font-size: 24px;\n    color: #0e1d2c;\n    font-weight: 600;\n    margin: 25px 0 15px;\n    transition: all .3s;\n}\n\n.blog_listing_page .listing_section .listing_wrap .single_blog h3:hover{\n    color: #51c185;\n}\n\n.blog_listing_page .listing_section .listing_wrap .single_blog .date{\n    font-size: 14px;\n    color: #878787;\n}\n\n.blog_listing_page .listing_section .listing_wrap .single_blog .desc{\n    font-size: 16px;\n    color: #3e5061;\n    line-height: 1.75;\n}\n\n.blog_listing_page .listing_section .listing_wrap .single_blog .desc a{\n    color: #51c185;\n    font-weight: 600;\n    font-size: 15px;\n}\n\n.hr_line{\n    height: 1px;\n    width: 100%;\n    background-color: #cbcbcb;\n}\n\n.blog_listing_page .pagination a{\n    color: #51c185;\n    border-radius: 50% !important;\n    width: 40px;\n    height: 40px;\n    text-align: center;\n    padding: 8px 10px;\n    margin-right: 5px;\n}\n\n.blog_listing_page  a:hover{\n    color: #eb5757 !important;\n}\n\n@media (max-width:800px) {\n    .blog_listing_page{\n        padding: 40px 0;\n    }\n    .blog_listing_page .listing_section .listing_wrap .single_blog{\n        margin-bottom: 35px;\n    }\n}\n", ""]);
+exports.push([module.i, ".blog_listing_page .banner{\n    background-color: #0e1d2c;\n    padding: 60px 0px;\n}\n\n.blog_listing_page .banner .banner_heading{\n    font-size: 45px;\n    color: #fff;\n    font-weight: 700;\n}\n\n.blog_listing_page .listing_section{\n    padding: 100px 0;\n}\n\n.blog_listing_page .listing_section .listing_wrap .single_blog{\n    margin-bottom: 55px;\n}\n\n.blog_listing_page .listing_section .listing_wrap .single_blog .blog_img{\n    display: inline-block;\n    max-height: 225px;\n    min-height: 225px;\n    border-radius: 10px;\n    overflow: hidden;\n}\n\n.blog_listing_page .listing_section .listing_wrap .single_blog .blog_img img{\n    width: 100%;\n    transition: all .3s;\n}\n\n.blog_listing_page .listing_section .listing_wrap .single_blog .blog_img:hover{\n    opacity: 0.8;\n}\n\n.blog_listing_page .listing_section .listing_wrap .single_blog h3{\n    font-size: 24px;\n    color: #0e1d2c;\n    font-weight: 600;\n    margin: 25px 0 15px;\n    transition: all .3s;\n}\n\n.blog_listing_page .listing_section .listing_wrap .single_blog h3:hover{\n    color: #51c185;\n}\n\n.blog_listing_page .listing_section .listing_wrap .single_blog .date{\n    font-size: 14px;\n    color: #878787;\n}\n\n.blog_listing_page .listing_section .listing_wrap .single_blog .desc{\n    font-size: 16px;\n    color: #3e5061;\n    line-height: 1.75;\n}\n\n.blog_listing_page .listing_section .listing_wrap .single_blog .desc a{\n    color: #51c185;\n    font-weight: 600;\n    font-size: 15px;\n}\n\n.hr_line{\n    height: 1px;\n    width: 100%;\n    background-color: #cbcbcb;\n}\n\n.blog_listing_page .pagination a{\n    color: #51c185;\n    border-radius: 50% !important;\n    width: 40px;\n    height: 40px;\n    text-align: center;\n    padding: 8px 10px;\n    margin-right: 5px;\n}\n\n.blog_listing_page  a:hover{\n    color: #eb5757 !important;\n}\n\n@media (max-width:800px) {\n    .blog_listing_page{\n        padding: 40px 0;\n    }\n    .blog_listing_page .listing_section .listing_wrap .single_blog{\n        margin-bottom: 35px;\n    }\n}\n", ""]);
 
 // exports
 
@@ -61627,7 +61627,7 @@ if (false) {} else {
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext */
+/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext, BrowserRouter, HashRouter, Link, NavLink */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -71926,6 +71926,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Header_css__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./Header.css */ "./resources/js/components/common/Header.css");
 /* harmony import */ var _Header_css__WEBPACK_IMPORTED_MODULE_21___default = /*#__PURE__*/__webpack_require__.n(_Header_css__WEBPACK_IMPORTED_MODULE_21__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
+
+function _iterableToArrayLimit(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
  // import {Link} from 'react-router-dom'
 
 
@@ -71952,6 +71960,26 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var Header = function Header() {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])([]),
+      _useState2 = _slicedToArray(_useState, 2),
+      cancerBlogs = _useState2[0],
+      setCancerBlogs = _useState2[1];
+
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
+    fetchPosts();
+  }, []);
+
+  var fetchPosts = function fetchPosts() {
+    axios.get('/api/blogCancer', {// params: {
+      //     category: this.props.category, limit: this.props.limit
+      // }
+    }).then(function (response) {
+      setCancerBlogs(response.data.result);
+    })["catch"](function (error) {
+      console.log(error);
+    });
+  };
+
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "hero-anime"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -72006,12 +72034,14 @@ var Header = function Header() {
     src: _assets_images_chervon_down_svg__WEBPACK_IMPORTED_MODULE_2___default.a
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "dropdown-menu cancer-dropdown"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "dropdown-item",
-    href: "#"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_cancer_category_icons_breast_cancer_svg__WEBPACK_IMPORTED_MODULE_3___default.a
-  }), " Breast Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, cancerBlogs.length > 0 && cancerBlogs.map(function (blog) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      className: "dropdown-item",
+      href: "#"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: _assets_images_cancer_category_icons_breast_cancer_svg__WEBPACK_IMPORTED_MODULE_3___default.a
+    }), " ", blog.title);
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "dropdown-item",
     href: "#"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -72159,29 +72189,67 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_images_blog_image_jpg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_images_blog_image_jpg__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _BlogDetailCategory_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./BlogDetailCategory.css */ "./resources/js/components/pages/blog-detail-category/BlogDetailCategory.css");
 /* harmony import */ var _BlogDetailCategory_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_BlogDetailCategory_css__WEBPACK_IMPORTED_MODULE_3__);
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
+
+function _iterableToArrayLimit(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 
 
 
-var BlogDetailCategory = function BlogDetailCategory() {
+
+var BlogDetailCategory = function BlogDetailCategory(props) {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])([]),
+      _useState2 = _slicedToArray(_useState, 2),
+      post = _useState2[0],
+      setPost = _useState2[1];
+
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(),
+      _useState4 = _slicedToArray(_useState3, 2),
+      categories = _useState4[0],
+      setCategories = _useState4[1];
+
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
+    fetchPost();
+  }, []);
+
+  var fetchPost = function fetchPost() {
+    var blogId = props.history.location.pathname.split("/").pop();
+    var catId = props.history.location.pathname.split("/")[2];
+    axios.get('/api/blog/detail/' + blogId, {// params: {
+      //     category: this.props.category, limit: this.props.limit
+      // }
+    }).then(function (response) {
+      setPost(response.data.result.detail);
+      setCategories(response.data.result.categories.find(function (val) {
+        return val.id == catId;
+      }));
+    })["catch"](function (error) {
+      console.log(error);
+    });
+  };
+
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "blog_detail_category_page"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+  }, categories && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     className: "detail_section"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     className: "heading"
-  }, "Are Clinical Trials The Right Option For You ?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, categories.title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "date"
-  }, "December 17, 2021"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, categories.created_at), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "desc"
-  }, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_blog_image_jpg__WEBPACK_IMPORTED_MODULE_2___default.a
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Other common symptoms:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Loss of appetite"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Weight loss"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Itchy skin"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Fever"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Dark urine"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Greasy or light-colored stools")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "desc"
-  }, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."))));
+  }, categories.description), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    dangerouslySetInnerHTML: {
+      __html: categories.content
+    }
+  }))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (BlogDetailCategory);
@@ -72234,43 +72302,78 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_images_blog_image_jpg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_images_blog_image_jpg__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _BlogDetail_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./BlogDetail.css */ "./resources/js/components/pages/blog-detail/BlogDetail.css");
 /* harmony import */ var _BlogDetail_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_BlogDetail_css__WEBPACK_IMPORTED_MODULE_3__);
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
+
+function _iterableToArrayLimit(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 
 
 
-var BlogDetail = function BlogDetail() {
+
+var BlogDetail = function BlogDetail(props) {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])([]),
+      _useState2 = _slicedToArray(_useState, 2),
+      post = _useState2[0],
+      setPost = _useState2[1];
+
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])([]),
+      _useState4 = _slicedToArray(_useState3, 2),
+      categories = _useState4[0],
+      setCategories = _useState4[1];
+
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
+    fetchPost();
+  }, []);
+
+  var fetchPost = function fetchPost() {
+    var blogId = props.history.location.pathname.split("/").pop();
+    axios.get('/api/blog/detail/' + blogId, {// params: {
+      //     category: this.props.category, limit: this.props.limit
+      // }
+    }).then(function (response) {
+      setPost(response.data.result.detail);
+      setCategories(response.data.result.categories);
+    })["catch"](function (error) {
+      console.log(error);
+    });
+  };
+
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "blog_detail_page"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+  }, post && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     className: "banner"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container text-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "banner_heading"
-  }, "Are Clinical Trials The Right Option For You ?"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+  }, post.title))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     className: "detail_section"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     className: "heading"
-  }, "Are Clinical Trials The Right Option For You ?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, post.title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "date"
-  }, "December 17, 2021"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, post.created_at), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "desc"
-  }, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, post.description), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "categories_listing row"
-  }, Array(15).fill("").map(function () {
+  }, categories.length > 0 && categories.map(function (cat) {
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "col-sm-4"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "single_category"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
-      to: "/blog/1/1"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Diagnosis of pancreatic cancer")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Doctors employ a variety of physical tests to diagnose pancreatic cancer and other related disorders. They look at the eyes, the skin, and the... ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
-      to: "/blog/1/1"
+      to: "/blog/".concat(cat.id, "/").concat(post.id)
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, cat.title)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, cat.description, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
+      to: "/blog/".concat(cat.id, "/").concat(post.id)
     }, "Read More"))));
-  })))));
+  }))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (BlogDetail);
@@ -72364,9 +72467,9 @@ var BlogListing = function BlogListing() {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "single_blog"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
+        className: "blog_img",
         to: "/blog/" + data.id
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        className: "blog_img",
         src: '../' + data.file_path
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
         to: "/blog/" + data.id
@@ -72376,7 +72479,7 @@ var BlogListing = function BlogListing() {
         className: "desc"
       }, data.description, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
         to: "/blog/" + data.id
-      }, "Read More"))));
+      }, " Read More"))));
     });
   };
 
@@ -72394,40 +72497,7 @@ var BlogListing = function BlogListing() {
     className: "container"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "listing_wrap row"
-  }, renderPosts()), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "hr_line mb-4"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    "class": "pagination"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    "class": "page-item"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    "class": "page-link",
-    href: "#"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    className: "fa fa-arrow-left"
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    "class": "page-item"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    "class": "page-link",
-    href: "#"
-  }, "1")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    "class": "page-item"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    "class": "page-link",
-    href: "#"
-  }, "2")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    "class": "page-item"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    "class": "page-link",
-    href: "#"
-  }, "3")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    "class": "page-item"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    "class": "page-link",
-    href: "#"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    className: "fa fa-arrow-right"
-  })))))));
+  }, renderPosts()))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (BlogListing);

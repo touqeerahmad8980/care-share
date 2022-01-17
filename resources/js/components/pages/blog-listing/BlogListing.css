@@ -18,10 +18,15 @@
 }
 
 .blog_listing_page .listing_section .listing_wrap .single_blog .blog_img{
-    width: 100%;
+    display: inline-block;
     max-height: 225px;
     min-height: 225px;
     border-radius: 10px;
+    overflow: hidden;
+}
+
+.blog_listing_page .listing_section .listing_wrap .single_blog .blog_img img{
+    width: 100%;
     transition: all .3s;
 }
 

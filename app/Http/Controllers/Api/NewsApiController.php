@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
+use App\Models\Category;
 use App\Models\News;
 use Illuminate\Http\Request;
 use DB;
@@ -29,7 +30,28 @@ class NewsApiController extends Controller
     //   $category = $request->input('category');
     //   $limit = $request->input('limit');
     //   $pagData = DB::table('news')->where('category', $category)->limit($limit)->get();
-      $pagData = DB::table('news')->get();
+      $pagData = News::where('category','all')->get();
       return response()->json(['result' => $pagData]);
+   }
+
+   public function blogCancer(Request $request)
+   {
+    //   $category = $request->input('category');
+    //   $limit = $request->input('limit');
+    //   $pagData = DB::table('news')->where('category', $category)->limit($limit)->get();
+      $pagData = News::where('category','cancer')->get();
+      return response()->json(['result' => $pagData]);
+   }
+
+   public function blogDetail(Request $request, $blog_id)
+   {
+    //   $category = $request->input('category');
+    //   $limit = $request->input('limit');
+    //   $pagData = DB::table('news')->where('category', $category)->limit($limit)->get();
+      $blogDetail = News::where('id', $blog_id)->get();
+      $categories = Category::where('news_id', $blog_id)->get();
+      $result['detail'] = $blogDetail[0];
+      $result['categories'] = $categories;
+      return response()->json(['result' => $result ]);
    }
 }

@@ -50,6 +50,29 @@
         </script>
         <span id="error_photo" class="has-error"></span>
     </div>
+    <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>Category Title</th>
+            <th>Description</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+            @foreach($category as $cat)
+                <tr>
+                    <td>{{$cat->title}}</td>
+                    <td>{{$cat->description}}</td>
+                    <td>
+                        <a data-toggle='tooltip' class='btn btn-primary btn-xs' href="category/edit/{{$cat->id}}" title='Edit'> <i
+                                class='fa fa-pencil-square-o'></i></a>
+                        <a data-toggle='tooltip' class='btn btn-danger btn-xs delete cat_delete' id='{{$cat->id}}' title='Delete'> <i
+                                class='fa fa-trash'></i></a>
+                    </td>
+                </tr>
+            @endforeach
+        </tbody>
+    </table>
     <div class="form-group col-md-12">
         <a href="/admin/category/{{$news->id}}" class="btn btn-success button-submit"
                 data-loading-text="Loading..."><span class="fa fa-plus fa-fw"></span> Add Category
@@ -134,4 +157,49 @@
         });                    // <- end '.validate()'
 
     });
+
+    $(document).ready(function () {
+        $(document).on("click", ".cat_delete", function () {
+            var CSRF_TOKEN = $('meta[name="csrf-token"]').attr('content');
+            var id = $(this).attr('id');
+            setTimeout(() => {
+                window.location.reload(true);
+            }, 3000);
+            swal({
+                title: "Are you sure?",
+                text: "Deleted data cannot be recovered!!",
+                type: "warning",
+                showCancelButton: true,
+                closeOnConfirm: false,
+                showLoaderOnCosnfirm: true,
+                confirmButtonClass: "btn-danger",
+                confirmButtonText: "Delete",
+                cancelButtonText: "Cancel"
+            }, function () {
+                $.ajax({
+                    url: 'category/' + id,
+                    data: {"_token": CSRF_TOKEN},
+                    type: 'DELETE',
+                    dataType: 'json',
+                    success: function (data) {
+
+                        if (data.type === 'success') {
+
+                            swal("Done!", "Successfully Deleted", "success");
+                            reload_table();
+
+                        } else if (data.type === 'danger') {
+
+                            swal("Error deleting!", "Try again", "error");
+
+                        }
+                    },
+                    error: function (xhr, ajaxOptions, thrownError) {
+                        swal("Error deleting!", "Try again", "error");
+                    }
+                });
+            });
+        });
+    });
+
 </script>

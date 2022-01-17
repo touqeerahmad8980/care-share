@@ -39,7 +39,10 @@ Route::get('/allNews', 'NewsController@allNews')->name('allNews.news');
 
 // category controller
 Route::get('/category/{news_id}', 'NewsCategory@index');
+Route::get('/category/edit/{news_id}', 'NewsCategory@edit');
+Route::post('/category/edit/{cat_id}', 'NewsCategory@update');
 Route::post('/category/{news_id}', 'NewsCategory@store');
+Route::delete('/category/{cat_id}', 'NewsCategory@destroy');
 Route::post('images/upload', 'NewsCategory@upload')->name('ckeditor.upload');
 
 /* ===== Frontend End =========== */

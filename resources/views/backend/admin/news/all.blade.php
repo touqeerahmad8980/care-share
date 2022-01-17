@@ -142,6 +142,9 @@
             $("#manage_all").on("click", ".delete", function () {
                 var CSRF_TOKEN = $('meta[name="csrf-token"]').attr('content');
                 var id = $(this).attr('id');
+                setTimeout(() => {
+                    window.location.reload(true);
+                }, 3000);
                 swal({
                     title: "Are you sure?",
                     text: "Deleted data cannot be recovered!!",

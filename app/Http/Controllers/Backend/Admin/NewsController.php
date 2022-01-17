@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Backend\Admin;
 
 use App\Models\News;
 use App\Http\Controllers\Controller;
+use App\Models\Category;
 use DB;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Input;
@@ -169,10 +170,12 @@ class NewsController extends Controller
     */
    public function edit(Request $request, News $news)
    {
+        $category = Category::where("news_id", $news->id)->orderby('created_at', 'desc')->get();
+
       if ($request->ajax()) {
          $haspermision = auth()->user()->can('notice-edit');
          if ($haspermision) {
-            $view = View::make('backend.admin.news.edit', compact('news'))->render();
+            $view = View::make('backend.admin.news.edit', compact('news', 'category'))->render();
             return response()->json(['html' => $view]);
          } else {
             abort(403, 'Sorry, you are not authorized to access the page');

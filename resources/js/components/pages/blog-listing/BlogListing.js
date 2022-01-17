@@ -32,10 +32,10 @@ const BlogListing = () => {
         return posts.map((data, index) => (
             <div className='col-sm-4'>
                 <div className='single_blog'>
-                        <NavLink to={"/blog/" + data.id}><img className='blog_img' src={'../' + data.file_path} /></NavLink>
+                        <NavLink className="blog_img" to={"/blog/" + data.id}><img src={'../' + data.file_path} /></NavLink>
                         <NavLink to={"/blog/" + data.id}><h3>{data.title}</h3></NavLink>
                         <p className='date'>{data.created_at}</p>
-                        <p className='desc'>{data.description}<NavLink to={"/blog/" + data.id}>Read More</NavLink></p>
+                        <p className='desc'>{data.description}<NavLink to={"/blog/" + data.id}> Read More</NavLink></p>
                 </div>
             </div>
         ));
@@ -63,14 +63,14 @@ const BlogListing = () => {
                        ))} */}
                        {renderPosts()}
                    </div>
-                   <div className='hr_line mb-4'></div>
+                   {/* <div className='hr_line mb-4'></div>
                    <ul class="pagination">
                         <li class="page-item"><a class="page-link" href="#"><i className='fa fa-arrow-left'></i></a></li>
                         <li class="page-item"><a class="page-link" href="#">1</a></li>
                         <li class="page-item"><a class="page-link" href="#">2</a></li>
                         <li class="page-item"><a class="page-link" href="#">3</a></li>
                         <li class="page-item"><a class="page-link" href="#"><i className='fa fa-arrow-right'></i></a></li>
-                    </ul>
+                    </ul> */}
                </div>
            </section>
         </div>

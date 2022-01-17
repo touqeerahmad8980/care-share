@@ -30,6 +30,19 @@ class NewsCategory extends Controller
       ->with('news_id', $news_id);
    }
 
+       /**
+    * Display a listing of the resource.
+    *
+    * @return \Illuminate\Http\Response
+    */
+   public function edit($cat_id)
+   {
+    $category = Category::where("id", $cat_id)->get();
+
+      return view('backend.admin.category.edit')
+      ->with('category', $category[0]);
+   }
+
     /**
      * Store a newly created resource in storage.
      *
@@ -59,6 +72,25 @@ class NewsCategory extends Controller
         // store tags
         return response()->json(['data' => $category, 'message' => 'Created successfully'], 201);
     }
+
+       /**
+    * Update the specified resource in storage.
+    *
+    * @param  \Illuminate\Http\Request $request
+    * @param  \App\Models\News $news
+    * @return \Illuminate\Http\Response
+    */
+   public function update(Request $request, $cat_id)
+   {
+      if ($request->ajax()) {
+        $blog = Category::findOrFail($cat_id);
+        $blog->title = $request->input('title');
+        $blog->description = $request->input('description');
+        $blog->content = $request->input('content');
+        $blog->save(); //
+        return response()->json(['type' => 'success', 'message' => "Successfully Updated"]);
+      }
+   }
 
     /**
      * success response method.
@@ -97,4 +129,20 @@ class NewsCategory extends Controller
 
         }
    }
+
+    /**
+    * Remove the specified resource from storage.
+    *
+    * @param  \App\Models\News $news
+    * @return \Illuminate\Http\Response
+    */
+    public function destroy(Request $request, $cat_id)
+    {
+       if ($request->ajax()) {
+            Category::where("id", $cat_id)->delete();
+            return response()->json(['type' => 'success', 'message' => 'Successfully Deleted']);
+       } else {
+          return response()->json(['status' => 'false', 'message' => "Access only ajax request"]);
+       }
+    }
 }
