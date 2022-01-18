@@ -155,6 +155,7 @@
     background-color: transparent !important;
 }
 .dropdown-item:hover,
+.dropdown-item.active,
 .dropdown-item:focus {
 	color: #ff308b;
 }

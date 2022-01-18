@@ -6646,7 +6646,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n/* header css */\n.start-header {\n    box-shadow: 0 0px 20px 0 rgb(138 155 165 / 15%);\n    background-color: #fff;\n}\n.start-header.scroll-on {\n\tbox-shadow: 0 5px 10px 0 rgba(138, 155, 165, 0.15);\n\tpadding: 10px 0;\n\ttransition : all 0.3s ease-out;\n}\n.start-header.scroll-on .navbar-brand img{\n\theight: 24px;\n\ttransition : all 0.3s ease-out;\n}\n.navigation-wrap{\n\tposition: fixed;\n\twidth: 100%;\n\ttop: 0;\n\tleft: 0;\n\tz-index: 1000;\n\ttransition : all 0.3s ease-out;\n}\n.navbar{\n\tpadding: 0;\n}\n.navbar-brand{\n    height: auto;\n}\n.navbar-brand img{\n\theight: 75px;\n\ttransition : all 0.3s ease-out;\n}\n.navbar-toggler {\n\tfloat: right;\n\tborder: none;\n\tpadding-right: 0;\n}\n.navbar-toggler:active,\n.navbar-toggler:focus {\n\toutline: none;\n}\n.navbar-light .navbar-toggler-icon {\n\twidth: 24px;\n\theight: 17px;\n\tbackground-image: none;\n\tposition: relative;\n\tborder-bottom: 1px solid #000;\n    transition: all 300ms linear;\n}\n.navbar-light .navbar-toggler-icon:after,\n.navbar-light .navbar-toggler-icon:before{\n\twidth: 24px;\n\tposition: absolute;\n\theight: 1px;\n\tbackground-color: #000;\n\ttop: 0;\n\tleft: 0;\n\tcontent: '';\n\tz-index: 2;\n    transition: all 300ms linear;\n}\n.navbar-light .navbar-toggler-icon:after{\n\ttop: 8px;\n}\n.navbar-toggler[aria-expanded=\"true\"] .navbar-toggler-icon:after {\n\t-webkit-transform: rotate(45deg);\n\t        transform: rotate(45deg);\n}\n.navbar-toggler[aria-expanded=\"true\"] .navbar-toggler-icon:before {\n\t-webkit-transform: translateY(8px) rotate(-45deg);\n\t        transform: translateY(8px) rotate(-45deg);\n}\n.navbar-toggler[aria-expanded=\"true\"] .navbar-toggler-icon {\n\tborder-color: transparent;\n}\n.nav-link{\n\tcolor: #212121 !important;\n    transition: all 200ms linear;\n}\n.nav-item:hover .nav-link{\n\tcolor: #eb5757 !important;\n}\n.nav-item.active .nav-link{\n\tcolor: #eb5757 !important;\n}\n.nav-link {\n\tposition: relative;\n\tpadding: 5px 0 !important;\n\tdisplay: inline-block;\n}\n.nav-item:after{\n\tposition: absolute;\n\tbottom: -5px;\n\tleft: 0;\n\twidth: 100%;\n\theight: 2px;\n\tcontent: '';\n\tbackground-color: #eb5757;\n\topacity: 0;\n    transition: all 200ms linear;\n}\n.nav-item:hover:after{\n\tbottom: 0;\n\topacity: 1;\n}\n.nav-item.active:hover:after{\n\topacity: 0;\n}\n.nav-item{\n\tposition: relative;\n    transition: all 200ms linear;\n}\n\n.nav-item .dropdown-menu {\n    -webkit-transform: translate3d(0, 10px, 0);\n            transform: translate3d(0, 10px, 0);\n    visibility: hidden;\n    opacity: 0;\n\tmax-height: 0;\n    display: block;\n\tpadding: 0;\n\tmargin: 0;\n    transition: all 200ms linear;\n}\n.nav-item.show .dropdown-menu {\n    opacity: 1;\n    visibility: visible;\n\tmax-height: 999px;\n    -webkit-transform: translate3d(0, 0px, 0);\n            transform: translate3d(0, 0px, 0);\n}\n.dropdown-menu {\n\tpadding: 10px!important;\n\tmargin: 0;\n\tfont-size: 13px;\n\tletter-spacing: 1px;\n\tcolor: #212121;\n\tbackground-color: #fcfaff;\n\tborder: none;\n\tborder-radius: 3px;\n\tbox-shadow: 0px 5px 24px 0  rgba(138, 155, 165, 0.15);\n    transition: all 200ms linear;\n    border-radius: 5px !important;\n    padding-top: 20px !important;\n}\n.dropdown-toggle::after {\n\tdisplay: none;\n}\n\n.dropdown-item {\n\tpadding: 3px 15px;\n\tcolor: #212121;\n\tborder-radius: 2px;\n    transition: all 200ms linear;\n    background-color: transparent !important;\n}\n.dropdown-item:hover,\n.dropdown-item:focus {\n\tcolor: #ff308b;\n}\n\n\n@media (min-width: 767px) {\n    .hero-anime{\n        height: 97px;\n    }\n    #navbarSupportedContent{\n        display: flex !important;\n        justify-content: flex-end !important;\n    }\n    .cancer-dropdown{\n        flex-wrap: wrap;\n        min-width: 100%;\n        width: 850px;\n        display: flex !important;\n        left: -340px;\n        background-color: #fff;\n        margin-top: 32px !important;\n    }\n    .cancer-dropdown .dropdown-item{\n        max-width: 207px;\n        margin-bottom: 10px;\n        padding-right: 0;\n    }\n}\n\n@media (max-width: 767px) {\n    .hero-anime{\n        height: 97px;\n    }\n    .navbar::after,\n    .navbar::before{\n        display: none;\n    }\n    .nav-item{\n        width: 100%;\n        padding: 0 !important;\n    }\n\t.nav-item:after{\n\t\tdisplay: none;\n\t}\n    .cancer-dropdown{\n        display: flex !important;\n        flex-wrap: wrap;\n        justify-content: space-between;\n    }\n    .cancer-dropdown.show{\n        /* max-height: 240px !important;\n        overflow: scroll; */\n    }\n    .cancer-dropdown .dropdown-item{\n        width: 48%;\n        padding: 5px 0;\n        font-size: 12px;\n        white-space: pre-wrap;\n        position: relative;\n        padding-left: 30px;\n    }\n    .cancer-dropdown .dropdown-item img{\n        width: 24px;\n        height: 24px;\n        position: absolute;\n        left: 0;\n    }\n\t/* .nav-item-dopwdown::before {\n\t\tposition: absolute;\n\t\tdisplay: block;\n\t\ttop: 15px;\n\t\tleft: 0;\n\t\twidth: 11px;\n\t\theight: 1px;\n\t\tcontent: \"\";\n\t\tborder: none;\n\t\tbackground-color: #000;\n\t\tvertical-align: 0;\n\t}\n\t.dropdown-toggle::after {\n\t\tposition: absolute;\n\t\tdisplay: block;\n\t\ttop: 10px;\n\t\tleft: -14px;\n\t\twidth: 1px;\n\t\theight: 11px;\n\t\tcontent: \"\";\n\t\tborder: none;\n\t\tbackground-color: #000;\n\t\tvertical-align: 0;\n\t\ttransition: all 200ms linear;\n\t} */\n\t.dropdown-toggle[aria-expanded=\"true\"]::after{\n\t\t-webkit-transform: rotate(90deg);\n\t\t        transform: rotate(90deg);\n\t\topacity: 0;\n\t}\n\t.dropdown-menu {\n\t\tpadding: 0 !important;\n\t\tbackground-color: transparent;\n\t\tbox-shadow: none;\n\t\ttransition: all 200ms linear;\n\t}\n\t.dropdown-toggle[aria-expanded=\"true\"] + .dropdown-menu {\n\t\tmargin-top: 10px !important;\n\t\tmargin-bottom: 20px !important;\n\t}\n    .signup-btn-wrap{\n        margin-top: 10px;\n    }\n}\n\n.logo {\n\tposition: absolute;\n\tbottom: 30px;\n\tright: 30px;\n\tdisplay: block;\n\tz-index: 100;\n\ttransition: all 250ms linear;\n}\n.logo img {\n\theight: 26px;\n\twidth: auto;\n\tdisplay: block;\n  -webkit-filter: brightness(10%);\n          filter: brightness(10%);\n\ttransition: all 250ms linear;\n}\n\n.signup-btn-wrap::after{\n    display: none;\n}\n\n.signup-btn-wrap button{\n    background-color: #51c185;\n    border: none;\n    padding: 8px 20px;\n    border-radius: 20px;\n    outline: none;\n}\n\n.signup-btn-wrap button:hover{\n    background-color: #eb5757;\n}\n", ""]);
+exports.push([module.i, "\n/* header css */\n.start-header {\n    box-shadow: 0 0px 20px 0 rgb(138 155 165 / 15%);\n    background-color: #fff;\n}\n.start-header.scroll-on {\n\tbox-shadow: 0 5px 10px 0 rgba(138, 155, 165, 0.15);\n\tpadding: 10px 0;\n\ttransition : all 0.3s ease-out;\n}\n.start-header.scroll-on .navbar-brand img{\n\theight: 24px;\n\ttransition : all 0.3s ease-out;\n}\n.navigation-wrap{\n\tposition: fixed;\n\twidth: 100%;\n\ttop: 0;\n\tleft: 0;\n\tz-index: 1000;\n\ttransition : all 0.3s ease-out;\n}\n.navbar{\n\tpadding: 0;\n}\n.navbar-brand{\n    height: auto;\n}\n.navbar-brand img{\n\theight: 75px;\n\ttransition : all 0.3s ease-out;\n}\n.navbar-toggler {\n\tfloat: right;\n\tborder: none;\n\tpadding-right: 0;\n}\n.navbar-toggler:active,\n.navbar-toggler:focus {\n\toutline: none;\n}\n.navbar-light .navbar-toggler-icon {\n\twidth: 24px;\n\theight: 17px;\n\tbackground-image: none;\n\tposition: relative;\n\tborder-bottom: 1px solid #000;\n    transition: all 300ms linear;\n}\n.navbar-light .navbar-toggler-icon:after,\n.navbar-light .navbar-toggler-icon:before{\n\twidth: 24px;\n\tposition: absolute;\n\theight: 1px;\n\tbackground-color: #000;\n\ttop: 0;\n\tleft: 0;\n\tcontent: '';\n\tz-index: 2;\n    transition: all 300ms linear;\n}\n.navbar-light .navbar-toggler-icon:after{\n\ttop: 8px;\n}\n.navbar-toggler[aria-expanded=\"true\"] .navbar-toggler-icon:after {\n\t-webkit-transform: rotate(45deg);\n\t        transform: rotate(45deg);\n}\n.navbar-toggler[aria-expanded=\"true\"] .navbar-toggler-icon:before {\n\t-webkit-transform: translateY(8px) rotate(-45deg);\n\t        transform: translateY(8px) rotate(-45deg);\n}\n.navbar-toggler[aria-expanded=\"true\"] .navbar-toggler-icon {\n\tborder-color: transparent;\n}\n.nav-link{\n\tcolor: #212121 !important;\n    transition: all 200ms linear;\n}\n.nav-item:hover .nav-link{\n\tcolor: #eb5757 !important;\n}\n.nav-item.active .nav-link{\n\tcolor: #eb5757 !important;\n}\n.nav-link {\n\tposition: relative;\n\tpadding: 5px 0 !important;\n\tdisplay: inline-block;\n}\n.nav-item:after{\n\tposition: absolute;\n\tbottom: -5px;\n\tleft: 0;\n\twidth: 100%;\n\theight: 2px;\n\tcontent: '';\n\tbackground-color: #eb5757;\n\topacity: 0;\n    transition: all 200ms linear;\n}\n.nav-item:hover:after{\n\tbottom: 0;\n\topacity: 1;\n}\n.nav-item.active:hover:after{\n\topacity: 0;\n}\n.nav-item{\n\tposition: relative;\n    transition: all 200ms linear;\n}\n\n.nav-item .dropdown-menu {\n    -webkit-transform: translate3d(0, 10px, 0);\n            transform: translate3d(0, 10px, 0);\n    visibility: hidden;\n    opacity: 0;\n\tmax-height: 0;\n    display: block;\n\tpadding: 0;\n\tmargin: 0;\n    transition: all 200ms linear;\n}\n.nav-item.show .dropdown-menu {\n    opacity: 1;\n    visibility: visible;\n\tmax-height: 999px;\n    -webkit-transform: translate3d(0, 0px, 0);\n            transform: translate3d(0, 0px, 0);\n}\n.dropdown-menu {\n\tpadding: 10px!important;\n\tmargin: 0;\n\tfont-size: 13px;\n\tletter-spacing: 1px;\n\tcolor: #212121;\n\tbackground-color: #fcfaff;\n\tborder: none;\n\tborder-radius: 3px;\n\tbox-shadow: 0px 5px 24px 0  rgba(138, 155, 165, 0.15);\n    transition: all 200ms linear;\n    border-radius: 5px !important;\n    padding-top: 20px !important;\n}\n.dropdown-toggle::after {\n\tdisplay: none;\n}\n\n.dropdown-item {\n\tpadding: 3px 15px;\n\tcolor: #212121;\n\tborder-radius: 2px;\n    transition: all 200ms linear;\n    background-color: transparent !important;\n}\n.dropdown-item:hover,\n.dropdown-item.active,\n.dropdown-item:focus {\n\tcolor: #ff308b;\n}\n\n\n@media (min-width: 767px) {\n    .hero-anime{\n        height: 97px;\n    }\n    #navbarSupportedContent{\n        display: flex !important;\n        justify-content: flex-end !important;\n    }\n    .cancer-dropdown{\n        flex-wrap: wrap;\n        min-width: 100%;\n        width: 850px;\n        display: flex !important;\n        left: -340px;\n        background-color: #fff;\n        margin-top: 32px !important;\n    }\n    .cancer-dropdown .dropdown-item{\n        max-width: 207px;\n        margin-bottom: 10px;\n        padding-right: 0;\n    }\n}\n\n@media (max-width: 767px) {\n    .hero-anime{\n        height: 97px;\n    }\n    .navbar::after,\n    .navbar::before{\n        display: none;\n    }\n    .nav-item{\n        width: 100%;\n        padding: 0 !important;\n    }\n\t.nav-item:after{\n\t\tdisplay: none;\n\t}\n    .cancer-dropdown{\n        display: flex !important;\n        flex-wrap: wrap;\n        justify-content: space-between;\n    }\n    .cancer-dropdown.show{\n        /* max-height: 240px !important;\n        overflow: scroll; */\n    }\n    .cancer-dropdown .dropdown-item{\n        width: 48%;\n        padding: 5px 0;\n        font-size: 12px;\n        white-space: pre-wrap;\n        position: relative;\n        padding-left: 30px;\n    }\n    .cancer-dropdown .dropdown-item img{\n        width: 24px;\n        height: 24px;\n        position: absolute;\n        left: 0;\n    }\n\t/* .nav-item-dopwdown::before {\n\t\tposition: absolute;\n\t\tdisplay: block;\n\t\ttop: 15px;\n\t\tleft: 0;\n\t\twidth: 11px;\n\t\theight: 1px;\n\t\tcontent: \"\";\n\t\tborder: none;\n\t\tbackground-color: #000;\n\t\tvertical-align: 0;\n\t}\n\t.dropdown-toggle::after {\n\t\tposition: absolute;\n\t\tdisplay: block;\n\t\ttop: 10px;\n\t\tleft: -14px;\n\t\twidth: 1px;\n\t\theight: 11px;\n\t\tcontent: \"\";\n\t\tborder: none;\n\t\tbackground-color: #000;\n\t\tvertical-align: 0;\n\t\ttransition: all 200ms linear;\n\t} */\n\t.dropdown-toggle[aria-expanded=\"true\"]::after{\n\t\t-webkit-transform: rotate(90deg);\n\t\t        transform: rotate(90deg);\n\t\topacity: 0;\n\t}\n\t.dropdown-menu {\n\t\tpadding: 0 !important;\n\t\tbackground-color: transparent;\n\t\tbox-shadow: none;\n\t\ttransition: all 200ms linear;\n\t}\n\t.dropdown-toggle[aria-expanded=\"true\"] + .dropdown-menu {\n\t\tmargin-top: 10px !important;\n\t\tmargin-bottom: 20px !important;\n\t}\n    .signup-btn-wrap{\n        margin-top: 10px;\n    }\n}\n\n.logo {\n\tposition: absolute;\n\tbottom: 30px;\n\tright: 30px;\n\tdisplay: block;\n\tz-index: 100;\n\ttransition: all 250ms linear;\n}\n.logo img {\n\theight: 26px;\n\twidth: auto;\n\tdisplay: block;\n  -webkit-filter: brightness(10%);\n          filter: brightness(10%);\n\ttransition: all 250ms linear;\n}\n\n.signup-btn-wrap::after{\n    display: none;\n}\n\n.signup-btn-wrap button{\n    background-color: #51c185;\n    border: none;\n    padding: 8px 20px;\n    border-radius: 20px;\n    outline: none;\n}\n\n.signup-btn-wrap button:hover{\n    background-color: #eb5757;\n}\n", ""]);
 
 // exports
 
@@ -71965,6 +71965,26 @@ var Header = function Header() {
       cancerBlogs = _useState2[0],
       setCancerBlogs = _useState2[1];
 
+  var cancerIcons = {
+    "BreastCancer": _assets_images_cancer_category_icons_breast_cancer_svg__WEBPACK_IMPORTED_MODULE_3___default.a,
+    "OvarianCancer": _assets_images_cancer_category_icons_ovarian_cancer_svg__WEBPACK_IMPORTED_MODULE_4___default.a,
+    "ThroatCancer": _assets_images_cancer_category_icons_throat_cancer_svg__WEBPACK_IMPORTED_MODULE_5___default.a,
+    "LungCancer": _assets_images_cancer_category_icons_lung_cancer_svg__WEBPACK_IMPORTED_MODULE_6___default.a,
+    "PancreaticCancer": _assets_images_cancer_category_icons_pancreatic_cancer_svg__WEBPACK_IMPORTED_MODULE_7___default.a,
+    "HeadandNeckCancer": _assets_images_cancer_category_icons_head_and_neck_cancer_svg__WEBPACK_IMPORTED_MODULE_8___default.a,
+    "BoneCancer": _assets_images_cancer_category_icons_bone_cancer_svg__WEBPACK_IMPORTED_MODULE_9___default.a,
+    "BloodCancer": _assets_images_cancer_category_icons_blood_cancer_svg__WEBPACK_IMPORTED_MODULE_10___default.a,
+    "Coloncancer": _assets_images_cancer_category_icons_colon_cancer_svg__WEBPACK_IMPORTED_MODULE_11___default.a,
+    "LiverCancer": _assets_images_cancer_category_icons_liver_cancer_svg__WEBPACK_IMPORTED_MODULE_12___default.a,
+    "SkinCancer": _assets_images_cancer_category_icons_skin_cancer_svg__WEBPACK_IMPORTED_MODULE_13___default.a,
+    "BrainCancer": _assets_images_cancer_category_icons_brain_cancer_svg__WEBPACK_IMPORTED_MODULE_14___default.a,
+    "StomachCancer": _assets_images_cancer_category_icons_stomach_cancer_svg__WEBPACK_IMPORTED_MODULE_15___default.a,
+    "TesticularCancer": _assets_images_cancer_category_icons_testicular_cancer_svg__WEBPACK_IMPORTED_MODULE_16___default.a,
+    "ProstateCancer": _assets_images_cancer_category_icons_prostate_cancer_svg__WEBPACK_IMPORTED_MODULE_17___default.a,
+    "ThyroidCancer": _assets_images_cancer_category_icons_thyroid_cancer_svg__WEBPACK_IMPORTED_MODULE_18___default.a,
+    "BladderCancer": _assets_images_cancer_category_icons_bladder_cancer_svg__WEBPACK_IMPORTED_MODULE_19___default.a,
+    "GallbladderCancer": _assets_images_cancer_category_icons_gallbladder_cancer_svg__WEBPACK_IMPORTED_MODULE_20___default.a
+  };
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
     fetchPosts();
   }, []);
@@ -72035,98 +72055,13 @@ var Header = function Header() {
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "dropdown-menu cancer-dropdown"
   }, cancerBlogs.length > 0 && cancerBlogs.map(function (blog) {
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_22__["NavLink"], {
       className: "dropdown-item",
-      href: "#"
+      to: "/blog/".concat(blog.id)
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      src: _assets_images_cancer_category_icons_breast_cancer_svg__WEBPACK_IMPORTED_MODULE_3___default.a
+      src: cancerIcons[blog.title.replaceAll(" ", "")]
     }), " ", blog.title);
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "dropdown-item",
-    href: "#"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_cancer_category_icons_ovarian_cancer_svg__WEBPACK_IMPORTED_MODULE_4___default.a
-  }), " Ovarian Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "dropdown-item",
-    href: "#"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_cancer_category_icons_throat_cancer_svg__WEBPACK_IMPORTED_MODULE_5___default.a
-  }), " Throat Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "dropdown-item",
-    href: "#"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_cancer_category_icons_lung_cancer_svg__WEBPACK_IMPORTED_MODULE_6___default.a
-  }), " Lung Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "dropdown-item",
-    href: "#"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_cancer_category_icons_head_and_neck_cancer_svg__WEBPACK_IMPORTED_MODULE_8___default.a
-  }), " Head and Neck Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "dropdown-item",
-    href: "#"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_cancer_category_icons_bone_cancer_svg__WEBPACK_IMPORTED_MODULE_9___default.a
-  }), " Bone Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "dropdown-item",
-    href: "#"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_cancer_category_icons_pancreatic_cancer_svg__WEBPACK_IMPORTED_MODULE_7___default.a
-  }), " Pancreatic Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "dropdown-item",
-    href: "#"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_cancer_category_icons_colon_cancer_svg__WEBPACK_IMPORTED_MODULE_11___default.a
-  }), " Colon cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "dropdown-item",
-    href: "#"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_cancer_category_icons_liver_cancer_svg__WEBPACK_IMPORTED_MODULE_12___default.a
-  }), " Liver Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "dropdown-item",
-    href: "#"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_cancer_category_icons_blood_cancer_svg__WEBPACK_IMPORTED_MODULE_10___default.a
-  }), " Blood Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "dropdown-item",
-    href: "#"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_cancer_category_icons_testicular_cancer_svg__WEBPACK_IMPORTED_MODULE_16___default.a
-  }), " Testicular Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "dropdown-item",
-    href: "#"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_cancer_category_icons_thyroid_cancer_svg__WEBPACK_IMPORTED_MODULE_18___default.a
-  }), " Thyroid Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "dropdown-item",
-    href: "#"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_cancer_category_icons_prostate_cancer_svg__WEBPACK_IMPORTED_MODULE_17___default.a
-  }), " Prostate Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "dropdown-item",
-    href: "#"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_cancer_category_icons_gallbladder_cancer_svg__WEBPACK_IMPORTED_MODULE_20___default.a
-  }), " Gallbladder Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "dropdown-item",
-    href: "#"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_cancer_category_icons_skin_cancer_svg__WEBPACK_IMPORTED_MODULE_13___default.a
-  }), " Skin Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "dropdown-item",
-    href: "#"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_cancer_category_icons_bladder_cancer_svg__WEBPACK_IMPORTED_MODULE_19___default.a
-  }), " Bladder Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "dropdown-item",
-    href: "#"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_cancer_category_icons_brain_cancer_svg__WEBPACK_IMPORTED_MODULE_14___default.a
-  }), " Brain Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "dropdown-item",
-    href: "#"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_cancer_category_icons_stomach_cancer_svg__WEBPACK_IMPORTED_MODULE_15___default.a
-  }), " Stomach Cancer"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "nav-item pl-4 pl-md-0 ml-0 ml-md-5"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_22__["NavLink"], {
     className: "nav-link",
@@ -72328,7 +72263,7 @@ var BlogDetail = function BlogDetail(props) {
 
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
     fetchPost();
-  }, []);
+  }, [props]);
 
   var fetchPost = function fetchPost() {
     var blogId = props.history.location.pathname.split("/").pop();

@@ -10,7 +10,7 @@ const BlogDetail = (props) => {
 
     useEffect(() => {
         fetchPost();
-    },[])
+    },[props])
 
 
     const fetchPost = () => {

@@ -25,6 +25,26 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     const [cancerBlogs, setCancerBlogs] = useState([]);
+    const cancerIcons = {
+        "BreastCancer": BreastCancer,
+        "OvarianCancer": OvarianCancer,
+        "ThroatCancer": ThroatCancer,
+        "LungCancer": LungCancer,
+        "PancreaticCancer": PancreaticCancer,
+        "HeadandNeckCancer": HeadandNeckCancer,
+        "BoneCancer": BoneCancer,
+        "BloodCancer": BloodCancer,
+        "Coloncancer": Coloncancer,
+        "LiverCancer": LiverCancer,
+        "SkinCancer": SkinCancer,
+        "BrainCancer": BrainCancer,
+        "StomachCancer": StomachCancer,
+        "TesticularCancer": TesticularCancer,
+        "ProstateCancer": ProstateCancer,
+        "ThyroidCancer": ThyroidCancer,
+        "BladderCancer": BladderCancer,
+        "GallbladderCancer": GallbladderCancer,
+    };
 
     useEffect(() => {
         fetchPosts();
@@ -69,25 +89,8 @@ const Header = () => {
                                             <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">ABOUT CANCER <img height="9" src={chervonDown} /></a>
                                             <div className="dropdown-menu cancer-dropdown">
                                                 {cancerBlogs.length>0 && cancerBlogs.map((blog) => (
-                                                    <a className="dropdown-item" href="#"><img src={BreastCancer} /> {blog.title}</a>
+                                                    <NavLink className="dropdown-item" to={`/blog/${blog.id}`}><img src={cancerIcons[blog.title.replaceAll(" ","")]} /> {blog.title}</NavLink>
                                                 ))}
-                                                <a className="dropdown-item" href="#"><img src={OvarianCancer} /> Ovarian Cancer</a>
-                                                <a className="dropdown-item" href="#"><img src={ThroatCancer} /> Throat Cancer</a>
-                                                <a className="dropdown-item" href="#"><img src={LungCancer} /> Lung Cancer</a>
-                                                <a className="dropdown-item" href="#"><img src={HeadandNeckCancer} /> Head and Neck Cancer</a>
-                                                <a className="dropdown-item" href="#"><img src={BoneCancer} /> Bone Cancer</a>
-                                                <a className="dropdown-item" href="#"><img src={PancreaticCancer} /> Pancreatic Cancer</a>
-                                                <a className="dropdown-item" href="#"><img src={Coloncancer} /> Colon cancer</a>
-                                                <a className="dropdown-item" href="#"><img src={LiverCancer} /> Liver Cancer</a>
-                                                <a className="dropdown-item" href="#"><img src={BloodCancer} /> Blood Cancer</a>
-                                                <a className="dropdown-item" href="#"><img src={TesticularCancer} /> Testicular Cancer</a>
-                                                <a className="dropdown-item" href="#"><img src={ThyroidCancer} /> Thyroid Cancer</a>
-                                                <a className="dropdown-item" href="#"><img src={ProstateCancer} /> Prostate Cancer</a>
-                                                <a className="dropdown-item" href="#"><img src={GallbladderCancer} /> Gallbladder Cancer</a>
-                                                <a className="dropdown-item" href="#"><img src={SkinCancer} /> Skin Cancer</a>
-                                                <a className="dropdown-item" href="#"><img src={BladderCancer} /> Bladder Cancer</a>
-                                                <a className="dropdown-item" href="#"><img src={BrainCancer} /> Brain Cancer</a>
-                                                <a className="dropdown-item" href="#"><img src={StomachCancer} /> Stomach Cancer</a>
                                             </div>
                                         </li>
                                         <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-5">
