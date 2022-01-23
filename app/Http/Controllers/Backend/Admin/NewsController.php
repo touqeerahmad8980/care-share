@@ -78,7 +78,7 @@ class NewsController extends Controller
 
             $rules = [
               'title' => 'required',
-              'photo' => 'max:2048|dimensions:max_width=2000,max_height=1000', // 2mb
+            //   'photo' => 'max:2048|dimensions:max_width=2000,max_height=1000', // 2mb
             ];
 
             $validator = Validator::make($request->all(), $rules);
@@ -200,7 +200,7 @@ class NewsController extends Controller
 
             $rules = [
               'title' => 'required',
-              'photo' => 'max:2048|dimensions:max_width=2000,max_height=1000', // 2mb
+            //   'photo' => 'max:2048|dimensions:max_width=2000,max_height=1000', // 2mb
             ];
 
             $validator = Validator::make($request->all(), $rules);

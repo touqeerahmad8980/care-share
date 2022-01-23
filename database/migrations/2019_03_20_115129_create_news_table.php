@@ -16,7 +16,7 @@ class CreateNewsTable extends Migration
       Schema::create('news', function (Blueprint $table) {
          $table->increments('id');
          $table->string('title');
-         $table->text('description');
+         $table->text('description')->nullable();
          $table->string('category');
          $table->string('file_path')->default('assets/images/blog/default_news_a.jpg');
          $table->integer('uploaded_by');

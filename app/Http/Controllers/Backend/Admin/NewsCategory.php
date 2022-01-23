@@ -54,7 +54,6 @@ class NewsCategory extends Controller
 
         $this->validate($request, [
             'title' => 'required',
-            'description' => 'required',
             'content' => 'required',
             'news_id' => 'required',
         ]);

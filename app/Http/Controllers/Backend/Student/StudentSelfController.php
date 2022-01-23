@@ -52,7 +52,7 @@ class StudentSelfController extends Controller
            'name' => 'required',
             // 'std_code' => 'required|unique:students,std_code,' . $student->id,
            'phone' => 'required|unique:students,phone,' . $student->id,
-           'photo' => 'image|max:2024|mimes:jpeg,jpg,gif,png'
+        //    'photo' => 'image|max:2024|mimes:jpeg,jpg,gif,png'
          ];
 
          $validator = Validator::make($request->all(), $rules);

@@ -25,7 +25,11 @@
         <div class="clearfix"></div>
         <div class="form-group col-md-12 col-sm-12">
             <label for=""> Content </label>
-            <textarea name="content" id="content"value="{{$category->content}}" >{{$category->content}}</textarea>
+            <div id="toolbar-container"></div>
+            <div name="content" id="content" style="background-color:#fff;">
+                {!! $category->content !!}
+            </div>
+            {{-- <textarea name="content" id="content"value="{{$category->content}}" >{{$category->content}}</textarea> --}}
             <span id="error_content" class="has-error"></span>
         </div>
         <div class="clearfix"></div>
@@ -39,23 +43,37 @@
         </div>
         <div class="clearfix"></div>
     </form>
-    <script src="https://cdn.ckeditor.com/ckeditor5/31.1.0/classic/ckeditor.js"></script>
+    <script src="https://cdn.ckeditor.com/ckeditor5/31.1.0/decoupled-document/ckeditor.js"></script>
     <script>
-        ClassicEditor
+       let myeditor;
+        DecoupledEditor
         .create( document.querySelector( '#content' ), {
-            ckfinder: {
-                uploadUrl: '{{route('ckeditor.upload').'?_token='.csrf_token()}}'
-            }
-
+                ckfinder: {
+                    uploadUrl: '{{route('ckeditor.upload').'?_token='.csrf_token()}}'
+                },
+                toolbar: [
+                    'heading', '|',
+                    'fontfamily', 'fontsize', '|',
+                    'alignment', '|',
+                    'fontColor', 'fontBackgroundColor', '|',
+                    'bold', 'italic', "strikethrough", 'underline', 'subscript', 'superscript', '|',
+                    'link', '|',
+                    'outdent', 'indent', '|',
+                    'bulletedList', 'numberedList', 'todoList', '|',
+                    'code', 'codeBlock', '|',
+                    'insertTable', '|',
+                    'uploadImage', 'blockQuote', '|',
+                    'undo', 'redo'
+                ],
             } )
-        .then( editor => {
-                console.log( editor );
-        } )
-        .catch( error => {
-                console.error( error );
-        } );
-    </script>
-    <script>
+            .then( editor => {
+                    const toolbarContainer = document.querySelector( '#toolbar-container' );
+                    toolbarContainer.appendChild( editor.ui.view.toolbar.element );
+                    myeditor = editor;
+                } )
+            .catch( error => {
+                console.log( error );
+            } );
         $(document).ready(function () {
 
             $('#create').validate({// <- attach '.validate()' to your form
@@ -64,9 +82,9 @@
                     title: {
                         required: true
                     },
-                    description: {
-                        required: true
-                    }
+                    // description: {
+                    //     required: true
+                    // }
                 },
                 // Messages for form validation
                 // messages: {
@@ -80,6 +98,7 @@
                     var CSRF_TOKEN = $('meta[name="csrf-token"]').attr('content');
                     var cat_id = $("#cat_id").val();
                     myData.append('_token', CSRF_TOKEN);
+                    myData.append('content', myeditor.getData());
                     console.log("myData", myData)
                     $.ajax({
                         url: this.cat_id,

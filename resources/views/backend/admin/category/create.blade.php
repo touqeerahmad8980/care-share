@@ -25,12 +25,16 @@
         <div class="clearfix"></div>
         <div class="form-group col-md-12 col-sm-12">
             <label for=""> Content </label>
-            <textarea name="content" id="content" ></textarea>
+            <div id="toolbar-container"></div>
+            <div name="content" id="content" style="background-color:#fff;">
+                <p>This is the initial editor content.</p>
+            </div>
+            {{-- <textarea name="content" id="content" ></textarea> --}}
             <span id="error_content" class="has-error"></span>
         </div>
         <div class="clearfix"></div>
         <div class="form-group col-md-12">
-            <button type="submit" class="btn btn-success button-submit"
+            <button id="createSubmitForm" type="submit" class="btn btn-success button-submit"
                     data-loading-text="Loading..."><span class="fa fa-save fa-fw"></span> Save
             </button>
             <a href="/admin/news" class="btn btn-default" data-dismiss="modal"><span
@@ -39,23 +43,39 @@
         </div>
         <div class="clearfix"></div>
     </form>
-    <script src="https://cdn.ckeditor.com/ckeditor5/31.1.0/classic/ckeditor.js"></script>
+    <script src="https://cdn.ckeditor.com/ckeditor5/31.1.0/decoupled-document/ckeditor.js"></script>
     <script>
-        ClassicEditor
-        .create( document.querySelector( '#content' ), {
-            ckfinder: {
-                uploadUrl: '{{route('ckeditor.upload').'?_token='.csrf_token()}}'
-            }
 
+        let myeditor;
+        DecoupledEditor
+        .create( document.querySelector( '#content' ), {
+                ckfinder: {
+                    uploadUrl: '{{route('ckeditor.upload').'?_token='.csrf_token()}}'
+                },
+                toolbar: [
+                    'heading', '|',
+                    'fontfamily', 'fontsize', '|',
+                    'alignment', '|',
+                    'fontColor', 'fontBackgroundColor', '|',
+                    'bold', 'italic', "strikethrough", 'underline', 'subscript', 'superscript', '|',
+                    'link', '|',
+                    'outdent', 'indent', '|',
+                    'bulletedList', 'numberedList', 'todoList', '|',
+                    'code', 'codeBlock', '|',
+                    'insertTable', '|',
+                    'uploadImage', 'blockQuote', '|',
+                    'undo', 'redo'
+                ],
             } )
-        .then( editor => {
-                console.log( editor );
-        } )
-        .catch( error => {
-                console.error( error );
-        } );
-    </script>
-    <script>
+            .then( editor => {
+                    const toolbarContainer = document.querySelector( '#toolbar-container' );
+                    toolbarContainer.appendChild( editor.ui.view.toolbar.element );
+                    myeditor = editor;
+                } )
+            .catch( error => {
+                console.log( error );
+            } );
+
         $(document).ready(function () {
 
             $('#create').validate({// <- attach '.validate()' to your form
@@ -64,9 +84,9 @@
                     title: {
                         required: true
                     },
-                    description: {
-                        required: true
-                    }
+                    // description: {
+                    //     required: true
+                    // }
                 },
                 // Messages for form validation
                 // messages: {
@@ -75,11 +95,11 @@
                 //     }
                 // },
                 submitHandler: function (form) {
-
                     var myData = new FormData($("#create")[0]);
                     var CSRF_TOKEN = $('meta[name="csrf-token"]').attr('content');
                     var news_id = $("#news_id").val();
                     myData.append('_token', CSRF_TOKEN);
+                    myData.append('content', myeditor.getData());
                     console.log("myData", myData)
                     $.ajax({
                         url: this.news_id,
