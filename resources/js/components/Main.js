@@ -8,6 +8,7 @@ import Footer from './common/Footer';
 import BlogDetail from './pages/blog-detail/BlogDetail';
 import BlogDetailCategory from './pages/blog-detail-category/BlogDetailCategory';
 import BlogWidget from './common/BlogWidget';
+import ContactUs from './pages/contact-us/ContactUs';
 
 class App extends Component {
     render() {
@@ -17,6 +18,7 @@ class App extends Component {
                     <Header />
                     <Switch>
                         <Route exact path='/' component={Home}/>
+                        <Route exact path='/contact' component={ContactUs}/>
                         <Route exact path='/blogs' component={BlogListing}/>
                         <Route exact path='/blog/:id' component={BlogDetail}/>
                         <Route exact path='/blog/:id/:categoryId' component={BlogDetailCategory}/>

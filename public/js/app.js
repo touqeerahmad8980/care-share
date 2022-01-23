@@ -6710,6 +6710,25 @@ exports.push([module.i, ".blog_listing_page .banner{\n    background-color: #0e1
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/pages/contact-us/ContactUs.css":
+/*!************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./resources/js/components/pages/contact-us/ContactUs.css ***!
+  \************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".blog_listing_page .banner{\n    background-color: #0e1d2c;\n    padding: 60px 0px;\n}\n\n.blog_listing_page .banner .banner_heading{\n    font-size: 45px;\n    color: #fff;\n    font-weight: 700;\n}\n\n.blog_listing_page .listing_section{\n    padding: 70px 0;\n}\n\n.blog_listing_page .listing_section .form-group label{\n    font-size: 20px;\n    font-weight: normal;\n}\n\n.blog_listing_page .listing_section .form-group input{\n    height: 45px;\n    box-shadow: none;\n}\n\n.blog_listing_page .listing_section .form-group button{\n    padding: 12px 15px;\n    min-width: 120px;\n    background-color: #51c185;\n    border: none;\n    font-size: 16px;\n}\n\n.blog_listing_page .listing_section .listing_wrap .single_blog{\n    margin-bottom: 55px;\n}\n\n.blog_listing_page .listing_section .listing_wrap .single_blog .blog_img{\n    display: inline-block;\n    max-height: 225px;\n    min-height: 225px;\n    border-radius: 10px;\n    overflow: hidden;\n}\n\n.blog_listing_page .listing_section .listing_wrap .single_blog .blog_img img{\n    width: 100%;\n    transition: all .3s;\n}\n\n.blog_listing_page .listing_section .listing_wrap .single_blog .blog_img:hover{\n    opacity: 0.8;\n}\n\n.blog_listing_page .listing_section .listing_wrap .single_blog h3{\n    font-size: 24px;\n    color: #0e1d2c;\n    font-weight: 600;\n    margin: 25px 0 15px;\n    transition: all .3s;\n}\n\n.blog_listing_page .listing_section .listing_wrap .single_blog h3:hover{\n    color: #51c185;\n}\n\n.blog_listing_page .listing_section .listing_wrap .single_blog .date{\n    font-size: 14px;\n    color: #878787;\n}\n\n.blog_listing_page .listing_section .listing_wrap .single_blog .desc{\n    font-size: 16px;\n    color: #3e5061;\n    line-height: 1.75;\n}\n\n.blog_listing_page .listing_section .listing_wrap .single_blog .desc a{\n    color: #51c185;\n    font-weight: 600;\n    font-size: 15px;\n}\n\n.hr_line{\n    height: 1px;\n    width: 100%;\n    background-color: #cbcbcb;\n}\n\n.blog_listing_page .pagination a{\n    color: #51c185;\n    border-radius: 50% !important;\n    width: 40px;\n    height: 40px;\n    text-align: center;\n    padding: 8px 10px;\n    margin-right: 5px;\n}\n\n.blog_listing_page  a:hover{\n    color: #eb5757 !important;\n}\n\n.contact-us-image{\n    border-radius: 3px;\n    box-shadow: 0 0 10px #646464;\n}\n\n@media (max-width:800px) {\n    .blog_listing_page{\n        padding: 40px 0;\n    }\n    .blog_listing_page .listing_section .listing_wrap .single_blog{\n        margin-bottom: 35px;\n    }\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/pages/home/Home.css":
 /*!*************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./resources/js/components/pages/home/Home.css ***!
@@ -61627,7 +61646,7 @@ if (false) {} else {
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext */
+/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext, BrowserRouter, HashRouter, Link, NavLink */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -71486,6 +71505,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _pages_blog_detail_BlogDetail__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./pages/blog-detail/BlogDetail */ "./resources/js/components/pages/blog-detail/BlogDetail.js");
 /* harmony import */ var _pages_blog_detail_category_BlogDetailCategory__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./pages/blog-detail-category/BlogDetailCategory */ "./resources/js/components/pages/blog-detail-category/BlogDetailCategory.js");
 /* harmony import */ var _common_BlogWidget__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./common/BlogWidget */ "./resources/js/components/common/BlogWidget.js");
+/* harmony import */ var _pages_contact_us_ContactUs__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./pages/contact-us/ContactUs */ "./resources/js/components/pages/contact-us/ContactUs.js");
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -71503,6 +71523,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
 
 
 
@@ -71533,6 +71554,10 @@ function (_Component) {
         exact: true,
         path: "/",
         component: _pages_home_Home__WEBPACK_IMPORTED_MODULE_4__["default"]
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+        exact: true,
+        path: "/contact",
+        component: _pages_contact_us_ContactUs__WEBPACK_IMPORTED_MODULE_10__["default"]
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
         exact: true,
         path: "/blogs",
@@ -71787,8 +71812,10 @@ if(false) {}
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Footer_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Footer.css */ "./resources/js/components/common/Footer.css");
-/* harmony import */ var _Footer_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Footer_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _Footer_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Footer.css */ "./resources/js/components/common/Footer.css");
+/* harmony import */ var _Footer_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Footer_css__WEBPACK_IMPORTED_MODULE_2__);
+
 
 
 
@@ -71825,8 +71852,8 @@ var Footer = function Footer() {
     href: "#"
   }, "Careers")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "#"
-  }, "Press")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "#"
+  }, "Press")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
+    to: "/contact"
   }, "Contact us")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "#"
   }, "FAQ")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -72436,6 +72463,113 @@ var BlogListing = function BlogListing() {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (BlogListing);
+
+/***/ }),
+
+/***/ "./resources/js/components/pages/contact-us/ContactUs.css":
+/*!****************************************************************!*\
+  !*** ./resources/js/components/pages/contact-us/ContactUs.css ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../node_modules/css-loader??ref--6-1!../../../../../node_modules/postcss-loader/src??ref--6-2!./ContactUs.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/pages/contact-us/ContactUs.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./resources/js/components/pages/contact-us/ContactUs.js":
+/*!***************************************************************!*\
+  !*** ./resources/js/components/pages/contact-us/ContactUs.js ***!
+  \***************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _ContactUs_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ContactUs.css */ "./resources/js/components/pages/contact-us/ContactUs.css");
+/* harmony import */ var _ContactUs_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_ContactUs_css__WEBPACK_IMPORTED_MODULE_1__);
+
+
+
+var ContactUs = function ContactUs() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "blog_listing_page"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    className: "banner"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container text-center"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "banner_heading"
+  }, "CONTACT US"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    className: "listing_section"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-sm-6"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "form-group"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    className: "form-control",
+    type: "text",
+    placeholder: "Enter Name"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "form-group"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    className: "form-control",
+    type: "text",
+    placeholder: "Enter Your Email"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "form-group"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    className: "form-control",
+    type: "text",
+    placeholder: "Enter Phone Number"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "form-group"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("textarea", {
+    rows: 5,
+    className: "form-control",
+    type: "text",
+    placeholder: "Enter Message here..."
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "form-group"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    type: "submit",
+    className: "btn btn-primary"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fa fa-paper-plane-o"
+  }), " Send"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-sm-6"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "contact-us-image",
+    src: '../assets/images/contact-us-image.jpg'
+  }))))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (ContactUs);
 
 /***/ }),
 

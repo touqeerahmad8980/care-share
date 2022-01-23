@@ -1,0 +1,116 @@
+.blog_listing_page .banner{
+    background-color: #0e1d2c;
+    padding: 60px 0px;
+}
+
+.blog_listing_page .banner .banner_heading{
+    font-size: 45px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.blog_listing_page .listing_section{
+    padding: 70px 0;
+}
+
+.blog_listing_page .listing_section .form-group label{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.blog_listing_page .listing_section .form-group input{
+    height: 45px;
+    box-shadow: none;
+}
+
+.blog_listing_page .listing_section .form-group button{
+    padding: 12px 15px;
+    min-width: 120px;
+    background-color: #51c185;
+    border: none;
+    font-size: 16px;
+}
+
+.blog_listing_page .listing_section .listing_wrap .single_blog{
+    margin-bottom: 55px;
+}
+
+.blog_listing_page .listing_section .listing_wrap .single_blog .blog_img{
+    display: inline-block;
+    max-height: 225px;
+    min-height: 225px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.blog_listing_page .listing_section .listing_wrap .single_blog .blog_img img{
+    width: 100%;
+    transition: all .3s;
+}
+
+.blog_listing_page .listing_section .listing_wrap .single_blog .blog_img:hover{
+    opacity: 0.8;
+}
+
+.blog_listing_page .listing_section .listing_wrap .single_blog h3{
+    font-size: 24px;
+    color: #0e1d2c;
+    font-weight: 600;
+    margin: 25px 0 15px;
+    transition: all .3s;
+}
+
+.blog_listing_page .listing_section .listing_wrap .single_blog h3:hover{
+    color: #51c185;
+}
+
+.blog_listing_page .listing_section .listing_wrap .single_blog .date{
+    font-size: 14px;
+    color: #878787;
+}
+
+.blog_listing_page .listing_section .listing_wrap .single_blog .desc{
+    font-size: 16px;
+    color: #3e5061;
+    line-height: 1.75;
+}
+
+.blog_listing_page .listing_section .listing_wrap .single_blog .desc a{
+    color: #51c185;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.hr_line{
+    height: 1px;
+    width: 100%;
+    background-color: #cbcbcb;
+}
+
+.blog_listing_page .pagination a{
+    color: #51c185;
+    border-radius: 50% !important;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 8px 10px;
+    margin-right: 5px;
+}
+
+.blog_listing_page  a:hover{
+    color: #eb5757 !important;
+}
+
+.contact-us-image{
+    border-radius: 3px;
+    box-shadow: 0 0 10px #646464;
+}
+
+@media (max-width:800px) {
+    .blog_listing_page{
+        padding: 40px 0;
+    }
+    .blog_listing_page .listing_section .listing_wrap .single_blog{
+        margin-bottom: 35px;
+    }
+}
