@@ -63,9 +63,10 @@
                     'bulletedList', 'numberedList', 'todoList', '|',
                     'code', 'codeBlock', '|',
                     'insertTable', '|',
-                    'uploadImage', 'blockQuote', '|',
+                    'uploadImage', 'mediaEmbed', 'blockQuote', '|',
                     'undo', 'redo'
                 ],
+                mediaEmbed: {previewsInData: true}
             } )
             .then( editor => {
                     const toolbarContainer = document.querySelector( '#toolbar-container' );

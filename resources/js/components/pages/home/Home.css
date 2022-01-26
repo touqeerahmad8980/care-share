@@ -292,6 +292,11 @@
     background-color: #eb5757;
 }
 
+.logoWraper{
+    height:150px;
+    display: flex !important;
+}
+
 @media (min-width:800px) {
     .choose_careshare_section .step_blocks_wrap .single_block{
         border-radius: 8px 0 0 8px;

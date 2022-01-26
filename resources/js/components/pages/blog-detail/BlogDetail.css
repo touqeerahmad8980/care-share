@@ -70,6 +70,14 @@
     color: #51c185;
 }
 
+.detail_section .media>div>div{
+    height: 250px;
+}
+.detail_section .media iframe{
+    width: 355px;
+    height: 200px;
+}
+
 .blog_detail_page .detail_section .single_category h3::after {
     content: "";
     position: absolute;

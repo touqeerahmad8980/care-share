@@ -47,7 +47,13 @@
 .blog_detail_category_page a:hover{
     color: #eb5757 !important;
 }
-
+.detail_section .media>div>div{
+    height: 250px !important;
+}
+.detail_section .media iframe{
+    width: 355px !important;
+    height: 200px !important;
+}
 .blog_detail_category_page .detail_section .categories_listing {
     margin-top: 35px;
 }

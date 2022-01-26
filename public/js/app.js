@@ -6665,7 +6665,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, "\n.blog_detail_category_page .detail_section{\n    padding: 70px 0;\n}\n\n.blog_detail_category_page .detail_section h1,\n.blog_detail_category_page .detail_section h2{\n    font-size: 35px;\n    color: #0e1d2c;\n    font-weight: 600;\n}\n\n.blog_detail_category_page .detail_section h1,\n.blog_detail_category_page .detail_section h3,\n.blog_detail_category_page .detail_section h2{\n    color: #0e1d2c;\n    font-weight: 600;\n}\n\n.blog_detail_category_page .detail_section .date{\n    font-size: 14px;\n    color: #878787;\n    margin: 10px 0 20px;\n}\n\n.blog_detail_category_page .detail_section p,\n.blog_detail_category_page .detail_section ul,\n.blog_detail_category_page .detail_section ol{\n    font-size: 16px;\n    color: #3e5061;\n    line-height: 1.75;\n    margin-bottom: 25px;\n}\n\n.blog_detail_category_page .detail_section ul,\n.blog_detail_category_page .detail_section ol{\n    padding-left: 20px;\n    margin-top: 20px;\n}\n\n.blog_detail_category_page .detail_section p a{\n    color: #51c185;\n    font-weight: 600;\n    font-size: 15px;\n}\n\n.blog_detail_category_page a:hover{\n    color: #eb5757 !important;\n}\n\n.blog_detail_category_page .detail_section .categories_listing {\n    margin-top: 35px;\n}\n\n.blog_detail_category_page .detail_section .single_category {\n    background-color: #0e1d2c;\n    border-radius: 10px;\n    padding: 15px 25px;\n    margin-bottom: 30px;\n}\n\n.blog_detail_category_page .detail_section .single_category h3 {\n    color: #fff;\n    font-size: 22px;\n    font-weight: 600;\n    line-height: 1.5;\n    position: relative;\n    padding-bottom: 15px;\n    margin-bottom: 15px;\n    transition: all .3s;\n}\n\n.blog_detail_category_page .detail_section .single_category h3:hover {\n    color: #51c185;\n}\n\n.blog_detail_category_page .detail_section .single_category h3::after {\n    content: \"\";\n    position: absolute;\n    background-color: #51c185;\n    width: 110px;\n    height: 1px;\n    bottom: 0;\n    left: 0;\n}\n\n.blog_detail_category_page .detail_section .single_category p {\n    color: #fff;\n    font-size: 15px;\n    line-height: 1.5;\n    font-weight: 300;\n}\n\n.blog_detail_category_page .detail_section .single_category a{\n    color: #51c185;\n    font-weight: 500;\n    font-size: 15px;\n}\n\n\n.blog_detail_category_page .detail_section img{\n    max-width: 100%;\n    margin-bottom: 25px;\n}\n\n\n@media (max-width:800px) {\n    .blog_detail_category_page .banner .banner_heading{\n        font-size: 30px;\n    }\n\n    .blog_detail_category_page .detail_section{\n        padding: 40px 0;\n    }\n}\n", ""]);
+exports.push([module.i, "\n.blog_detail_category_page .detail_section{\n    padding: 70px 0;\n}\n\n.blog_detail_category_page .detail_section h1,\n.blog_detail_category_page .detail_section h2{\n    font-size: 35px;\n    color: #0e1d2c;\n    font-weight: 600;\n}\n\n.blog_detail_category_page .detail_section h1,\n.blog_detail_category_page .detail_section h3,\n.blog_detail_category_page .detail_section h2{\n    color: #0e1d2c;\n    font-weight: 600;\n}\n\n.blog_detail_category_page .detail_section .date{\n    font-size: 14px;\n    color: #878787;\n    margin: 10px 0 20px;\n}\n\n.blog_detail_category_page .detail_section p,\n.blog_detail_category_page .detail_section ul,\n.blog_detail_category_page .detail_section ol{\n    font-size: 16px;\n    color: #3e5061;\n    line-height: 1.75;\n    margin-bottom: 25px;\n}\n\n.blog_detail_category_page .detail_section ul,\n.blog_detail_category_page .detail_section ol{\n    padding-left: 20px;\n    margin-top: 20px;\n}\n\n.blog_detail_category_page .detail_section p a{\n    color: #51c185;\n    font-weight: 600;\n    font-size: 15px;\n}\n\n.blog_detail_category_page a:hover{\n    color: #eb5757 !important;\n}\n.detail_section .media>div>div{\n    height: 250px !important;\n}\n.detail_section .media iframe{\n    width: 355px !important;\n    height: 200px !important;\n}\n.blog_detail_category_page .detail_section .categories_listing {\n    margin-top: 35px;\n}\n\n.blog_detail_category_page .detail_section .single_category {\n    background-color: #0e1d2c;\n    border-radius: 10px;\n    padding: 15px 25px;\n    margin-bottom: 30px;\n}\n\n.blog_detail_category_page .detail_section .single_category h3 {\n    color: #fff;\n    font-size: 22px;\n    font-weight: 600;\n    line-height: 1.5;\n    position: relative;\n    padding-bottom: 15px;\n    margin-bottom: 15px;\n    transition: all .3s;\n}\n\n.blog_detail_category_page .detail_section .single_category h3:hover {\n    color: #51c185;\n}\n\n.blog_detail_category_page .detail_section .single_category h3::after {\n    content: \"\";\n    position: absolute;\n    background-color: #51c185;\n    width: 110px;\n    height: 1px;\n    bottom: 0;\n    left: 0;\n}\n\n.blog_detail_category_page .detail_section .single_category p {\n    color: #fff;\n    font-size: 15px;\n    line-height: 1.5;\n    font-weight: 300;\n}\n\n.blog_detail_category_page .detail_section .single_category a{\n    color: #51c185;\n    font-weight: 500;\n    font-size: 15px;\n}\n\n\n.blog_detail_category_page .detail_section img{\n    max-width: 100%;\n    margin-bottom: 25px;\n}\n\n\n@media (max-width:800px) {\n    .blog_detail_category_page .banner .banner_heading{\n        font-size: 30px;\n    }\n\n    .blog_detail_category_page .detail_section{\n        padding: 40px 0;\n    }\n}\n", ""]);
 
 // exports
 
@@ -6684,7 +6684,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, ".blog_detail_page .banner{\n    background-color: #0e1d2c;\n    padding: 60px 0px;\n}\n\n.blog_detail_page .banner .banner_heading{\n    font-size: 41px;\n    color: #fff;\n    font-weight: 600;\n    max-width: 620px;\n    margin: auto;\n    line-height: 1.5;\n}\n\n.blog_detail_page .detail_section{\n    padding: 70px 0;\n}\n\n.blog_detail_page .detail_section .heading{\n    font-size: 35px;\n    color: #0e1d2c;\n    font-weight: 600;\n}\n\n.blog_detail_page .detail_section .date{\n    font-size: 14px;\n    color: #878787;\n    margin: 10px 0 20px;\n}\n\n.blog_detail_page .detail_section .desc{\n    font-size: 16px;\n    color: #3e5061;\n    line-height: 1.75;\n}\n\n.blog_detail_page .detail_section .desc a{\n    color: #51c185;\n    font-weight: 600;\n    font-size: 15px;\n}\n\n.blog_detail_page a:hover{\n    color: #eb5757 !important;\n}\n\n.blog_detail_page .detail_section .categories_listing {\n    margin-top: 35px;\n}\n\n.blog_detail_page .detail_section .single_category {\n    background-color: #0e1d2c;\n    border-radius: 10px;\n    padding: 15px 25px;\n    margin-bottom: 30px;\n}\n\n.blog_detail_page .detail_section .single_category h3 {\n    color: #fff;\n    font-size: 22px;\n    font-weight: 600;\n    line-height: 1.5;\n    position: relative;\n    padding-bottom: 15px;\n    margin-bottom: 15px;\n    transition: all .3s;\n}\n\n.blog_detail_page .detail_section .single_category h3:hover {\n    color: #51c185;\n}\n\n.blog_detail_page .detail_section .single_category h3::after {\n    content: \"\";\n    position: absolute;\n    background-color: #51c185;\n    width: 110px;\n    height: 1px;\n    bottom: 0;\n    left: 0;\n}\n\n.blog_detail_page .detail_section .single_category p {\n    color: #fff;\n    font-size: 15px;\n    line-height: 1.5;\n    font-weight: 300;\n}\n\n.blog_detail_page .detail_section .single_category a{\n    color: #51c185;\n    font-weight: 500;\n    font-size: 15px;\n}\n\n\n@media (max-width:800px) {\n    .blog_detail_page .banner .banner_heading{\n        font-size: 30px;\n    }\n\n    .blog_detail_page .detail_section{\n        padding: 40px 0;\n    }\n}\n", ""]);
+exports.push([module.i, ".blog_detail_page .banner{\n    background-color: #0e1d2c;\n    padding: 60px 0px;\n}\n\n.blog_detail_page .banner .banner_heading{\n    font-size: 41px;\n    color: #fff;\n    font-weight: 600;\n    max-width: 620px;\n    margin: auto;\n    line-height: 1.5;\n}\n\n.blog_detail_page .detail_section{\n    padding: 70px 0;\n}\n\n.blog_detail_page .detail_section .heading{\n    font-size: 35px;\n    color: #0e1d2c;\n    font-weight: 600;\n}\n\n.blog_detail_page .detail_section .date{\n    font-size: 14px;\n    color: #878787;\n    margin: 10px 0 20px;\n}\n\n.blog_detail_page .detail_section .desc{\n    font-size: 16px;\n    color: #3e5061;\n    line-height: 1.75;\n}\n\n.blog_detail_page .detail_section .desc a{\n    color: #51c185;\n    font-weight: 600;\n    font-size: 15px;\n}\n\n.blog_detail_page a:hover{\n    color: #eb5757 !important;\n}\n\n.blog_detail_page .detail_section .categories_listing {\n    margin-top: 35px;\n}\n\n.blog_detail_page .detail_section .single_category {\n    background-color: #0e1d2c;\n    border-radius: 10px;\n    padding: 15px 25px;\n    margin-bottom: 30px;\n}\n\n.blog_detail_page .detail_section .single_category h3 {\n    color: #fff;\n    font-size: 22px;\n    font-weight: 600;\n    line-height: 1.5;\n    position: relative;\n    padding-bottom: 15px;\n    margin-bottom: 15px;\n    transition: all .3s;\n}\n\n.blog_detail_page .detail_section .single_category h3:hover {\n    color: #51c185;\n}\n\n.detail_section .media>div>div{\n    height: 250px;\n}\n.detail_section .media iframe{\n    width: 355px;\n    height: 200px;\n}\n\n.blog_detail_page .detail_section .single_category h3::after {\n    content: \"\";\n    position: absolute;\n    background-color: #51c185;\n    width: 110px;\n    height: 1px;\n    bottom: 0;\n    left: 0;\n}\n\n.blog_detail_page .detail_section .single_category p {\n    color: #fff;\n    font-size: 15px;\n    line-height: 1.5;\n    font-weight: 300;\n}\n\n.blog_detail_page .detail_section .single_category a{\n    color: #51c185;\n    font-weight: 500;\n    font-size: 15px;\n}\n\n\n@media (max-width:800px) {\n    .blog_detail_page .banner .banner_heading{\n        font-size: 30px;\n    }\n\n    .blog_detail_page .detail_section{\n        padding: 40px 0;\n    }\n}\n", ""]);
 
 // exports
 
@@ -6741,7 +6741,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, ".home-banner{\n\n}\n.home-banner .banner{\n    background-color: #0e1d2c;\n    padding: 60px 0px;\n}\n.home-banner h2{\n    font-size: 30px;\n    color: #eb5757;\n    font-weight: 600;\n    margin: 30px 0px 10px;\n}\n.home-banner h1{\n    font-size: 100px;\n    color: #fff;\n    font-weight: 700;\n}\n.home-banner p{\n    font-size: 20px;\n    color: #fff;\n    margin-bottom: 30px;\n}\n.home-banner .button{\n    font-size: 16px;\n    box-shadow: none;\n    padding: 15px 25px;\n    background-color: #51c185;\n    border: none;\n    font-weight: 500;\n}\n\n.home-banner .button:hover{\n    background-color: #eb5757;\n}\n\n.home-banner span{\n    font-size: 16px;\n    font-weight: 600;\n    color: #fff;\n    margin: 0px 25px;\n}\n\n.section_heading{\n    font-size: 35px;\n    font-weight: 600;\n    color: #0e1d2c;\n}\n\n.section_desc{\n    font-size: 18px;\n    color: #3e5061;\n}\n\n.home-banner .image{\n    max-width: 480px;\n    float: right;\n}\n\n.choose_careshare_section{\n    padding: 60px 0 100px;\n}\n\n.choose_careshare_section .step_blocks_wrap{\n    display: flex;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block{\n    background-color: #0e1d2c;\n    padding: 30px 40px;\n    color: #fff;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block.pink{\n    background-color: #eb5757;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block.green{\n    background-color: #51c185;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block h3{\n    font-size: 30px;\n    color: #fff;\n    font-weight: 700;\n    text-transform: uppercase;\n    line-height: 1.25;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block ul{\n    margin-left: 20px;\n    min-height: 150px;\n}\n.choose_careshare_section .step_blocks_wrap .single_block li{\n    line-height: 1.5;\n    font-size: 15px;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block .step_img{\n    max-height: 150px;\n    float: right;\n}\n\n.section_grey{\n    background-color: #f2f5f8;\n    padding: 60px 0 70px;\n}\n\n.package_section .packages_wrap{\n    display: flex;\n    justify-content: space-between;\n}\n\n.package_section .packages_wrap .single_package{\n    background-color: #fff;\n    width: calc(25% - 22.2px);\n    padding: 30px 30px 35px;\n    border-radius: 10px;\n    text-align: center;\n}\n\n.package_section .packages_wrap .single_package .title{\n    font-size: 18px;\n    font-weight: 700;\n    color: #3e5061;\n    margin-bottom: 20px;\n}\n\n.package_section .packages_wrap .single_package .price{\n    font-size: 28px;\n    font-weight: 700;\n    color: #eb5757;\n}\n\n.package_section .packages_wrap .single_package .price_cut{\n    font-size: 28px;\n    font-weight: 300;\n    color: #eb5757;\n    text-decoration: line-through;\n    margin-bottom: 20px;\n}\n\n.package_section .packages_wrap .single_package .btn-primary{\n    background-color: #51c185;\n    width: 100%;\n    text-transform: uppercase;\n    color: #fff;\n    border: none;\n    border-radius: 20px;\n    padding: 10px 15px;\n    font-weight: 500;\n    font-size: 16px;\n    box-shadow: none;\n}\n\n.package_section .packages_wrap .single_package .btn-primary:hover{\n    background-color: #eb5757;\n}\n\n.package_section .feature_list{\n    margin-top: 40px;\n    list-style: none;\n}\n\n.package_section .feature_list li{\n    font-size: 20px;\n    color: #3e5061;\n    line-height: 1.754;\n    position: relative;\n    padding-left: 30px;\n}\n\n.package_section .feature_list li img{\n    position: absolute;\n    left: 0;\n    top: 9px;\n}\n\n.section_desc .inline-logo{\n    width: 210px;\n    margin-top: -7px;\n}\n\n.hospital_section{\n    padding: 60px 0 120px;\n}\n\n.hospital_section .row_wrap{\n    margin-bottom: 40px !important;\n}\n\n.hospital_section .slick-custom-dots{\n    bottom: -60px;\n}\n\n.hospital_section .slick-custom-dots li button:before{\n    font-size: 13px;\n}\n\n.hospital_section .slick-custom-dots li.slick-active button:before{\n    color: #51c185;\n}\n\n.hospital_section .slick-arrow{\n    display: none !important;\n}\n\n.hr_line{\n    height: 1px;\n    width: 100%;\n    background-color: #cbcbcb;\n}\n\n.warriors_section{\n    padding: 60px 0 70px;\n}\n\n.warriors_section .row_wrap{\n    margin-bottom: 50px;\n}\n\n.warriors_section .warrior_wrap {\n    display: flex;\n    justify-content: space-around;\n    flex-wrap: wrap;\n}\n\n.warriors_section .warrior_wrap .single_warrior{\n    position: relative;\n    max-width: 330px;\n    padding-left: 76px;\n}\n\n.warriors_section .warrior_wrap .single_warrior h3{\n    font-size: 17px;\n    font-weight: 700;\n    color: #0e1d2c;\n    margin-bottom: 20px;\n}\n\n.warriors_section .warrior_wrap .single_warrior p{\n    font-size: 14px;\n    color: #3e5061;\n    font-style: italic;\n    line-height: 1.75;\n}\n\n.warriors_section .warrior_wrap .single_warrior .comma_icon{\n    position: absolute;\n    width: 55px;\n    left: 0;\n    top: 0;\n}\n\n.warriors_section .warrior_wrap .single_warrior .user_wrap img{\n    border-radius: 50%;\n    width: 90px;\n    box-shadow: 0 0 6px 3px #c3c3c3;\n}\n\n.warriors_section .warrior_wrap .single_warrior .user_wrap{\n    margin-top: 25px;\n    font-size: 17px;\n    color: #0e1d2c;\n}\n\n.warriors_section .warrior_wrap .single_warrior h4{\n    font-size: 14px;\n    margin-top: 20px;\n}\n\n.warriors_section .help_link{\n    margin-top: 40px;\n    font-size: 24px;\n    font-weight: 700;\n    text-decoration: underline;\n    color: #eb5757;\n    text-align: center;\n    display: block;\n}\n\n.video_section .btn-primary{\n    font-size: 13px;\n    box-shadow: none;\n    padding: 15px 45px;\n    background-color: #51c185;\n    border: none;\n    font-weight: 500;\n}\n\n.video_section .btn-primary:hover{\n    background-color: #eb5757;\n}\n\n@media (min-width:800px) {\n    .choose_careshare_section .step_blocks_wrap .single_block{\n        border-radius: 8px 0 0 8px;\n        flex: 0 0 27%;\n        transition: all .3s;\n    }\n    .choose_careshare_section .step_blocks_wrap .single_block.active{\n        flex: 0 0 46%;\n    }\n    .choose_careshare_section .step_blocks_wrap .single_block ul{\n        max-height: 150px;\n        /* overflow: hidden; */\n    }\n    .choose_careshare_section .step_blocks_wrap .single_block.pink{\n        margin-left: -8px;\n    }\n    .choose_careshare_section .step_blocks_wrap .single_block.green{\n        margin-left: -8px;\n        border-radius: 8px;\n    }\n}\n\n@media (max-width:800px) {\n    .home-banner .banner{\n        padding: 50px 0px;\n    }\n    .home-banner h2{\n        font-size: 22px;\n        margin: 0;\n    }\n    .home-banner h1{\n        font-size: 60px;\n    }\n    .home-banner p{\n        font-size: 17px;\n    }\n    .home-banner p br{\n        display: none;\n    }\n    .home-banner .button{\n        font-size: 14px;\n        padding: 10px 15px;\n    }\n\n    .home-banner .image{\n        width: 100%;\n        margin-top: 30px;\n    }\n    .choose_careshare_section .step_blocks_wrap{\n        flex-direction: column;\n    }\n\n    .section_heading{\n        font-size: 30px;\n    }\n\n    .section_desc{\n        font-size: 16px;\n    }\n\n    .section_heading br,\n    .section_desc br{\n        display: none;\n    }\n\n    .choose_careshare_section{\n        padding: 40px 0;\n    }\n\n    .package_section .packages_wrap{\n        flex-wrap: wrap;\n    }\n\n    .package_section .packages_wrap .single_package{\n        width: 100%;\n        margin-bottom: 20px;\n    }\n\n    .package_section .feature_list{\n        margin-top: 10px;\n    }\n\n    .package_section .feature_list li{\n        font-size: 18px;\n    }\n\n    .package_section{\n        padding: 40px 0;\n    }\n\n    .hospital_section{\n        padding: 40px 0 100px;\n    }\n\n    .video_section{\n        padding: 40px 0;\n    }\n\n    .warriors_section .warrior_wrap .single_warrior{\n        margin-bottom: 20px;\n    }\n}\n", ""]);
+exports.push([module.i, ".home-banner{\n\n}\n.home-banner .banner{\n    background-color: #0e1d2c;\n    padding: 60px 0px;\n}\n.home-banner h2{\n    font-size: 30px;\n    color: #eb5757;\n    font-weight: 600;\n    margin: 30px 0px 10px;\n}\n.home-banner h1{\n    font-size: 100px;\n    color: #fff;\n    font-weight: 700;\n}\n.home-banner p{\n    font-size: 20px;\n    color: #fff;\n    margin-bottom: 30px;\n}\n.home-banner .button{\n    font-size: 16px;\n    box-shadow: none;\n    padding: 15px 25px;\n    background-color: #51c185;\n    border: none;\n    font-weight: 500;\n}\n\n.home-banner .button:hover{\n    background-color: #eb5757;\n}\n\n.home-banner span{\n    font-size: 16px;\n    font-weight: 600;\n    color: #fff;\n    margin: 0px 25px;\n}\n\n.section_heading{\n    font-size: 35px;\n    font-weight: 600;\n    color: #0e1d2c;\n}\n\n.section_desc{\n    font-size: 18px;\n    color: #3e5061;\n}\n\n.home-banner .image{\n    max-width: 480px;\n    float: right;\n}\n\n.choose_careshare_section{\n    padding: 60px 0 100px;\n}\n\n.choose_careshare_section .step_blocks_wrap{\n    display: flex;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block{\n    background-color: #0e1d2c;\n    padding: 30px 40px;\n    color: #fff;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block.pink{\n    background-color: #eb5757;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block.green{\n    background-color: #51c185;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block h3{\n    font-size: 30px;\n    color: #fff;\n    font-weight: 700;\n    text-transform: uppercase;\n    line-height: 1.25;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block ul{\n    margin-left: 20px;\n    min-height: 150px;\n}\n.choose_careshare_section .step_blocks_wrap .single_block li{\n    line-height: 1.5;\n    font-size: 15px;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block .step_img{\n    max-height: 150px;\n    float: right;\n}\n\n.section_grey{\n    background-color: #f2f5f8;\n    padding: 60px 0 70px;\n}\n\n.package_section .packages_wrap{\n    display: flex;\n    justify-content: space-between;\n}\n\n.package_section .packages_wrap .single_package{\n    background-color: #fff;\n    width: calc(25% - 22.2px);\n    padding: 30px 30px 35px;\n    border-radius: 10px;\n    text-align: center;\n}\n\n.package_section .packages_wrap .single_package .title{\n    font-size: 18px;\n    font-weight: 700;\n    color: #3e5061;\n    margin-bottom: 20px;\n}\n\n.package_section .packages_wrap .single_package .price{\n    font-size: 28px;\n    font-weight: 700;\n    color: #eb5757;\n}\n\n.package_section .packages_wrap .single_package .price_cut{\n    font-size: 28px;\n    font-weight: 300;\n    color: #eb5757;\n    text-decoration: line-through;\n    margin-bottom: 20px;\n}\n\n.package_section .packages_wrap .single_package .btn-primary{\n    background-color: #51c185;\n    width: 100%;\n    text-transform: uppercase;\n    color: #fff;\n    border: none;\n    border-radius: 20px;\n    padding: 10px 15px;\n    font-weight: 500;\n    font-size: 16px;\n    box-shadow: none;\n}\n\n.package_section .packages_wrap .single_package .btn-primary:hover{\n    background-color: #eb5757;\n}\n\n.package_section .feature_list{\n    margin-top: 40px;\n    list-style: none;\n}\n\n.package_section .feature_list li{\n    font-size: 20px;\n    color: #3e5061;\n    line-height: 1.754;\n    position: relative;\n    padding-left: 30px;\n}\n\n.package_section .feature_list li img{\n    position: absolute;\n    left: 0;\n    top: 9px;\n}\n\n.section_desc .inline-logo{\n    width: 210px;\n    margin-top: -7px;\n}\n\n.hospital_section{\n    padding: 60px 0 120px;\n}\n\n.hospital_section .row_wrap{\n    margin-bottom: 40px !important;\n}\n\n.hospital_section .slick-custom-dots{\n    bottom: -60px;\n}\n\n.hospital_section .slick-custom-dots li button:before{\n    font-size: 13px;\n}\n\n.hospital_section .slick-custom-dots li.slick-active button:before{\n    color: #51c185;\n}\n\n.hospital_section .slick-arrow{\n    display: none !important;\n}\n\n.hr_line{\n    height: 1px;\n    width: 100%;\n    background-color: #cbcbcb;\n}\n\n.warriors_section{\n    padding: 60px 0 70px;\n}\n\n.warriors_section .row_wrap{\n    margin-bottom: 50px;\n}\n\n.warriors_section .warrior_wrap {\n    display: flex;\n    justify-content: space-around;\n    flex-wrap: wrap;\n}\n\n.warriors_section .warrior_wrap .single_warrior{\n    position: relative;\n    max-width: 330px;\n    padding-left: 76px;\n}\n\n.warriors_section .warrior_wrap .single_warrior h3{\n    font-size: 17px;\n    font-weight: 700;\n    color: #0e1d2c;\n    margin-bottom: 20px;\n}\n\n.warriors_section .warrior_wrap .single_warrior p{\n    font-size: 14px;\n    color: #3e5061;\n    font-style: italic;\n    line-height: 1.75;\n}\n\n.warriors_section .warrior_wrap .single_warrior .comma_icon{\n    position: absolute;\n    width: 55px;\n    left: 0;\n    top: 0;\n}\n\n.warriors_section .warrior_wrap .single_warrior .user_wrap img{\n    border-radius: 50%;\n    width: 90px;\n    box-shadow: 0 0 6px 3px #c3c3c3;\n}\n\n.warriors_section .warrior_wrap .single_warrior .user_wrap{\n    margin-top: 25px;\n    font-size: 17px;\n    color: #0e1d2c;\n}\n\n.warriors_section .warrior_wrap .single_warrior h4{\n    font-size: 14px;\n    margin-top: 20px;\n}\n\n.warriors_section .help_link{\n    margin-top: 40px;\n    font-size: 24px;\n    font-weight: 700;\n    text-decoration: underline;\n    color: #eb5757;\n    text-align: center;\n    display: block;\n}\n\n.video_section .btn-primary{\n    font-size: 13px;\n    box-shadow: none;\n    padding: 15px 45px;\n    background-color: #51c185;\n    border: none;\n    font-weight: 500;\n}\n\n.video_section .btn-primary:hover{\n    background-color: #eb5757;\n}\n\n.logoWraper{\n    height:150px;\n    display: flex !important;\n}\n\n@media (min-width:800px) {\n    .choose_careshare_section .step_blocks_wrap .single_block{\n        border-radius: 8px 0 0 8px;\n        flex: 0 0 27%;\n        transition: all .3s;\n    }\n    .choose_careshare_section .step_blocks_wrap .single_block.active{\n        flex: 0 0 46%;\n    }\n    .choose_careshare_section .step_blocks_wrap .single_block ul{\n        max-height: 150px;\n        /* overflow: hidden; */\n    }\n    .choose_careshare_section .step_blocks_wrap .single_block.pink{\n        margin-left: -8px;\n    }\n    .choose_careshare_section .step_blocks_wrap .single_block.green{\n        margin-left: -8px;\n        border-radius: 8px;\n    }\n}\n\n@media (max-width:800px) {\n    .home-banner .banner{\n        padding: 50px 0px;\n    }\n    .home-banner h2{\n        font-size: 22px;\n        margin: 0;\n    }\n    .home-banner h1{\n        font-size: 60px;\n    }\n    .home-banner p{\n        font-size: 17px;\n    }\n    .home-banner p br{\n        display: none;\n    }\n    .home-banner .button{\n        font-size: 14px;\n        padding: 10px 15px;\n    }\n\n    .home-banner .image{\n        width: 100%;\n        margin-top: 30px;\n    }\n    .choose_careshare_section .step_blocks_wrap{\n        flex-direction: column;\n    }\n\n    .section_heading{\n        font-size: 30px;\n    }\n\n    .section_desc{\n        font-size: 16px;\n    }\n\n    .section_heading br,\n    .section_desc br{\n        display: none;\n    }\n\n    .choose_careshare_section{\n        padding: 40px 0;\n    }\n\n    .package_section .packages_wrap{\n        flex-wrap: wrap;\n    }\n\n    .package_section .packages_wrap .single_package{\n        width: 100%;\n        margin-bottom: 20px;\n    }\n\n    .package_section .feature_list{\n        margin-top: 10px;\n    }\n\n    .package_section .feature_list li{\n        font-size: 18px;\n    }\n\n    .package_section{\n        padding: 40px 0;\n    }\n\n    .hospital_section{\n        padding: 40px 0 100px;\n    }\n\n    .video_section{\n        padding: 40px 0;\n    }\n\n    .warriors_section .warrior_wrap .single_warrior{\n        margin-bottom: 20px;\n    }\n}\n", ""]);
 
 // exports
 
@@ -71360,6 +71360,127 @@ module.exports = "/images/comma-icon.png?9d8f00851e1d272803f631881c1fc482";
 
 /***/ }),
 
+/***/ "./resources/js/assets/images/hospital-logos/Apollo Hospitals.jpg":
+/*!************************************************************************!*\
+  !*** ./resources/js/assets/images/hospital-logos/Apollo Hospitals.jpg ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/Apollo Hospitals.jpg?78c962f907a135e01206370384a27d6a";
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/hospital-logos/Asian Cancer Institute.jpg":
+/*!******************************************************************************!*\
+  !*** ./resources/js/assets/images/hospital-logos/Asian Cancer Institute.jpg ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/Asian Cancer Institute.jpg?8787d4dbab72c9b0dbec8542234c3f0d";
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/hospital-logos/CHL Hospitals, Indore.jpg":
+/*!*****************************************************************************!*\
+  !*** ./resources/js/assets/images/hospital-logos/CHL Hospitals, Indore.jpg ***!
+  \*****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/CHL Hospitals, Indore.jpg?363c26e16531fdfc897b78da6a564d9c";
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/hospital-logos/Fortis Bangalore.jpg":
+/*!************************************************************************!*\
+  !*** ./resources/js/assets/images/hospital-logos/Fortis Bangalore.jpg ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/Fortis Bangalore.jpg?aa4a49ba20b67fc224926d45fc4f9238";
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/hospital-logos/Jupiter Hospital, Pune.jpg":
+/*!******************************************************************************!*\
+  !*** ./resources/js/assets/images/hospital-logos/Jupiter Hospital, Pune.jpg ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/Jupiter Hospital, Pune.jpg?5d5a43acc87069b8cd7954bc598b4acf";
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/hospital-logos/Kanachur  Institute of Medical Sciences logo.jpg":
+/*!****************************************************************************************************!*\
+  !*** ./resources/js/assets/images/hospital-logos/Kanachur  Institute of Medical Sciences logo.jpg ***!
+  \****************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/Kanachur  Institute of Medical Sciences logo.jpg?705afa1c7b1cf79eb4993036c3aacf80";
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/hospital-logos/Manipal Hospitals.png":
+/*!*************************************************************************!*\
+  !*** ./resources/js/assets/images/hospital-logos/Manipal Hospitals.png ***!
+  \*************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/Manipal Hospitals.png?252d232966262a8aa13792592ab0d51b";
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/hospital-logos/Mazumdar-Shaw Cancer Center, Bangalore.jpg":
+/*!**********************************************************************************************!*\
+  !*** ./resources/js/assets/images/hospital-logos/Mazumdar-Shaw Cancer Center, Bangalore.jpg ***!
+  \**********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/Mazumdar-Shaw Cancer Center, Bangalore.jpg?5e879913564266062f33af3bc8760d5f";
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/hospital-logos/Medanta.png":
+/*!***************************************************************!*\
+  !*** ./resources/js/assets/images/hospital-logos/Medanta.png ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/Medanta.png?da29c31671b1ff1c84be3dcff54856cf";
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/hospital-logos/Reliance Foundation Hospital, Mumbai.jpg":
+/*!********************************************************************************************!*\
+  !*** ./resources/js/assets/images/hospital-logos/Reliance Foundation Hospital, Mumbai.jpg ***!
+  \********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/Reliance Foundation Hospital, Mumbai.jpg?06917a4069b8248a72fb6562050bfb3f";
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/hospital-logos/Valentis Cancer Hospital, Meerut.png":
+/*!****************************************************************************************!*\
+  !*** ./resources/js/assets/images/hospital-logos/Valentis Cancer Hospital, Meerut.png ***!
+  \****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/Valentis Cancer Hospital, Meerut.png?7464e06b66a90d3788d19809cc654c84";
+
+/***/ }),
+
 /***/ "./resources/js/assets/images/logo-1.jpg":
 /*!***********************************************!*\
   !*** ./resources/js/assets/images/logo-1.jpg ***!
@@ -72636,14 +72757,36 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_images_whatsapp_icon_png__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_assets_images_whatsapp_icon_png__WEBPACK_IMPORTED_MODULE_10__);
 /* harmony import */ var _assets_images_comma_icon_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../../assets/images/comma-icon.png */ "./resources/js/assets/images/comma-icon.png");
 /* harmony import */ var _assets_images_comma_icon_png__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_assets_images_comma_icon_png__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! react-slick */ "./node_modules/react-slick/lib/index.js");
-/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(react_slick__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var _Home_css__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./Home.css */ "./resources/js/components/pages/home/Home.css");
-/* harmony import */ var _Home_css__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_Home_css__WEBPACK_IMPORTED_MODULE_13__);
-/* harmony import */ var slick_carousel_slick_slick_css__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! slick-carousel/slick/slick.css */ "./node_modules/slick-carousel/slick/slick.css");
-/* harmony import */ var slick_carousel_slick_slick_css__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(slick_carousel_slick_slick_css__WEBPACK_IMPORTED_MODULE_14__);
-/* harmony import */ var slick_carousel_slick_slick_theme_css__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! slick-carousel/slick/slick-theme.css */ "./node_modules/slick-carousel/slick/slick-theme.css");
-/* harmony import */ var slick_carousel_slick_slick_theme_css__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(slick_carousel_slick_slick_theme_css__WEBPACK_IMPORTED_MODULE_15__);
+/* harmony import */ var _assets_images_hospital_logos_Apollo_Hospitals_jpg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Apollo Hospitals.jpg */ "./resources/js/assets/images/hospital-logos/Apollo Hospitals.jpg");
+/* harmony import */ var _assets_images_hospital_logos_Apollo_Hospitals_jpg__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Apollo_Hospitals_jpg__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var _assets_images_hospital_logos_Asian_Cancer_Institute_jpg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Asian Cancer Institute.jpg */ "./resources/js/assets/images/hospital-logos/Asian Cancer Institute.jpg");
+/* harmony import */ var _assets_images_hospital_logos_Asian_Cancer_Institute_jpg__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Asian_Cancer_Institute_jpg__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var _assets_images_hospital_logos_CHL_Hospitals_Indore_jpg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/CHL Hospitals, Indore.jpg */ "./resources/js/assets/images/hospital-logos/CHL Hospitals, Indore.jpg");
+/* harmony import */ var _assets_images_hospital_logos_CHL_Hospitals_Indore_jpg__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_CHL_Hospitals_Indore_jpg__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var _assets_images_hospital_logos_Fortis_Bangalore_jpg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Fortis Bangalore.jpg */ "./resources/js/assets/images/hospital-logos/Fortis Bangalore.jpg");
+/* harmony import */ var _assets_images_hospital_logos_Fortis_Bangalore_jpg__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Fortis_Bangalore_jpg__WEBPACK_IMPORTED_MODULE_15__);
+/* harmony import */ var _assets_images_hospital_logos_Jupiter_Hospital_Pune_jpg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Jupiter Hospital, Pune.jpg */ "./resources/js/assets/images/hospital-logos/Jupiter Hospital, Pune.jpg");
+/* harmony import */ var _assets_images_hospital_logos_Jupiter_Hospital_Pune_jpg__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Jupiter_Hospital_Pune_jpg__WEBPACK_IMPORTED_MODULE_16__);
+/* harmony import */ var _assets_images_hospital_logos_Kanachur_Institute_of_Medical_Sciences_logo_jpg__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Kanachur  Institute of Medical Sciences logo.jpg */ "./resources/js/assets/images/hospital-logos/Kanachur  Institute of Medical Sciences logo.jpg");
+/* harmony import */ var _assets_images_hospital_logos_Kanachur_Institute_of_Medical_Sciences_logo_jpg__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Kanachur_Institute_of_Medical_Sciences_logo_jpg__WEBPACK_IMPORTED_MODULE_17__);
+/* harmony import */ var _assets_images_hospital_logos_Manipal_Hospitals_png__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Manipal Hospitals.png */ "./resources/js/assets/images/hospital-logos/Manipal Hospitals.png");
+/* harmony import */ var _assets_images_hospital_logos_Manipal_Hospitals_png__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Manipal_Hospitals_png__WEBPACK_IMPORTED_MODULE_18__);
+/* harmony import */ var _assets_images_hospital_logos_Mazumdar_Shaw_Cancer_Center_Bangalore_jpg__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Mazumdar-Shaw Cancer Center, Bangalore.jpg */ "./resources/js/assets/images/hospital-logos/Mazumdar-Shaw Cancer Center, Bangalore.jpg");
+/* harmony import */ var _assets_images_hospital_logos_Mazumdar_Shaw_Cancer_Center_Bangalore_jpg__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Mazumdar_Shaw_Cancer_Center_Bangalore_jpg__WEBPACK_IMPORTED_MODULE_19__);
+/* harmony import */ var _assets_images_hospital_logos_Medanta_png__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Medanta.png */ "./resources/js/assets/images/hospital-logos/Medanta.png");
+/* harmony import */ var _assets_images_hospital_logos_Medanta_png__WEBPACK_IMPORTED_MODULE_20___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Medanta_png__WEBPACK_IMPORTED_MODULE_20__);
+/* harmony import */ var _assets_images_hospital_logos_Reliance_Foundation_Hospital_Mumbai_jpg__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Reliance Foundation Hospital, Mumbai.jpg */ "./resources/js/assets/images/hospital-logos/Reliance Foundation Hospital, Mumbai.jpg");
+/* harmony import */ var _assets_images_hospital_logos_Reliance_Foundation_Hospital_Mumbai_jpg__WEBPACK_IMPORTED_MODULE_21___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Reliance_Foundation_Hospital_Mumbai_jpg__WEBPACK_IMPORTED_MODULE_21__);
+/* harmony import */ var _assets_images_hospital_logos_Valentis_Cancer_Hospital_Meerut_png__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Valentis Cancer Hospital, Meerut.png */ "./resources/js/assets/images/hospital-logos/Valentis Cancer Hospital, Meerut.png");
+/* harmony import */ var _assets_images_hospital_logos_Valentis_Cancer_Hospital_Meerut_png__WEBPACK_IMPORTED_MODULE_22___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Valentis_Cancer_Hospital_Meerut_png__WEBPACK_IMPORTED_MODULE_22__);
+/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! react-slick */ "./node_modules/react-slick/lib/index.js");
+/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_23___default = /*#__PURE__*/__webpack_require__.n(react_slick__WEBPACK_IMPORTED_MODULE_23__);
+/* harmony import */ var _Home_css__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./Home.css */ "./resources/js/components/pages/home/Home.css");
+/* harmony import */ var _Home_css__WEBPACK_IMPORTED_MODULE_24___default = /*#__PURE__*/__webpack_require__.n(_Home_css__WEBPACK_IMPORTED_MODULE_24__);
+/* harmony import */ var slick_carousel_slick_slick_css__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! slick-carousel/slick/slick.css */ "./node_modules/slick-carousel/slick/slick.css");
+/* harmony import */ var slick_carousel_slick_slick_css__WEBPACK_IMPORTED_MODULE_25___default = /*#__PURE__*/__webpack_require__.n(slick_carousel_slick_slick_css__WEBPACK_IMPORTED_MODULE_25__);
+/* harmony import */ var slick_carousel_slick_slick_theme_css__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! slick-carousel/slick/slick-theme.css */ "./node_modules/slick-carousel/slick/slick-theme.css");
+/* harmony import */ var slick_carousel_slick_slick_theme_css__WEBPACK_IMPORTED_MODULE_26___default = /*#__PURE__*/__webpack_require__.n(slick_carousel_slick_slick_theme_css__WEBPACK_IMPORTED_MODULE_26__);
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
 
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
@@ -72651,6 +72794,17 @@ function _nonIterableRest() { throw new TypeError("Invalid attempt to destructur
 function _iterableToArrayLimit(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
 
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -72842,11 +72996,14 @@ var Home = function Home() {
     className: "section_heading mb-2"
   }, "Know Our Senior Oncologists"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "section_desc"
-  }, "Our doctors have a rich 10+ years of experience and are trained at the top cancer institutes", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " such as Tata Memorial, AIIMS, and Memorial Sloan Kettering (US)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_slick__WEBPACK_IMPORTED_MODULE_12___default.a, hospitalSliderSettings, Array(12).fill("").map(function () {
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      src: _assets_images_logo_1_jpg__WEBPACK_IMPORTED_MODULE_7___default.a,
+  }, "Our doctors have a rich 10+ years of experience and are trained at the top cancer institutes", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " such as Tata Memorial, AIIMS, and Memorial Sloan Kettering (US)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_slick__WEBPACK_IMPORTED_MODULE_23___default.a, hospitalSliderSettings, [_assets_images_hospital_logos_Apollo_Hospitals_jpg__WEBPACK_IMPORTED_MODULE_12___default.a, _assets_images_hospital_logos_Asian_Cancer_Institute_jpg__WEBPACK_IMPORTED_MODULE_13___default.a, _assets_images_hospital_logos_CHL_Hospitals_Indore_jpg__WEBPACK_IMPORTED_MODULE_14___default.a, _assets_images_hospital_logos_Fortis_Bangalore_jpg__WEBPACK_IMPORTED_MODULE_15___default.a, _assets_images_hospital_logos_Jupiter_Hospital_Pune_jpg__WEBPACK_IMPORTED_MODULE_16___default.a, _assets_images_hospital_logos_Kanachur_Institute_of_Medical_Sciences_logo_jpg__WEBPACK_IMPORTED_MODULE_17___default.a, _assets_images_hospital_logos_Manipal_Hospitals_png__WEBPACK_IMPORTED_MODULE_18___default.a, _assets_images_hospital_logos_Mazumdar_Shaw_Cancer_Center_Bangalore_jpg__WEBPACK_IMPORTED_MODULE_19___default.a, _assets_images_hospital_logos_Medanta_png__WEBPACK_IMPORTED_MODULE_20___default.a, _assets_images_hospital_logos_Reliance_Foundation_Hospital_Mumbai_jpg__WEBPACK_IMPORTED_MODULE_21___default.a, _assets_images_hospital_logos_Valentis_Cancer_Hospital_Meerut_png__WEBPACK_IMPORTED_MODULE_22___default.a].map(function (path) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "logoWraper"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: path,
       style: {
         maxWidth: 240,
+        maxHeight: 140,
         margin: "auto"
       }
     }));

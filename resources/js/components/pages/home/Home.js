@@ -10,6 +10,17 @@ import avatar1 from '../../../assets/images/avatar-1.jpg';
 import checkIcon from '../../../assets/images/check-icon.png';
 import whatsappIcon from '../../../assets/images/whatsapp-icon.png';
 import commaIcon from '../../../assets/images/comma-icon.png';
+import apolloHospital from '../../../assets/images/hospital-logos/Apollo Hospitals.jpg';
+import asianCancer from '../../../assets/images/hospital-logos/Asian Cancer Institute.jpg';
+import CHLHospital from '../../../assets/images/hospital-logos/CHL Hospitals, Indore.jpg';
+import fortiseBangalore from '../../../assets/images/hospital-logos/Fortis Bangalore.jpg';
+import HCGBangalore from '../../../assets/images/hospital-logos/Jupiter Hospital, Pune.jpg';
+import kanachurHospital from '../../../assets/images/hospital-logos/Kanachur  Institute of Medical Sciences logo.jpg';
+import manipalHospital from '../../../assets/images/hospital-logos/Manipal Hospitals.png';
+import mazumdarHospital from '../../../assets/images/hospital-logos/Mazumdar-Shaw Cancer Center, Bangalore.jpg';
+import medantaHospital from '../../../assets/images/hospital-logos/Medanta.png';
+import relianceHospital from '../../../assets/images/hospital-logos/Reliance Foundation Hospital, Mumbai.jpg';
+import valentisHospital from '../../../assets/images/hospital-logos/Valentis Cancer Hospital, Meerut.png';
 import Slider from "react-slick";
 import './Home.css';
 import "slick-carousel/slick/slick.css";
@@ -163,9 +174,21 @@ const Home = () => {
                     </div>
                     <div>
                         <Slider {...hospitalSliderSettings}>
-                            {Array(12).fill("").map(() => (
-                                <div>
-                                    <img src={Logo1} style={{maxWidth:240,margin:"auto"}} />
+                            {[
+                                apolloHospital,
+                                asianCancer,
+                                CHLHospital,
+                                fortiseBangalore,
+                                HCGBangalore,
+                                kanachurHospital,
+                                manipalHospital,
+                                mazumdarHospital,
+                                medantaHospital,
+                                relianceHospital,
+                                valentisHospital
+                            ].map((path) => (
+                                <div className='logoWraper'>
+                                    <img src={path} style={{maxWidth:240,maxHeight:140,margin:"auto"}} />
                                 </div>
                             ))}
                         </Slider>
