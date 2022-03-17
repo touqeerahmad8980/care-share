@@ -6741,7 +6741,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, ".home-banner{\n\n}\n.home-banner .banner{\n    background-color: #0e1d2c;\n    padding: 60px 0px;\n}\n.home-banner h2{\n    font-size: 30px;\n    color: #eb5757;\n    font-weight: 600;\n    margin: 30px 0px 10px;\n}\n.home-banner h1{\n    font-size: 100px;\n    color: #fff;\n    font-weight: 700;\n}\n.home-banner p{\n    font-size: 20px;\n    color: #fff;\n    margin-bottom: 30px;\n}\n.home-banner .button{\n    font-size: 16px;\n    box-shadow: none;\n    padding: 15px 25px;\n    background-color: #51c185;\n    border: none;\n    font-weight: 500;\n}\n\n.home-banner .button:hover{\n    background-color: #eb5757;\n}\n\n.home-banner span{\n    font-size: 16px;\n    font-weight: 600;\n    color: #fff;\n    margin: 0px 25px;\n}\n\n.section_heading{\n    font-size: 35px;\n    font-weight: 600;\n    color: #0e1d2c;\n}\n\n.section_desc{\n    font-size: 18px;\n    color: #3e5061;\n}\n\n.home-banner .image{\n    max-width: 480px;\n    float: right;\n}\n\n.choose_careshare_section{\n    padding: 60px 0 100px;\n}\n\n.choose_careshare_section .step_blocks_wrap{\n    display: flex;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block{\n    background-color: #0e1d2c;\n    padding: 30px 40px;\n    color: #fff;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block.pink{\n    background-color: #eb5757;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block.green{\n    background-color: #51c185;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block h3{\n    font-size: 30px;\n    color: #fff;\n    font-weight: 700;\n    text-transform: uppercase;\n    line-height: 1.25;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block ul{\n    margin-left: 20px;\n    min-height: 150px;\n}\n.choose_careshare_section .step_blocks_wrap .single_block li{\n    line-height: 1.5;\n    font-size: 15px;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block .step_img{\n    max-height: 150px;\n    float: right;\n}\n\n.section_grey{\n    background-color: #f2f5f8;\n    padding: 60px 0 70px;\n}\n\n.package_section .packages_wrap{\n    display: flex;\n    justify-content: space-between;\n}\n\n.package_section .packages_wrap .single_package{\n    background-color: #fff;\n    width: calc(25% - 22.2px);\n    padding: 30px 30px 35px;\n    border-radius: 10px;\n    text-align: center;\n}\n\n.package_section .packages_wrap .single_package .title{\n    font-size: 18px;\n    font-weight: 700;\n    color: #3e5061;\n    margin-bottom: 20px;\n}\n\n.package_section .packages_wrap .single_package .price{\n    font-size: 28px;\n    font-weight: 700;\n    color: #eb5757;\n}\n\n.package_section .packages_wrap .single_package .price_cut{\n    font-size: 28px;\n    font-weight: 300;\n    color: #eb5757;\n    text-decoration: line-through;\n    margin-bottom: 20px;\n}\n\n.package_section .packages_wrap .single_package .btn-primary{\n    background-color: #51c185;\n    width: 100%;\n    text-transform: uppercase;\n    color: #fff;\n    border: none;\n    border-radius: 20px;\n    padding: 10px 15px;\n    font-weight: 500;\n    font-size: 16px;\n    box-shadow: none;\n}\n\n.package_section .packages_wrap .single_package .btn-primary:hover{\n    background-color: #eb5757;\n}\n\n.package_section .feature_list{\n    margin-top: 40px;\n    list-style: none;\n}\n\n.package_section .feature_list li{\n    font-size: 20px;\n    color: #3e5061;\n    line-height: 1.754;\n    position: relative;\n    padding-left: 30px;\n}\n\n.package_section .feature_list li img{\n    position: absolute;\n    left: 0;\n    top: 9px;\n}\n\n.section_desc .inline-logo{\n    width: 210px;\n    margin-top: -7px;\n}\n\n.hospital_section{\n    padding: 60px 0 120px;\n}\n\n.hospital_section .row_wrap{\n    margin-bottom: 40px !important;\n}\n\n.hospital_section .slick-custom-dots{\n    bottom: -60px;\n}\n\n.hospital_section .slick-custom-dots li button:before{\n    font-size: 13px;\n}\n\n.hospital_section .slick-custom-dots li.slick-active button:before{\n    color: #51c185;\n}\n\n.hospital_section .slick-arrow{\n    display: none !important;\n}\n\n.hr_line{\n    height: 1px;\n    width: 100%;\n    background-color: #cbcbcb;\n}\n\n.warriors_section{\n    padding: 60px 0 70px;\n}\n\n.warriors_section .row_wrap{\n    margin-bottom: 50px;\n}\n\n.warriors_section .warrior_wrap {\n    display: flex;\n    justify-content: space-around;\n    flex-wrap: wrap;\n}\n\n.warriors_section .warrior_wrap .single_warrior{\n    position: relative;\n    max-width: 330px;\n    padding-left: 76px;\n}\n\n.warriors_section .warrior_wrap .single_warrior h3{\n    font-size: 17px;\n    font-weight: 700;\n    color: #0e1d2c;\n    margin-bottom: 20px;\n}\n\n.warriors_section .warrior_wrap .single_warrior p{\n    font-size: 14px;\n    color: #3e5061;\n    font-style: italic;\n    line-height: 1.75;\n}\n\n.warriors_section .warrior_wrap .single_warrior .comma_icon{\n    position: absolute;\n    width: 55px;\n    left: 0;\n    top: 0;\n}\n\n.warriors_section .warrior_wrap .single_warrior .user_wrap img{\n    border-radius: 50%;\n    width: 90px;\n    box-shadow: 0 0 6px 3px #c3c3c3;\n}\n\n.warriors_section .warrior_wrap .single_warrior .user_wrap{\n    margin-top: 25px;\n    font-size: 17px;\n    color: #0e1d2c;\n}\n\n.warriors_section .warrior_wrap .single_warrior h4{\n    font-size: 14px;\n    margin-top: 20px;\n}\n\n.warriors_section .help_link{\n    margin-top: 40px;\n    font-size: 24px;\n    font-weight: 700;\n    text-decoration: underline;\n    color: #eb5757;\n    text-align: center;\n    display: block;\n}\n\n.video_section .btn-primary{\n    font-size: 13px;\n    box-shadow: none;\n    padding: 15px 45px;\n    background-color: #51c185;\n    border: none;\n    font-weight: 500;\n}\n\n.video_section .btn-primary:hover{\n    background-color: #eb5757;\n}\n\n.logoWraper{\n    height:150px;\n    display: flex !important;\n}\n\n@media (min-width:800px) {\n    .choose_careshare_section .step_blocks_wrap .single_block{\n        border-radius: 8px 0 0 8px;\n        flex: 0 0 27%;\n        transition: all .3s;\n    }\n    .choose_careshare_section .step_blocks_wrap .single_block.active{\n        flex: 0 0 46%;\n    }\n    .choose_careshare_section .step_blocks_wrap .single_block ul{\n        max-height: 150px;\n        /* overflow: hidden; */\n    }\n    .choose_careshare_section .step_blocks_wrap .single_block.pink{\n        margin-left: -8px;\n    }\n    .choose_careshare_section .step_blocks_wrap .single_block.green{\n        margin-left: -8px;\n        border-radius: 8px;\n    }\n}\n\n@media (max-width:800px) {\n    .home-banner .banner{\n        padding: 50px 0px;\n    }\n    .home-banner h2{\n        font-size: 22px;\n        margin: 0;\n    }\n    .home-banner h1{\n        font-size: 60px;\n    }\n    .home-banner p{\n        font-size: 17px;\n    }\n    .home-banner p br{\n        display: none;\n    }\n    .home-banner .button{\n        font-size: 14px;\n        padding: 10px 15px;\n    }\n\n    .home-banner .image{\n        width: 100%;\n        margin-top: 30px;\n    }\n    .choose_careshare_section .step_blocks_wrap{\n        flex-direction: column;\n    }\n\n    .section_heading{\n        font-size: 30px;\n    }\n\n    .section_desc{\n        font-size: 16px;\n    }\n\n    .section_heading br,\n    .section_desc br{\n        display: none;\n    }\n\n    .choose_careshare_section{\n        padding: 40px 0;\n    }\n\n    .package_section .packages_wrap{\n        flex-wrap: wrap;\n    }\n\n    .package_section .packages_wrap .single_package{\n        width: 100%;\n        margin-bottom: 20px;\n    }\n\n    .package_section .feature_list{\n        margin-top: 10px;\n    }\n\n    .package_section .feature_list li{\n        font-size: 18px;\n    }\n\n    .package_section{\n        padding: 40px 0;\n    }\n\n    .hospital_section{\n        padding: 40px 0 100px;\n    }\n\n    .video_section{\n        padding: 40px 0;\n    }\n\n    .warriors_section .warrior_wrap .single_warrior{\n        margin-bottom: 20px;\n    }\n}\n", ""]);
+exports.push([module.i, ".home-banner{\n    background-size: cover !important;\n}\n.home-banner .banner{\n    /* background-color: #0e1d2c; */\n    padding: 90px 0px;\n}\n.home-banner h2{\n    font-size: 30px;\n    color: #eb5757;\n    font-weight: 600;\n    margin: 30px 0px 10px;\n}\n.home-banner h1{\n    font-size: 40px;\n    color: #fff;\n    font-weight: 700;\n    max-width: 630px;\n    line-height: 1.2;\n    text-shadow: 0 0 15px #a1a1a1;\n    margin-bottom: 20px;\n}\n.home-banner p{\n    font-size: 20px;\n    color: #fff;\n    margin-bottom: 50px;\n    max-width: 630px;\n    line-height: 1.3;\n    font-weight: 500;\n    text-shadow: 0 0 15px #a1a1a1;\n}\n.home-banner .button{\n    font-size: 16px;\n    box-shadow: none;\n    padding: 15px 25px;\n    background-color: #51c185;\n    border: none;\n    font-weight: 500;\n}\n\n.home-banner .button:hover{\n    background-color: #eb5757;\n}\n\n.home-banner span{\n    font-size: 16px;\n    font-weight: 600;\n    color: #fff;\n    margin: 0px 25px;\n    text-shadow: 0 0 15px #a1a1a1;\n}\n\n.section_heading{\n    font-size: 35px;\n    font-weight: 600;\n    color: #0e1d2c;\n}\n\n.section_desc{\n    font-size: 18px;\n    color: #3e5061;\n}\n\n.home-banner .image{\n    max-width: 480px;\n    float: right;\n}\n\n.choose_careshare_section{\n    padding: 60px 0 100px;\n}\n\n.choose_careshare_section .step_blocks_wrap{\n    display: flex;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block{\n    background-color: #0e1d2c;\n    padding: 30px 40px;\n    color: #fff;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block.pink{\n    background-color: #eb5757;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block.green{\n    background-color: #51c185;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block h3{\n    font-size: 30px;\n    color: #fff;\n    font-weight: 700;\n    text-transform: uppercase;\n    line-height: 1.25;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block ul{\n    margin-left: 20px;\n    min-height: 150px;\n}\n.choose_careshare_section .step_blocks_wrap .single_block li{\n    line-height: 1.5;\n    font-size: 15px;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block .step_img{\n    max-height: 150px;\n    float: right;\n}\n\n.section_grey{\n    background-color: #f2f5f8;\n    padding: 60px 0 70px;\n}\n\n.package_section .packages_wrap{\n    display: flex;\n    justify-content: space-between;\n}\n\n.package_section .packages_wrap .single_package{\n    background-color: #fff;\n    width: calc(25% - 22.2px);\n    padding: 30px 30px 35px;\n    border-radius: 10px;\n    text-align: center;\n}\n\n.package_section .packages_wrap .single_package .title{\n    font-size: 18px;\n    font-weight: 700;\n    color: #3e5061;\n    margin-bottom: 20px;\n}\n\n.package_section .packages_wrap .single_package .price{\n    font-size: 28px;\n    font-weight: 700;\n    color: #eb5757;\n}\n\n.package_section .packages_wrap .single_package .price_cut{\n    font-size: 28px;\n    font-weight: 300;\n    color: #eb5757;\n    text-decoration: line-through;\n    margin-bottom: 20px;\n}\n\n.package_section .packages_wrap .single_package .btn-primary{\n    background-color: #51c185;\n    width: 100%;\n    text-transform: uppercase;\n    color: #fff;\n    border: none;\n    border-radius: 20px;\n    padding: 10px 15px;\n    font-weight: 500;\n    font-size: 16px;\n    box-shadow: none;\n}\n\n.package_section .packages_wrap .single_package .btn-primary:hover{\n    background-color: #eb5757;\n}\n\n.package_section .feature_list{\n    margin-top: 40px;\n    list-style: none;\n}\n\n.package_section .feature_list li{\n    font-size: 20px;\n    color: #3e5061;\n    line-height: 1.754;\n    position: relative;\n    padding-left: 30px;\n}\n\n.package_section .feature_list li img{\n    position: absolute;\n    left: 0;\n    top: 9px;\n}\n\n.section_desc .inline-logo{\n    width: 210px;\n    margin-top: -7px;\n}\n\n.hospital_section{\n    padding: 60px 0 120px;\n}\n\n.hospital_section .row_wrap{\n    margin-bottom: 40px !important;\n}\n\n.hospital_section .slick-custom-dots{\n    bottom: -60px;\n}\n\n.hospital_section .slick-custom-dots li button:before{\n    font-size: 13px;\n}\n\n.hospital_section .slick-custom-dots li.slick-active button:before{\n    color: #51c185;\n}\n\n.hospital_section .slick-arrow{\n    display: none !important;\n}\n\n.hr_line{\n    height: 1px;\n    width: 100%;\n    background-color: #cbcbcb;\n}\n\n.warriors_section{\n    padding: 60px 0 70px;\n}\n\n.warriors_section .row_wrap{\n    margin-bottom: 50px;\n}\n\n.warriors_section .warrior_wrap {\n    display: flex;\n    justify-content: space-around;\n    flex-wrap: wrap;\n}\n\n.warriors_section .warrior_wrap .single_warrior{\n    position: relative;\n    max-width: 330px;\n    padding-left: 76px;\n}\n\n.warriors_section .warrior_wrap .single_warrior h3{\n    font-size: 17px;\n    font-weight: 700;\n    color: #0e1d2c;\n    margin-bottom: 20px;\n}\n\n.warriors_section .warrior_wrap .single_warrior p{\n    font-size: 14px;\n    color: #3e5061;\n    font-style: italic;\n    line-height: 1.75;\n}\n\n.warriors_section .warrior_wrap .single_warrior .comma_icon{\n    position: absolute;\n    width: 55px;\n    left: 0;\n    top: 0;\n}\n\n.warriors_section .warrior_wrap .single_warrior .user_wrap img{\n    border-radius: 50%;\n    width: 90px;\n    box-shadow: 0 0 6px 3px #c3c3c3;\n}\n\n.warriors_section .warrior_wrap .single_warrior .user_wrap{\n    margin-top: 25px;\n    font-size: 17px;\n    color: #0e1d2c;\n}\n\n.warriors_section .warrior_wrap .single_warrior h4{\n    font-size: 14px;\n    margin-top: 20px;\n}\n\n.warriors_section .help_link{\n    margin-top: 40px;\n    font-size: 24px;\n    font-weight: 700;\n    text-decoration: underline;\n    color: #eb5757;\n    text-align: center;\n    display: block;\n}\n\n.video_section .btn-primary{\n    font-size: 13px;\n    box-shadow: none;\n    padding: 15px 45px;\n    background-color: #51c185;\n    border: none;\n    font-weight: 500;\n}\n\n.video_section .btn-primary:hover{\n    background-color: #eb5757;\n}\n\n.logoWraper{\n    height:150px;\n    display: flex !important;\n}\n\n@media (min-width:800px) {\n    .choose_careshare_section .step_blocks_wrap .single_block{\n        border-radius: 8px 0 0 8px;\n        flex: 0 0 27%;\n        transition: all .3s;\n    }\n    .choose_careshare_section .step_blocks_wrap .single_block.active{\n        flex: 0 0 46%;\n    }\n    .choose_careshare_section .step_blocks_wrap .single_block ul{\n        max-height: 150px;\n        /* overflow: hidden; */\n    }\n    .choose_careshare_section .step_blocks_wrap .single_block.pink{\n        margin-left: -8px;\n    }\n    .choose_careshare_section .step_blocks_wrap .single_block.green{\n        margin-left: -8px;\n        border-radius: 8px;\n    }\n}\n\n@media (max-width:800px) {\n    .home-banner .banner{\n        padding: 50px 0px;\n    }\n    .home-banner h2{\n        font-size: 22px;\n        margin: 0;\n    }\n    .home-banner h1{\n        font-size: 22px;\n        margin-bottom: 10px;\n    }\n    .home-banner p{\n        font-size: 15px;\n        margin-bottom: 30px;\n    }\n    .home-banner p br{\n        display: none;\n    }\n    .home-banner .button{\n        font-size: 14px;\n        padding: 10px 9px;\n    }\n    .home-banner span{\n        margin: 0 15px;\n    }\n\n    .home-banner span{\n        width: 30px;\n    }\n\n    .home-banner .image{\n        width: 100%;\n        margin-top: 30px;\n    }\n    .choose_careshare_section .step_blocks_wrap{\n        flex-direction: column;\n    }\n\n    .section_heading{\n        font-size: 30px;\n    }\n\n    .section_desc{\n        font-size: 16px;\n    }\n\n    .section_heading br,\n    .section_desc br{\n        display: none;\n    }\n\n    .choose_careshare_section{\n        padding: 40px 0;\n    }\n\n    .package_section .packages_wrap{\n        flex-wrap: wrap;\n    }\n\n    .package_section .packages_wrap .single_package{\n        width: 100%;\n        margin-bottom: 20px;\n    }\n\n    .package_section .feature_list{\n        margin-top: 10px;\n    }\n\n    .package_section .feature_list li{\n        font-size: 18px;\n    }\n\n    .package_section{\n        padding: 40px 0;\n    }\n\n    .hospital_section{\n        padding: 40px 0 100px;\n    }\n\n    .video_section{\n        padding: 40px 0;\n    }\n\n    .warriors_section .warrior_wrap .single_warrior{\n        margin-bottom: 20px;\n    }\n}\n", ""]);
 
 // exports
 
@@ -71074,6 +71074,259 @@ __webpack_require__(/*! ./components/Main */ "./resources/js/components/Main.js"
 
 /***/ }),
 
+/***/ "./resources/js/assets/banners/1.jpg":
+/*!*******************************************!*\
+  !*** ./resources/js/assets/banners/1.jpg ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/1.jpg?67fdac3f199090c5934ebb685286edc9";
+
+/***/ }),
+
+/***/ "./resources/js/assets/doctors/1.jpg":
+/*!*******************************************!*\
+  !*** ./resources/js/assets/doctors/1.jpg ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/1.jpg?0938167ce1a81352b7f64ba16b1acd15";
+
+/***/ }),
+
+/***/ "./resources/js/assets/doctors/10.jpg":
+/*!********************************************!*\
+  !*** ./resources/js/assets/doctors/10.jpg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/10.jpg?8f836a228cf33b20a23776e54eb7a607";
+
+/***/ }),
+
+/***/ "./resources/js/assets/doctors/11.jpg":
+/*!********************************************!*\
+  !*** ./resources/js/assets/doctors/11.jpg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/11.jpg?a960afa1356ed4d96f3614f8999293dd";
+
+/***/ }),
+
+/***/ "./resources/js/assets/doctors/12.jpg":
+/*!********************************************!*\
+  !*** ./resources/js/assets/doctors/12.jpg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/12.jpg?40b27bf699869bcc4ad523de3d982144";
+
+/***/ }),
+
+/***/ "./resources/js/assets/doctors/13.jpg":
+/*!********************************************!*\
+  !*** ./resources/js/assets/doctors/13.jpg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/13.jpg?9b21827195fb6d511105924ab9be5abe";
+
+/***/ }),
+
+/***/ "./resources/js/assets/doctors/14.jpg":
+/*!********************************************!*\
+  !*** ./resources/js/assets/doctors/14.jpg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/14.jpg?890ee14ee75bd9a47c88f965d5fb719d";
+
+/***/ }),
+
+/***/ "./resources/js/assets/doctors/15.jpg":
+/*!********************************************!*\
+  !*** ./resources/js/assets/doctors/15.jpg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/15.jpg?4b3dd739dbb222c2ab5beff95bd1488b";
+
+/***/ }),
+
+/***/ "./resources/js/assets/doctors/16.jpg":
+/*!********************************************!*\
+  !*** ./resources/js/assets/doctors/16.jpg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/16.jpg?562755d03998761c1ae16128a7dcb9ea";
+
+/***/ }),
+
+/***/ "./resources/js/assets/doctors/17.jpg":
+/*!********************************************!*\
+  !*** ./resources/js/assets/doctors/17.jpg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/17.jpg?6c352024a1e50108d4bdbbaa9c70fa18";
+
+/***/ }),
+
+/***/ "./resources/js/assets/doctors/18.jpg":
+/*!********************************************!*\
+  !*** ./resources/js/assets/doctors/18.jpg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/18.jpg?c841d06dfca57aa93f674ff45e1b5409";
+
+/***/ }),
+
+/***/ "./resources/js/assets/doctors/19.jpg":
+/*!********************************************!*\
+  !*** ./resources/js/assets/doctors/19.jpg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/19.jpg?69d544afda5c1c7283576a080c347825";
+
+/***/ }),
+
+/***/ "./resources/js/assets/doctors/2.jpg":
+/*!*******************************************!*\
+  !*** ./resources/js/assets/doctors/2.jpg ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/2.jpg?96cdd56aec8f9a732f8a17392e701b59";
+
+/***/ }),
+
+/***/ "./resources/js/assets/doctors/20.jpg":
+/*!********************************************!*\
+  !*** ./resources/js/assets/doctors/20.jpg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/20.jpg?dad2c68442396902339ea96ccbcf96d3";
+
+/***/ }),
+
+/***/ "./resources/js/assets/doctors/21.jpg":
+/*!********************************************!*\
+  !*** ./resources/js/assets/doctors/21.jpg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/21.jpg?404759f48eb1b19a0c7972531f36efd7";
+
+/***/ }),
+
+/***/ "./resources/js/assets/doctors/22.jpg":
+/*!********************************************!*\
+  !*** ./resources/js/assets/doctors/22.jpg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/22.jpg?e5d75b11a0d2fe1069ec98cd9839f9ac";
+
+/***/ }),
+
+/***/ "./resources/js/assets/doctors/3.jpg":
+/*!*******************************************!*\
+  !*** ./resources/js/assets/doctors/3.jpg ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/3.jpg?00a802246a57551543dbe9188ca03a63";
+
+/***/ }),
+
+/***/ "./resources/js/assets/doctors/4.png":
+/*!*******************************************!*\
+  !*** ./resources/js/assets/doctors/4.png ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/4.png?7bd2ad8893df5c4e138d866d70a0097e";
+
+/***/ }),
+
+/***/ "./resources/js/assets/doctors/5.jpg":
+/*!*******************************************!*\
+  !*** ./resources/js/assets/doctors/5.jpg ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/5.jpg?80639844df93c287faffe9b966fe4e7d";
+
+/***/ }),
+
+/***/ "./resources/js/assets/doctors/6.png":
+/*!*******************************************!*\
+  !*** ./resources/js/assets/doctors/6.png ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/6.png?1b7dcf0f6345d7576cd34c28ea917902";
+
+/***/ }),
+
+/***/ "./resources/js/assets/doctors/7.jpg":
+/*!*******************************************!*\
+  !*** ./resources/js/assets/doctors/7.jpg ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/7.jpg?5ba34e341ea632b3e90a2fcac24a9e1b";
+
+/***/ }),
+
+/***/ "./resources/js/assets/doctors/8.png":
+/*!*******************************************!*\
+  !*** ./resources/js/assets/doctors/8.png ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/8.png?b9eb1fed7b3337aca7adf20c0d7317a6";
+
+/***/ }),
+
+/***/ "./resources/js/assets/doctors/9.jpg":
+/*!*******************************************!*\
+  !*** ./resources/js/assets/doctors/9.jpg ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/9.jpg?4cd572e9f79660d4aed355758a0a8f9b";
+
+/***/ }),
+
 /***/ "./resources/js/assets/images/avatar-1.jpg":
 /*!*************************************************!*\
   !*** ./resources/js/assets/images/avatar-1.jpg ***!
@@ -71294,17 +71547,6 @@ module.exports = "/images/thyroid-cancer.svg?13470bf5a190a5490486530694cd0604";
 
 /***/ }),
 
-/***/ "./resources/js/assets/images/careshare-banner-image.jpg":
-/*!***************************************************************!*\
-  !*** ./resources/js/assets/images/careshare-banner-image.jpg ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/careshare-banner-image.jpg?5974ada7ef72ba109f2f162d47b0e46c";
-
-/***/ }),
-
 /***/ "./resources/js/assets/images/careshare-logo.png":
 /*!*******************************************************!*\
   !*** ./resources/js/assets/images/careshare-logo.png ***!
@@ -71478,17 +71720,6 @@ module.exports = "/images/Reliance Foundation Hospital, Mumbai.jpg?06917a4069b82
 /***/ (function(module, exports) {
 
 module.exports = "/images/Valentis Cancer Hospital, Meerut.png?7464e06b66a90d3788d19809cc654c84";
-
-/***/ }),
-
-/***/ "./resources/js/assets/images/logo-1.jpg":
-/*!***********************************************!*\
-  !*** ./resources/js/assets/images/logo-1.jpg ***!
-  \***********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/logo-1.jpg?f3abfbd9acc5fae3ef2b7da00b215cc9";
 
 /***/ }),
 
@@ -72735,58 +72966,100 @@ if(false) {}
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _assets_images_careshare_banner_image_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../assets/images/careshare-banner-image.jpg */ "./resources/js/assets/images/careshare-banner-image.jpg");
-/* harmony import */ var _assets_images_careshare_banner_image_jpg__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_assets_images_careshare_banner_image_jpg__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _assets_images_treatment_before_step_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../assets/images/treatment-before-step.png */ "./resources/js/assets/images/treatment-before-step.png");
-/* harmony import */ var _assets_images_treatment_before_step_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_images_treatment_before_step_png__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _assets_images_treatment_during_step_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../assets/images/treatment-during-step.png */ "./resources/js/assets/images/treatment-during-step.png");
-/* harmony import */ var _assets_images_treatment_during_step_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_assets_images_treatment_during_step_png__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _assets_images_treatment_after_step_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../assets/images/treatment-after-step.png */ "./resources/js/assets/images/treatment-after-step.png");
-/* harmony import */ var _assets_images_treatment_after_step_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_assets_images_treatment_after_step_png__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _assets_images_careshare_plus_inline_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../assets/images/careshare-plus-inline.png */ "./resources/js/assets/images/careshare-plus-inline.png");
-/* harmony import */ var _assets_images_careshare_plus_inline_png__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_assets_images_careshare_plus_inline_png__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _assets_images_video_img_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../assets/images/video-img.png */ "./resources/js/assets/images/video-img.png");
-/* harmony import */ var _assets_images_video_img_png__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_assets_images_video_img_png__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _assets_images_logo_1_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../assets/images/logo-1.jpg */ "./resources/js/assets/images/logo-1.jpg");
-/* harmony import */ var _assets_images_logo_1_jpg__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_assets_images_logo_1_jpg__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _assets_images_avatar_1_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../../assets/images/avatar-1.jpg */ "./resources/js/assets/images/avatar-1.jpg");
-/* harmony import */ var _assets_images_avatar_1_jpg__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_assets_images_avatar_1_jpg__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _assets_images_check_icon_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../../assets/images/check-icon.png */ "./resources/js/assets/images/check-icon.png");
-/* harmony import */ var _assets_images_check_icon_png__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_assets_images_check_icon_png__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _assets_images_whatsapp_icon_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../../assets/images/whatsapp-icon.png */ "./resources/js/assets/images/whatsapp-icon.png");
-/* harmony import */ var _assets_images_whatsapp_icon_png__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_assets_images_whatsapp_icon_png__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var _assets_images_comma_icon_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../../assets/images/comma-icon.png */ "./resources/js/assets/images/comma-icon.png");
-/* harmony import */ var _assets_images_comma_icon_png__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_assets_images_comma_icon_png__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var _assets_images_hospital_logos_Apollo_Hospitals_jpg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Apollo Hospitals.jpg */ "./resources/js/assets/images/hospital-logos/Apollo Hospitals.jpg");
-/* harmony import */ var _assets_images_hospital_logos_Apollo_Hospitals_jpg__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Apollo_Hospitals_jpg__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var _assets_images_hospital_logos_Asian_Cancer_Institute_jpg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Asian Cancer Institute.jpg */ "./resources/js/assets/images/hospital-logos/Asian Cancer Institute.jpg");
-/* harmony import */ var _assets_images_hospital_logos_Asian_Cancer_Institute_jpg__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Asian_Cancer_Institute_jpg__WEBPACK_IMPORTED_MODULE_13__);
-/* harmony import */ var _assets_images_hospital_logos_CHL_Hospitals_Indore_jpg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/CHL Hospitals, Indore.jpg */ "./resources/js/assets/images/hospital-logos/CHL Hospitals, Indore.jpg");
-/* harmony import */ var _assets_images_hospital_logos_CHL_Hospitals_Indore_jpg__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_CHL_Hospitals_Indore_jpg__WEBPACK_IMPORTED_MODULE_14__);
-/* harmony import */ var _assets_images_hospital_logos_Fortis_Bangalore_jpg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Fortis Bangalore.jpg */ "./resources/js/assets/images/hospital-logos/Fortis Bangalore.jpg");
-/* harmony import */ var _assets_images_hospital_logos_Fortis_Bangalore_jpg__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Fortis_Bangalore_jpg__WEBPACK_IMPORTED_MODULE_15__);
-/* harmony import */ var _assets_images_hospital_logos_Jupiter_Hospital_Pune_jpg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Jupiter Hospital, Pune.jpg */ "./resources/js/assets/images/hospital-logos/Jupiter Hospital, Pune.jpg");
-/* harmony import */ var _assets_images_hospital_logos_Jupiter_Hospital_Pune_jpg__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Jupiter_Hospital_Pune_jpg__WEBPACK_IMPORTED_MODULE_16__);
-/* harmony import */ var _assets_images_hospital_logos_Kanachur_Institute_of_Medical_Sciences_logo_jpg__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Kanachur  Institute of Medical Sciences logo.jpg */ "./resources/js/assets/images/hospital-logos/Kanachur  Institute of Medical Sciences logo.jpg");
-/* harmony import */ var _assets_images_hospital_logos_Kanachur_Institute_of_Medical_Sciences_logo_jpg__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Kanachur_Institute_of_Medical_Sciences_logo_jpg__WEBPACK_IMPORTED_MODULE_17__);
-/* harmony import */ var _assets_images_hospital_logos_Manipal_Hospitals_png__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Manipal Hospitals.png */ "./resources/js/assets/images/hospital-logos/Manipal Hospitals.png");
-/* harmony import */ var _assets_images_hospital_logos_Manipal_Hospitals_png__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Manipal_Hospitals_png__WEBPACK_IMPORTED_MODULE_18__);
-/* harmony import */ var _assets_images_hospital_logos_Mazumdar_Shaw_Cancer_Center_Bangalore_jpg__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Mazumdar-Shaw Cancer Center, Bangalore.jpg */ "./resources/js/assets/images/hospital-logos/Mazumdar-Shaw Cancer Center, Bangalore.jpg");
-/* harmony import */ var _assets_images_hospital_logos_Mazumdar_Shaw_Cancer_Center_Bangalore_jpg__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Mazumdar_Shaw_Cancer_Center_Bangalore_jpg__WEBPACK_IMPORTED_MODULE_19__);
-/* harmony import */ var _assets_images_hospital_logos_Medanta_png__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Medanta.png */ "./resources/js/assets/images/hospital-logos/Medanta.png");
-/* harmony import */ var _assets_images_hospital_logos_Medanta_png__WEBPACK_IMPORTED_MODULE_20___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Medanta_png__WEBPACK_IMPORTED_MODULE_20__);
-/* harmony import */ var _assets_images_hospital_logos_Reliance_Foundation_Hospital_Mumbai_jpg__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Reliance Foundation Hospital, Mumbai.jpg */ "./resources/js/assets/images/hospital-logos/Reliance Foundation Hospital, Mumbai.jpg");
-/* harmony import */ var _assets_images_hospital_logos_Reliance_Foundation_Hospital_Mumbai_jpg__WEBPACK_IMPORTED_MODULE_21___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Reliance_Foundation_Hospital_Mumbai_jpg__WEBPACK_IMPORTED_MODULE_21__);
-/* harmony import */ var _assets_images_hospital_logos_Valentis_Cancer_Hospital_Meerut_png__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Valentis Cancer Hospital, Meerut.png */ "./resources/js/assets/images/hospital-logos/Valentis Cancer Hospital, Meerut.png");
-/* harmony import */ var _assets_images_hospital_logos_Valentis_Cancer_Hospital_Meerut_png__WEBPACK_IMPORTED_MODULE_22___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Valentis_Cancer_Hospital_Meerut_png__WEBPACK_IMPORTED_MODULE_22__);
-/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! react-slick */ "./node_modules/react-slick/lib/index.js");
-/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_23___default = /*#__PURE__*/__webpack_require__.n(react_slick__WEBPACK_IMPORTED_MODULE_23__);
-/* harmony import */ var _Home_css__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./Home.css */ "./resources/js/components/pages/home/Home.css");
-/* harmony import */ var _Home_css__WEBPACK_IMPORTED_MODULE_24___default = /*#__PURE__*/__webpack_require__.n(_Home_css__WEBPACK_IMPORTED_MODULE_24__);
-/* harmony import */ var slick_carousel_slick_slick_css__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! slick-carousel/slick/slick.css */ "./node_modules/slick-carousel/slick/slick.css");
-/* harmony import */ var slick_carousel_slick_slick_css__WEBPACK_IMPORTED_MODULE_25___default = /*#__PURE__*/__webpack_require__.n(slick_carousel_slick_slick_css__WEBPACK_IMPORTED_MODULE_25__);
-/* harmony import */ var slick_carousel_slick_slick_theme_css__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! slick-carousel/slick/slick-theme.css */ "./node_modules/slick-carousel/slick/slick-theme.css");
-/* harmony import */ var slick_carousel_slick_slick_theme_css__WEBPACK_IMPORTED_MODULE_26___default = /*#__PURE__*/__webpack_require__.n(slick_carousel_slick_slick_theme_css__WEBPACK_IMPORTED_MODULE_26__);
+/* harmony import */ var _assets_images_treatment_before_step_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../assets/images/treatment-before-step.png */ "./resources/js/assets/images/treatment-before-step.png");
+/* harmony import */ var _assets_images_treatment_before_step_png__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_assets_images_treatment_before_step_png__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _assets_images_treatment_during_step_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../assets/images/treatment-during-step.png */ "./resources/js/assets/images/treatment-during-step.png");
+/* harmony import */ var _assets_images_treatment_during_step_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_images_treatment_during_step_png__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _assets_images_treatment_after_step_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../assets/images/treatment-after-step.png */ "./resources/js/assets/images/treatment-after-step.png");
+/* harmony import */ var _assets_images_treatment_after_step_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_assets_images_treatment_after_step_png__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _assets_images_careshare_plus_inline_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../assets/images/careshare-plus-inline.png */ "./resources/js/assets/images/careshare-plus-inline.png");
+/* harmony import */ var _assets_images_careshare_plus_inline_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_assets_images_careshare_plus_inline_png__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _assets_images_video_img_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../assets/images/video-img.png */ "./resources/js/assets/images/video-img.png");
+/* harmony import */ var _assets_images_video_img_png__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_assets_images_video_img_png__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _assets_banners_1_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../assets/banners/1.jpg */ "./resources/js/assets/banners/1.jpg");
+/* harmony import */ var _assets_banners_1_jpg__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_assets_banners_1_jpg__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _assets_doctors_1_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../assets/doctors/1.jpg */ "./resources/js/assets/doctors/1.jpg");
+/* harmony import */ var _assets_doctors_1_jpg__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_assets_doctors_1_jpg__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _assets_doctors_2_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../../assets/doctors/2.jpg */ "./resources/js/assets/doctors/2.jpg");
+/* harmony import */ var _assets_doctors_2_jpg__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_assets_doctors_2_jpg__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _assets_doctors_3_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../../assets/doctors/3.jpg */ "./resources/js/assets/doctors/3.jpg");
+/* harmony import */ var _assets_doctors_3_jpg__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_assets_doctors_3_jpg__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _assets_doctors_4_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../../assets/doctors/4.png */ "./resources/js/assets/doctors/4.png");
+/* harmony import */ var _assets_doctors_4_png__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_assets_doctors_4_png__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _assets_doctors_5_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../../assets/doctors/5.jpg */ "./resources/js/assets/doctors/5.jpg");
+/* harmony import */ var _assets_doctors_5_jpg__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_assets_doctors_5_jpg__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _assets_doctors_6_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../../assets/doctors/6.png */ "./resources/js/assets/doctors/6.png");
+/* harmony import */ var _assets_doctors_6_png__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_assets_doctors_6_png__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var _assets_doctors_7_jpg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../../assets/doctors/7.jpg */ "./resources/js/assets/doctors/7.jpg");
+/* harmony import */ var _assets_doctors_7_jpg__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_assets_doctors_7_jpg__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var _assets_doctors_8_png__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../../assets/doctors/8.png */ "./resources/js/assets/doctors/8.png");
+/* harmony import */ var _assets_doctors_8_png__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_assets_doctors_8_png__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var _assets_doctors_9_jpg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../../assets/doctors/9.jpg */ "./resources/js/assets/doctors/9.jpg");
+/* harmony import */ var _assets_doctors_9_jpg__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_assets_doctors_9_jpg__WEBPACK_IMPORTED_MODULE_15__);
+/* harmony import */ var _assets_doctors_10_jpg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../../../assets/doctors/10.jpg */ "./resources/js/assets/doctors/10.jpg");
+/* harmony import */ var _assets_doctors_10_jpg__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_assets_doctors_10_jpg__WEBPACK_IMPORTED_MODULE_16__);
+/* harmony import */ var _assets_doctors_11_jpg__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../../../assets/doctors/11.jpg */ "./resources/js/assets/doctors/11.jpg");
+/* harmony import */ var _assets_doctors_11_jpg__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(_assets_doctors_11_jpg__WEBPACK_IMPORTED_MODULE_17__);
+/* harmony import */ var _assets_doctors_12_jpg__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../../../assets/doctors/12.jpg */ "./resources/js/assets/doctors/12.jpg");
+/* harmony import */ var _assets_doctors_12_jpg__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(_assets_doctors_12_jpg__WEBPACK_IMPORTED_MODULE_18__);
+/* harmony import */ var _assets_doctors_13_jpg__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../../../assets/doctors/13.jpg */ "./resources/js/assets/doctors/13.jpg");
+/* harmony import */ var _assets_doctors_13_jpg__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(_assets_doctors_13_jpg__WEBPACK_IMPORTED_MODULE_19__);
+/* harmony import */ var _assets_doctors_14_jpg__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../../../assets/doctors/14.jpg */ "./resources/js/assets/doctors/14.jpg");
+/* harmony import */ var _assets_doctors_14_jpg__WEBPACK_IMPORTED_MODULE_20___default = /*#__PURE__*/__webpack_require__.n(_assets_doctors_14_jpg__WEBPACK_IMPORTED_MODULE_20__);
+/* harmony import */ var _assets_doctors_15_jpg__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../../../assets/doctors/15.jpg */ "./resources/js/assets/doctors/15.jpg");
+/* harmony import */ var _assets_doctors_15_jpg__WEBPACK_IMPORTED_MODULE_21___default = /*#__PURE__*/__webpack_require__.n(_assets_doctors_15_jpg__WEBPACK_IMPORTED_MODULE_21__);
+/* harmony import */ var _assets_doctors_16_jpg__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../../../assets/doctors/16.jpg */ "./resources/js/assets/doctors/16.jpg");
+/* harmony import */ var _assets_doctors_16_jpg__WEBPACK_IMPORTED_MODULE_22___default = /*#__PURE__*/__webpack_require__.n(_assets_doctors_16_jpg__WEBPACK_IMPORTED_MODULE_22__);
+/* harmony import */ var _assets_doctors_17_jpg__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../../../assets/doctors/17.jpg */ "./resources/js/assets/doctors/17.jpg");
+/* harmony import */ var _assets_doctors_17_jpg__WEBPACK_IMPORTED_MODULE_23___default = /*#__PURE__*/__webpack_require__.n(_assets_doctors_17_jpg__WEBPACK_IMPORTED_MODULE_23__);
+/* harmony import */ var _assets_doctors_18_jpg__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../../../assets/doctors/18.jpg */ "./resources/js/assets/doctors/18.jpg");
+/* harmony import */ var _assets_doctors_18_jpg__WEBPACK_IMPORTED_MODULE_24___default = /*#__PURE__*/__webpack_require__.n(_assets_doctors_18_jpg__WEBPACK_IMPORTED_MODULE_24__);
+/* harmony import */ var _assets_doctors_19_jpg__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../../../assets/doctors/19.jpg */ "./resources/js/assets/doctors/19.jpg");
+/* harmony import */ var _assets_doctors_19_jpg__WEBPACK_IMPORTED_MODULE_25___default = /*#__PURE__*/__webpack_require__.n(_assets_doctors_19_jpg__WEBPACK_IMPORTED_MODULE_25__);
+/* harmony import */ var _assets_doctors_20_jpg__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../../../assets/doctors/20.jpg */ "./resources/js/assets/doctors/20.jpg");
+/* harmony import */ var _assets_doctors_20_jpg__WEBPACK_IMPORTED_MODULE_26___default = /*#__PURE__*/__webpack_require__.n(_assets_doctors_20_jpg__WEBPACK_IMPORTED_MODULE_26__);
+/* harmony import */ var _assets_doctors_21_jpg__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ../../../assets/doctors/21.jpg */ "./resources/js/assets/doctors/21.jpg");
+/* harmony import */ var _assets_doctors_21_jpg__WEBPACK_IMPORTED_MODULE_27___default = /*#__PURE__*/__webpack_require__.n(_assets_doctors_21_jpg__WEBPACK_IMPORTED_MODULE_27__);
+/* harmony import */ var _assets_doctors_22_jpg__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ../../../assets/doctors/22.jpg */ "./resources/js/assets/doctors/22.jpg");
+/* harmony import */ var _assets_doctors_22_jpg__WEBPACK_IMPORTED_MODULE_28___default = /*#__PURE__*/__webpack_require__.n(_assets_doctors_22_jpg__WEBPACK_IMPORTED_MODULE_28__);
+/* harmony import */ var _assets_images_avatar_1_jpg__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ../../../assets/images/avatar-1.jpg */ "./resources/js/assets/images/avatar-1.jpg");
+/* harmony import */ var _assets_images_avatar_1_jpg__WEBPACK_IMPORTED_MODULE_29___default = /*#__PURE__*/__webpack_require__.n(_assets_images_avatar_1_jpg__WEBPACK_IMPORTED_MODULE_29__);
+/* harmony import */ var _assets_images_check_icon_png__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ../../../assets/images/check-icon.png */ "./resources/js/assets/images/check-icon.png");
+/* harmony import */ var _assets_images_check_icon_png__WEBPACK_IMPORTED_MODULE_30___default = /*#__PURE__*/__webpack_require__.n(_assets_images_check_icon_png__WEBPACK_IMPORTED_MODULE_30__);
+/* harmony import */ var _assets_images_whatsapp_icon_png__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ../../../assets/images/whatsapp-icon.png */ "./resources/js/assets/images/whatsapp-icon.png");
+/* harmony import */ var _assets_images_whatsapp_icon_png__WEBPACK_IMPORTED_MODULE_31___default = /*#__PURE__*/__webpack_require__.n(_assets_images_whatsapp_icon_png__WEBPACK_IMPORTED_MODULE_31__);
+/* harmony import */ var _assets_images_comma_icon_png__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ../../../assets/images/comma-icon.png */ "./resources/js/assets/images/comma-icon.png");
+/* harmony import */ var _assets_images_comma_icon_png__WEBPACK_IMPORTED_MODULE_32___default = /*#__PURE__*/__webpack_require__.n(_assets_images_comma_icon_png__WEBPACK_IMPORTED_MODULE_32__);
+/* harmony import */ var _assets_images_hospital_logos_Apollo_Hospitals_jpg__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Apollo Hospitals.jpg */ "./resources/js/assets/images/hospital-logos/Apollo Hospitals.jpg");
+/* harmony import */ var _assets_images_hospital_logos_Apollo_Hospitals_jpg__WEBPACK_IMPORTED_MODULE_33___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Apollo_Hospitals_jpg__WEBPACK_IMPORTED_MODULE_33__);
+/* harmony import */ var _assets_images_hospital_logos_Asian_Cancer_Institute_jpg__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Asian Cancer Institute.jpg */ "./resources/js/assets/images/hospital-logos/Asian Cancer Institute.jpg");
+/* harmony import */ var _assets_images_hospital_logos_Asian_Cancer_Institute_jpg__WEBPACK_IMPORTED_MODULE_34___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Asian_Cancer_Institute_jpg__WEBPACK_IMPORTED_MODULE_34__);
+/* harmony import */ var _assets_images_hospital_logos_CHL_Hospitals_Indore_jpg__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/CHL Hospitals, Indore.jpg */ "./resources/js/assets/images/hospital-logos/CHL Hospitals, Indore.jpg");
+/* harmony import */ var _assets_images_hospital_logos_CHL_Hospitals_Indore_jpg__WEBPACK_IMPORTED_MODULE_35___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_CHL_Hospitals_Indore_jpg__WEBPACK_IMPORTED_MODULE_35__);
+/* harmony import */ var _assets_images_hospital_logos_Fortis_Bangalore_jpg__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Fortis Bangalore.jpg */ "./resources/js/assets/images/hospital-logos/Fortis Bangalore.jpg");
+/* harmony import */ var _assets_images_hospital_logos_Fortis_Bangalore_jpg__WEBPACK_IMPORTED_MODULE_36___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Fortis_Bangalore_jpg__WEBPACK_IMPORTED_MODULE_36__);
+/* harmony import */ var _assets_images_hospital_logos_Jupiter_Hospital_Pune_jpg__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Jupiter Hospital, Pune.jpg */ "./resources/js/assets/images/hospital-logos/Jupiter Hospital, Pune.jpg");
+/* harmony import */ var _assets_images_hospital_logos_Jupiter_Hospital_Pune_jpg__WEBPACK_IMPORTED_MODULE_37___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Jupiter_Hospital_Pune_jpg__WEBPACK_IMPORTED_MODULE_37__);
+/* harmony import */ var _assets_images_hospital_logos_Kanachur_Institute_of_Medical_Sciences_logo_jpg__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Kanachur  Institute of Medical Sciences logo.jpg */ "./resources/js/assets/images/hospital-logos/Kanachur  Institute of Medical Sciences logo.jpg");
+/* harmony import */ var _assets_images_hospital_logos_Kanachur_Institute_of_Medical_Sciences_logo_jpg__WEBPACK_IMPORTED_MODULE_38___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Kanachur_Institute_of_Medical_Sciences_logo_jpg__WEBPACK_IMPORTED_MODULE_38__);
+/* harmony import */ var _assets_images_hospital_logos_Manipal_Hospitals_png__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Manipal Hospitals.png */ "./resources/js/assets/images/hospital-logos/Manipal Hospitals.png");
+/* harmony import */ var _assets_images_hospital_logos_Manipal_Hospitals_png__WEBPACK_IMPORTED_MODULE_39___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Manipal_Hospitals_png__WEBPACK_IMPORTED_MODULE_39__);
+/* harmony import */ var _assets_images_hospital_logos_Mazumdar_Shaw_Cancer_Center_Bangalore_jpg__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Mazumdar-Shaw Cancer Center, Bangalore.jpg */ "./resources/js/assets/images/hospital-logos/Mazumdar-Shaw Cancer Center, Bangalore.jpg");
+/* harmony import */ var _assets_images_hospital_logos_Mazumdar_Shaw_Cancer_Center_Bangalore_jpg__WEBPACK_IMPORTED_MODULE_40___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Mazumdar_Shaw_Cancer_Center_Bangalore_jpg__WEBPACK_IMPORTED_MODULE_40__);
+/* harmony import */ var _assets_images_hospital_logos_Medanta_png__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Medanta.png */ "./resources/js/assets/images/hospital-logos/Medanta.png");
+/* harmony import */ var _assets_images_hospital_logos_Medanta_png__WEBPACK_IMPORTED_MODULE_41___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Medanta_png__WEBPACK_IMPORTED_MODULE_41__);
+/* harmony import */ var _assets_images_hospital_logos_Reliance_Foundation_Hospital_Mumbai_jpg__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Reliance Foundation Hospital, Mumbai.jpg */ "./resources/js/assets/images/hospital-logos/Reliance Foundation Hospital, Mumbai.jpg");
+/* harmony import */ var _assets_images_hospital_logos_Reliance_Foundation_Hospital_Mumbai_jpg__WEBPACK_IMPORTED_MODULE_42___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Reliance_Foundation_Hospital_Mumbai_jpg__WEBPACK_IMPORTED_MODULE_42__);
+/* harmony import */ var _assets_images_hospital_logos_Valentis_Cancer_Hospital_Meerut_png__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Valentis Cancer Hospital, Meerut.png */ "./resources/js/assets/images/hospital-logos/Valentis Cancer Hospital, Meerut.png");
+/* harmony import */ var _assets_images_hospital_logos_Valentis_Cancer_Hospital_Meerut_png__WEBPACK_IMPORTED_MODULE_43___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Valentis_Cancer_Hospital_Meerut_png__WEBPACK_IMPORTED_MODULE_43__);
+/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! react-slick */ "./node_modules/react-slick/lib/index.js");
+/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_44___default = /*#__PURE__*/__webpack_require__.n(react_slick__WEBPACK_IMPORTED_MODULE_44__);
+/* harmony import */ var _Home_css__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! ./Home.css */ "./resources/js/components/pages/home/Home.css");
+/* harmony import */ var _Home_css__WEBPACK_IMPORTED_MODULE_45___default = /*#__PURE__*/__webpack_require__.n(_Home_css__WEBPACK_IMPORTED_MODULE_45__);
+/* harmony import */ var slick_carousel_slick_slick_css__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! slick-carousel/slick/slick.css */ "./node_modules/slick-carousel/slick/slick.css");
+/* harmony import */ var slick_carousel_slick_slick_css__WEBPACK_IMPORTED_MODULE_46___default = /*#__PURE__*/__webpack_require__.n(slick_carousel_slick_slick_css__WEBPACK_IMPORTED_MODULE_46__);
+/* harmony import */ var slick_carousel_slick_slick_theme_css__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! slick-carousel/slick/slick-theme.css */ "./node_modules/slick-carousel/slick/slick-theme.css");
+/* harmony import */ var slick_carousel_slick_slick_theme_css__WEBPACK_IMPORTED_MODULE_47___default = /*#__PURE__*/__webpack_require__.n(slick_carousel_slick_slick_theme_css__WEBPACK_IMPORTED_MODULE_47__);
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
 
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
@@ -72794,6 +73067,27 @@ function _nonIterableRest() { throw new TypeError("Invalid attempt to destructur
 function _iterableToArrayLimit(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
 
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -72831,6 +73125,21 @@ var Home = function Home() {
 
   var _window = window,
       screenWidth = _window.innerWidth;
+  var doctorSliderSettings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 5,
+    slidesToScroll: 5,
+    dotsClass: "slick-dots slick-custom-dots",
+    responsive: [{
+      breakpoint: 800,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    }]
+  };
   var hospitalSliderSettings = {
     dots: true,
     infinite: true,
@@ -72847,7 +73156,10 @@ var Home = function Home() {
     }]
   };
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-    className: "home-banner"
+    className: "home-banner",
+    style: {
+      background: "url(".concat(_assets_banners_1_jpg__WEBPACK_IMPORTED_MODULE_6___default.a, ") no-repeat")
+    }
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "banner"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -72855,20 +73167,13 @@ var Home = function Home() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "row"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-md-6"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "24*7 PERSONALIZED"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "CANCER CARE"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    className: "mt-0"
-  }, "JUST AT A CLICK"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "From diangnosis to treatment to recovery ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "and beyond-guiding you at each step."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: "col-md-12"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Diagnose, treat and manage cancer without any delay"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Cancer is a silent killer! But you can defeat it with timely interventions."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
     href: "#",
     className: "btn btn-primary button"
   }, "Sign up For Free Consultation"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "or"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_whatsapp_icon_png__WEBPACK_IMPORTED_MODULE_10___default.a,
+    src: _assets_images_whatsapp_icon_png__WEBPACK_IMPORTED_MODULE_31___default.a,
     width: "45"
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-md-6"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_careshare_banner_image_jpg__WEBPACK_IMPORTED_MODULE_1___default.a,
-    className: "image"
   })))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     className: "choose_careshare_section"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -72889,7 +73194,7 @@ var Home = function Home() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "mb-4"
   }, "Before the", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Treatment:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, (activeStep === "blue" || screenWidth < 800) && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "With Smart Algorithms & Artificial", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " Intelligence - find cancer,", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " specialist doctors, and the best", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " hospitals at the earliest stage."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_treatment_before_step_png__WEBPACK_IMPORTED_MODULE_2___default.a,
+    src: _assets_images_treatment_before_step_png__WEBPACK_IMPORTED_MODULE_1___default.a,
     className: "step_img"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "single_block pink ".concat(activeStep === "pink" && "active"),
@@ -72899,7 +73204,7 @@ var Home = function Home() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "mb-4"
   }, "During The", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Treatment:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, (activeStep === "pink" || screenWidth < 800) && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Use the world's latest AI-powered technology to monitor your symptoms from anywhere & get 24/7 doctor support."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Get automated real-time help for managing your condition from the comfort of your home."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_treatment_during_step_png__WEBPACK_IMPORTED_MODULE_3___default.a,
+    src: _assets_images_treatment_during_step_png__WEBPACK_IMPORTED_MODULE_2___default.a,
     className: "step_img"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "single_block green ".concat(activeStep === "green" && "active"),
@@ -72909,8 +73214,50 @@ var Home = function Home() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "mb-4"
   }, "After The", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Treatment:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, (activeStep === "green" || screenWidth < 800) && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Track symptoms and follow up regularly with your dedicated doctor ensuring timely interventions."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Live cancer-free high-quality life with the help of CareShare."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_treatment_after_step_png__WEBPACK_IMPORTED_MODULE_4___default.a,
+    src: _assets_images_treatment_after_step_png__WEBPACK_IMPORTED_MODULE_3___default.a,
     className: "step_img"
+  }))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    className: "section_grey hospital_section"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row_wrap mb-5 text-center"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "section_heading mb-2"
+  }, "Know Our Senior Oncologists"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "section_desc"
+  }, "Our doctors have a rich 10+ years of experience and are trained at the top cancer institutes", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " such as Tata Memorial, AIIMS, and Memorial Sloan Kettering (US)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_slick__WEBPACK_IMPORTED_MODULE_44___default.a, doctorSliderSettings, Array(22).fill('').map(function (val, index) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "logoWraper"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: "/images/doctors/".concat(index + 1, ".jpg"),
+      style: {
+        maxWidth: 240,
+        maxHeight: 140,
+        margin: "auto"
+      }
+    }));
+  }))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    className: "hospital_section"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row_wrap mb-5 text-center"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "section_heading mb-2"
+  }, "Know Our Hospitals"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "section_desc"
+  }, "Our doctors have a rich 10+ years of experience and are trained at the top cancer institutes", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " such as Tata Memorial, AIIMS, and Memorial Sloan Kettering (US)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_slick__WEBPACK_IMPORTED_MODULE_44___default.a, hospitalSliderSettings, [_assets_images_hospital_logos_Apollo_Hospitals_jpg__WEBPACK_IMPORTED_MODULE_33___default.a, _assets_images_hospital_logos_Asian_Cancer_Institute_jpg__WEBPACK_IMPORTED_MODULE_34___default.a, _assets_images_hospital_logos_CHL_Hospitals_Indore_jpg__WEBPACK_IMPORTED_MODULE_35___default.a, _assets_images_hospital_logos_Fortis_Bangalore_jpg__WEBPACK_IMPORTED_MODULE_36___default.a, _assets_images_hospital_logos_Jupiter_Hospital_Pune_jpg__WEBPACK_IMPORTED_MODULE_37___default.a, _assets_images_hospital_logos_Kanachur_Institute_of_Medical_Sciences_logo_jpg__WEBPACK_IMPORTED_MODULE_38___default.a, _assets_images_hospital_logos_Manipal_Hospitals_png__WEBPACK_IMPORTED_MODULE_39___default.a, _assets_images_hospital_logos_Mazumdar_Shaw_Cancer_Center_Bangalore_jpg__WEBPACK_IMPORTED_MODULE_40___default.a, _assets_images_hospital_logos_Medanta_png__WEBPACK_IMPORTED_MODULE_41___default.a, _assets_images_hospital_logos_Reliance_Foundation_Hospital_Mumbai_jpg__WEBPACK_IMPORTED_MODULE_42___default.a, _assets_images_hospital_logos_Valentis_Cancer_Hospital_Meerut_png__WEBPACK_IMPORTED_MODULE_43___default.a].map(function (path) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "logoWraper"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: path,
+      style: {
+        maxWidth: 240,
+        maxHeight: 140,
+        margin: "auto"
+      }
+    }));
   }))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     className: "section_grey package_section"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -72923,7 +73270,7 @@ var Home = function Home() {
     className: "section_desc"
   }, "Join ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "inline-logo",
-    src: _assets_images_careshare_plus_inline_png__WEBPACK_IMPORTED_MODULE_5___default.a
+    src: _assets_images_careshare_plus_inline_png__WEBPACK_IMPORTED_MODULE_4___default.a
   }), " as early user and get unlimited benefits at just 1/10th of the cost: ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Better outcomes of your treatment with")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "packages_wrap"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -72969,49 +73316,24 @@ var Home = function Home() {
   }, "Pay Now"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     className: "feature_list"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_check_icon_png__WEBPACK_IMPORTED_MODULE_9___default.a,
+    src: _assets_images_check_icon_png__WEBPACK_IMPORTED_MODULE_30___default.a,
     className: "mr-3"
   }), " Regular Health Tracking"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_check_icon_png__WEBPACK_IMPORTED_MODULE_9___default.a,
+    src: _assets_images_check_icon_png__WEBPACK_IMPORTED_MODULE_30___default.a,
     className: "mr-3"
   }), " 24*7 Real-Time Symptom Management"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_check_icon_png__WEBPACK_IMPORTED_MODULE_9___default.a,
+    src: _assets_images_check_icon_png__WEBPACK_IMPORTED_MODULE_30___default.a,
     className: "mr-3"
   }), " Personalized Onco-Nutritional Plan With Unlimited Access To Nutritionist"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_check_icon_png__WEBPACK_IMPORTED_MODULE_9___default.a,
+    src: _assets_images_check_icon_png__WEBPACK_IMPORTED_MODULE_30___default.a,
     className: "mr-3"
   }), " Tailor Made Naturopathy, Yoga And Mental Health Sessions For You And Caregivers"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_check_icon_png__WEBPACK_IMPORTED_MODULE_9___default.a,
+    src: _assets_images_check_icon_png__WEBPACK_IMPORTED_MODULE_30___default.a,
     className: "mr-3"
   }), " Real Time Unlimited Access To Dedicated Doctor"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_check_icon_png__WEBPACK_IMPORTED_MODULE_9___default.a,
+    src: _assets_images_check_icon_png__WEBPACK_IMPORTED_MODULE_30___default.a,
     className: "mr-3"
   }), " Medication And Test Reminders With Family In Loop")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-    className: "hospital_section"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "container"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "row_wrap mb-5 text-center"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    className: "section_heading mb-2"
-  }, "Know Our Senior Oncologists"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "section_desc"
-  }, "Our doctors have a rich 10+ years of experience and are trained at the top cancer institutes", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " such as Tata Memorial, AIIMS, and Memorial Sloan Kettering (US)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_slick__WEBPACK_IMPORTED_MODULE_23___default.a, hospitalSliderSettings, [_assets_images_hospital_logos_Apollo_Hospitals_jpg__WEBPACK_IMPORTED_MODULE_12___default.a, _assets_images_hospital_logos_Asian_Cancer_Institute_jpg__WEBPACK_IMPORTED_MODULE_13___default.a, _assets_images_hospital_logos_CHL_Hospitals_Indore_jpg__WEBPACK_IMPORTED_MODULE_14___default.a, _assets_images_hospital_logos_Fortis_Bangalore_jpg__WEBPACK_IMPORTED_MODULE_15___default.a, _assets_images_hospital_logos_Jupiter_Hospital_Pune_jpg__WEBPACK_IMPORTED_MODULE_16___default.a, _assets_images_hospital_logos_Kanachur_Institute_of_Medical_Sciences_logo_jpg__WEBPACK_IMPORTED_MODULE_17___default.a, _assets_images_hospital_logos_Manipal_Hospitals_png__WEBPACK_IMPORTED_MODULE_18___default.a, _assets_images_hospital_logos_Mazumdar_Shaw_Cancer_Center_Bangalore_jpg__WEBPACK_IMPORTED_MODULE_19___default.a, _assets_images_hospital_logos_Medanta_png__WEBPACK_IMPORTED_MODULE_20___default.a, _assets_images_hospital_logos_Reliance_Foundation_Hospital_Mumbai_jpg__WEBPACK_IMPORTED_MODULE_21___default.a, _assets_images_hospital_logos_Valentis_Cancer_Hospital_Meerut_png__WEBPACK_IMPORTED_MODULE_22___default.a].map(function (path) {
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "logoWraper"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      src: path,
-      style: {
-        maxWidth: 240,
-        maxHeight: 140,
-        margin: "auto"
-      }
-    }));
-  }))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "container"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "hr_line"
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     className: "warriors_section"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container"
@@ -73025,29 +73347,29 @@ var Home = function Home() {
     className: "single_warrior"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "comma_icon",
-    src: _assets_images_comma_icon_png__WEBPACK_IMPORTED_MODULE_11___default.a
+    src: _assets_images_comma_icon_png__WEBPACK_IMPORTED_MODULE_32___default.a
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "No Waiting Time"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\"Whenever my father has any symptoms, I'll just put that in the CareShare app and I will immediately get management instructions. It even automatically gets the consultation done when needed. It has made our lives much simpler. I highly...\u201D"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "user_wrap"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_avatar_1_jpg__WEBPACK_IMPORTED_MODULE_8___default.a
+    src: _assets_images_avatar_1_jpg__WEBPACK_IMPORTED_MODULE_29___default.a
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "- Mandeep Kaur"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "single_warrior"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "comma_icon",
-    src: _assets_images_comma_icon_png__WEBPACK_IMPORTED_MODULE_11___default.a
+    src: _assets_images_comma_icon_png__WEBPACK_IMPORTED_MODULE_32___default.a
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "24/7 Remote Monitoring"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\"It was late at night around 2 am during lockdown when my mother ( breast cancer patient), had stomach pain and vomiting. We were too afraid to go to the hospital due to covid. We just put the symptoms in the app and within 2 minutes, we got...\u201D"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "user_wrap"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_avatar_1_jpg__WEBPACK_IMPORTED_MODULE_8___default.a
+    src: _assets_images_avatar_1_jpg__WEBPACK_IMPORTED_MODULE_29___default.a
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "- Punit Sharma"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "single_warrior"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "comma_icon",
-    src: _assets_images_comma_icon_png__WEBPACK_IMPORTED_MODULE_11___default.a
+    src: _assets_images_comma_icon_png__WEBPACK_IMPORTED_MODULE_32___default.a
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Empowers the Whole Family"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\"When my brother was diagnosed with gastric cancer in 2017 and I was in the US, I used to call him every day and keep a record of his symptoms in a diary. In March 2021, I came to visit him due to his relapse, I came across CareShare through our oncologist in KIMS. When ...\u201D"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "user_wrap"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_avatar_1_jpg__WEBPACK_IMPORTED_MODULE_8___default.a
+    src: _assets_images_avatar_1_jpg__WEBPACK_IMPORTED_MODULE_29___default.a
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "- Kishan Reddy")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "help_link",
     href: "javascript:void(0)"
@@ -73062,7 +73384,7 @@ var Home = function Home() {
   }, "You Are A Warrior, We Have Well-trained Soldiers.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " Let's Battle Out Cancer Together!")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "text-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_video_img_png__WEBPACK_IMPORTED_MODULE_6___default.a,
+    src: _assets_images_video_img_png__WEBPACK_IMPORTED_MODULE_5___default.a,
     style: {
       maxWidth: 450,
       width: "100%",

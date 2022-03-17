@@ -1,11 +1,32 @@
 import React from 'react'
-import careshareBannerImage from '../../../assets/images/careshare-banner-image.jpg';
 import treatmentBeforeStep from '../../../assets/images/treatment-before-step.png';
 import treatmentDuringStep from '../../../assets/images/treatment-during-step.png';
 import treatmentAfterStep from '../../../assets/images/treatment-after-step.png';
 import caresharePlusInline from '../../../assets/images/careshare-plus-inline.png';
 import videoImg from '../../../assets/images/video-img.png';
-import Logo1 from '../../../assets/images/logo-1.jpg';
+import Banner from '../../../assets/banners/1.jpg';
+import Doctor1 from '../../../assets/doctors/1.jpg';
+import Doctor2 from '../../../assets/doctors/2.jpg';
+import Doctor3 from '../../../assets/doctors/3.jpg';
+import Doctor4 from '../../../assets/doctors/4.png';
+import Doctor5 from '../../../assets/doctors/5.jpg';
+import Doctor6 from '../../../assets/doctors/6.png';
+import Doctor7 from '../../../assets/doctors/7.jpg';
+import Doctor8 from '../../../assets/doctors/8.png';
+import Doctor9 from '../../../assets/doctors/9.jpg';
+import Doctor10 from '../../../assets/doctors/10.jpg';
+import Doctor11 from '../../../assets/doctors/11.jpg';
+import Doctor12 from '../../../assets/doctors/12.jpg';
+import Doctor13 from '../../../assets/doctors/13.jpg';
+import Doctor14 from '../../../assets/doctors/14.jpg';
+import Doctor15 from '../../../assets/doctors/15.jpg';
+import Doctor16 from '../../../assets/doctors/16.jpg';
+import Doctor17 from '../../../assets/doctors/17.jpg';
+import Doctor18 from '../../../assets/doctors/18.jpg';
+import Doctor19 from '../../../assets/doctors/19.jpg';
+import Doctor20 from '../../../assets/doctors/20.jpg';
+import Doctor21 from '../../../assets/doctors/21.jpg';
+import Doctor22 from '../../../assets/doctors/22.jpg';
 import avatar1 from '../../../assets/images/avatar-1.jpg';
 import checkIcon from '../../../assets/images/check-icon.png';
 import whatsappIcon from '../../../assets/images/whatsapp-icon.png';
@@ -30,6 +51,23 @@ const Home = () => {
 
     const [activeStep, setActiveStep] = React.useState('blue')
     const { innerWidth: screenWidth } = window;
+    const doctorSliderSettings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 5,
+        slidesToScroll: 5,
+        dotsClass: "slick-dots slick-custom-dots",
+        responsive: [
+            {
+              breakpoint: 800,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+              }
+            }
+          ]
+    };
     const hospitalSliderSettings = {
         dots: true,
         infinite: true,
@@ -50,11 +88,18 @@ const Home = () => {
 
     return (
         <div>
-            <section className='home-banner'>
+            <section className='home-banner' style={{background:`url(${Banner}) no-repeat`}}>
                 <div className="banner">
                     <div className="container">
                         <div className='row'>
-                            <div className='col-md-6'>
+                            <div className='col-md-12'>
+                                <h1>Diagnose, treat and manage cancer without any delay</h1>
+                                <p>Cancer is a silent killer! But you can defeat it with timely interventions.</p>
+                                <button href='#' className='btn btn-primary button'>Sign up For Free Consultation</button>
+                                <span>or</span>
+                                <img src={whatsappIcon} width="45" />
+                            </div>
+                            {/* <div className='col-md-6'>
                                 <h2>24*7 PERSONALIZED</h2>
                                 <h1>CANCER CARE</h1>
                                 <h2 className="mt-0">JUST AT A CLICK</h2>
@@ -65,7 +110,7 @@ const Home = () => {
                             </div>
                             <div className='col-md-6'>
                                 <img src={careshareBannerImage} className='image' />
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
@@ -124,6 +169,52 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+            <section className='section_grey hospital_section'>
+                <div className='container'>
+                    <div className='row_wrap mb-5 text-center'>
+                        <h2 className='section_heading mb-2'>Know Our Senior Oncologists</h2>
+                        <p className='section_desc'>Our doctors have a rich 10+ years of experience and are trained at the top cancer institutes<br /> such as Tata Memorial, AIIMS, and Memorial Sloan Kettering (US)</p>
+                    </div>
+                    <div>
+                        <Slider {...doctorSliderSettings}>
+                            {Array(22).fill('').map((val, index) => (
+                                <div className='logoWraper'>
+                                    <img src={`/images/doctors/${index+1}.jpg`} style={{maxWidth:240,maxHeight:140,margin:"auto"}} />
+                                </div>
+                            ))}
+                        </Slider>
+                    </div>
+                </div>
+            </section>
+            <section className='hospital_section'>
+                <div className='container'>
+                    <div className='row_wrap mb-5 text-center'>
+                        <h2 className='section_heading mb-2'>Know Our Hospitals</h2>
+                        <p className='section_desc'>Our doctors have a rich 10+ years of experience and are trained at the top cancer institutes<br /> such as Tata Memorial, AIIMS, and Memorial Sloan Kettering (US)</p>
+                    </div>
+                    <div>
+                        <Slider {...hospitalSliderSettings}>
+                            {[
+                                apolloHospital,
+                                asianCancer,
+                                CHLHospital,
+                                fortiseBangalore,
+                                HCGBangalore,
+                                kanachurHospital,
+                                manipalHospital,
+                                mazumdarHospital,
+                                medantaHospital,
+                                relianceHospital,
+                                valentisHospital
+                            ].map((path) => (
+                                <div className='logoWraper'>
+                                    <img src={path} style={{maxWidth:240,maxHeight:140,margin:"auto"}} />
+                                </div>
+                            ))}
+                        </Slider>
+                    </div>
+                </div>
+            </section>
             <section className='section_grey package_section'>
                 <div className='container'>
                     <div className='row_wrap mb-5 text-center'>
@@ -166,38 +257,9 @@ const Home = () => {
                     </ul>
                 </div>
             </section>
-            <section className='hospital_section'>
-                <div className='container'>
-                    <div className='row_wrap mb-5 text-center'>
-                        <h2 className='section_heading mb-2'>Know Our Senior Oncologists</h2>
-                        <p className='section_desc'>Our doctors have a rich 10+ years of experience and are trained at the top cancer institutes<br /> such as Tata Memorial, AIIMS, and Memorial Sloan Kettering (US)</p>
-                    </div>
-                    <div>
-                        <Slider {...hospitalSliderSettings}>
-                            {[
-                                apolloHospital,
-                                asianCancer,
-                                CHLHospital,
-                                fortiseBangalore,
-                                HCGBangalore,
-                                kanachurHospital,
-                                manipalHospital,
-                                mazumdarHospital,
-                                medantaHospital,
-                                relianceHospital,
-                                valentisHospital
-                            ].map((path) => (
-                                <div className='logoWraper'>
-                                    <img src={path} style={{maxWidth:240,maxHeight:140,margin:"auto"}} />
-                                </div>
-                            ))}
-                        </Slider>
-                    </div>
-                </div>
-            </section>
-            <div className='container'>
+            {/* <div className='container'>
                 <div className='hr_line'></div>
-            </div>
+            </div> */}
             <section className='warriors_section'>
                 <div className='container'>
                     <div className='row_wrap text-center'>
