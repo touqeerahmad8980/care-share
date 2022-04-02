@@ -3,6 +3,7 @@
 }
 .home-banner .banner{
     /* background-color: #0e1d2c; */
+    background: linear-gradient(90deg, rgba(2,0,36,0.5) 0%, rgba(0,0,0,0.1) 50%);
     padding: 90px 0px;
 }
 .home-banner h2{
@@ -17,7 +18,7 @@
     font-weight: 700;
     max-width: 630px;
     line-height: 1.2;
-    text-shadow: 0 0 15px #a1a1a1;
+    /* text-shadow: 0 0 15px #a1a1a1; */
     margin-bottom: 20px;
 }
 .home-banner p{
@@ -27,7 +28,7 @@
     max-width: 630px;
     line-height: 1.3;
     font-weight: 500;
-    text-shadow: 0 0 15px #a1a1a1;
+    /* text-shadow: 0 0 15px #a1a1a1; */
 }
 .home-banner .button{
     font-size: 16px;
@@ -72,12 +73,48 @@
 
 .choose_careshare_section .step_blocks_wrap{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .choose_careshare_section .step_blocks_wrap .single_block{
-    background-color: #0e1d2c;
-    padding: 30px 40px;
-    color: #fff;
+    /* background-color: #0e1d2c; */
+    padding: 30px 25px;
+    /* color: #fff; */
+    color: #686868;
+}
+
+.mobileWraper{
+    border: 12px solid #2e2e2e;
+    width: 280px;
+    max-height: 520px;
+    min-height: 520px;
+    overflow: hidden;
+    border-radius: 35px;
+    border-top-width: 16px;
+    border-bottom-width: 15px;
+    position: relative;
+}
+
+.mobileWraper::before{
+    content: "";
+    display: inline-block;
+    width: 142px;
+    height: 18px;
+    background-color: #2e2e2e;
+    position: absolute;
+    left: 57px;
+    border-radius: 0 0 30px 30px;
+    z-index: 9;
+}
+.mobileWraper-overlay{
+    content: "";
+    display: inline-block;
+    background: linear-gradient(0deg, rgba(2,0,36,0.5) -64%, rgba(0,0,0,0) 69%);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 210px;
+    z-index: 9;
 }
 
 .choose_careshare_section .step_blocks_wrap .single_block.pink{
@@ -89,20 +126,25 @@
 }
 
 .choose_careshare_section .step_blocks_wrap .single_block h3{
-    font-size: 30px;
+    /* font-size: 30px;
     color: #fff;
     font-weight: 700;
     text-transform: uppercase;
-    line-height: 1.25;
+    line-height: 1.25; */
+    font-size: 20px;
+    /* color: #fff; */
+    /* font-weight: 700; */
+    /* text-transform: uppercase; */
+    /* line-height: 1.25; */
+    margin-bottom: 8px !important;
 }
 
 .choose_careshare_section .step_blocks_wrap .single_block ul{
     margin-left: 20px;
-    min-height: 150px;
 }
 .choose_careshare_section .step_blocks_wrap .single_block li{
-    line-height: 1.5;
-    font-size: 15px;
+    line-height: 1.75;
+    font-size: 14px;
 }
 
 .choose_careshare_section .step_blocks_wrap .single_block .step_img{
@@ -176,13 +218,15 @@
     color: #3e5061;
     line-height: 1.754;
     position: relative;
-    padding-left: 30px;
+    padding-left: 45px;
+    margin-bottom: 20px;
 }
 
 .package_section .feature_list li img{
     position: absolute;
     left: 0;
-    top: 9px;
+    /* top: 9px; */
+    max-width: 30px;
 }
 
 .section_desc .inline-logo{
@@ -301,22 +345,65 @@
     background-color: #eb5757;
 }
 
-.logoWraper{
+.hospitalLogo{
     height:150px;
     display: flex !important;
 }
 
+.logoWraper{
+    display: flex !important;
+    background-color: #fff;
+    flex-direction: column;
+    max-width: 200px;
+    margin: auto;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 7px 13px 2px #c5c3c3;
+    margin-bottom: 20px;
+    max-height: 280px;
+}
+
+.logoWraper .imageWrap{
+    height: 160px;
+    overflow: hidden;
+}
+
+.logoWraper .imageWrap img{
+    width: 100%;
+    max-height: 200px !important;
+    min-height: 160px;
+}
+
+.doctorName{
+    font-size: 17px;
+    line-height: 1;
+    min-height: 42px;
+}
+
+.doctorDesc{
+    font-size: 13px;
+    line-height: 1;
+}
+.choose_careshare_section .step_blocks_wrap .single_block.active{
+    /* flex: 0 0 100%; */
+    background-color: #51c185;
+    color: #fff;
+}
+
+.choose_careshare_section .step_blocks_wrap .single_block.active h3{
+    color: #fff;
+}
+.choose_careshare_section .step_blocks_wrap .single_block{
+    border-radius: 15px;
+    flex: 0 0 100%;
+    transition: all .3s;
+}
+
 @media (min-width:800px) {
-    .choose_careshare_section .step_blocks_wrap .single_block{
-        border-radius: 8px 0 0 8px;
-        flex: 0 0 27%;
-        transition: all .3s;
-    }
-    .choose_careshare_section .step_blocks_wrap .single_block.active{
-        flex: 0 0 46%;
-    }
+
+
     .choose_careshare_section .step_blocks_wrap .single_block ul{
-        max-height: 150px;
+        /* max-height: 150px; */
         /* overflow: hidden; */
     }
     .choose_careshare_section .step_blocks_wrap .single_block.pink{

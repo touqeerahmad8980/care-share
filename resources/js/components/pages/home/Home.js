@@ -1,32 +1,7 @@
 import React from 'react'
-import treatmentBeforeStep from '../../../assets/images/treatment-before-step.png';
-import treatmentDuringStep from '../../../assets/images/treatment-during-step.png';
-import treatmentAfterStep from '../../../assets/images/treatment-after-step.png';
 import caresharePlusInline from '../../../assets/images/careshare-plus-inline.png';
 import videoImg from '../../../assets/images/video-img.png';
-import Banner from '../../../assets/banners/1.jpg';
-import Doctor1 from '../../../assets/doctors/1.jpg';
-import Doctor2 from '../../../assets/doctors/2.jpg';
-import Doctor3 from '../../../assets/doctors/3.jpg';
-import Doctor4 from '../../../assets/doctors/4.png';
-import Doctor5 from '../../../assets/doctors/5.jpg';
-import Doctor6 from '../../../assets/doctors/6.png';
-import Doctor7 from '../../../assets/doctors/7.jpg';
-import Doctor8 from '../../../assets/doctors/8.png';
-import Doctor9 from '../../../assets/doctors/9.jpg';
-import Doctor10 from '../../../assets/doctors/10.jpg';
-import Doctor11 from '../../../assets/doctors/11.jpg';
-import Doctor12 from '../../../assets/doctors/12.jpg';
-import Doctor13 from '../../../assets/doctors/13.jpg';
-import Doctor14 from '../../../assets/doctors/14.jpg';
-import Doctor15 from '../../../assets/doctors/15.jpg';
-import Doctor16 from '../../../assets/doctors/16.jpg';
-import Doctor17 from '../../../assets/doctors/17.jpg';
-import Doctor18 from '../../../assets/doctors/18.jpg';
-import Doctor19 from '../../../assets/doctors/19.jpg';
-import Doctor20 from '../../../assets/doctors/20.jpg';
-import Doctor21 from '../../../assets/doctors/21.jpg';
-import Doctor22 from '../../../assets/doctors/22.jpg';
+import Banner from '../../../assets/banners/banner-1.jpg';
 import avatar1 from '../../../assets/images/avatar-1.jpg';
 import checkIcon from '../../../assets/images/check-icon.png';
 import whatsappIcon from '../../../assets/images/whatsapp-icon.png';
@@ -43,9 +18,39 @@ import medantaHospital from '../../../assets/images/hospital-logos/Medanta.png';
 import relianceHospital from '../../../assets/images/hospital-logos/Reliance Foundation Hospital, Mumbai.jpg';
 import valentisHospital from '../../../assets/images/hospital-logos/Valentis Cancer Hospital, Meerut.png';
 import Slider from "react-slick";
+import PerfectScrollbar from 'react-perfect-scrollbar'
 import './Home.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import 'react-perfect-scrollbar/dist/css/styles.css';
+
+
+
+const doctorsData = {
+    1: {name: "Suchitra R", speciality: "Gynae-Oncologist", experience: "10"},
+    2: {name: "Shubha Sinha", speciality: "Breast Surgical Oncology", experience: "9"},
+    3: {name: "Dr Karan Sehgal", speciality: "Surgical Oncologist", experience: "4"},
+    4: {name: "Sandeep Nayak", speciality: "Surgical Oncologist", experience: "20"},
+    5: {name: "Amit Jain", speciality: "Clinical Oncologist", experience: "15"},
+    6: {name: "Guruprasad Bhat", speciality: "Medical Oncologist", experience: "15"},
+    7: {name: "Ranjith Kumar C S", speciality: "Medical Oncologist", experience: "6"},
+    8: {name: "Govind Babu", speciality: "Medical Oncologist", experience: "31"},
+    9: {name: "Akash Umesh Tiwari", speciality: "Surgical Oncologist", experience: "9"},
+    10: {name: "Jatin Bhatia", speciality: "Radiation Oncologist", experience: "5"},
+    11: {name: "Piyush Kedia", speciality: "Surgical Oncologist", experience: "9"},
+    12: {name: "Mohan Menon", speciality: "Medical Oncologist", experience: "24"},
+    13: {name: "Amish Dalal", speciality: "Surgical & Gyancologic Oncologist", experience: "30"},
+    14: {name: "Namrata Singh", speciality: "Surgical Oncologist", experience: "12"},
+    15: {name: "Mohammad Akheel", speciality: "Head & Neck Oncosurgeon", experience: "8"},
+    16: {name: "Priyanka Verma", speciality: "Hematology & Pediatric Oncologist", experience: "7"},
+    17: {name: "Prasenjit Chatterjee", speciality: "Radiation Oncologist", experience: "21"},
+    18: {name: "Sachin Kadam", speciality: "Consultant Oncosurgeon", experience: "12"},
+    19: {name: "Nilesh Chordiya", speciality: "Surgical Oncologist", experience: "13"},
+    20: {name: "Dr. Poovamma   C.U.", speciality: "Gynae-Oncologist", experience: "12"},
+    21: {name: "Raghavendra Babu", speciality: "GI & HPB Surgical Oncologist", experience: "11"},
+    22: {name: "P Venkata Krishna Reddy", speciality: "Radiation Oncologist", experience: "6"}
+}
+
 
 const Home = () => {
 
@@ -115,7 +120,7 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            <section className='choose_careshare_section'>
+            {/* <section className='choose_careshare_section'>
                 <div className='container'>
                     <div className='row_wrap mb-5 text-center'>
                         <h2 className='section_heading mb-2'>Why You Should Choose CareShare?</h2>
@@ -168,6 +173,66 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
+            </section> */}
+            <section className='choose_careshare_section'>
+                <div className='container'>
+                    <div className='row_wrap mb-5 text-center'>
+                        <h2 className='section_heading mb-2'>Why You Should Choose CareShare?</h2>
+                        <p className='section_desc'>We make every moment matters- helping you from early diagnosis of cancer to<br /> early detection of relapse</p>
+                    </div>
+                    <div className='row mt-5 pt-5'>
+                        <div className='col-sm-4'>
+                            <div className='mobileWraper'>
+                                <div className='mobileWraper-overlay'></div>
+                                <PerfectScrollbar style={{maxHeight:490}}>
+                                    {activeStep === "blue" &&
+                                        <img src="/images/After treatment.png" className="step_img" />
+                                    }
+                                    {activeStep === "pink" &&
+                                        <img src="/images/Before treatment.png" className="step_img" />
+                                    }
+                                    {activeStep === "green" &&
+                                        <img src="/images/During treatment.png" className="step_img" />
+                                    }
+                                </PerfectScrollbar>
+                            </div>
+                        </div>
+                        <div className='col-sm-8 step_blocks_wrap'>
+                            <div
+                                className={`single_block ${activeStep === "blue" && "active"}`}
+                                onMouseEnter={() => setActiveStep("blue")}
+                            >
+                                <h3 className='mb-4'>Before the Treatment:</h3>
+                                <ul>
+                                    <li>With Smart Algorithms &amp; Artificial  Intelligence - find cancer,  specialist doctors, and the best  hospitals at the earliest stage.</li>
+                                </ul>
+                                {/* <img src={treatmentBeforeStep} className="step_img" /> */}
+                            </div>
+                            <div
+                                className={`single_block ${activeStep === "pink" && "active"}`}
+                                onMouseEnter={() => setActiveStep("pink")}
+                            >
+                                <h3 className='mb-4'>During The Treatment:</h3>
+                                <ul>
+                                    <li>Use the world's latest AI-powered technology to monitor your symptoms from anywhere &amp; get 24/7 doctor support.</li>
+                                    <li>Get automated real-time help for managing your condition from the comfort of your home.</li>
+                                </ul>
+                                {/* <img src={treatmentDuringStep} className="step_img" /> */}
+                            </div>
+                            <div
+                                className={`single_block ${activeStep === "green" && "active"}`}
+                                onMouseEnter={() => setActiveStep("green")}
+                            >
+                                <h3 className='mb-4'>After The Treatment:</h3>
+                                <ul>
+                                    <li>Track symptoms and follow up regularly with your dedicated doctor ensuring timely interventions.</li>
+                                    <li>Live cancer-free high-quality life with the help of CareShare.</li>
+                                </ul>
+                                {/* <img src={treatmentAfterStep} className="step_img" /> */}
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
             <section className='section_grey hospital_section'>
                 <div className='container'>
@@ -179,7 +244,14 @@ const Home = () => {
                         <Slider {...doctorSliderSettings}>
                             {Array(22).fill('').map((val, index) => (
                                 <div className='logoWraper'>
-                                    <img src={`/images/doctors/${index+1}.jpg`} style={{maxWidth:240,maxHeight:140,margin:"auto"}} />
+                                    <div className='imageWrap'>
+                                        <img src={`/images/doctors/${index+1}.jpg`} />
+                                    </div>
+                                    <div style={{padding:15}}>
+                                        <h3 className='doctorName'>{doctorsData[index+1].name}</h3>
+                                        <p className='doctorDesc'>{doctorsData[index+1].speciality}</p>
+                                        <p className='doctorDesc'>Exp: {doctorsData[index+1].experience} Yrs</p>
+                                    </div>
                                 </div>
                             ))}
                         </Slider>
@@ -207,7 +279,7 @@ const Home = () => {
                                 relianceHospital,
                                 valentisHospital
                             ].map((path) => (
-                                <div className='logoWraper'>
+                                <div className='hospitalLogo'>
                                     <img src={path} style={{maxWidth:240,maxHeight:140,margin:"auto"}} />
                                 </div>
                             ))}
@@ -248,12 +320,12 @@ const Home = () => {
                         </div>
                     </div>
                     <ul className='feature_list'>
-                        <li><img src={checkIcon} className='mr-3' /> Regular Health Tracking</li>
-                        <li><img src={checkIcon} className='mr-3' /> 24*7 Real-Time Symptom Management</li>
-                        <li><img src={checkIcon} className='mr-3' /> Personalized Onco-Nutritional Plan With Unlimited Access To Nutritionist</li>
-                        <li><img src={checkIcon} className='mr-3' /> Tailor Made Naturopathy, Yoga And Mental Health Sessions For You And Caregivers</li>
-                        <li><img src={checkIcon} className='mr-3' /> Real Time Unlimited Access To Dedicated Doctor</li>
-                        <li><img src={checkIcon} className='mr-3' /> Medication And Test Reminders With Family In Loop</li>
+                        <li><img src='/images/package-features/trainer.png' /> Regular Health Tracking</li>
+                        <li><img src='/images/package-features/monitoring.png' /> 24*7 Real-Time Symptom Management</li>
+                        <li><img src='/images/package-features/diet.png' /> Personalized Onco-Nutritional Plan With Unlimited Access To Nutritionist</li>
+                        <li><img src='/images/package-features/search.png' /> Tailor Made Naturopathy, Yoga And Mental Health Sessions For You And Caregivers</li>
+                        <li><img src='/images/package-features/oncologist.png' /> Real Time Unlimited Access To Dedicated Doctor</li>
+                        <li><img src='/images/package-features/vomit.png' /> Medication And Test Reminders With Family In Loop</li>
                     </ul>
                 </div>
             </section>

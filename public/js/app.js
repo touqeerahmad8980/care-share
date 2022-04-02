@@ -6576,6 +6576,25 @@ module.exports = exports['default'];
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/react-perfect-scrollbar/dist/css/styles.css":
+/*!**************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/react-perfect-scrollbar/dist/css/styles.css ***!
+  \**************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "/*\n * Container style\n */\n.ps {\n  overflow: hidden !important;\n  overflow-anchor: none;\n  -ms-overflow-style: none;\n  touch-action: auto;\n  -ms-touch-action: auto;\n}\n\n/*\n * Scrollbar rail styles\n */\n.ps__rail-x {\n  display: none;\n  opacity: 0;\n  transition: background-color .2s linear, opacity .2s linear;\n  -webkit-transition: background-color .2s linear, opacity .2s linear;\n  height: 15px;\n  /* there must be 'bottom' or 'top' for ps__rail-x */\n  bottom: 0px;\n  /* please don't change 'position' */\n  position: absolute;\n}\n\n.ps__rail-y {\n  display: none;\n  opacity: 0;\n  transition: background-color .2s linear, opacity .2s linear;\n  -webkit-transition: background-color .2s linear, opacity .2s linear;\n  width: 15px;\n  /* there must be 'right' or 'left' for ps__rail-y */\n  right: 0;\n  /* please don't change 'position' */\n  position: absolute;\n}\n\n.ps--active-x > .ps__rail-x,\n.ps--active-y > .ps__rail-y {\n  display: block;\n  background-color: transparent;\n}\n\n.ps:hover > .ps__rail-x,\n.ps:hover > .ps__rail-y,\n.ps--focus > .ps__rail-x,\n.ps--focus > .ps__rail-y,\n.ps--scrolling-x > .ps__rail-x,\n.ps--scrolling-y > .ps__rail-y {\n  opacity: 0.6;\n}\n\n.ps .ps__rail-x:hover,\n.ps .ps__rail-y:hover,\n.ps .ps__rail-x:focus,\n.ps .ps__rail-y:focus,\n.ps .ps__rail-x.ps--clicking,\n.ps .ps__rail-y.ps--clicking {\n  background-color: #eee;\n  opacity: 0.9;\n}\n\n/*\n * Scrollbar thumb styles\n */\n.ps__thumb-x {\n  background-color: #aaa;\n  border-radius: 6px;\n  transition: background-color .2s linear, height .2s ease-in-out;\n  -webkit-transition: background-color .2s linear, height .2s ease-in-out;\n  height: 6px;\n  /* there must be 'bottom' for ps__thumb-x */\n  bottom: 2px;\n  /* please don't change 'position' */\n  position: absolute;\n}\n\n.ps__thumb-y {\n  background-color: #aaa;\n  border-radius: 6px;\n  transition: background-color .2s linear, width .2s ease-in-out;\n  -webkit-transition: background-color .2s linear, width .2s ease-in-out;\n  width: 6px;\n  /* there must be 'right' for ps__thumb-y */\n  right: 2px;\n  /* please don't change 'position' */\n  position: absolute;\n}\n\n.ps__rail-x:hover > .ps__thumb-x,\n.ps__rail-x:focus > .ps__thumb-x,\n.ps__rail-x.ps--clicking .ps__thumb-x {\n  background-color: #999;\n  height: 11px;\n}\n\n.ps__rail-y:hover > .ps__thumb-y,\n.ps__rail-y:focus > .ps__thumb-y,\n.ps__rail-y.ps--clicking .ps__thumb-y {\n  background-color: #999;\n  width: 11px;\n}\n\n/* MS supports */\n@supports (-ms-overflow-style: none) {\n  .ps {\n    overflow: auto !important;\n  }\n}\n\n@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {\n  .ps {\n    overflow: auto !important;\n  }\n}\n.scrollbar-container {\n  position: relative;\n  height: 100%; }", ""]);
+
+// exports
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/slick-carousel/slick/slick-theme.css":
 /*!*******************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/slick-carousel/slick/slick-theme.css ***!
@@ -6741,7 +6760,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, ".home-banner{\n    background-size: cover !important;\n}\n.home-banner .banner{\n    /* background-color: #0e1d2c; */\n    padding: 90px 0px;\n}\n.home-banner h2{\n    font-size: 30px;\n    color: #eb5757;\n    font-weight: 600;\n    margin: 30px 0px 10px;\n}\n.home-banner h1{\n    font-size: 40px;\n    color: #fff;\n    font-weight: 700;\n    max-width: 630px;\n    line-height: 1.2;\n    text-shadow: 0 0 15px #a1a1a1;\n    margin-bottom: 20px;\n}\n.home-banner p{\n    font-size: 20px;\n    color: #fff;\n    margin-bottom: 50px;\n    max-width: 630px;\n    line-height: 1.3;\n    font-weight: 500;\n    text-shadow: 0 0 15px #a1a1a1;\n}\n.home-banner .button{\n    font-size: 16px;\n    box-shadow: none;\n    padding: 15px 25px;\n    background-color: #51c185;\n    border: none;\n    font-weight: 500;\n}\n\n.home-banner .button:hover{\n    background-color: #eb5757;\n}\n\n.home-banner span{\n    font-size: 16px;\n    font-weight: 600;\n    color: #fff;\n    margin: 0px 25px;\n    text-shadow: 0 0 15px #a1a1a1;\n}\n\n.section_heading{\n    font-size: 35px;\n    font-weight: 600;\n    color: #0e1d2c;\n}\n\n.section_desc{\n    font-size: 18px;\n    color: #3e5061;\n}\n\n.home-banner .image{\n    max-width: 480px;\n    float: right;\n}\n\n.choose_careshare_section{\n    padding: 60px 0 100px;\n}\n\n.choose_careshare_section .step_blocks_wrap{\n    display: flex;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block{\n    background-color: #0e1d2c;\n    padding: 30px 40px;\n    color: #fff;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block.pink{\n    background-color: #eb5757;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block.green{\n    background-color: #51c185;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block h3{\n    font-size: 30px;\n    color: #fff;\n    font-weight: 700;\n    text-transform: uppercase;\n    line-height: 1.25;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block ul{\n    margin-left: 20px;\n    min-height: 150px;\n}\n.choose_careshare_section .step_blocks_wrap .single_block li{\n    line-height: 1.5;\n    font-size: 15px;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block .step_img{\n    max-height: 150px;\n    float: right;\n}\n\n.section_grey{\n    background-color: #f2f5f8;\n    padding: 60px 0 70px;\n}\n\n.package_section .packages_wrap{\n    display: flex;\n    justify-content: space-between;\n}\n\n.package_section .packages_wrap .single_package{\n    background-color: #fff;\n    width: calc(25% - 22.2px);\n    padding: 30px 30px 35px;\n    border-radius: 10px;\n    text-align: center;\n}\n\n.package_section .packages_wrap .single_package .title{\n    font-size: 18px;\n    font-weight: 700;\n    color: #3e5061;\n    margin-bottom: 20px;\n}\n\n.package_section .packages_wrap .single_package .price{\n    font-size: 28px;\n    font-weight: 700;\n    color: #eb5757;\n}\n\n.package_section .packages_wrap .single_package .price_cut{\n    font-size: 28px;\n    font-weight: 300;\n    color: #eb5757;\n    text-decoration: line-through;\n    margin-bottom: 20px;\n}\n\n.package_section .packages_wrap .single_package .btn-primary{\n    background-color: #51c185;\n    width: 100%;\n    text-transform: uppercase;\n    color: #fff;\n    border: none;\n    border-radius: 20px;\n    padding: 10px 15px;\n    font-weight: 500;\n    font-size: 16px;\n    box-shadow: none;\n}\n\n.package_section .packages_wrap .single_package .btn-primary:hover{\n    background-color: #eb5757;\n}\n\n.package_section .feature_list{\n    margin-top: 40px;\n    list-style: none;\n}\n\n.package_section .feature_list li{\n    font-size: 20px;\n    color: #3e5061;\n    line-height: 1.754;\n    position: relative;\n    padding-left: 30px;\n}\n\n.package_section .feature_list li img{\n    position: absolute;\n    left: 0;\n    top: 9px;\n}\n\n.section_desc .inline-logo{\n    width: 210px;\n    margin-top: -7px;\n}\n\n.hospital_section{\n    padding: 60px 0 120px;\n}\n\n.hospital_section .row_wrap{\n    margin-bottom: 40px !important;\n}\n\n.hospital_section .slick-custom-dots{\n    bottom: -60px;\n}\n\n.hospital_section .slick-custom-dots li button:before{\n    font-size: 13px;\n}\n\n.hospital_section .slick-custom-dots li.slick-active button:before{\n    color: #51c185;\n}\n\n.hospital_section .slick-arrow{\n    display: none !important;\n}\n\n.hr_line{\n    height: 1px;\n    width: 100%;\n    background-color: #cbcbcb;\n}\n\n.warriors_section{\n    padding: 60px 0 70px;\n}\n\n.warriors_section .row_wrap{\n    margin-bottom: 50px;\n}\n\n.warriors_section .warrior_wrap {\n    display: flex;\n    justify-content: space-around;\n    flex-wrap: wrap;\n}\n\n.warriors_section .warrior_wrap .single_warrior{\n    position: relative;\n    max-width: 330px;\n    padding-left: 76px;\n}\n\n.warriors_section .warrior_wrap .single_warrior h3{\n    font-size: 17px;\n    font-weight: 700;\n    color: #0e1d2c;\n    margin-bottom: 20px;\n}\n\n.warriors_section .warrior_wrap .single_warrior p{\n    font-size: 14px;\n    color: #3e5061;\n    font-style: italic;\n    line-height: 1.75;\n}\n\n.warriors_section .warrior_wrap .single_warrior .comma_icon{\n    position: absolute;\n    width: 55px;\n    left: 0;\n    top: 0;\n}\n\n.warriors_section .warrior_wrap .single_warrior .user_wrap img{\n    border-radius: 50%;\n    width: 90px;\n    box-shadow: 0 0 6px 3px #c3c3c3;\n}\n\n.warriors_section .warrior_wrap .single_warrior .user_wrap{\n    margin-top: 25px;\n    font-size: 17px;\n    color: #0e1d2c;\n}\n\n.warriors_section .warrior_wrap .single_warrior h4{\n    font-size: 14px;\n    margin-top: 20px;\n}\n\n.warriors_section .help_link{\n    margin-top: 40px;\n    font-size: 24px;\n    font-weight: 700;\n    text-decoration: underline;\n    color: #eb5757;\n    text-align: center;\n    display: block;\n}\n\n.video_section .btn-primary{\n    font-size: 13px;\n    box-shadow: none;\n    padding: 15px 45px;\n    background-color: #51c185;\n    border: none;\n    font-weight: 500;\n}\n\n.video_section .btn-primary:hover{\n    background-color: #eb5757;\n}\n\n.logoWraper{\n    height:150px;\n    display: flex !important;\n}\n\n@media (min-width:800px) {\n    .choose_careshare_section .step_blocks_wrap .single_block{\n        border-radius: 8px 0 0 8px;\n        flex: 0 0 27%;\n        transition: all .3s;\n    }\n    .choose_careshare_section .step_blocks_wrap .single_block.active{\n        flex: 0 0 46%;\n    }\n    .choose_careshare_section .step_blocks_wrap .single_block ul{\n        max-height: 150px;\n        /* overflow: hidden; */\n    }\n    .choose_careshare_section .step_blocks_wrap .single_block.pink{\n        margin-left: -8px;\n    }\n    .choose_careshare_section .step_blocks_wrap .single_block.green{\n        margin-left: -8px;\n        border-radius: 8px;\n    }\n}\n\n@media (max-width:800px) {\n    .home-banner .banner{\n        padding: 50px 0px;\n    }\n    .home-banner h2{\n        font-size: 22px;\n        margin: 0;\n    }\n    .home-banner h1{\n        font-size: 22px;\n        margin-bottom: 10px;\n    }\n    .home-banner p{\n        font-size: 15px;\n        margin-bottom: 30px;\n    }\n    .home-banner p br{\n        display: none;\n    }\n    .home-banner .button{\n        font-size: 14px;\n        padding: 10px 9px;\n    }\n    .home-banner span{\n        margin: 0 15px;\n    }\n\n    .home-banner span{\n        width: 30px;\n    }\n\n    .home-banner .image{\n        width: 100%;\n        margin-top: 30px;\n    }\n    .choose_careshare_section .step_blocks_wrap{\n        flex-direction: column;\n    }\n\n    .section_heading{\n        font-size: 30px;\n    }\n\n    .section_desc{\n        font-size: 16px;\n    }\n\n    .section_heading br,\n    .section_desc br{\n        display: none;\n    }\n\n    .choose_careshare_section{\n        padding: 40px 0;\n    }\n\n    .package_section .packages_wrap{\n        flex-wrap: wrap;\n    }\n\n    .package_section .packages_wrap .single_package{\n        width: 100%;\n        margin-bottom: 20px;\n    }\n\n    .package_section .feature_list{\n        margin-top: 10px;\n    }\n\n    .package_section .feature_list li{\n        font-size: 18px;\n    }\n\n    .package_section{\n        padding: 40px 0;\n    }\n\n    .hospital_section{\n        padding: 40px 0 100px;\n    }\n\n    .video_section{\n        padding: 40px 0;\n    }\n\n    .warriors_section .warrior_wrap .single_warrior{\n        margin-bottom: 20px;\n    }\n}\n", ""]);
+exports.push([module.i, ".home-banner{\n    background-size: cover !important;\n}\n.home-banner .banner{\n    /* background-color: #0e1d2c; */\n    background: linear-gradient(90deg, rgba(2,0,36,0.5) 0%, rgba(0,0,0,0.1) 50%);\n    padding: 90px 0px;\n}\n.home-banner h2{\n    font-size: 30px;\n    color: #eb5757;\n    font-weight: 600;\n    margin: 30px 0px 10px;\n}\n.home-banner h1{\n    font-size: 40px;\n    color: #fff;\n    font-weight: 700;\n    max-width: 630px;\n    line-height: 1.2;\n    /* text-shadow: 0 0 15px #a1a1a1; */\n    margin-bottom: 20px;\n}\n.home-banner p{\n    font-size: 20px;\n    color: #fff;\n    margin-bottom: 50px;\n    max-width: 630px;\n    line-height: 1.3;\n    font-weight: 500;\n    /* text-shadow: 0 0 15px #a1a1a1; */\n}\n.home-banner .button{\n    font-size: 16px;\n    box-shadow: none;\n    padding: 15px 25px;\n    background-color: #51c185;\n    border: none;\n    font-weight: 500;\n}\n\n.home-banner .button:hover{\n    background-color: #eb5757;\n}\n\n.home-banner span{\n    font-size: 16px;\n    font-weight: 600;\n    color: #fff;\n    margin: 0px 25px;\n    text-shadow: 0 0 15px #a1a1a1;\n}\n\n.section_heading{\n    font-size: 35px;\n    font-weight: 600;\n    color: #0e1d2c;\n}\n\n.section_desc{\n    font-size: 18px;\n    color: #3e5061;\n}\n\n.home-banner .image{\n    max-width: 480px;\n    float: right;\n}\n\n.choose_careshare_section{\n    padding: 60px 0 100px;\n}\n\n.choose_careshare_section .step_blocks_wrap{\n    display: flex;\n    flex-wrap: wrap;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block{\n    /* background-color: #0e1d2c; */\n    padding: 30px 25px;\n    /* color: #fff; */\n    color: #686868;\n}\n\n.mobileWraper{\n    border: 12px solid #2e2e2e;\n    width: 280px;\n    max-height: 520px;\n    min-height: 520px;\n    overflow: hidden;\n    border-radius: 35px;\n    border-top-width: 16px;\n    border-bottom-width: 15px;\n    position: relative;\n}\n\n.mobileWraper::before{\n    content: \"\";\n    display: inline-block;\n    width: 142px;\n    height: 18px;\n    background-color: #2e2e2e;\n    position: absolute;\n    left: 57px;\n    border-radius: 0 0 30px 30px;\n    z-index: 9;\n}\n.mobileWraper-overlay{\n    content: \"\";\n    display: inline-block;\n    background: linear-gradient(0deg, rgba(2,0,36,0.5) -64%, rgba(0,0,0,0) 69%);\n    position: absolute;\n    width: 100%;\n    bottom: 0;\n    height: 210px;\n    z-index: 9;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block.pink{\n    background-color: #eb5757;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block.green{\n    background-color: #51c185;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block h3{\n    /* font-size: 30px;\n    color: #fff;\n    font-weight: 700;\n    text-transform: uppercase;\n    line-height: 1.25; */\n    font-size: 20px;\n    /* color: #fff; */\n    /* font-weight: 700; */\n    /* text-transform: uppercase; */\n    /* line-height: 1.25; */\n    margin-bottom: 8px !important;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block ul{\n    margin-left: 20px;\n}\n.choose_careshare_section .step_blocks_wrap .single_block li{\n    line-height: 1.75;\n    font-size: 14px;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block .step_img{\n    max-height: 150px;\n    float: right;\n}\n\n.section_grey{\n    background-color: #f2f5f8;\n    padding: 60px 0 70px;\n}\n\n.package_section .packages_wrap{\n    display: flex;\n    justify-content: space-between;\n}\n\n.package_section .packages_wrap .single_package{\n    background-color: #fff;\n    width: calc(25% - 22.2px);\n    padding: 30px 30px 35px;\n    border-radius: 10px;\n    text-align: center;\n}\n\n.package_section .packages_wrap .single_package .title{\n    font-size: 18px;\n    font-weight: 700;\n    color: #3e5061;\n    margin-bottom: 20px;\n}\n\n.package_section .packages_wrap .single_package .price{\n    font-size: 28px;\n    font-weight: 700;\n    color: #eb5757;\n}\n\n.package_section .packages_wrap .single_package .price_cut{\n    font-size: 28px;\n    font-weight: 300;\n    color: #eb5757;\n    text-decoration: line-through;\n    margin-bottom: 20px;\n}\n\n.package_section .packages_wrap .single_package .btn-primary{\n    background-color: #51c185;\n    width: 100%;\n    text-transform: uppercase;\n    color: #fff;\n    border: none;\n    border-radius: 20px;\n    padding: 10px 15px;\n    font-weight: 500;\n    font-size: 16px;\n    box-shadow: none;\n}\n\n.package_section .packages_wrap .single_package .btn-primary:hover{\n    background-color: #eb5757;\n}\n\n.package_section .feature_list{\n    margin-top: 40px;\n    list-style: none;\n}\n\n.package_section .feature_list li{\n    font-size: 20px;\n    color: #3e5061;\n    line-height: 1.754;\n    position: relative;\n    padding-left: 45px;\n    margin-bottom: 20px;\n}\n\n.package_section .feature_list li img{\n    position: absolute;\n    left: 0;\n    /* top: 9px; */\n    max-width: 30px;\n}\n\n.section_desc .inline-logo{\n    width: 210px;\n    margin-top: -7px;\n}\n\n.hospital_section{\n    padding: 60px 0 120px;\n}\n\n.hospital_section .row_wrap{\n    margin-bottom: 40px !important;\n}\n\n.hospital_section .slick-custom-dots{\n    bottom: -60px;\n}\n\n.hospital_section .slick-custom-dots li button:before{\n    font-size: 13px;\n}\n\n.hospital_section .slick-custom-dots li.slick-active button:before{\n    color: #51c185;\n}\n\n.hospital_section .slick-arrow{\n    display: none !important;\n}\n\n.hr_line{\n    height: 1px;\n    width: 100%;\n    background-color: #cbcbcb;\n}\n\n.warriors_section{\n    padding: 60px 0 70px;\n}\n\n.warriors_section .row_wrap{\n    margin-bottom: 50px;\n}\n\n.warriors_section .warrior_wrap {\n    display: flex;\n    justify-content: space-around;\n    flex-wrap: wrap;\n}\n\n.warriors_section .warrior_wrap .single_warrior{\n    position: relative;\n    max-width: 330px;\n    padding-left: 76px;\n}\n\n.warriors_section .warrior_wrap .single_warrior h3{\n    font-size: 17px;\n    font-weight: 700;\n    color: #0e1d2c;\n    margin-bottom: 20px;\n}\n\n.warriors_section .warrior_wrap .single_warrior p{\n    font-size: 14px;\n    color: #3e5061;\n    font-style: italic;\n    line-height: 1.75;\n}\n\n.warriors_section .warrior_wrap .single_warrior .comma_icon{\n    position: absolute;\n    width: 55px;\n    left: 0;\n    top: 0;\n}\n\n.warriors_section .warrior_wrap .single_warrior .user_wrap img{\n    border-radius: 50%;\n    width: 90px;\n    box-shadow: 0 0 6px 3px #c3c3c3;\n}\n\n.warriors_section .warrior_wrap .single_warrior .user_wrap{\n    margin-top: 25px;\n    font-size: 17px;\n    color: #0e1d2c;\n}\n\n.warriors_section .warrior_wrap .single_warrior h4{\n    font-size: 14px;\n    margin-top: 20px;\n}\n\n.warriors_section .help_link{\n    margin-top: 40px;\n    font-size: 24px;\n    font-weight: 700;\n    text-decoration: underline;\n    color: #eb5757;\n    text-align: center;\n    display: block;\n}\n\n.video_section .btn-primary{\n    font-size: 13px;\n    box-shadow: none;\n    padding: 15px 45px;\n    background-color: #51c185;\n    border: none;\n    font-weight: 500;\n}\n\n.video_section .btn-primary:hover{\n    background-color: #eb5757;\n}\n\n.hospitalLogo{\n    height:150px;\n    display: flex !important;\n}\n\n.logoWraper{\n    display: flex !important;\n    background-color: #fff;\n    flex-direction: column;\n    max-width: 200px;\n    margin: auto;\n    border-radius: 8px;\n    overflow: hidden;\n    box-shadow: 0px 7px 13px 2px #c5c3c3;\n    margin-bottom: 20px;\n    max-height: 280px;\n}\n\n.logoWraper .imageWrap{\n    height: 160px;\n    overflow: hidden;\n}\n\n.logoWraper .imageWrap img{\n    width: 100%;\n    max-height: 200px !important;\n    min-height: 160px;\n}\n\n.doctorName{\n    font-size: 17px;\n    line-height: 1;\n    min-height: 42px;\n}\n\n.doctorDesc{\n    font-size: 13px;\n    line-height: 1;\n}\n.choose_careshare_section .step_blocks_wrap .single_block.active{\n    /* flex: 0 0 100%; */\n    background-color: #51c185;\n    color: #fff;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block.active h3{\n    color: #fff;\n}\n.choose_careshare_section .step_blocks_wrap .single_block{\n    border-radius: 15px;\n    flex: 0 0 100%;\n    transition: all .3s;\n}\n\n@media (min-width:800px) {\n\n\n    .choose_careshare_section .step_blocks_wrap .single_block ul{\n        /* max-height: 150px; */\n        /* overflow: hidden; */\n    }\n    .choose_careshare_section .step_blocks_wrap .single_block.pink{\n        margin-left: -8px;\n    }\n    .choose_careshare_section .step_blocks_wrap .single_block.green{\n        margin-left: -8px;\n        border-radius: 8px;\n    }\n}\n\n@media (max-width:800px) {\n    .home-banner .banner{\n        padding: 50px 0px;\n    }\n    .home-banner h2{\n        font-size: 22px;\n        margin: 0;\n    }\n    .home-banner h1{\n        font-size: 22px;\n        margin-bottom: 10px;\n    }\n    .home-banner p{\n        font-size: 15px;\n        margin-bottom: 30px;\n    }\n    .home-banner p br{\n        display: none;\n    }\n    .home-banner .button{\n        font-size: 14px;\n        padding: 10px 9px;\n    }\n    .home-banner span{\n        margin: 0 15px;\n    }\n\n    .home-banner span{\n        width: 30px;\n    }\n\n    .home-banner .image{\n        width: 100%;\n        margin-top: 30px;\n    }\n    .choose_careshare_section .step_blocks_wrap{\n        flex-direction: column;\n    }\n\n    .section_heading{\n        font-size: 30px;\n    }\n\n    .section_desc{\n        font-size: 16px;\n    }\n\n    .section_heading br,\n    .section_desc br{\n        display: none;\n    }\n\n    .choose_careshare_section{\n        padding: 40px 0;\n    }\n\n    .package_section .packages_wrap{\n        flex-wrap: wrap;\n    }\n\n    .package_section .packages_wrap .single_package{\n        width: 100%;\n        margin-bottom: 20px;\n    }\n\n    .package_section .feature_list{\n        margin-top: 10px;\n    }\n\n    .package_section .feature_list li{\n        font-size: 18px;\n    }\n\n    .package_section{\n        padding: 40px 0;\n    }\n\n    .hospital_section{\n        padding: 40px 0 100px;\n    }\n\n    .video_section{\n        padding: 40px 0;\n    }\n\n    .warriors_section .warrior_wrap .single_warrior{\n        margin-bottom: 20px;\n    }\n}\n", ""]);
 
 // exports
 
@@ -36471,6 +36490,1368 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 
 /***/ }),
 
+/***/ "./node_modules/perfect-scrollbar/dist/perfect-scrollbar.esm.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/perfect-scrollbar/dist/perfect-scrollbar.esm.js ***!
+  \**********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/*!
+ * perfect-scrollbar v1.5.3
+ * Copyright 2021 Hyunje Jun, MDBootstrap and Contributors
+ * Licensed under MIT
+ */
+
+function get(element) {
+  return getComputedStyle(element);
+}
+
+function set(element, obj) {
+  for (var key in obj) {
+    var val = obj[key];
+    if (typeof val === 'number') {
+      val = val + "px";
+    }
+    element.style[key] = val;
+  }
+  return element;
+}
+
+function div(className) {
+  var div = document.createElement('div');
+  div.className = className;
+  return div;
+}
+
+var elMatches =
+  typeof Element !== 'undefined' &&
+  (Element.prototype.matches ||
+    Element.prototype.webkitMatchesSelector ||
+    Element.prototype.mozMatchesSelector ||
+    Element.prototype.msMatchesSelector);
+
+function matches(element, query) {
+  if (!elMatches) {
+    throw new Error('No element matching method supported');
+  }
+
+  return elMatches.call(element, query);
+}
+
+function remove(element) {
+  if (element.remove) {
+    element.remove();
+  } else {
+    if (element.parentNode) {
+      element.parentNode.removeChild(element);
+    }
+  }
+}
+
+function queryChildren(element, selector) {
+  return Array.prototype.filter.call(element.children, function (child) { return matches(child, selector); }
+  );
+}
+
+var cls = {
+  main: 'ps',
+  rtl: 'ps__rtl',
+  element: {
+    thumb: function (x) { return ("ps__thumb-" + x); },
+    rail: function (x) { return ("ps__rail-" + x); },
+    consuming: 'ps__child--consume',
+  },
+  state: {
+    focus: 'ps--focus',
+    clicking: 'ps--clicking',
+    active: function (x) { return ("ps--active-" + x); },
+    scrolling: function (x) { return ("ps--scrolling-" + x); },
+  },
+};
+
+/*
+ * Helper methods
+ */
+var scrollingClassTimeout = { x: null, y: null };
+
+function addScrollingClass(i, x) {
+  var classList = i.element.classList;
+  var className = cls.state.scrolling(x);
+
+  if (classList.contains(className)) {
+    clearTimeout(scrollingClassTimeout[x]);
+  } else {
+    classList.add(className);
+  }
+}
+
+function removeScrollingClass(i, x) {
+  scrollingClassTimeout[x] = setTimeout(
+    function () { return i.isAlive && i.element.classList.remove(cls.state.scrolling(x)); },
+    i.settings.scrollingThreshold
+  );
+}
+
+function setScrollingClassInstantly(i, x) {
+  addScrollingClass(i, x);
+  removeScrollingClass(i, x);
+}
+
+var EventElement = function EventElement(element) {
+  this.element = element;
+  this.handlers = {};
+};
+
+var prototypeAccessors = { isEmpty: { configurable: true } };
+
+EventElement.prototype.bind = function bind (eventName, handler) {
+  if (typeof this.handlers[eventName] === 'undefined') {
+    this.handlers[eventName] = [];
+  }
+  this.handlers[eventName].push(handler);
+  this.element.addEventListener(eventName, handler, false);
+};
+
+EventElement.prototype.unbind = function unbind (eventName, target) {
+    var this$1 = this;
+
+  this.handlers[eventName] = this.handlers[eventName].filter(function (handler) {
+    if (target && handler !== target) {
+      return true;
+    }
+    this$1.element.removeEventListener(eventName, handler, false);
+    return false;
+  });
+};
+
+EventElement.prototype.unbindAll = function unbindAll () {
+  for (var name in this.handlers) {
+    this.unbind(name);
+  }
+};
+
+prototypeAccessors.isEmpty.get = function () {
+    var this$1 = this;
+
+  return Object.keys(this.handlers).every(
+    function (key) { return this$1.handlers[key].length === 0; }
+  );
+};
+
+Object.defineProperties( EventElement.prototype, prototypeAccessors );
+
+var EventManager = function EventManager() {
+  this.eventElements = [];
+};
+
+EventManager.prototype.eventElement = function eventElement (element) {
+  var ee = this.eventElements.filter(function (ee) { return ee.element === element; })[0];
+  if (!ee) {
+    ee = new EventElement(element);
+    this.eventElements.push(ee);
+  }
+  return ee;
+};
+
+EventManager.prototype.bind = function bind (element, eventName, handler) {
+  this.eventElement(element).bind(eventName, handler);
+};
+
+EventManager.prototype.unbind = function unbind (element, eventName, handler) {
+  var ee = this.eventElement(element);
+  ee.unbind(eventName, handler);
+
+  if (ee.isEmpty) {
+    // remove
+    this.eventElements.splice(this.eventElements.indexOf(ee), 1);
+  }
+};
+
+EventManager.prototype.unbindAll = function unbindAll () {
+  this.eventElements.forEach(function (e) { return e.unbindAll(); });
+  this.eventElements = [];
+};
+
+EventManager.prototype.once = function once (element, eventName, handler) {
+  var ee = this.eventElement(element);
+  var onceHandler = function (evt) {
+    ee.unbind(eventName, onceHandler);
+    handler(evt);
+  };
+  ee.bind(eventName, onceHandler);
+};
+
+function createEvent(name) {
+  if (typeof window.CustomEvent === 'function') {
+    return new CustomEvent(name);
+  } else {
+    var evt = document.createEvent('CustomEvent');
+    evt.initCustomEvent(name, false, false, undefined);
+    return evt;
+  }
+}
+
+function processScrollDiff(
+  i,
+  axis,
+  diff,
+  useScrollingClass,
+  forceFireReachEvent
+) {
+  if ( useScrollingClass === void 0 ) useScrollingClass = true;
+  if ( forceFireReachEvent === void 0 ) forceFireReachEvent = false;
+
+  var fields;
+  if (axis === 'top') {
+    fields = [
+      'contentHeight',
+      'containerHeight',
+      'scrollTop',
+      'y',
+      'up',
+      'down' ];
+  } else if (axis === 'left') {
+    fields = [
+      'contentWidth',
+      'containerWidth',
+      'scrollLeft',
+      'x',
+      'left',
+      'right' ];
+  } else {
+    throw new Error('A proper axis should be provided');
+  }
+
+  processScrollDiff$1(i, diff, fields, useScrollingClass, forceFireReachEvent);
+}
+
+function processScrollDiff$1(
+  i,
+  diff,
+  ref,
+  useScrollingClass,
+  forceFireReachEvent
+) {
+  var contentHeight = ref[0];
+  var containerHeight = ref[1];
+  var scrollTop = ref[2];
+  var y = ref[3];
+  var up = ref[4];
+  var down = ref[5];
+  if ( useScrollingClass === void 0 ) useScrollingClass = true;
+  if ( forceFireReachEvent === void 0 ) forceFireReachEvent = false;
+
+  var element = i.element;
+
+  // reset reach
+  i.reach[y] = null;
+
+  // 1 for subpixel rounding
+  if (element[scrollTop] < 1) {
+    i.reach[y] = 'start';
+  }
+
+  // 1 for subpixel rounding
+  if (element[scrollTop] > i[contentHeight] - i[containerHeight] - 1) {
+    i.reach[y] = 'end';
+  }
+
+  if (diff) {
+    element.dispatchEvent(createEvent(("ps-scroll-" + y)));
+
+    if (diff < 0) {
+      element.dispatchEvent(createEvent(("ps-scroll-" + up)));
+    } else if (diff > 0) {
+      element.dispatchEvent(createEvent(("ps-scroll-" + down)));
+    }
+
+    if (useScrollingClass) {
+      setScrollingClassInstantly(i, y);
+    }
+  }
+
+  if (i.reach[y] && (diff || forceFireReachEvent)) {
+    element.dispatchEvent(createEvent(("ps-" + y + "-reach-" + (i.reach[y]))));
+  }
+}
+
+function toInt(x) {
+  return parseInt(x, 10) || 0;
+}
+
+function isEditable(el) {
+  return (
+    matches(el, 'input,[contenteditable]') ||
+    matches(el, 'select,[contenteditable]') ||
+    matches(el, 'textarea,[contenteditable]') ||
+    matches(el, 'button,[contenteditable]')
+  );
+}
+
+function outerWidth(element) {
+  var styles = get(element);
+  return (
+    toInt(styles.width) +
+    toInt(styles.paddingLeft) +
+    toInt(styles.paddingRight) +
+    toInt(styles.borderLeftWidth) +
+    toInt(styles.borderRightWidth)
+  );
+}
+
+var env = {
+  isWebKit:
+    typeof document !== 'undefined' &&
+    'WebkitAppearance' in document.documentElement.style,
+  supportsTouch:
+    typeof window !== 'undefined' &&
+    ('ontouchstart' in window ||
+      ('maxTouchPoints' in window.navigator &&
+        window.navigator.maxTouchPoints > 0) ||
+      (window.DocumentTouch && document instanceof window.DocumentTouch)),
+  supportsIePointer:
+    typeof navigator !== 'undefined' && navigator.msMaxTouchPoints,
+  isChrome:
+    typeof navigator !== 'undefined' &&
+    /Chrome/i.test(navigator && navigator.userAgent),
+};
+
+function updateGeometry(i) {
+  var element = i.element;
+  var roundedScrollTop = Math.floor(element.scrollTop);
+  var rect = element.getBoundingClientRect();
+
+  i.containerWidth = Math.round(rect.width);
+  i.containerHeight = Math.round(rect.height);
+
+  i.contentWidth = element.scrollWidth;
+  i.contentHeight = element.scrollHeight;
+
+  if (!element.contains(i.scrollbarXRail)) {
+    // clean up and append
+    queryChildren(element, cls.element.rail('x')).forEach(function (el) { return remove(el); }
+    );
+    element.appendChild(i.scrollbarXRail);
+  }
+  if (!element.contains(i.scrollbarYRail)) {
+    // clean up and append
+    queryChildren(element, cls.element.rail('y')).forEach(function (el) { return remove(el); }
+    );
+    element.appendChild(i.scrollbarYRail);
+  }
+
+  if (
+    !i.settings.suppressScrollX &&
+    i.containerWidth + i.settings.scrollXMarginOffset < i.contentWidth
+  ) {
+    i.scrollbarXActive = true;
+    i.railXWidth = i.containerWidth - i.railXMarginWidth;
+    i.railXRatio = i.containerWidth / i.railXWidth;
+    i.scrollbarXWidth = getThumbSize(
+      i,
+      toInt((i.railXWidth * i.containerWidth) / i.contentWidth)
+    );
+    i.scrollbarXLeft = toInt(
+      ((i.negativeScrollAdjustment + element.scrollLeft) *
+        (i.railXWidth - i.scrollbarXWidth)) /
+        (i.contentWidth - i.containerWidth)
+    );
+  } else {
+    i.scrollbarXActive = false;
+  }
+
+  if (
+    !i.settings.suppressScrollY &&
+    i.containerHeight + i.settings.scrollYMarginOffset < i.contentHeight
+  ) {
+    i.scrollbarYActive = true;
+    i.railYHeight = i.containerHeight - i.railYMarginHeight;
+    i.railYRatio = i.containerHeight / i.railYHeight;
+    i.scrollbarYHeight = getThumbSize(
+      i,
+      toInt((i.railYHeight * i.containerHeight) / i.contentHeight)
+    );
+    i.scrollbarYTop = toInt(
+      (roundedScrollTop * (i.railYHeight - i.scrollbarYHeight)) /
+        (i.contentHeight - i.containerHeight)
+    );
+  } else {
+    i.scrollbarYActive = false;
+  }
+
+  if (i.scrollbarXLeft >= i.railXWidth - i.scrollbarXWidth) {
+    i.scrollbarXLeft = i.railXWidth - i.scrollbarXWidth;
+  }
+  if (i.scrollbarYTop >= i.railYHeight - i.scrollbarYHeight) {
+    i.scrollbarYTop = i.railYHeight - i.scrollbarYHeight;
+  }
+
+  updateCss(element, i);
+
+  if (i.scrollbarXActive) {
+    element.classList.add(cls.state.active('x'));
+  } else {
+    element.classList.remove(cls.state.active('x'));
+    i.scrollbarXWidth = 0;
+    i.scrollbarXLeft = 0;
+    element.scrollLeft = i.isRtl === true ? i.contentWidth : 0;
+  }
+  if (i.scrollbarYActive) {
+    element.classList.add(cls.state.active('y'));
+  } else {
+    element.classList.remove(cls.state.active('y'));
+    i.scrollbarYHeight = 0;
+    i.scrollbarYTop = 0;
+    element.scrollTop = 0;
+  }
+}
+
+function getThumbSize(i, thumbSize) {
+  if (i.settings.minScrollbarLength) {
+    thumbSize = Math.max(thumbSize, i.settings.minScrollbarLength);
+  }
+  if (i.settings.maxScrollbarLength) {
+    thumbSize = Math.min(thumbSize, i.settings.maxScrollbarLength);
+  }
+  return thumbSize;
+}
+
+function updateCss(element, i) {
+  var xRailOffset = { width: i.railXWidth };
+  var roundedScrollTop = Math.floor(element.scrollTop);
+
+  if (i.isRtl) {
+    xRailOffset.left =
+      i.negativeScrollAdjustment +
+      element.scrollLeft +
+      i.containerWidth -
+      i.contentWidth;
+  } else {
+    xRailOffset.left = element.scrollLeft;
+  }
+  if (i.isScrollbarXUsingBottom) {
+    xRailOffset.bottom = i.scrollbarXBottom - roundedScrollTop;
+  } else {
+    xRailOffset.top = i.scrollbarXTop + roundedScrollTop;
+  }
+  set(i.scrollbarXRail, xRailOffset);
+
+  var yRailOffset = { top: roundedScrollTop, height: i.railYHeight };
+  if (i.isScrollbarYUsingRight) {
+    if (i.isRtl) {
+      yRailOffset.right =
+        i.contentWidth -
+        (i.negativeScrollAdjustment + element.scrollLeft) -
+        i.scrollbarYRight -
+        i.scrollbarYOuterWidth -
+        9;
+    } else {
+      yRailOffset.right = i.scrollbarYRight - element.scrollLeft;
+    }
+  } else {
+    if (i.isRtl) {
+      yRailOffset.left =
+        i.negativeScrollAdjustment +
+        element.scrollLeft +
+        i.containerWidth * 2 -
+        i.contentWidth -
+        i.scrollbarYLeft -
+        i.scrollbarYOuterWidth;
+    } else {
+      yRailOffset.left = i.scrollbarYLeft + element.scrollLeft;
+    }
+  }
+  set(i.scrollbarYRail, yRailOffset);
+
+  set(i.scrollbarX, {
+    left: i.scrollbarXLeft,
+    width: i.scrollbarXWidth - i.railBorderXWidth,
+  });
+  set(i.scrollbarY, {
+    top: i.scrollbarYTop,
+    height: i.scrollbarYHeight - i.railBorderYWidth,
+  });
+}
+
+function clickRail(i) {
+  var element = i.element;
+
+  i.event.bind(i.scrollbarY, 'mousedown', function (e) { return e.stopPropagation(); });
+  i.event.bind(i.scrollbarYRail, 'mousedown', function (e) {
+    var positionTop =
+      e.pageY -
+      window.pageYOffset -
+      i.scrollbarYRail.getBoundingClientRect().top;
+    var direction = positionTop > i.scrollbarYTop ? 1 : -1;
+
+    i.element.scrollTop += direction * i.containerHeight;
+    updateGeometry(i);
+
+    e.stopPropagation();
+  });
+
+  i.event.bind(i.scrollbarX, 'mousedown', function (e) { return e.stopPropagation(); });
+  i.event.bind(i.scrollbarXRail, 'mousedown', function (e) {
+    var positionLeft =
+      e.pageX -
+      window.pageXOffset -
+      i.scrollbarXRail.getBoundingClientRect().left;
+    var direction = positionLeft > i.scrollbarXLeft ? 1 : -1;
+
+    i.element.scrollLeft += direction * i.containerWidth;
+    updateGeometry(i);
+
+    e.stopPropagation();
+  });
+}
+
+function dragThumb(i) {
+  bindMouseScrollHandler(i, [
+    'containerWidth',
+    'contentWidth',
+    'pageX',
+    'railXWidth',
+    'scrollbarX',
+    'scrollbarXWidth',
+    'scrollLeft',
+    'x',
+    'scrollbarXRail' ]);
+  bindMouseScrollHandler(i, [
+    'containerHeight',
+    'contentHeight',
+    'pageY',
+    'railYHeight',
+    'scrollbarY',
+    'scrollbarYHeight',
+    'scrollTop',
+    'y',
+    'scrollbarYRail' ]);
+}
+
+function bindMouseScrollHandler(
+  i,
+  ref
+) {
+  var containerHeight = ref[0];
+  var contentHeight = ref[1];
+  var pageY = ref[2];
+  var railYHeight = ref[3];
+  var scrollbarY = ref[4];
+  var scrollbarYHeight = ref[5];
+  var scrollTop = ref[6];
+  var y = ref[7];
+  var scrollbarYRail = ref[8];
+
+  var element = i.element;
+
+  var startingScrollTop = null;
+  var startingMousePageY = null;
+  var scrollBy = null;
+
+  function mouseMoveHandler(e) {
+    if (e.touches && e.touches[0]) {
+      e[pageY] = e.touches[0].pageY;
+    }
+    element[scrollTop] =
+      startingScrollTop + scrollBy * (e[pageY] - startingMousePageY);
+    addScrollingClass(i, y);
+    updateGeometry(i);
+
+    e.stopPropagation();
+    if (e.type.startsWith('touch') && e.changedTouches.length > 1) {
+      e.preventDefault();
+    }
+  }
+
+  function mouseUpHandler() {
+    removeScrollingClass(i, y);
+    i[scrollbarYRail].classList.remove(cls.state.clicking);
+    i.event.unbind(i.ownerDocument, 'mousemove', mouseMoveHandler);
+  }
+
+  function bindMoves(e, touchMode) {
+    startingScrollTop = element[scrollTop];
+    if (touchMode && e.touches) {
+      e[pageY] = e.touches[0].pageY;
+    }
+    startingMousePageY = e[pageY];
+    scrollBy =
+      (i[contentHeight] - i[containerHeight]) /
+      (i[railYHeight] - i[scrollbarYHeight]);
+    if (!touchMode) {
+      i.event.bind(i.ownerDocument, 'mousemove', mouseMoveHandler);
+      i.event.once(i.ownerDocument, 'mouseup', mouseUpHandler);
+      e.preventDefault();
+    } else {
+      i.event.bind(i.ownerDocument, 'touchmove', mouseMoveHandler);
+    }
+
+    i[scrollbarYRail].classList.add(cls.state.clicking);
+
+    e.stopPropagation();
+  }
+
+  i.event.bind(i[scrollbarY], 'mousedown', function (e) {
+    bindMoves(e);
+  });
+  i.event.bind(i[scrollbarY], 'touchstart', function (e) {
+    bindMoves(e, true);
+  });
+}
+
+function keyboard(i) {
+  var element = i.element;
+
+  var elementHovered = function () { return matches(element, ':hover'); };
+  var scrollbarFocused = function () { return matches(i.scrollbarX, ':focus') || matches(i.scrollbarY, ':focus'); };
+
+  function shouldPreventDefault(deltaX, deltaY) {
+    var scrollTop = Math.floor(element.scrollTop);
+    if (deltaX === 0) {
+      if (!i.scrollbarYActive) {
+        return false;
+      }
+      if (
+        (scrollTop === 0 && deltaY > 0) ||
+        (scrollTop >= i.contentHeight - i.containerHeight && deltaY < 0)
+      ) {
+        return !i.settings.wheelPropagation;
+      }
+    }
+
+    var scrollLeft = element.scrollLeft;
+    if (deltaY === 0) {
+      if (!i.scrollbarXActive) {
+        return false;
+      }
+      if (
+        (scrollLeft === 0 && deltaX < 0) ||
+        (scrollLeft >= i.contentWidth - i.containerWidth && deltaX > 0)
+      ) {
+        return !i.settings.wheelPropagation;
+      }
+    }
+    return true;
+  }
+
+  i.event.bind(i.ownerDocument, 'keydown', function (e) {
+    if (
+      (e.isDefaultPrevented && e.isDefaultPrevented()) ||
+      e.defaultPrevented
+    ) {
+      return;
+    }
+
+    if (!elementHovered() && !scrollbarFocused()) {
+      return;
+    }
+
+    var activeElement = document.activeElement
+      ? document.activeElement
+      : i.ownerDocument.activeElement;
+    if (activeElement) {
+      if (activeElement.tagName === 'IFRAME') {
+        activeElement = activeElement.contentDocument.activeElement;
+      } else {
+        // go deeper if element is a webcomponent
+        while (activeElement.shadowRoot) {
+          activeElement = activeElement.shadowRoot.activeElement;
+        }
+      }
+      if (isEditable(activeElement)) {
+        return;
+      }
+    }
+
+    var deltaX = 0;
+    var deltaY = 0;
+
+    switch (e.which) {
+      case 37: // left
+        if (e.metaKey) {
+          deltaX = -i.contentWidth;
+        } else if (e.altKey) {
+          deltaX = -i.containerWidth;
+        } else {
+          deltaX = -30;
+        }
+        break;
+      case 38: // up
+        if (e.metaKey) {
+          deltaY = i.contentHeight;
+        } else if (e.altKey) {
+          deltaY = i.containerHeight;
+        } else {
+          deltaY = 30;
+        }
+        break;
+      case 39: // right
+        if (e.metaKey) {
+          deltaX = i.contentWidth;
+        } else if (e.altKey) {
+          deltaX = i.containerWidth;
+        } else {
+          deltaX = 30;
+        }
+        break;
+      case 40: // down
+        if (e.metaKey) {
+          deltaY = -i.contentHeight;
+        } else if (e.altKey) {
+          deltaY = -i.containerHeight;
+        } else {
+          deltaY = -30;
+        }
+        break;
+      case 32: // space bar
+        if (e.shiftKey) {
+          deltaY = i.containerHeight;
+        } else {
+          deltaY = -i.containerHeight;
+        }
+        break;
+      case 33: // page up
+        deltaY = i.containerHeight;
+        break;
+      case 34: // page down
+        deltaY = -i.containerHeight;
+        break;
+      case 36: // home
+        deltaY = i.contentHeight;
+        break;
+      case 35: // end
+        deltaY = -i.contentHeight;
+        break;
+      default:
+        return;
+    }
+
+    if (i.settings.suppressScrollX && deltaX !== 0) {
+      return;
+    }
+    if (i.settings.suppressScrollY && deltaY !== 0) {
+      return;
+    }
+
+    element.scrollTop -= deltaY;
+    element.scrollLeft += deltaX;
+    updateGeometry(i);
+
+    if (shouldPreventDefault(deltaX, deltaY)) {
+      e.preventDefault();
+    }
+  });
+}
+
+function wheel(i) {
+  var element = i.element;
+
+  function shouldPreventDefault(deltaX, deltaY) {
+    var roundedScrollTop = Math.floor(element.scrollTop);
+    var isTop = element.scrollTop === 0;
+    var isBottom =
+      roundedScrollTop + element.offsetHeight === element.scrollHeight;
+    var isLeft = element.scrollLeft === 0;
+    var isRight =
+      element.scrollLeft + element.offsetWidth === element.scrollWidth;
+
+    var hitsBound;
+
+    // pick axis with primary direction
+    if (Math.abs(deltaY) > Math.abs(deltaX)) {
+      hitsBound = isTop || isBottom;
+    } else {
+      hitsBound = isLeft || isRight;
+    }
+
+    return hitsBound ? !i.settings.wheelPropagation : true;
+  }
+
+  function getDeltaFromEvent(e) {
+    var deltaX = e.deltaX;
+    var deltaY = -1 * e.deltaY;
+
+    if (typeof deltaX === 'undefined' || typeof deltaY === 'undefined') {
+      // OS X Safari
+      deltaX = (-1 * e.wheelDeltaX) / 6;
+      deltaY = e.wheelDeltaY / 6;
+    }
+
+    if (e.deltaMode && e.deltaMode === 1) {
+      // Firefox in deltaMode 1: Line scrolling
+      deltaX *= 10;
+      deltaY *= 10;
+    }
+
+    if (deltaX !== deltaX && deltaY !== deltaY /* NaN checks */) {
+      // IE in some mouse drivers
+      deltaX = 0;
+      deltaY = e.wheelDelta;
+    }
+
+    if (e.shiftKey) {
+      // reverse axis with shift key
+      return [-deltaY, -deltaX];
+    }
+    return [deltaX, deltaY];
+  }
+
+  function shouldBeConsumedByChild(target, deltaX, deltaY) {
+    // FIXME: this is a workaround for <select> issue in FF and IE #571
+    if (!env.isWebKit && element.querySelector('select:focus')) {
+      return true;
+    }
+
+    if (!element.contains(target)) {
+      return false;
+    }
+
+    var cursor = target;
+
+    while (cursor && cursor !== element) {
+      if (cursor.classList.contains(cls.element.consuming)) {
+        return true;
+      }
+
+      var style = get(cursor);
+
+      // if deltaY && vertical scrollable
+      if (deltaY && style.overflowY.match(/(scroll|auto)/)) {
+        var maxScrollTop = cursor.scrollHeight - cursor.clientHeight;
+        if (maxScrollTop > 0) {
+          if (
+            (cursor.scrollTop > 0 && deltaY < 0) ||
+            (cursor.scrollTop < maxScrollTop && deltaY > 0)
+          ) {
+            return true;
+          }
+        }
+      }
+      // if deltaX && horizontal scrollable
+      if (deltaX && style.overflowX.match(/(scroll|auto)/)) {
+        var maxScrollLeft = cursor.scrollWidth - cursor.clientWidth;
+        if (maxScrollLeft > 0) {
+          if (
+            (cursor.scrollLeft > 0 && deltaX < 0) ||
+            (cursor.scrollLeft < maxScrollLeft && deltaX > 0)
+          ) {
+            return true;
+          }
+        }
+      }
+
+      cursor = cursor.parentNode;
+    }
+
+    return false;
+  }
+
+  function mousewheelHandler(e) {
+    var ref = getDeltaFromEvent(e);
+    var deltaX = ref[0];
+    var deltaY = ref[1];
+
+    if (shouldBeConsumedByChild(e.target, deltaX, deltaY)) {
+      return;
+    }
+
+    var shouldPrevent = false;
+    if (!i.settings.useBothWheelAxes) {
+      // deltaX will only be used for horizontal scrolling and deltaY will
+      // only be used for vertical scrolling - this is the default
+      element.scrollTop -= deltaY * i.settings.wheelSpeed;
+      element.scrollLeft += deltaX * i.settings.wheelSpeed;
+    } else if (i.scrollbarYActive && !i.scrollbarXActive) {
+      // only vertical scrollbar is active and useBothWheelAxes option is
+      // active, so let's scroll vertical bar using both mouse wheel axes
+      if (deltaY) {
+        element.scrollTop -= deltaY * i.settings.wheelSpeed;
+      } else {
+        element.scrollTop += deltaX * i.settings.wheelSpeed;
+      }
+      shouldPrevent = true;
+    } else if (i.scrollbarXActive && !i.scrollbarYActive) {
+      // useBothWheelAxes and only horizontal bar is active, so use both
+      // wheel axes for horizontal bar
+      if (deltaX) {
+        element.scrollLeft += deltaX * i.settings.wheelSpeed;
+      } else {
+        element.scrollLeft -= deltaY * i.settings.wheelSpeed;
+      }
+      shouldPrevent = true;
+    }
+
+    updateGeometry(i);
+
+    shouldPrevent = shouldPrevent || shouldPreventDefault(deltaX, deltaY);
+    if (shouldPrevent && !e.ctrlKey) {
+      e.stopPropagation();
+      e.preventDefault();
+    }
+  }
+
+  if (typeof window.onwheel !== 'undefined') {
+    i.event.bind(element, 'wheel', mousewheelHandler);
+  } else if (typeof window.onmousewheel !== 'undefined') {
+    i.event.bind(element, 'mousewheel', mousewheelHandler);
+  }
+}
+
+function touch(i) {
+  if (!env.supportsTouch && !env.supportsIePointer) {
+    return;
+  }
+
+  var element = i.element;
+
+  function shouldPrevent(deltaX, deltaY) {
+    var scrollTop = Math.floor(element.scrollTop);
+    var scrollLeft = element.scrollLeft;
+    var magnitudeX = Math.abs(deltaX);
+    var magnitudeY = Math.abs(deltaY);
+
+    if (magnitudeY > magnitudeX) {
+      // user is perhaps trying to swipe up/down the page
+
+      if (
+        (deltaY < 0 && scrollTop === i.contentHeight - i.containerHeight) ||
+        (deltaY > 0 && scrollTop === 0)
+      ) {
+        // set prevent for mobile Chrome refresh
+        return window.scrollY === 0 && deltaY > 0 && env.isChrome;
+      }
+    } else if (magnitudeX > magnitudeY) {
+      // user is perhaps trying to swipe left/right across the page
+
+      if (
+        (deltaX < 0 && scrollLeft === i.contentWidth - i.containerWidth) ||
+        (deltaX > 0 && scrollLeft === 0)
+      ) {
+        return true;
+      }
+    }
+
+    return true;
+  }
+
+  function applyTouchMove(differenceX, differenceY) {
+    element.scrollTop -= differenceY;
+    element.scrollLeft -= differenceX;
+
+    updateGeometry(i);
+  }
+
+  var startOffset = {};
+  var startTime = 0;
+  var speed = {};
+  var easingLoop = null;
+
+  function getTouch(e) {
+    if (e.targetTouches) {
+      return e.targetTouches[0];
+    } else {
+      // Maybe IE pointer
+      return e;
+    }
+  }
+
+  function shouldHandle(e) {
+    if (e.pointerType && e.pointerType === 'pen' && e.buttons === 0) {
+      return false;
+    }
+    if (e.targetTouches && e.targetTouches.length === 1) {
+      return true;
+    }
+    if (
+      e.pointerType &&
+      e.pointerType !== 'mouse' &&
+      e.pointerType !== e.MSPOINTER_TYPE_MOUSE
+    ) {
+      return true;
+    }
+    return false;
+  }
+
+  function touchStart(e) {
+    if (!shouldHandle(e)) {
+      return;
+    }
+
+    var touch = getTouch(e);
+
+    startOffset.pageX = touch.pageX;
+    startOffset.pageY = touch.pageY;
+
+    startTime = new Date().getTime();
+
+    if (easingLoop !== null) {
+      clearInterval(easingLoop);
+    }
+  }
+
+  function shouldBeConsumedByChild(target, deltaX, deltaY) {
+    if (!element.contains(target)) {
+      return false;
+    }
+
+    var cursor = target;
+
+    while (cursor && cursor !== element) {
+      if (cursor.classList.contains(cls.element.consuming)) {
+        return true;
+      }
+
+      var style = get(cursor);
+
+      // if deltaY && vertical scrollable
+      if (deltaY && style.overflowY.match(/(scroll|auto)/)) {
+        var maxScrollTop = cursor.scrollHeight - cursor.clientHeight;
+        if (maxScrollTop > 0) {
+          if (
+            (cursor.scrollTop > 0 && deltaY < 0) ||
+            (cursor.scrollTop < maxScrollTop && deltaY > 0)
+          ) {
+            return true;
+          }
+        }
+      }
+      // if deltaX && horizontal scrollable
+      if (deltaX && style.overflowX.match(/(scroll|auto)/)) {
+        var maxScrollLeft = cursor.scrollWidth - cursor.clientWidth;
+        if (maxScrollLeft > 0) {
+          if (
+            (cursor.scrollLeft > 0 && deltaX < 0) ||
+            (cursor.scrollLeft < maxScrollLeft && deltaX > 0)
+          ) {
+            return true;
+          }
+        }
+      }
+
+      cursor = cursor.parentNode;
+    }
+
+    return false;
+  }
+
+  function touchMove(e) {
+    if (shouldHandle(e)) {
+      var touch = getTouch(e);
+
+      var currentOffset = { pageX: touch.pageX, pageY: touch.pageY };
+
+      var differenceX = currentOffset.pageX - startOffset.pageX;
+      var differenceY = currentOffset.pageY - startOffset.pageY;
+
+      if (shouldBeConsumedByChild(e.target, differenceX, differenceY)) {
+        return;
+      }
+
+      applyTouchMove(differenceX, differenceY);
+      startOffset = currentOffset;
+
+      var currentTime = new Date().getTime();
+
+      var timeGap = currentTime - startTime;
+      if (timeGap > 0) {
+        speed.x = differenceX / timeGap;
+        speed.y = differenceY / timeGap;
+        startTime = currentTime;
+      }
+
+      if (shouldPrevent(differenceX, differenceY)) {
+        e.preventDefault();
+      }
+    }
+  }
+  function touchEnd() {
+    if (i.settings.swipeEasing) {
+      clearInterval(easingLoop);
+      easingLoop = setInterval(function() {
+        if (i.isInitialized) {
+          clearInterval(easingLoop);
+          return;
+        }
+
+        if (!speed.x && !speed.y) {
+          clearInterval(easingLoop);
+          return;
+        }
+
+        if (Math.abs(speed.x) < 0.01 && Math.abs(speed.y) < 0.01) {
+          clearInterval(easingLoop);
+          return;
+        }
+
+        if (!i.element) {
+          clearInterval(easingLoop);
+          return;
+        }
+
+        applyTouchMove(speed.x * 30, speed.y * 30);
+
+        speed.x *= 0.8;
+        speed.y *= 0.8;
+      }, 10);
+    }
+  }
+
+  if (env.supportsTouch) {
+    i.event.bind(element, 'touchstart', touchStart);
+    i.event.bind(element, 'touchmove', touchMove);
+    i.event.bind(element, 'touchend', touchEnd);
+  } else if (env.supportsIePointer) {
+    if (window.PointerEvent) {
+      i.event.bind(element, 'pointerdown', touchStart);
+      i.event.bind(element, 'pointermove', touchMove);
+      i.event.bind(element, 'pointerup', touchEnd);
+    } else if (window.MSPointerEvent) {
+      i.event.bind(element, 'MSPointerDown', touchStart);
+      i.event.bind(element, 'MSPointerMove', touchMove);
+      i.event.bind(element, 'MSPointerUp', touchEnd);
+    }
+  }
+}
+
+var defaultSettings = function () { return ({
+  handlers: ['click-rail', 'drag-thumb', 'keyboard', 'wheel', 'touch'],
+  maxScrollbarLength: null,
+  minScrollbarLength: null,
+  scrollingThreshold: 1000,
+  scrollXMarginOffset: 0,
+  scrollYMarginOffset: 0,
+  suppressScrollX: false,
+  suppressScrollY: false,
+  swipeEasing: true,
+  useBothWheelAxes: false,
+  wheelPropagation: true,
+  wheelSpeed: 1,
+}); };
+
+var handlers = {
+  'click-rail': clickRail,
+  'drag-thumb': dragThumb,
+  keyboard: keyboard,
+  wheel: wheel,
+  touch: touch,
+};
+
+var PerfectScrollbar = function PerfectScrollbar(element, userSettings) {
+  var this$1 = this;
+  if ( userSettings === void 0 ) userSettings = {};
+
+  if (typeof element === 'string') {
+    element = document.querySelector(element);
+  }
+
+  if (!element || !element.nodeName) {
+    throw new Error('no element is specified to initialize PerfectScrollbar');
+  }
+
+  this.element = element;
+
+  element.classList.add(cls.main);
+
+  this.settings = defaultSettings();
+  for (var key in userSettings) {
+    this.settings[key] = userSettings[key];
+  }
+
+  this.containerWidth = null;
+  this.containerHeight = null;
+  this.contentWidth = null;
+  this.contentHeight = null;
+
+  var focus = function () { return element.classList.add(cls.state.focus); };
+  var blur = function () { return element.classList.remove(cls.state.focus); };
+
+  this.isRtl = get(element).direction === 'rtl';
+  if (this.isRtl === true) {
+    element.classList.add(cls.rtl);
+  }
+  this.isNegativeScroll = (function () {
+    var originalScrollLeft = element.scrollLeft;
+    var result = null;
+    element.scrollLeft = -1;
+    result = element.scrollLeft < 0;
+    element.scrollLeft = originalScrollLeft;
+    return result;
+  })();
+  this.negativeScrollAdjustment = this.isNegativeScroll
+    ? element.scrollWidth - element.clientWidth
+    : 0;
+  this.event = new EventManager();
+  this.ownerDocument = element.ownerDocument || document;
+
+  this.scrollbarXRail = div(cls.element.rail('x'));
+  element.appendChild(this.scrollbarXRail);
+  this.scrollbarX = div(cls.element.thumb('x'));
+  this.scrollbarXRail.appendChild(this.scrollbarX);
+  this.scrollbarX.setAttribute('tabindex', 0);
+  this.event.bind(this.scrollbarX, 'focus', focus);
+  this.event.bind(this.scrollbarX, 'blur', blur);
+  this.scrollbarXActive = null;
+  this.scrollbarXWidth = null;
+  this.scrollbarXLeft = null;
+  var railXStyle = get(this.scrollbarXRail);
+  this.scrollbarXBottom = parseInt(railXStyle.bottom, 10);
+  if (isNaN(this.scrollbarXBottom)) {
+    this.isScrollbarXUsingBottom = false;
+    this.scrollbarXTop = toInt(railXStyle.top);
+  } else {
+    this.isScrollbarXUsingBottom = true;
+  }
+  this.railBorderXWidth =
+    toInt(railXStyle.borderLeftWidth) + toInt(railXStyle.borderRightWidth);
+  // Set rail to display:block to calculate margins
+  set(this.scrollbarXRail, { display: 'block' });
+  this.railXMarginWidth =
+    toInt(railXStyle.marginLeft) + toInt(railXStyle.marginRight);
+  set(this.scrollbarXRail, { display: '' });
+  this.railXWidth = null;
+  this.railXRatio = null;
+
+  this.scrollbarYRail = div(cls.element.rail('y'));
+  element.appendChild(this.scrollbarYRail);
+  this.scrollbarY = div(cls.element.thumb('y'));
+  this.scrollbarYRail.appendChild(this.scrollbarY);
+  this.scrollbarY.setAttribute('tabindex', 0);
+  this.event.bind(this.scrollbarY, 'focus', focus);
+  this.event.bind(this.scrollbarY, 'blur', blur);
+  this.scrollbarYActive = null;
+  this.scrollbarYHeight = null;
+  this.scrollbarYTop = null;
+  var railYStyle = get(this.scrollbarYRail);
+  this.scrollbarYRight = parseInt(railYStyle.right, 10);
+  if (isNaN(this.scrollbarYRight)) {
+    this.isScrollbarYUsingRight = false;
+    this.scrollbarYLeft = toInt(railYStyle.left);
+  } else {
+    this.isScrollbarYUsingRight = true;
+  }
+  this.scrollbarYOuterWidth = this.isRtl ? outerWidth(this.scrollbarY) : null;
+  this.railBorderYWidth =
+    toInt(railYStyle.borderTopWidth) + toInt(railYStyle.borderBottomWidth);
+  set(this.scrollbarYRail, { display: 'block' });
+  this.railYMarginHeight =
+    toInt(railYStyle.marginTop) + toInt(railYStyle.marginBottom);
+  set(this.scrollbarYRail, { display: '' });
+  this.railYHeight = null;
+  this.railYRatio = null;
+
+  this.reach = {
+    x:
+      element.scrollLeft <= 0
+        ? 'start'
+        : element.scrollLeft >= this.contentWidth - this.containerWidth
+        ? 'end'
+        : null,
+    y:
+      element.scrollTop <= 0
+        ? 'start'
+        : element.scrollTop >= this.contentHeight - this.containerHeight
+        ? 'end'
+        : null,
+  };
+
+  this.isAlive = true;
+
+  this.settings.handlers.forEach(function (handlerName) { return handlers[handlerName](this$1); });
+
+  this.lastScrollTop = Math.floor(element.scrollTop); // for onScroll only
+  this.lastScrollLeft = element.scrollLeft; // for onScroll only
+  this.event.bind(this.element, 'scroll', function (e) { return this$1.onScroll(e); });
+  updateGeometry(this);
+};
+
+PerfectScrollbar.prototype.update = function update () {
+  if (!this.isAlive) {
+    return;
+  }
+
+  // Recalcuate negative scrollLeft adjustment
+  this.negativeScrollAdjustment = this.isNegativeScroll
+    ? this.element.scrollWidth - this.element.clientWidth
+    : 0;
+
+  // Recalculate rail margins
+  set(this.scrollbarXRail, { display: 'block' });
+  set(this.scrollbarYRail, { display: 'block' });
+  this.railXMarginWidth =
+    toInt(get(this.scrollbarXRail).marginLeft) +
+    toInt(get(this.scrollbarXRail).marginRight);
+  this.railYMarginHeight =
+    toInt(get(this.scrollbarYRail).marginTop) +
+    toInt(get(this.scrollbarYRail).marginBottom);
+
+  // Hide scrollbars not to affect scrollWidth and scrollHeight
+  set(this.scrollbarXRail, { display: 'none' });
+  set(this.scrollbarYRail, { display: 'none' });
+
+  updateGeometry(this);
+
+  processScrollDiff(this, 'top', 0, false, true);
+  processScrollDiff(this, 'left', 0, false, true);
+
+  set(this.scrollbarXRail, { display: '' });
+  set(this.scrollbarYRail, { display: '' });
+};
+
+PerfectScrollbar.prototype.onScroll = function onScroll (e) {
+  if (!this.isAlive) {
+    return;
+  }
+
+  updateGeometry(this);
+  processScrollDiff(this, 'top', this.element.scrollTop - this.lastScrollTop);
+  processScrollDiff(
+    this,
+    'left',
+    this.element.scrollLeft - this.lastScrollLeft
+  );
+
+  this.lastScrollTop = Math.floor(this.element.scrollTop);
+  this.lastScrollLeft = this.element.scrollLeft;
+};
+
+PerfectScrollbar.prototype.destroy = function destroy () {
+  if (!this.isAlive) {
+    return;
+  }
+
+  this.event.unbindAll();
+  remove(this.scrollbarX);
+  remove(this.scrollbarY);
+  remove(this.scrollbarXRail);
+  remove(this.scrollbarYRail);
+  this.removePsClasses();
+
+  // unset elements
+  this.element = null;
+  this.scrollbarX = null;
+  this.scrollbarY = null;
+  this.scrollbarXRail = null;
+  this.scrollbarYRail = null;
+
+  this.isAlive = false;
+};
+
+PerfectScrollbar.prototype.removePsClasses = function removePsClasses () {
+  this.element.className = this.element.className
+    .split(' ')
+    .filter(function (name) { return !name.match(/^ps([-_].+|)$/); })
+    .join(' ');
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (PerfectScrollbar);
+//# sourceMappingURL=perfect-scrollbar.esm.js.map
+
+
+/***/ }),
+
 /***/ "./node_modules/popper.js/dist/esm/popper.js":
 /*!***************************************************!*\
   !*** ./node_modules/popper.js/dist/esm/popper.js ***!
@@ -61642,6 +63023,304 @@ if (false) {} else {
 
 /***/ }),
 
+/***/ "./node_modules/react-perfect-scrollbar/dist/css/styles.css":
+/*!******************************************************************!*\
+  !*** ./node_modules/react-perfect-scrollbar/dist/css/styles.css ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../css-loader??ref--6-1!../../../postcss-loader/src??ref--6-2!./styles.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/react-perfect-scrollbar/dist/css/styles.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/react-perfect-scrollbar/lib/index.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/react-perfect-scrollbar/lib/index.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _scrollbar = __webpack_require__(/*! ./scrollbar */ "./node_modules/react-perfect-scrollbar/lib/scrollbar.js");
+
+var _scrollbar2 = _interopRequireDefault(_scrollbar);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = _scrollbar2.default;
+module.exports = exports['default'];
+
+/***/ }),
+
+/***/ "./node_modules/react-perfect-scrollbar/lib/scrollbar.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/react-perfect-scrollbar/lib/scrollbar.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+
+var _perfectScrollbar = __webpack_require__(/*! perfect-scrollbar */ "./node_modules/perfect-scrollbar/dist/perfect-scrollbar.esm.js");
+
+var _perfectScrollbar2 = _interopRequireDefault(_perfectScrollbar);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var handlerNameByEvent = {
+  'ps-scroll-y': 'onScrollY',
+  'ps-scroll-x': 'onScrollX',
+  'ps-scroll-up': 'onScrollUp',
+  'ps-scroll-down': 'onScrollDown',
+  'ps-scroll-left': 'onScrollLeft',
+  'ps-scroll-right': 'onScrollRight',
+  'ps-y-reach-start': 'onYReachStart',
+  'ps-y-reach-end': 'onYReachEnd',
+  'ps-x-reach-start': 'onXReachStart',
+  'ps-x-reach-end': 'onXReachEnd'
+};
+Object.freeze(handlerNameByEvent);
+
+var ScrollBar = function (_Component) {
+  _inherits(ScrollBar, _Component);
+
+  function ScrollBar(props) {
+    _classCallCheck(this, ScrollBar);
+
+    var _this = _possibleConstructorReturn(this, (ScrollBar.__proto__ || Object.getPrototypeOf(ScrollBar)).call(this, props));
+
+    _this.handleRef = _this.handleRef.bind(_this);
+    _this._handlerByEvent = {};
+    return _this;
+  }
+
+  _createClass(ScrollBar, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      if (this.props.option) {
+        console.warn('react-perfect-scrollbar: the "option" prop has been deprecated in favor of "options"');
+      }
+
+      this._ps = new _perfectScrollbar2.default(this._container, this.props.options || this.props.option);
+      // hook up events
+      this._updateEventHook();
+      this._updateClassName();
+    }
+  }, {
+    key: 'componentDidUpdate',
+    value: function componentDidUpdate(prevProps) {
+      this._updateEventHook(prevProps);
+
+      this.updateScroll();
+
+      if (prevProps.className !== this.props.className) {
+        this._updateClassName();
+      }
+    }
+  }, {
+    key: 'componentWillUnmount',
+    value: function componentWillUnmount() {
+      var _this2 = this;
+
+      // unhook up evens
+      Object.keys(this._handlerByEvent).forEach(function (key) {
+        var value = _this2._handlerByEvent[key];
+
+        if (value) {
+          _this2._container.removeEventListener(key, value, false);
+        }
+      });
+      this._handlerByEvent = {};
+      this._ps.destroy();
+      this._ps = null;
+    }
+  }, {
+    key: '_updateEventHook',
+    value: function _updateEventHook() {
+      var _this3 = this;
+
+      var prevProps = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+
+      // hook up events
+      Object.keys(handlerNameByEvent).forEach(function (key) {
+        var callback = _this3.props[handlerNameByEvent[key]];
+        var prevCallback = prevProps[handlerNameByEvent[key]];
+        if (callback !== prevCallback) {
+          if (prevCallback) {
+            var prevHandler = _this3._handlerByEvent[key];
+            _this3._container.removeEventListener(key, prevHandler, false);
+            _this3._handlerByEvent[key] = null;
+          }
+          if (callback) {
+            var handler = function handler() {
+              return callback(_this3._container);
+            };
+            _this3._container.addEventListener(key, handler, false);
+            _this3._handlerByEvent[key] = handler;
+          }
+        }
+      });
+    }
+  }, {
+    key: '_updateClassName',
+    value: function _updateClassName() {
+      var className = this.props.className;
+
+
+      var psClassNames = this._container.className.split(' ').filter(function (name) {
+        return name.match(/^ps([-_].+|)$/);
+      }).join(' ');
+
+      if (this._container) {
+        this._container.className = 'scrollbar-container' + (className ? ' ' + className : '') + (psClassNames ? ' ' + psClassNames : '');
+      }
+    }
+  }, {
+    key: 'updateScroll',
+    value: function updateScroll() {
+      this.props.onSync(this._ps);
+    }
+  }, {
+    key: 'handleRef',
+    value: function handleRef(ref) {
+      this._container = ref;
+      this.props.containerRef(ref);
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      var _props = this.props,
+          className = _props.className,
+          style = _props.style,
+          option = _props.option,
+          options = _props.options,
+          containerRef = _props.containerRef,
+          onScrollY = _props.onScrollY,
+          onScrollX = _props.onScrollX,
+          onScrollUp = _props.onScrollUp,
+          onScrollDown = _props.onScrollDown,
+          onScrollLeft = _props.onScrollLeft,
+          onScrollRight = _props.onScrollRight,
+          onYReachStart = _props.onYReachStart,
+          onYReachEnd = _props.onYReachEnd,
+          onXReachStart = _props.onXReachStart,
+          onXReachEnd = _props.onXReachEnd,
+          component = _props.component,
+          onSync = _props.onSync,
+          children = _props.children,
+          remainProps = _objectWithoutProperties(_props, ['className', 'style', 'option', 'options', 'containerRef', 'onScrollY', 'onScrollX', 'onScrollUp', 'onScrollDown', 'onScrollLeft', 'onScrollRight', 'onYReachStart', 'onYReachEnd', 'onXReachStart', 'onXReachEnd', 'component', 'onSync', 'children']);
+
+      var Comp = component;
+
+      return _react2.default.createElement(
+        Comp,
+        _extends({ style: style, ref: this.handleRef }, remainProps),
+        children
+      );
+    }
+  }]);
+
+  return ScrollBar;
+}(_react.Component);
+
+exports.default = ScrollBar;
+
+
+ScrollBar.defaultProps = {
+  className: '',
+  style: undefined,
+  option: undefined,
+  options: undefined,
+  containerRef: function containerRef() {},
+  onScrollY: undefined,
+  onScrollX: undefined,
+  onScrollUp: undefined,
+  onScrollDown: undefined,
+  onScrollLeft: undefined,
+  onScrollRight: undefined,
+  onYReachStart: undefined,
+  onYReachEnd: undefined,
+  onXReachStart: undefined,
+  onXReachEnd: undefined,
+  onSync: function onSync(ps) {
+    return ps.update();
+  },
+  component: 'div'
+};
+
+ScrollBar.propTypes = {
+  children: _propTypes.PropTypes.node.isRequired,
+  className: _propTypes.PropTypes.string,
+  style: _propTypes.PropTypes.object,
+  option: _propTypes.PropTypes.object,
+  options: _propTypes.PropTypes.object,
+  containerRef: _propTypes.PropTypes.func,
+  onScrollY: _propTypes.PropTypes.func,
+  onScrollX: _propTypes.PropTypes.func,
+  onScrollUp: _propTypes.PropTypes.func,
+  onScrollDown: _propTypes.PropTypes.func,
+  onScrollLeft: _propTypes.PropTypes.func,
+  onScrollRight: _propTypes.PropTypes.func,
+  onYReachStart: _propTypes.PropTypes.func,
+  onYReachEnd: _propTypes.PropTypes.func,
+  onXReachStart: _propTypes.PropTypes.func,
+  onXReachEnd: _propTypes.PropTypes.func,
+  onSync: _propTypes.PropTypes.func,
+  component: _propTypes.PropTypes.string
+};
+module.exports = exports['default'];
+
+/***/ }),
+
 /***/ "./node_modules/react-router-dom/esm/react-router-dom.js":
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
@@ -71074,256 +72753,14 @@ __webpack_require__(/*! ./components/Main */ "./resources/js/components/Main.js"
 
 /***/ }),
 
-/***/ "./resources/js/assets/banners/1.jpg":
-/*!*******************************************!*\
-  !*** ./resources/js/assets/banners/1.jpg ***!
-  \*******************************************/
+/***/ "./resources/js/assets/banners/banner-1.jpg":
+/*!**************************************************!*\
+  !*** ./resources/js/assets/banners/banner-1.jpg ***!
+  \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/images/1.jpg?67fdac3f199090c5934ebb685286edc9";
-
-/***/ }),
-
-/***/ "./resources/js/assets/doctors/1.jpg":
-/*!*******************************************!*\
-  !*** ./resources/js/assets/doctors/1.jpg ***!
-  \*******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/1.jpg?0938167ce1a81352b7f64ba16b1acd15";
-
-/***/ }),
-
-/***/ "./resources/js/assets/doctors/10.jpg":
-/*!********************************************!*\
-  !*** ./resources/js/assets/doctors/10.jpg ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/10.jpg?8f836a228cf33b20a23776e54eb7a607";
-
-/***/ }),
-
-/***/ "./resources/js/assets/doctors/11.jpg":
-/*!********************************************!*\
-  !*** ./resources/js/assets/doctors/11.jpg ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/11.jpg?a960afa1356ed4d96f3614f8999293dd";
-
-/***/ }),
-
-/***/ "./resources/js/assets/doctors/12.jpg":
-/*!********************************************!*\
-  !*** ./resources/js/assets/doctors/12.jpg ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/12.jpg?40b27bf699869bcc4ad523de3d982144";
-
-/***/ }),
-
-/***/ "./resources/js/assets/doctors/13.jpg":
-/*!********************************************!*\
-  !*** ./resources/js/assets/doctors/13.jpg ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/13.jpg?9b21827195fb6d511105924ab9be5abe";
-
-/***/ }),
-
-/***/ "./resources/js/assets/doctors/14.jpg":
-/*!********************************************!*\
-  !*** ./resources/js/assets/doctors/14.jpg ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/14.jpg?890ee14ee75bd9a47c88f965d5fb719d";
-
-/***/ }),
-
-/***/ "./resources/js/assets/doctors/15.jpg":
-/*!********************************************!*\
-  !*** ./resources/js/assets/doctors/15.jpg ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/15.jpg?4b3dd739dbb222c2ab5beff95bd1488b";
-
-/***/ }),
-
-/***/ "./resources/js/assets/doctors/16.jpg":
-/*!********************************************!*\
-  !*** ./resources/js/assets/doctors/16.jpg ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/16.jpg?562755d03998761c1ae16128a7dcb9ea";
-
-/***/ }),
-
-/***/ "./resources/js/assets/doctors/17.jpg":
-/*!********************************************!*\
-  !*** ./resources/js/assets/doctors/17.jpg ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/17.jpg?6c352024a1e50108d4bdbbaa9c70fa18";
-
-/***/ }),
-
-/***/ "./resources/js/assets/doctors/18.jpg":
-/*!********************************************!*\
-  !*** ./resources/js/assets/doctors/18.jpg ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/18.jpg?c841d06dfca57aa93f674ff45e1b5409";
-
-/***/ }),
-
-/***/ "./resources/js/assets/doctors/19.jpg":
-/*!********************************************!*\
-  !*** ./resources/js/assets/doctors/19.jpg ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/19.jpg?69d544afda5c1c7283576a080c347825";
-
-/***/ }),
-
-/***/ "./resources/js/assets/doctors/2.jpg":
-/*!*******************************************!*\
-  !*** ./resources/js/assets/doctors/2.jpg ***!
-  \*******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/2.jpg?96cdd56aec8f9a732f8a17392e701b59";
-
-/***/ }),
-
-/***/ "./resources/js/assets/doctors/20.jpg":
-/*!********************************************!*\
-  !*** ./resources/js/assets/doctors/20.jpg ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/20.jpg?dad2c68442396902339ea96ccbcf96d3";
-
-/***/ }),
-
-/***/ "./resources/js/assets/doctors/21.jpg":
-/*!********************************************!*\
-  !*** ./resources/js/assets/doctors/21.jpg ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/21.jpg?404759f48eb1b19a0c7972531f36efd7";
-
-/***/ }),
-
-/***/ "./resources/js/assets/doctors/22.jpg":
-/*!********************************************!*\
-  !*** ./resources/js/assets/doctors/22.jpg ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/22.jpg?e5d75b11a0d2fe1069ec98cd9839f9ac";
-
-/***/ }),
-
-/***/ "./resources/js/assets/doctors/3.jpg":
-/*!*******************************************!*\
-  !*** ./resources/js/assets/doctors/3.jpg ***!
-  \*******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/3.jpg?00a802246a57551543dbe9188ca03a63";
-
-/***/ }),
-
-/***/ "./resources/js/assets/doctors/4.png":
-/*!*******************************************!*\
-  !*** ./resources/js/assets/doctors/4.png ***!
-  \*******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/4.png?7bd2ad8893df5c4e138d866d70a0097e";
-
-/***/ }),
-
-/***/ "./resources/js/assets/doctors/5.jpg":
-/*!*******************************************!*\
-  !*** ./resources/js/assets/doctors/5.jpg ***!
-  \*******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/5.jpg?80639844df93c287faffe9b966fe4e7d";
-
-/***/ }),
-
-/***/ "./resources/js/assets/doctors/6.png":
-/*!*******************************************!*\
-  !*** ./resources/js/assets/doctors/6.png ***!
-  \*******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/6.png?1b7dcf0f6345d7576cd34c28ea917902";
-
-/***/ }),
-
-/***/ "./resources/js/assets/doctors/7.jpg":
-/*!*******************************************!*\
-  !*** ./resources/js/assets/doctors/7.jpg ***!
-  \*******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/7.jpg?5ba34e341ea632b3e90a2fcac24a9e1b";
-
-/***/ }),
-
-/***/ "./resources/js/assets/doctors/8.png":
-/*!*******************************************!*\
-  !*** ./resources/js/assets/doctors/8.png ***!
-  \*******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/8.png?b9eb1fed7b3337aca7adf20c0d7317a6";
-
-/***/ }),
-
-/***/ "./resources/js/assets/doctors/9.jpg":
-/*!*******************************************!*\
-  !*** ./resources/js/assets/doctors/9.jpg ***!
-  \*******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/9.jpg?4cd572e9f79660d4aed355758a0a8f9b";
+module.exports = "/images/banner-1.jpg?67fdac3f199090c5934ebb685286edc9";
 
 /***/ }),
 
@@ -71720,39 +73157,6 @@ module.exports = "/images/Reliance Foundation Hospital, Mumbai.jpg?06917a4069b82
 /***/ (function(module, exports) {
 
 module.exports = "/images/Valentis Cancer Hospital, Meerut.png?7464e06b66a90d3788d19809cc654c84";
-
-/***/ }),
-
-/***/ "./resources/js/assets/images/treatment-after-step.png":
-/*!*************************************************************!*\
-  !*** ./resources/js/assets/images/treatment-after-step.png ***!
-  \*************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/treatment-after-step.png?38dfe87a1a12bdeac1559ce34a75a589";
-
-/***/ }),
-
-/***/ "./resources/js/assets/images/treatment-before-step.png":
-/*!**************************************************************!*\
-  !*** ./resources/js/assets/images/treatment-before-step.png ***!
-  \**************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/treatment-before-step.png?362e83a63ad0191ffb21e45f3baba54e";
-
-/***/ }),
-
-/***/ "./resources/js/assets/images/treatment-during-step.png":
-/*!**************************************************************!*\
-  !*** ./resources/js/assets/images/treatment-during-step.png ***!
-  \**************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/treatment-during-step.png?74f05f1524b129b1e5dd4f2d8c44057f";
 
 /***/ }),
 
@@ -72966,100 +74370,54 @@ if(false) {}
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _assets_images_treatment_before_step_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../assets/images/treatment-before-step.png */ "./resources/js/assets/images/treatment-before-step.png");
-/* harmony import */ var _assets_images_treatment_before_step_png__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_assets_images_treatment_before_step_png__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _assets_images_treatment_during_step_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../assets/images/treatment-during-step.png */ "./resources/js/assets/images/treatment-during-step.png");
-/* harmony import */ var _assets_images_treatment_during_step_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_images_treatment_during_step_png__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _assets_images_treatment_after_step_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../assets/images/treatment-after-step.png */ "./resources/js/assets/images/treatment-after-step.png");
-/* harmony import */ var _assets_images_treatment_after_step_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_assets_images_treatment_after_step_png__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _assets_images_careshare_plus_inline_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../assets/images/careshare-plus-inline.png */ "./resources/js/assets/images/careshare-plus-inline.png");
-/* harmony import */ var _assets_images_careshare_plus_inline_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_assets_images_careshare_plus_inline_png__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _assets_images_video_img_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../assets/images/video-img.png */ "./resources/js/assets/images/video-img.png");
-/* harmony import */ var _assets_images_video_img_png__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_assets_images_video_img_png__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _assets_banners_1_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../assets/banners/1.jpg */ "./resources/js/assets/banners/1.jpg");
-/* harmony import */ var _assets_banners_1_jpg__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_assets_banners_1_jpg__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _assets_doctors_1_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../assets/doctors/1.jpg */ "./resources/js/assets/doctors/1.jpg");
-/* harmony import */ var _assets_doctors_1_jpg__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_assets_doctors_1_jpg__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _assets_doctors_2_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../../assets/doctors/2.jpg */ "./resources/js/assets/doctors/2.jpg");
-/* harmony import */ var _assets_doctors_2_jpg__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_assets_doctors_2_jpg__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _assets_doctors_3_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../../assets/doctors/3.jpg */ "./resources/js/assets/doctors/3.jpg");
-/* harmony import */ var _assets_doctors_3_jpg__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_assets_doctors_3_jpg__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _assets_doctors_4_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../../assets/doctors/4.png */ "./resources/js/assets/doctors/4.png");
-/* harmony import */ var _assets_doctors_4_png__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_assets_doctors_4_png__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var _assets_doctors_5_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../../assets/doctors/5.jpg */ "./resources/js/assets/doctors/5.jpg");
-/* harmony import */ var _assets_doctors_5_jpg__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_assets_doctors_5_jpg__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var _assets_doctors_6_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../../assets/doctors/6.png */ "./resources/js/assets/doctors/6.png");
-/* harmony import */ var _assets_doctors_6_png__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_assets_doctors_6_png__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var _assets_doctors_7_jpg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../../assets/doctors/7.jpg */ "./resources/js/assets/doctors/7.jpg");
-/* harmony import */ var _assets_doctors_7_jpg__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_assets_doctors_7_jpg__WEBPACK_IMPORTED_MODULE_13__);
-/* harmony import */ var _assets_doctors_8_png__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../../assets/doctors/8.png */ "./resources/js/assets/doctors/8.png");
-/* harmony import */ var _assets_doctors_8_png__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_assets_doctors_8_png__WEBPACK_IMPORTED_MODULE_14__);
-/* harmony import */ var _assets_doctors_9_jpg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../../assets/doctors/9.jpg */ "./resources/js/assets/doctors/9.jpg");
-/* harmony import */ var _assets_doctors_9_jpg__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_assets_doctors_9_jpg__WEBPACK_IMPORTED_MODULE_15__);
-/* harmony import */ var _assets_doctors_10_jpg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../../../assets/doctors/10.jpg */ "./resources/js/assets/doctors/10.jpg");
-/* harmony import */ var _assets_doctors_10_jpg__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_assets_doctors_10_jpg__WEBPACK_IMPORTED_MODULE_16__);
-/* harmony import */ var _assets_doctors_11_jpg__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../../../assets/doctors/11.jpg */ "./resources/js/assets/doctors/11.jpg");
-/* harmony import */ var _assets_doctors_11_jpg__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(_assets_doctors_11_jpg__WEBPACK_IMPORTED_MODULE_17__);
-/* harmony import */ var _assets_doctors_12_jpg__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../../../assets/doctors/12.jpg */ "./resources/js/assets/doctors/12.jpg");
-/* harmony import */ var _assets_doctors_12_jpg__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(_assets_doctors_12_jpg__WEBPACK_IMPORTED_MODULE_18__);
-/* harmony import */ var _assets_doctors_13_jpg__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../../../assets/doctors/13.jpg */ "./resources/js/assets/doctors/13.jpg");
-/* harmony import */ var _assets_doctors_13_jpg__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(_assets_doctors_13_jpg__WEBPACK_IMPORTED_MODULE_19__);
-/* harmony import */ var _assets_doctors_14_jpg__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../../../assets/doctors/14.jpg */ "./resources/js/assets/doctors/14.jpg");
-/* harmony import */ var _assets_doctors_14_jpg__WEBPACK_IMPORTED_MODULE_20___default = /*#__PURE__*/__webpack_require__.n(_assets_doctors_14_jpg__WEBPACK_IMPORTED_MODULE_20__);
-/* harmony import */ var _assets_doctors_15_jpg__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../../../assets/doctors/15.jpg */ "./resources/js/assets/doctors/15.jpg");
-/* harmony import */ var _assets_doctors_15_jpg__WEBPACK_IMPORTED_MODULE_21___default = /*#__PURE__*/__webpack_require__.n(_assets_doctors_15_jpg__WEBPACK_IMPORTED_MODULE_21__);
-/* harmony import */ var _assets_doctors_16_jpg__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../../../assets/doctors/16.jpg */ "./resources/js/assets/doctors/16.jpg");
-/* harmony import */ var _assets_doctors_16_jpg__WEBPACK_IMPORTED_MODULE_22___default = /*#__PURE__*/__webpack_require__.n(_assets_doctors_16_jpg__WEBPACK_IMPORTED_MODULE_22__);
-/* harmony import */ var _assets_doctors_17_jpg__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../../../assets/doctors/17.jpg */ "./resources/js/assets/doctors/17.jpg");
-/* harmony import */ var _assets_doctors_17_jpg__WEBPACK_IMPORTED_MODULE_23___default = /*#__PURE__*/__webpack_require__.n(_assets_doctors_17_jpg__WEBPACK_IMPORTED_MODULE_23__);
-/* harmony import */ var _assets_doctors_18_jpg__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../../../assets/doctors/18.jpg */ "./resources/js/assets/doctors/18.jpg");
-/* harmony import */ var _assets_doctors_18_jpg__WEBPACK_IMPORTED_MODULE_24___default = /*#__PURE__*/__webpack_require__.n(_assets_doctors_18_jpg__WEBPACK_IMPORTED_MODULE_24__);
-/* harmony import */ var _assets_doctors_19_jpg__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../../../assets/doctors/19.jpg */ "./resources/js/assets/doctors/19.jpg");
-/* harmony import */ var _assets_doctors_19_jpg__WEBPACK_IMPORTED_MODULE_25___default = /*#__PURE__*/__webpack_require__.n(_assets_doctors_19_jpg__WEBPACK_IMPORTED_MODULE_25__);
-/* harmony import */ var _assets_doctors_20_jpg__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../../../assets/doctors/20.jpg */ "./resources/js/assets/doctors/20.jpg");
-/* harmony import */ var _assets_doctors_20_jpg__WEBPACK_IMPORTED_MODULE_26___default = /*#__PURE__*/__webpack_require__.n(_assets_doctors_20_jpg__WEBPACK_IMPORTED_MODULE_26__);
-/* harmony import */ var _assets_doctors_21_jpg__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ../../../assets/doctors/21.jpg */ "./resources/js/assets/doctors/21.jpg");
-/* harmony import */ var _assets_doctors_21_jpg__WEBPACK_IMPORTED_MODULE_27___default = /*#__PURE__*/__webpack_require__.n(_assets_doctors_21_jpg__WEBPACK_IMPORTED_MODULE_27__);
-/* harmony import */ var _assets_doctors_22_jpg__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ../../../assets/doctors/22.jpg */ "./resources/js/assets/doctors/22.jpg");
-/* harmony import */ var _assets_doctors_22_jpg__WEBPACK_IMPORTED_MODULE_28___default = /*#__PURE__*/__webpack_require__.n(_assets_doctors_22_jpg__WEBPACK_IMPORTED_MODULE_28__);
-/* harmony import */ var _assets_images_avatar_1_jpg__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ../../../assets/images/avatar-1.jpg */ "./resources/js/assets/images/avatar-1.jpg");
-/* harmony import */ var _assets_images_avatar_1_jpg__WEBPACK_IMPORTED_MODULE_29___default = /*#__PURE__*/__webpack_require__.n(_assets_images_avatar_1_jpg__WEBPACK_IMPORTED_MODULE_29__);
-/* harmony import */ var _assets_images_check_icon_png__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ../../../assets/images/check-icon.png */ "./resources/js/assets/images/check-icon.png");
-/* harmony import */ var _assets_images_check_icon_png__WEBPACK_IMPORTED_MODULE_30___default = /*#__PURE__*/__webpack_require__.n(_assets_images_check_icon_png__WEBPACK_IMPORTED_MODULE_30__);
-/* harmony import */ var _assets_images_whatsapp_icon_png__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ../../../assets/images/whatsapp-icon.png */ "./resources/js/assets/images/whatsapp-icon.png");
-/* harmony import */ var _assets_images_whatsapp_icon_png__WEBPACK_IMPORTED_MODULE_31___default = /*#__PURE__*/__webpack_require__.n(_assets_images_whatsapp_icon_png__WEBPACK_IMPORTED_MODULE_31__);
-/* harmony import */ var _assets_images_comma_icon_png__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ../../../assets/images/comma-icon.png */ "./resources/js/assets/images/comma-icon.png");
-/* harmony import */ var _assets_images_comma_icon_png__WEBPACK_IMPORTED_MODULE_32___default = /*#__PURE__*/__webpack_require__.n(_assets_images_comma_icon_png__WEBPACK_IMPORTED_MODULE_32__);
-/* harmony import */ var _assets_images_hospital_logos_Apollo_Hospitals_jpg__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Apollo Hospitals.jpg */ "./resources/js/assets/images/hospital-logos/Apollo Hospitals.jpg");
-/* harmony import */ var _assets_images_hospital_logos_Apollo_Hospitals_jpg__WEBPACK_IMPORTED_MODULE_33___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Apollo_Hospitals_jpg__WEBPACK_IMPORTED_MODULE_33__);
-/* harmony import */ var _assets_images_hospital_logos_Asian_Cancer_Institute_jpg__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Asian Cancer Institute.jpg */ "./resources/js/assets/images/hospital-logos/Asian Cancer Institute.jpg");
-/* harmony import */ var _assets_images_hospital_logos_Asian_Cancer_Institute_jpg__WEBPACK_IMPORTED_MODULE_34___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Asian_Cancer_Institute_jpg__WEBPACK_IMPORTED_MODULE_34__);
-/* harmony import */ var _assets_images_hospital_logos_CHL_Hospitals_Indore_jpg__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/CHL Hospitals, Indore.jpg */ "./resources/js/assets/images/hospital-logos/CHL Hospitals, Indore.jpg");
-/* harmony import */ var _assets_images_hospital_logos_CHL_Hospitals_Indore_jpg__WEBPACK_IMPORTED_MODULE_35___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_CHL_Hospitals_Indore_jpg__WEBPACK_IMPORTED_MODULE_35__);
-/* harmony import */ var _assets_images_hospital_logos_Fortis_Bangalore_jpg__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Fortis Bangalore.jpg */ "./resources/js/assets/images/hospital-logos/Fortis Bangalore.jpg");
-/* harmony import */ var _assets_images_hospital_logos_Fortis_Bangalore_jpg__WEBPACK_IMPORTED_MODULE_36___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Fortis_Bangalore_jpg__WEBPACK_IMPORTED_MODULE_36__);
-/* harmony import */ var _assets_images_hospital_logos_Jupiter_Hospital_Pune_jpg__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Jupiter Hospital, Pune.jpg */ "./resources/js/assets/images/hospital-logos/Jupiter Hospital, Pune.jpg");
-/* harmony import */ var _assets_images_hospital_logos_Jupiter_Hospital_Pune_jpg__WEBPACK_IMPORTED_MODULE_37___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Jupiter_Hospital_Pune_jpg__WEBPACK_IMPORTED_MODULE_37__);
-/* harmony import */ var _assets_images_hospital_logos_Kanachur_Institute_of_Medical_Sciences_logo_jpg__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Kanachur  Institute of Medical Sciences logo.jpg */ "./resources/js/assets/images/hospital-logos/Kanachur  Institute of Medical Sciences logo.jpg");
-/* harmony import */ var _assets_images_hospital_logos_Kanachur_Institute_of_Medical_Sciences_logo_jpg__WEBPACK_IMPORTED_MODULE_38___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Kanachur_Institute_of_Medical_Sciences_logo_jpg__WEBPACK_IMPORTED_MODULE_38__);
-/* harmony import */ var _assets_images_hospital_logos_Manipal_Hospitals_png__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Manipal Hospitals.png */ "./resources/js/assets/images/hospital-logos/Manipal Hospitals.png");
-/* harmony import */ var _assets_images_hospital_logos_Manipal_Hospitals_png__WEBPACK_IMPORTED_MODULE_39___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Manipal_Hospitals_png__WEBPACK_IMPORTED_MODULE_39__);
-/* harmony import */ var _assets_images_hospital_logos_Mazumdar_Shaw_Cancer_Center_Bangalore_jpg__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Mazumdar-Shaw Cancer Center, Bangalore.jpg */ "./resources/js/assets/images/hospital-logos/Mazumdar-Shaw Cancer Center, Bangalore.jpg");
-/* harmony import */ var _assets_images_hospital_logos_Mazumdar_Shaw_Cancer_Center_Bangalore_jpg__WEBPACK_IMPORTED_MODULE_40___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Mazumdar_Shaw_Cancer_Center_Bangalore_jpg__WEBPACK_IMPORTED_MODULE_40__);
-/* harmony import */ var _assets_images_hospital_logos_Medanta_png__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Medanta.png */ "./resources/js/assets/images/hospital-logos/Medanta.png");
-/* harmony import */ var _assets_images_hospital_logos_Medanta_png__WEBPACK_IMPORTED_MODULE_41___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Medanta_png__WEBPACK_IMPORTED_MODULE_41__);
-/* harmony import */ var _assets_images_hospital_logos_Reliance_Foundation_Hospital_Mumbai_jpg__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Reliance Foundation Hospital, Mumbai.jpg */ "./resources/js/assets/images/hospital-logos/Reliance Foundation Hospital, Mumbai.jpg");
-/* harmony import */ var _assets_images_hospital_logos_Reliance_Foundation_Hospital_Mumbai_jpg__WEBPACK_IMPORTED_MODULE_42___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Reliance_Foundation_Hospital_Mumbai_jpg__WEBPACK_IMPORTED_MODULE_42__);
-/* harmony import */ var _assets_images_hospital_logos_Valentis_Cancer_Hospital_Meerut_png__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Valentis Cancer Hospital, Meerut.png */ "./resources/js/assets/images/hospital-logos/Valentis Cancer Hospital, Meerut.png");
-/* harmony import */ var _assets_images_hospital_logos_Valentis_Cancer_Hospital_Meerut_png__WEBPACK_IMPORTED_MODULE_43___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Valentis_Cancer_Hospital_Meerut_png__WEBPACK_IMPORTED_MODULE_43__);
-/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! react-slick */ "./node_modules/react-slick/lib/index.js");
-/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_44___default = /*#__PURE__*/__webpack_require__.n(react_slick__WEBPACK_IMPORTED_MODULE_44__);
-/* harmony import */ var _Home_css__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! ./Home.css */ "./resources/js/components/pages/home/Home.css");
-/* harmony import */ var _Home_css__WEBPACK_IMPORTED_MODULE_45___default = /*#__PURE__*/__webpack_require__.n(_Home_css__WEBPACK_IMPORTED_MODULE_45__);
-/* harmony import */ var slick_carousel_slick_slick_css__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! slick-carousel/slick/slick.css */ "./node_modules/slick-carousel/slick/slick.css");
-/* harmony import */ var slick_carousel_slick_slick_css__WEBPACK_IMPORTED_MODULE_46___default = /*#__PURE__*/__webpack_require__.n(slick_carousel_slick_slick_css__WEBPACK_IMPORTED_MODULE_46__);
-/* harmony import */ var slick_carousel_slick_slick_theme_css__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! slick-carousel/slick/slick-theme.css */ "./node_modules/slick-carousel/slick/slick-theme.css");
-/* harmony import */ var slick_carousel_slick_slick_theme_css__WEBPACK_IMPORTED_MODULE_47___default = /*#__PURE__*/__webpack_require__.n(slick_carousel_slick_slick_theme_css__WEBPACK_IMPORTED_MODULE_47__);
+/* harmony import */ var _assets_images_careshare_plus_inline_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../assets/images/careshare-plus-inline.png */ "./resources/js/assets/images/careshare-plus-inline.png");
+/* harmony import */ var _assets_images_careshare_plus_inline_png__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_assets_images_careshare_plus_inline_png__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _assets_images_video_img_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../assets/images/video-img.png */ "./resources/js/assets/images/video-img.png");
+/* harmony import */ var _assets_images_video_img_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_images_video_img_png__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _assets_banners_banner_1_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../assets/banners/banner-1.jpg */ "./resources/js/assets/banners/banner-1.jpg");
+/* harmony import */ var _assets_banners_banner_1_jpg__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_assets_banners_banner_1_jpg__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _assets_images_avatar_1_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../assets/images/avatar-1.jpg */ "./resources/js/assets/images/avatar-1.jpg");
+/* harmony import */ var _assets_images_avatar_1_jpg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_assets_images_avatar_1_jpg__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _assets_images_check_icon_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../assets/images/check-icon.png */ "./resources/js/assets/images/check-icon.png");
+/* harmony import */ var _assets_images_check_icon_png__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_assets_images_check_icon_png__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _assets_images_whatsapp_icon_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../assets/images/whatsapp-icon.png */ "./resources/js/assets/images/whatsapp-icon.png");
+/* harmony import */ var _assets_images_whatsapp_icon_png__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_assets_images_whatsapp_icon_png__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _assets_images_comma_icon_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../assets/images/comma-icon.png */ "./resources/js/assets/images/comma-icon.png");
+/* harmony import */ var _assets_images_comma_icon_png__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_assets_images_comma_icon_png__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _assets_images_hospital_logos_Apollo_Hospitals_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Apollo Hospitals.jpg */ "./resources/js/assets/images/hospital-logos/Apollo Hospitals.jpg");
+/* harmony import */ var _assets_images_hospital_logos_Apollo_Hospitals_jpg__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Apollo_Hospitals_jpg__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _assets_images_hospital_logos_Asian_Cancer_Institute_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Asian Cancer Institute.jpg */ "./resources/js/assets/images/hospital-logos/Asian Cancer Institute.jpg");
+/* harmony import */ var _assets_images_hospital_logos_Asian_Cancer_Institute_jpg__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Asian_Cancer_Institute_jpg__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _assets_images_hospital_logos_CHL_Hospitals_Indore_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/CHL Hospitals, Indore.jpg */ "./resources/js/assets/images/hospital-logos/CHL Hospitals, Indore.jpg");
+/* harmony import */ var _assets_images_hospital_logos_CHL_Hospitals_Indore_jpg__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_CHL_Hospitals_Indore_jpg__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _assets_images_hospital_logos_Fortis_Bangalore_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Fortis Bangalore.jpg */ "./resources/js/assets/images/hospital-logos/Fortis Bangalore.jpg");
+/* harmony import */ var _assets_images_hospital_logos_Fortis_Bangalore_jpg__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Fortis_Bangalore_jpg__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _assets_images_hospital_logos_Jupiter_Hospital_Pune_jpg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Jupiter Hospital, Pune.jpg */ "./resources/js/assets/images/hospital-logos/Jupiter Hospital, Pune.jpg");
+/* harmony import */ var _assets_images_hospital_logos_Jupiter_Hospital_Pune_jpg__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Jupiter_Hospital_Pune_jpg__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var _assets_images_hospital_logos_Kanachur_Institute_of_Medical_Sciences_logo_jpg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Kanachur  Institute of Medical Sciences logo.jpg */ "./resources/js/assets/images/hospital-logos/Kanachur  Institute of Medical Sciences logo.jpg");
+/* harmony import */ var _assets_images_hospital_logos_Kanachur_Institute_of_Medical_Sciences_logo_jpg__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Kanachur_Institute_of_Medical_Sciences_logo_jpg__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var _assets_images_hospital_logos_Manipal_Hospitals_png__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Manipal Hospitals.png */ "./resources/js/assets/images/hospital-logos/Manipal Hospitals.png");
+/* harmony import */ var _assets_images_hospital_logos_Manipal_Hospitals_png__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Manipal_Hospitals_png__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var _assets_images_hospital_logos_Mazumdar_Shaw_Cancer_Center_Bangalore_jpg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Mazumdar-Shaw Cancer Center, Bangalore.jpg */ "./resources/js/assets/images/hospital-logos/Mazumdar-Shaw Cancer Center, Bangalore.jpg");
+/* harmony import */ var _assets_images_hospital_logos_Mazumdar_Shaw_Cancer_Center_Bangalore_jpg__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Mazumdar_Shaw_Cancer_Center_Bangalore_jpg__WEBPACK_IMPORTED_MODULE_15__);
+/* harmony import */ var _assets_images_hospital_logos_Medanta_png__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Medanta.png */ "./resources/js/assets/images/hospital-logos/Medanta.png");
+/* harmony import */ var _assets_images_hospital_logos_Medanta_png__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Medanta_png__WEBPACK_IMPORTED_MODULE_16__);
+/* harmony import */ var _assets_images_hospital_logos_Reliance_Foundation_Hospital_Mumbai_jpg__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Reliance Foundation Hospital, Mumbai.jpg */ "./resources/js/assets/images/hospital-logos/Reliance Foundation Hospital, Mumbai.jpg");
+/* harmony import */ var _assets_images_hospital_logos_Reliance_Foundation_Hospital_Mumbai_jpg__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Reliance_Foundation_Hospital_Mumbai_jpg__WEBPACK_IMPORTED_MODULE_17__);
+/* harmony import */ var _assets_images_hospital_logos_Valentis_Cancer_Hospital_Meerut_png__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../../../assets/images/hospital-logos/Valentis Cancer Hospital, Meerut.png */ "./resources/js/assets/images/hospital-logos/Valentis Cancer Hospital, Meerut.png");
+/* harmony import */ var _assets_images_hospital_logos_Valentis_Cancer_Hospital_Meerut_png__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(_assets_images_hospital_logos_Valentis_Cancer_Hospital_Meerut_png__WEBPACK_IMPORTED_MODULE_18__);
+/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! react-slick */ "./node_modules/react-slick/lib/index.js");
+/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(react_slick__WEBPACK_IMPORTED_MODULE_19__);
+/* harmony import */ var react_perfect_scrollbar__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! react-perfect-scrollbar */ "./node_modules/react-perfect-scrollbar/lib/index.js");
+/* harmony import */ var react_perfect_scrollbar__WEBPACK_IMPORTED_MODULE_20___default = /*#__PURE__*/__webpack_require__.n(react_perfect_scrollbar__WEBPACK_IMPORTED_MODULE_20__);
+/* harmony import */ var _Home_css__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./Home.css */ "./resources/js/components/pages/home/Home.css");
+/* harmony import */ var _Home_css__WEBPACK_IMPORTED_MODULE_21___default = /*#__PURE__*/__webpack_require__.n(_Home_css__WEBPACK_IMPORTED_MODULE_21__);
+/* harmony import */ var slick_carousel_slick_slick_css__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! slick-carousel/slick/slick.css */ "./node_modules/slick-carousel/slick/slick.css");
+/* harmony import */ var slick_carousel_slick_slick_css__WEBPACK_IMPORTED_MODULE_22___default = /*#__PURE__*/__webpack_require__.n(slick_carousel_slick_slick_css__WEBPACK_IMPORTED_MODULE_22__);
+/* harmony import */ var slick_carousel_slick_slick_theme_css__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! slick-carousel/slick/slick-theme.css */ "./node_modules/slick-carousel/slick/slick-theme.css");
+/* harmony import */ var slick_carousel_slick_slick_theme_css__WEBPACK_IMPORTED_MODULE_23___default = /*#__PURE__*/__webpack_require__.n(slick_carousel_slick_slick_theme_css__WEBPACK_IMPORTED_MODULE_23__);
+/* harmony import */ var react_perfect_scrollbar_dist_css_styles_css__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! react-perfect-scrollbar/dist/css/styles.css */ "./node_modules/react-perfect-scrollbar/dist/css/styles.css");
+/* harmony import */ var react_perfect_scrollbar_dist_css_styles_css__WEBPACK_IMPORTED_MODULE_24___default = /*#__PURE__*/__webpack_require__.n(react_perfect_scrollbar_dist_css_styles_css__WEBPACK_IMPORTED_MODULE_24__);
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
 
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
@@ -73093,29 +74451,118 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+var doctorsData = {
+  1: {
+    name: "Suchitra R",
+    speciality: "Gynae-Oncologist",
+    experience: "10"
+  },
+  2: {
+    name: "Shubha Sinha",
+    speciality: "Breast Surgical Oncology",
+    experience: "9"
+  },
+  3: {
+    name: "Dr Karan Sehgal",
+    speciality: "Surgical Oncologist",
+    experience: "4"
+  },
+  4: {
+    name: "Sandeep Nayak",
+    speciality: "Surgical Oncologist",
+    experience: "20"
+  },
+  5: {
+    name: "Amit Jain",
+    speciality: "Clinical Oncologist",
+    experience: "15"
+  },
+  6: {
+    name: "Guruprasad Bhat",
+    speciality: "Medical Oncologist",
+    experience: "15"
+  },
+  7: {
+    name: "Ranjith Kumar C S",
+    speciality: "Medical Oncologist",
+    experience: "6"
+  },
+  8: {
+    name: "Govind Babu",
+    speciality: "Medical Oncologist",
+    experience: "31"
+  },
+  9: {
+    name: "Akash Umesh Tiwari",
+    speciality: "Surgical Oncologist",
+    experience: "9"
+  },
+  10: {
+    name: "Jatin Bhatia",
+    speciality: "Radiation Oncologist",
+    experience: "5"
+  },
+  11: {
+    name: "Piyush Kedia",
+    speciality: "Surgical Oncologist",
+    experience: "9"
+  },
+  12: {
+    name: "Mohan Menon",
+    speciality: "Medical Oncologist",
+    experience: "24"
+  },
+  13: {
+    name: "Amish Dalal",
+    speciality: "Surgical & Gyancologic Oncologist",
+    experience: "30"
+  },
+  14: {
+    name: "Namrata Singh",
+    speciality: "Surgical Oncologist",
+    experience: "12"
+  },
+  15: {
+    name: "Mohammad Akheel",
+    speciality: "Head & Neck Oncosurgeon",
+    experience: "8"
+  },
+  16: {
+    name: "Priyanka Verma",
+    speciality: "Hematology & Pediatric Oncologist",
+    experience: "7"
+  },
+  17: {
+    name: "Prasenjit Chatterjee",
+    speciality: "Radiation Oncologist",
+    experience: "21"
+  },
+  18: {
+    name: "Sachin Kadam",
+    speciality: "Consultant Oncosurgeon",
+    experience: "12"
+  },
+  19: {
+    name: "Nilesh Chordiya",
+    speciality: "Surgical Oncologist",
+    experience: "13"
+  },
+  20: {
+    name: "Dr. Poovamma   C.U.",
+    speciality: "Gynae-Oncologist",
+    experience: "12"
+  },
+  21: {
+    name: "Raghavendra Babu",
+    speciality: "GI & HPB Surgical Oncologist",
+    experience: "11"
+  },
+  22: {
+    name: "P Venkata Krishna Reddy",
+    speciality: "Radiation Oncologist",
+    experience: "6"
+  }
+};
 
 var Home = function Home() {
   var _React$useState = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState('blue'),
@@ -73158,7 +74605,7 @@ var Home = function Home() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     className: "home-banner",
     style: {
-      background: "url(".concat(_assets_banners_1_jpg__WEBPACK_IMPORTED_MODULE_6___default.a, ") no-repeat")
+      background: "url(".concat(_assets_banners_banner_1_jpg__WEBPACK_IMPORTED_MODULE_3___default.a, ") no-repeat")
     }
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "banner"
@@ -73172,7 +74619,7 @@ var Home = function Home() {
     href: "#",
     className: "btn btn-primary button"
   }, "Sign up For Free Consultation"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "or"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_whatsapp_icon_png__WEBPACK_IMPORTED_MODULE_31___default.a,
+    src: _assets_images_whatsapp_icon_png__WEBPACK_IMPORTED_MODULE_6___default.a,
     width: "45"
   })))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     className: "choose_careshare_section"
@@ -73185,38 +74632,50 @@ var Home = function Home() {
   }, "Why You Should Choose CareShare?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "section_desc"
   }, "We make every moment matters- helping you from early diagnosis of cancer to", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " early detection of relapse")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "step_blocks_wrap"
+    className: "row mt-5 pt-5"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "single_block blue ".concat(activeStep === "blue" && "active"),
+    className: "col-sm-4"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "mobileWraper"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "mobileWraper-overlay"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_perfect_scrollbar__WEBPACK_IMPORTED_MODULE_20___default.a, {
+    style: {
+      maxHeight: 490
+    }
+  }, activeStep === "blue" && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/images/After treatment.png",
+    className: "step_img"
+  }), activeStep === "pink" && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/images/Before treatment.png",
+    className: "step_img"
+  }), activeStep === "green" && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/images/During treatment.png",
+    className: "step_img"
+  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-sm-8 step_blocks_wrap"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "single_block ".concat(activeStep === "blue" && "active"),
     onMouseEnter: function onMouseEnter() {
       return setActiveStep("blue");
     }
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "mb-4"
-  }, "Before the", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Treatment:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, (activeStep === "blue" || screenWidth < 800) && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "With Smart Algorithms & Artificial", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " Intelligence - find cancer,", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " specialist doctors, and the best", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " hospitals at the earliest stage."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_treatment_before_step_png__WEBPACK_IMPORTED_MODULE_1___default.a,
-    className: "step_img"
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "single_block pink ".concat(activeStep === "pink" && "active"),
+  }, "Before the Treatment:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "With Smart Algorithms & Artificial  Intelligence - find cancer,  specialist doctors, and the best  hospitals at the earliest stage."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "single_block ".concat(activeStep === "pink" && "active"),
     onMouseEnter: function onMouseEnter() {
       return setActiveStep("pink");
     }
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "mb-4"
-  }, "During The", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Treatment:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, (activeStep === "pink" || screenWidth < 800) && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Use the world's latest AI-powered technology to monitor your symptoms from anywhere & get 24/7 doctor support."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Get automated real-time help for managing your condition from the comfort of your home."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_treatment_during_step_png__WEBPACK_IMPORTED_MODULE_2___default.a,
-    className: "step_img"
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "single_block green ".concat(activeStep === "green" && "active"),
+  }, "During The Treatment:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Use the world's latest AI-powered technology to monitor your symptoms from anywhere & get 24/7 doctor support."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Get automated real-time help for managing your condition from the comfort of your home."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "single_block ".concat(activeStep === "green" && "active"),
     onMouseEnter: function onMouseEnter() {
       return setActiveStep("green");
     }
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "mb-4"
-  }, "After The", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Treatment:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, (activeStep === "green" || screenWidth < 800) && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Track symptoms and follow up regularly with your dedicated doctor ensuring timely interventions."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Live cancer-free high-quality life with the help of CareShare."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_treatment_after_step_png__WEBPACK_IMPORTED_MODULE_3___default.a,
-    className: "step_img"
-  }))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+  }, "After The Treatment:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Track symptoms and follow up regularly with your dedicated doctor ensuring timely interventions."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Live cancer-free high-quality life with the help of CareShare."))))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     className: "section_grey hospital_section"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container"
@@ -73226,17 +74685,24 @@ var Home = function Home() {
     className: "section_heading mb-2"
   }, "Know Our Senior Oncologists"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "section_desc"
-  }, "Our doctors have a rich 10+ years of experience and are trained at the top cancer institutes", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " such as Tata Memorial, AIIMS, and Memorial Sloan Kettering (US)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_slick__WEBPACK_IMPORTED_MODULE_44___default.a, doctorSliderSettings, Array(22).fill('').map(function (val, index) {
+  }, "Our doctors have a rich 10+ years of experience and are trained at the top cancer institutes", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " such as Tata Memorial, AIIMS, and Memorial Sloan Kettering (US)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_slick__WEBPACK_IMPORTED_MODULE_19___default.a, doctorSliderSettings, Array(22).fill('').map(function (val, index) {
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "logoWraper"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "imageWrap"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      src: "/images/doctors/".concat(index + 1, ".jpg"),
+      src: "/images/doctors/".concat(index + 1, ".jpg")
+    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       style: {
-        maxWidth: 240,
-        maxHeight: 140,
-        margin: "auto"
+        padding: 15
       }
-    }));
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+      className: "doctorName"
+    }, doctorsData[index + 1].name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      className: "doctorDesc"
+    }, doctorsData[index + 1].speciality), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      className: "doctorDesc"
+    }, "Exp: ", doctorsData[index + 1].experience, " Yrs")));
   }))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     className: "hospital_section"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -73247,9 +74713,9 @@ var Home = function Home() {
     className: "section_heading mb-2"
   }, "Know Our Hospitals"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "section_desc"
-  }, "Our doctors have a rich 10+ years of experience and are trained at the top cancer institutes", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " such as Tata Memorial, AIIMS, and Memorial Sloan Kettering (US)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_slick__WEBPACK_IMPORTED_MODULE_44___default.a, hospitalSliderSettings, [_assets_images_hospital_logos_Apollo_Hospitals_jpg__WEBPACK_IMPORTED_MODULE_33___default.a, _assets_images_hospital_logos_Asian_Cancer_Institute_jpg__WEBPACK_IMPORTED_MODULE_34___default.a, _assets_images_hospital_logos_CHL_Hospitals_Indore_jpg__WEBPACK_IMPORTED_MODULE_35___default.a, _assets_images_hospital_logos_Fortis_Bangalore_jpg__WEBPACK_IMPORTED_MODULE_36___default.a, _assets_images_hospital_logos_Jupiter_Hospital_Pune_jpg__WEBPACK_IMPORTED_MODULE_37___default.a, _assets_images_hospital_logos_Kanachur_Institute_of_Medical_Sciences_logo_jpg__WEBPACK_IMPORTED_MODULE_38___default.a, _assets_images_hospital_logos_Manipal_Hospitals_png__WEBPACK_IMPORTED_MODULE_39___default.a, _assets_images_hospital_logos_Mazumdar_Shaw_Cancer_Center_Bangalore_jpg__WEBPACK_IMPORTED_MODULE_40___default.a, _assets_images_hospital_logos_Medanta_png__WEBPACK_IMPORTED_MODULE_41___default.a, _assets_images_hospital_logos_Reliance_Foundation_Hospital_Mumbai_jpg__WEBPACK_IMPORTED_MODULE_42___default.a, _assets_images_hospital_logos_Valentis_Cancer_Hospital_Meerut_png__WEBPACK_IMPORTED_MODULE_43___default.a].map(function (path) {
+  }, "Our doctors have a rich 10+ years of experience and are trained at the top cancer institutes", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " such as Tata Memorial, AIIMS, and Memorial Sloan Kettering (US)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_slick__WEBPACK_IMPORTED_MODULE_19___default.a, hospitalSliderSettings, [_assets_images_hospital_logos_Apollo_Hospitals_jpg__WEBPACK_IMPORTED_MODULE_8___default.a, _assets_images_hospital_logos_Asian_Cancer_Institute_jpg__WEBPACK_IMPORTED_MODULE_9___default.a, _assets_images_hospital_logos_CHL_Hospitals_Indore_jpg__WEBPACK_IMPORTED_MODULE_10___default.a, _assets_images_hospital_logos_Fortis_Bangalore_jpg__WEBPACK_IMPORTED_MODULE_11___default.a, _assets_images_hospital_logos_Jupiter_Hospital_Pune_jpg__WEBPACK_IMPORTED_MODULE_12___default.a, _assets_images_hospital_logos_Kanachur_Institute_of_Medical_Sciences_logo_jpg__WEBPACK_IMPORTED_MODULE_13___default.a, _assets_images_hospital_logos_Manipal_Hospitals_png__WEBPACK_IMPORTED_MODULE_14___default.a, _assets_images_hospital_logos_Mazumdar_Shaw_Cancer_Center_Bangalore_jpg__WEBPACK_IMPORTED_MODULE_15___default.a, _assets_images_hospital_logos_Medanta_png__WEBPACK_IMPORTED_MODULE_16___default.a, _assets_images_hospital_logos_Reliance_Foundation_Hospital_Mumbai_jpg__WEBPACK_IMPORTED_MODULE_17___default.a, _assets_images_hospital_logos_Valentis_Cancer_Hospital_Meerut_png__WEBPACK_IMPORTED_MODULE_18___default.a].map(function (path) {
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "logoWraper"
+      className: "hospitalLogo"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
       src: path,
       style: {
@@ -73270,7 +74736,7 @@ var Home = function Home() {
     className: "section_desc"
   }, "Join ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "inline-logo",
-    src: _assets_images_careshare_plus_inline_png__WEBPACK_IMPORTED_MODULE_4___default.a
+    src: _assets_images_careshare_plus_inline_png__WEBPACK_IMPORTED_MODULE_1___default.a
   }), " as early user and get unlimited benefits at just 1/10th of the cost: ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Better outcomes of your treatment with")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "packages_wrap"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -73316,23 +74782,17 @@ var Home = function Home() {
   }, "Pay Now"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     className: "feature_list"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_check_icon_png__WEBPACK_IMPORTED_MODULE_30___default.a,
-    className: "mr-3"
+    src: "/images/package-features/trainer.png"
   }), " Regular Health Tracking"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_check_icon_png__WEBPACK_IMPORTED_MODULE_30___default.a,
-    className: "mr-3"
+    src: "/images/package-features/monitoring.png"
   }), " 24*7 Real-Time Symptom Management"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_check_icon_png__WEBPACK_IMPORTED_MODULE_30___default.a,
-    className: "mr-3"
+    src: "/images/package-features/diet.png"
   }), " Personalized Onco-Nutritional Plan With Unlimited Access To Nutritionist"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_check_icon_png__WEBPACK_IMPORTED_MODULE_30___default.a,
-    className: "mr-3"
+    src: "/images/package-features/search.png"
   }), " Tailor Made Naturopathy, Yoga And Mental Health Sessions For You And Caregivers"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_check_icon_png__WEBPACK_IMPORTED_MODULE_30___default.a,
-    className: "mr-3"
+    src: "/images/package-features/oncologist.png"
   }), " Real Time Unlimited Access To Dedicated Doctor"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_check_icon_png__WEBPACK_IMPORTED_MODULE_30___default.a,
-    className: "mr-3"
+    src: "/images/package-features/vomit.png"
   }), " Medication And Test Reminders With Family In Loop")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     className: "warriors_section"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -73347,29 +74807,29 @@ var Home = function Home() {
     className: "single_warrior"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "comma_icon",
-    src: _assets_images_comma_icon_png__WEBPACK_IMPORTED_MODULE_32___default.a
+    src: _assets_images_comma_icon_png__WEBPACK_IMPORTED_MODULE_7___default.a
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "No Waiting Time"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\"Whenever my father has any symptoms, I'll just put that in the CareShare app and I will immediately get management instructions. It even automatically gets the consultation done when needed. It has made our lives much simpler. I highly...\u201D"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "user_wrap"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_avatar_1_jpg__WEBPACK_IMPORTED_MODULE_29___default.a
+    src: _assets_images_avatar_1_jpg__WEBPACK_IMPORTED_MODULE_4___default.a
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "- Mandeep Kaur"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "single_warrior"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "comma_icon",
-    src: _assets_images_comma_icon_png__WEBPACK_IMPORTED_MODULE_32___default.a
+    src: _assets_images_comma_icon_png__WEBPACK_IMPORTED_MODULE_7___default.a
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "24/7 Remote Monitoring"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\"It was late at night around 2 am during lockdown when my mother ( breast cancer patient), had stomach pain and vomiting. We were too afraid to go to the hospital due to covid. We just put the symptoms in the app and within 2 minutes, we got...\u201D"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "user_wrap"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_avatar_1_jpg__WEBPACK_IMPORTED_MODULE_29___default.a
+    src: _assets_images_avatar_1_jpg__WEBPACK_IMPORTED_MODULE_4___default.a
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "- Punit Sharma"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "single_warrior"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "comma_icon",
-    src: _assets_images_comma_icon_png__WEBPACK_IMPORTED_MODULE_32___default.a
+    src: _assets_images_comma_icon_png__WEBPACK_IMPORTED_MODULE_7___default.a
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Empowers the Whole Family"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\"When my brother was diagnosed with gastric cancer in 2017 and I was in the US, I used to call him every day and keep a record of his symptoms in a diary. In March 2021, I came to visit him due to his relapse, I came across CareShare through our oncologist in KIMS. When ...\u201D"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "user_wrap"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_avatar_1_jpg__WEBPACK_IMPORTED_MODULE_29___default.a
+    src: _assets_images_avatar_1_jpg__WEBPACK_IMPORTED_MODULE_4___default.a
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "- Kishan Reddy")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "help_link",
     href: "javascript:void(0)"
@@ -73384,7 +74844,7 @@ var Home = function Home() {
   }, "You Are A Warrior, We Have Well-trained Soldiers.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " Let's Battle Out Cancer Together!")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "text-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_video_img_png__WEBPACK_IMPORTED_MODULE_5___default.a,
+    src: _assets_images_video_img_png__WEBPACK_IMPORTED_MODULE_2___default.a,
     style: {
       maxWidth: 450,
       width: "100%",
