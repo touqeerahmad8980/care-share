@@ -178,7 +178,7 @@ const Home = () => {
                 <div className='container'>
                     <div className='row_wrap mb-5 text-center'>
                         <h2 className='section_heading mb-2'>Why You Should Choose CareShare?</h2>
-                        <p className='section_desc'>We make every moment matters- helping you from early diagnosis of cancer to<br /> early detection of relapse</p>
+                        <p className='section_desc'>CareShare provides you end-to-end clinically proven cancer care guidance  24*7 throughout your journey</p>
                     </div>
                     <div className='row mt-5 pt-5'>
                         <div className='col-sm-4'>
@@ -186,13 +186,13 @@ const Home = () => {
                                 <div className='mobileWraper-overlay'></div>
                                 <PerfectScrollbar style={{maxHeight:490}}>
                                     {activeStep === "blue" &&
-                                        <img src="/images/After treatment.png" className="step_img" />
-                                    }
-                                    {activeStep === "pink" &&
                                         <img src="/images/Before treatment.png" className="step_img" />
                                     }
-                                    {activeStep === "green" &&
+                                    {activeStep === "pink" &&
                                         <img src="/images/During treatment.png" className="step_img" />
+                                    }
+                                    {activeStep === "green" &&
+                                    <img src="/images/After treatment.png" className="step_img" />
                                     }
                                 </PerfectScrollbar>
                             </div>
@@ -202,9 +202,11 @@ const Home = () => {
                                 className={`single_block ${activeStep === "blue" && "active"}`}
                                 onMouseEnter={() => setActiveStep("blue")}
                             >
-                                <h3 className='mb-4'>Before the Treatment:</h3>
+                                <h3 className='mb-4'>Before the treatment:</h3>
                                 <ul>
-                                    <li>With Smart Algorithms &amp; Artificial  Intelligence - find cancer,  specialist doctors, and the best  hospitals at the earliest stage.</li>
+                                    <li>Understand your test reports and cancer diagnosis</li>
+                                    <li>Get expert opinion from a panel of world-class oncologists</li>
+                                    <li>Confidently chose the most suited treatment plan</li>
                                 </ul>
                                 {/* <img src={treatmentBeforeStep} className="step_img" /> */}
                             </div>
@@ -212,10 +214,11 @@ const Home = () => {
                                 className={`single_block ${activeStep === "pink" && "active"}`}
                                 onMouseEnter={() => setActiveStep("pink")}
                             >
-                                <h3 className='mb-4'>During The Treatment:</h3>
+                                <h3 className='mb-4'>During the treatment:</h3>
                                 <ul>
-                                    <li>Use the world's latest AI-powered technology to monitor your symptoms from anywhere &amp; get 24/7 doctor support.</li>
-                                    <li>Get automated real-time help for managing your condition from the comfort of your home.</li>
+                                    <li>Manage the side effects instantly through remote monitoring</li>
+                                    <li>Get a dedicated coach to help you navigate the treatment</li>
+                                    <li>Get holistic care including nutrition, yoga, and naturopathy</li>
                                 </ul>
                                 {/* <img src={treatmentDuringStep} className="step_img" /> */}
                             </div>
@@ -223,10 +226,11 @@ const Home = () => {
                                 className={`single_block ${activeStep === "green" && "active"}`}
                                 onMouseEnter={() => setActiveStep("green")}
                             >
-                                <h3 className='mb-4'>After The Treatment:</h3>
+                                <h3 className='mb-4'>After the treatment:</h3>
                                 <ul>
-                                    <li>Track symptoms and follow up regularly with your dedicated doctor ensuring timely interventions.</li>
-                                    <li>Live cancer-free high-quality life with the help of CareShare.</li>
+                                    <li>Proactively track your health for any concerning signs</li>
+                                    <li>Regular screenings for timely interventions</li>
+                                    <li>Improved healthy lifestyle with a natural approach</li>
                                 </ul>
                                 {/* <img src={treatmentAfterStep} className="step_img" /> */}
                             </div>
@@ -238,7 +242,7 @@ const Home = () => {
                 <div className='container'>
                     <div className='row_wrap mb-5 text-center'>
                         <h2 className='section_heading mb-2'>Know Our Senior Oncologists</h2>
-                        <p className='section_desc'>Our doctors have a rich 10+ years of experience and are trained at the top cancer institutes<br /> such as Tata Memorial, AIIMS, and Memorial Sloan Kettering (US)</p>
+                        <p className='section_desc'>Get expert opinion from experienced doctors coming from top hospitals like AIIMS, TMC,<br/> Medanta, Apollo, Manipal to name a few</p>
                     </div>
                     <div>
                         <Slider {...doctorSliderSettings}>
@@ -260,10 +264,10 @@ const Home = () => {
             </section>
             <section className='hospital_section'>
                 <div className='container'>
-                    <div className='row_wrap mb-5 text-center'>
+                    {/* <div className='row_wrap mb-5 text-center'>
                         <h2 className='section_heading mb-2'>Know Our Hospitals</h2>
                         <p className='section_desc'>Our doctors have a rich 10+ years of experience and are trained at the top cancer institutes<br /> such as Tata Memorial, AIIMS, and Memorial Sloan Kettering (US)</p>
-                    </div>
+                    </div> */}
                     <div>
                         <Slider {...hospitalSliderSettings}>
                             {[
@@ -291,41 +295,43 @@ const Home = () => {
                 <div className='container'>
                     <div className='row_wrap mb-5 text-center'>
                         <h2 className='section_heading mb-4'>Begin Your Journey To Cancer Free Life Today!</h2>
-                        <p className='section_desc'>Join <img className='inline-logo' src={caresharePlusInline} /> as early user and get unlimited benefits at just 1/10th of the cost: <br />Better outcomes of your treatment with</p>
+                        <p className='section_desc'>Join <img className='inline-logo' src={caresharePlusInline} /> as early user and get unlimited benefits</p>
                     </div>
-                    <div className='packages_wrap'>
-                        <div className='single_package'>
-                            <h4 className='title'>One Month</h4>
-                            <h3 className="price">Rs. 2499</h3>
-                            <p className='price_cut'>Rs. 24,999</p>
-                            <a className='btn btn-primary'>Pay Now</a>
-                        </div>
-                        <div className='single_package'>
-                            <h4 className='title'>Three Months</h4>
-                            <h3 className="price">Rs. 6999</h3>
-                            <p className='price_cut'>Rs. 69,999</p>
-                            <a className='btn btn-primary'>Pay Now</a>
-                        </div>
-                        <div className='single_package'>
-                            <h4 className='title'>Six Months</h4>
-                            <h3 className="price">Rs. 10,999</h3>
-                            <p className='price_cut'>Rs. 109,999</p>
-                            <a className='btn btn-primary'>Pay Now</a>
-                        </div>
-                        <div className='single_package'>
-                            <h4 className='title'>Limetime</h4>
-                            <h3 className="price">Rs. 20,999</h3>
-                            <p className='price_cut'>Rs. 209,999</p>
-                            <a className='btn btn-primary'>Pay Now</a>
+                    <div style={{display:"flex",justifyContent:'center'}}>
+                        <div className='packages_wrap'>
+                            {/* <div className='single_package'>
+                                <h4 className='title'>One Month</h4>
+                                <h3 className="price">Rs. 2499</h3>
+                                <p className='price_cut'>Rs. 24,999</p>
+                                <a className='btn btn-primary'>Pay Now</a>
+                            </div> */}
+                            <div className='single_package'>
+                                <h4 className='title'>Three Months</h4>
+                                <h3 className="price">Rs. 6999</h3>
+                                <p className='price_cut'>Rs. 24,999</p>
+                                <a className='btn btn-primary'>Pay Now</a>
+                            </div>
+                            <div className='single_package'>
+                                <h4 className='title'>Six Months</h4>
+                                <h3 className="price">Rs. 10,999</h3>
+                                <p className='price_cut'>Rs. 49,999</p>
+                                <a className='btn btn-primary'>Pay Now</a>
+                            </div>
+                            <div className='single_package'>
+                                <h4 className='title'>Twelve Months</h4>
+                                <h3 className="price">Rs. 15,999</h3>
+                                <p className='price_cut'>Rs. 99,999</p>
+                                <a className='btn btn-primary'>Pay Now</a>
+                            </div>
                         </div>
                     </div>
                     <ul className='feature_list'>
-                        <li><img src='/images/package-features/trainer.png' /> Regular Health Tracking</li>
-                        <li><img src='/images/package-features/monitoring.png' /> 24*7 Real-Time Symptom Management</li>
-                        <li><img src='/images/package-features/diet.png' /> Personalized Onco-Nutritional Plan With Unlimited Access To Nutritionist</li>
-                        <li><img src='/images/package-features/search.png' /> Tailor Made Naturopathy, Yoga And Mental Health Sessions For You And Caregivers</li>
-                        <li><img src='/images/package-features/oncologist.png' /> Real Time Unlimited Access To Dedicated Doctor</li>
-                        <li><img src='/images/package-features/vomit.png' /> Medication And Test Reminders With Family In Loop</li>
+                        <li><img src='/images/package-features/trainer.png' /> Dedicated coach to help you navigate the journey </li>
+                        <li><img src='/images/package-features/oncologist.png' /> Unlimited access to CareShare’s internal oncologists</li>
+                        <li><img src='/images/package-features/search.png' /> Unlimited support to understand test results</li>
+                        <li><img src='/images/package-features/monitoring.png' /> 24*7 real time remote monitoring</li>
+                        <li><img src='/images/package-features/vomit.png' /> Instant symptom management</li>
+                        <li><img src='/images/package-features/diet.png' /> Personalised nutrition, yoga and mental health support</li>
                     </ul>
                 </div>
             </section>
@@ -341,7 +347,7 @@ const Home = () => {
                         <div className='single_warrior'>
                             <img className='comma_icon' src={commaIcon} />
                             <h3>No Waiting Time</h3>
-                            <p>"Whenever my father has any symptoms, I'll just put that in the CareShare app and I will immediately get management instructions. It even automatically gets the consultation done when needed. It has made our lives much simpler. I highly...”</p>
+                            <p>"Whenever my father has any symptoms, I'll just put that in the CareShare app and I will immediately get management instructions. It even automatically gets the consultation done when needed. It has made our lives much simpler.”</p>
                             <div className='user_wrap'>
                                 <img src={avatar1} />
                                 <h4>- Mandeep Kaur</h4>
@@ -350,7 +356,7 @@ const Home = () => {
                         <div className='single_warrior'>
                             <img className='comma_icon' src={commaIcon} />
                             <h3>24/7 Remote Monitoring</h3>
-                            <p>"It was late at night around 2 am during lockdown when my mother ( breast cancer patient), had stomach pain and vomiting. We were too afraid to go to the hospital due to covid. We just put the symptoms in the app and within 2 minutes, we got...”</p>
+                            <p>"It was late at night around 2 am during lockdown when my mother had stomach pain and vomiting. We just put the symptoms in the app and within 2 minutes, we got in touch with Dr. Paavas who immediately helped us.”</p>
                             <div className='user_wrap'>
                                 <img src={avatar1} />
                                 <h4>- Punit Sharma</h4>
@@ -359,7 +365,7 @@ const Home = () => {
                         <div className='single_warrior'>
                             <img className='comma_icon' src={commaIcon} />
                             <h3>Empowers the Whole Family</h3>
-                            <p>"When my brother was diagnosed with gastric cancer in 2017 and I was in the US, I used to call him every day and keep a record of his symptoms in a diary. In March 2021, I came to visit him due to his relapse, I came across CareShare through our oncologist in KIMS. When ...”</p>
+                            <p>"We came across CareShare through a senior oncologist when my brother got diagnosed with cancer. When we started using it, I wished it existed before. It automatically provides personalized feedback and alerts the doctor if needed”</p>
                             <div className='user_wrap'>
                                 <img src={avatar1} />
                                 <h4>- Kishan Reddy</h4>

@@ -159,15 +159,18 @@
 
 .package_section .packages_wrap{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
 }
 
 .package_section .packages_wrap .single_package{
     background-color: #fff;
     width: calc(25% - 22.2px);
+    min-width: 262px;
     padding: 30px 30px 35px;
     border-radius: 10px;
     text-align: center;
+    margin-right:25px;
 }
 
 .package_section .packages_wrap .single_package .title{
@@ -214,11 +217,11 @@
 }
 
 .package_section .feature_list li{
-    font-size: 20px;
+    font-size: 24px;
     color: #3e5061;
     line-height: 1.754;
     position: relative;
-    padding-left: 45px;
+    padding-left: 65px;
     margin-bottom: 20px;
 }
 
@@ -226,7 +229,7 @@
     position: absolute;
     left: 0;
     /* top: 9px; */
-    max-width: 30px;
+    max-width: 45px;
 }
 
 .section_desc .inline-logo{
@@ -281,7 +284,7 @@
 .warriors_section .warrior_wrap .single_warrior{
     position: relative;
     max-width: 330px;
-    padding-left: 76px;
+    padding-left: 66px;
 }
 
 .warriors_section .warrior_wrap .single_warrior h3{
@@ -428,7 +431,7 @@
         margin-bottom: 10px;
     }
     .home-banner p{
-        font-size: 15px;
+        font-size: 24px;
         margin-bottom: 30px;
     }
     .home-banner p br{
