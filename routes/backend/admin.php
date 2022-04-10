@@ -36,6 +36,7 @@ Route::delete('backups/delete/{file_name}', 'BackupController@delete');
 Route::resource('news', 'NewsController');
 Route::get('/allNews', 'NewsController@allNews')->name('allNews.news');
 
+Route::get('/download-requests', 'DownloadRequestController@allRequests')->name('allRequest.requests');
 
 // category controller
 Route::get('/category/{news_id}', 'NewsCategory@index');
@@ -46,7 +47,7 @@ Route::delete('/category/{cat_id}', 'NewsCategory@destroy');
 Route::post('images/upload', 'NewsCategory@upload')->name('ckeditor.upload');
 
 /* ===== Frontend End =========== */
-
+Route::get('/all-requests', 'DownloadRequestController@index');
 
 /* ===== Settings Start =========== */
 

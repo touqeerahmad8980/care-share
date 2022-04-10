@@ -73227,8 +73227,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _common_Footer__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./common/Footer */ "./resources/js/components/common/Footer.js");
 /* harmony import */ var _pages_blog_detail_BlogDetail__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./pages/blog-detail/BlogDetail */ "./resources/js/components/pages/blog-detail/BlogDetail.js");
 /* harmony import */ var _pages_blog_detail_category_BlogDetailCategory__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./pages/blog-detail-category/BlogDetailCategory */ "./resources/js/components/pages/blog-detail-category/BlogDetailCategory.js");
-/* harmony import */ var _common_BlogWidget__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./common/BlogWidget */ "./resources/js/components/common/BlogWidget.js");
-/* harmony import */ var _pages_contact_us_ContactUs__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./pages/contact-us/ContactUs */ "./resources/js/components/pages/contact-us/ContactUs.js");
+/* harmony import */ var _pages_contact_us_ContactUs__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./pages/contact-us/ContactUs */ "./resources/js/components/pages/contact-us/ContactUs.js");
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -73246,7 +73245,6 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
 
 
 
@@ -73280,7 +73278,7 @@ function (_Component) {
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
         exact: true,
         path: "/contact",
-        component: _pages_contact_us_ContactUs__WEBPACK_IMPORTED_MODULE_10__["default"]
+        component: _pages_contact_us_ContactUs__WEBPACK_IMPORTED_MODULE_9__["default"]
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
         exact: true,
         path: "/blogs",
@@ -73304,193 +73302,6 @@ function (_Component) {
 }(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
 
 react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(App, null), document.getElementById('app'));
-
-/***/ }),
-
-/***/ "./resources/js/components/blocks/Block_Grid.js":
-/*!******************************************************!*\
-  !*** ./resources/js/components/blocks/Block_Grid.js ***!
-  \******************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-
-
-
-var Block_Grid = function Block_Grid(props) {
-  var description = props.post.description.substring(0, 150);
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-md-6"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "blog-item"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "blog-thumb set-bg img-thumbnail",
-    src: '../' + props.post.file_path
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "blog-content"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "/blog/" + props.post.id
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", null, props.post.title)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "blog-meta"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    className: "fa fa-calendar-o"
-  }), " ", props.post.created_at)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, description, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "/blog/" + props.post.id,
-    className: "text-green"
-  }, "read more")))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Block_Grid);
-
-/***/ }),
-
-/***/ "./resources/js/components/blocks/Block_List_Left.js":
-/*!***********************************************************!*\
-  !*** ./resources/js/components/blocks/Block_List_Left.js ***!
-  \***********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-
-
-
-var Block_List_Left = function Block_List_Left(props) {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "recent-post-widget"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "rp-item"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "rp-thumb set-bg ",
-    src: '../' + props.post.file_path
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "rp-content"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "/blog/" + props.post.id
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", null, props.post.title)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    className: "fa fa-clock-o"
-  }), " ", props.post.created_at))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Block_List_Left);
-
-/***/ }),
-
-/***/ "./resources/js/components/common/BlogWidget.js":
-/*!******************************************************!*\
-  !*** ./resources/js/components/common/BlogWidget.js ***!
-  \******************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return BlogWidget; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _blocks_Block_List_Left__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../blocks/Block_List_Left */ "./resources/js/components/blocks/Block_List_Left.js");
-/* harmony import */ var _blocks_Block_Grid__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../blocks/Block_Grid */ "./resources/js/components/blocks/Block_Grid.js");
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
-
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-
-
-
-
-
-var BlogWidget =
-/*#__PURE__*/
-function (_Component) {
-  _inherits(BlogWidget, _Component);
-
-  function BlogWidget() {
-    var _this;
-
-    _classCallCheck(this, BlogWidget);
-
-    _this = _possibleConstructorReturn(this, _getPrototypeOf(BlogWidget).call(this));
-
-    _defineProperty(_assertThisInitialized(_this), "fetchPosts", function () {
-      axios__WEBPACK_IMPORTED_MODULE_1___default.a.get('/api/blogWidget', {
-        params: {
-          category: _this.props.category,
-          limit: _this.props.limit
-        }
-      }).then(function (response) {
-        _this.setState({
-          posts: response.data.result
-        });
-      })["catch"](function (error) {
-        console.log(error);
-      });
-    });
-
-    _defineProperty(_assertThisInitialized(_this), "renderPosts", function () {
-      return _this.state.posts.map(function (data, index) {
-        if (_this.props.layout === "list") {
-          return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_blocks_Block_List_Left__WEBPACK_IMPORTED_MODULE_2__["default"], {
-            key: data.id,
-            post: data
-          });
-        } else {
-          return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_blocks_Block_Grid__WEBPACK_IMPORTED_MODULE_3__["default"], {
-            key: data.id,
-            post: data
-          });
-        }
-      });
-    });
-
-    _this.state = {
-      posts: []
-    };
-    return _this;
-  }
-
-  _createClass(BlogWidget, [{
-    key: "componentDidMount",
-    value: function componentDidMount() {
-      this.fetchPosts();
-    }
-  }, {
-    key: "render",
-    value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, this.renderPosts());
-    }
-  }]);
-
-  return BlogWidget;
-}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
-
-
 
 /***/ }),
 

@@ -24,6 +24,11 @@ class NewsController extends Controller
       return view('backend.admin.news.all');
    }
 
+   public function allRequest()
+   {
+      return view('backend.admin.download-requests.all');
+   }
+
    public function allNews(Request $request)
    {
       if ($request->ajax()) {

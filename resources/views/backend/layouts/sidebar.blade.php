@@ -34,6 +34,9 @@
                 <li><a href="{{ URL :: to('/admin/news') }}">
                         <i class="fa fa-globe"></i> <span> Blogs</span></a>
                 </li>
+                <li><a href="{{ URL :: to('/admin/all-requests') }}">
+                        <i class="fa fa-globe"></i> <span> Download Requests</span></a>
+                </li>
             </ul>
         </li>
         <li class="treeview">

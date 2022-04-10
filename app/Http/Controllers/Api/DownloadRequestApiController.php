@@ -10,6 +10,16 @@ use DB;
 class DownloadRequestApiController extends Controller
 {
 
+     /**
+    * Display a listing of the resource.
+    *
+    * @return \Illuminate\Http\Response
+    */
+    public function index()
+    {
+        return view('backend.admin.requests.all');
+    }
+
 
         /**
      * Store a newly created resource in storage.
@@ -45,14 +55,14 @@ class DownloadRequestApiController extends Controller
         return response()->json(['data' => $downloadRequest, 'message' => 'Created successfully'], 201);
     }
 
-    public function allRequests(Request $request)
-   {
-      $limit = $request->input('limit');
-      $offset = $request->input('offset');
-      $total = DownloadRequest::count();
-      $pagData = DB::table('download_requests')->offset($offset)->limit($limit)->get();
-      return response()->json(['result' => $pagData, 'total' => $total]);
-   }
-
+//     public function allRequests(Request $request)
+//    {
+//       $limit = $request->input('limit');
+//       $offset = $request->input('offset');
+//       $total = DownloadRequest::count();
+//       $pagData = DB::table('download_requests')->offset($offset)->limit($limit)->get();
+//     //   dump($pagData)
+//       return response()->json(['result' => $pagData, 'total' => $total]);
+//    }
 
 }
