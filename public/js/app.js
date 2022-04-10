@@ -74400,6 +74400,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var slick_carousel_slick_slick_theme_css__WEBPACK_IMPORTED_MODULE_21___default = /*#__PURE__*/__webpack_require__.n(slick_carousel_slick_slick_theme_css__WEBPACK_IMPORTED_MODULE_21__);
 /* harmony import */ var react_perfect_scrollbar_dist_css_styles_css__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! react-perfect-scrollbar/dist/css/styles.css */ "./node_modules/react-perfect-scrollbar/dist/css/styles.css");
 /* harmony import */ var react_perfect_scrollbar_dist_css_styles_css__WEBPACK_IMPORTED_MODULE_22___default = /*#__PURE__*/__webpack_require__.n(react_perfect_scrollbar_dist_css_styles_css__WEBPACK_IMPORTED_MODULE_22__);
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; var ownKeys = Object.keys(source); if (typeof Object.getOwnPropertySymbols === 'function') { ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) { return Object.getOwnPropertyDescriptor(source, sym).enumerable; })); } ownKeys.forEach(function (key) { _defineProperty(target, key, source[key]); }); } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
 
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
@@ -74560,6 +74564,13 @@ var Home = function Home() {
       showStartModal = _React$useState6[0],
       setShowStartModal = _React$useState6[1];
 
+  var _React$useState7 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState({
+    phone_code: "+91"
+  }),
+      _React$useState8 = _slicedToArray(_React$useState7, 2),
+      downloadFormVal = _React$useState8[0],
+      setDownloadFormVal = _React$useState8[1];
+
   var doctorSliderSettings = {
     dots: true,
     infinite: true,
@@ -74605,7 +74616,27 @@ var Home = function Home() {
   };
 
   var closeStartModal = function closeStartModal() {
+    console.log("value", downloadFormVal);
     setShowStartModal(false);
+  };
+
+  var setFormValue = function setFormValue(name, value) {
+    setDownloadFormVal(_objectSpread({}, downloadFormVal, _defineProperty({}, name, value)));
+  };
+
+  var setTreatmentVal = function setTreatmentVal(e, value) {
+    var isChecked = e.target.checked;
+    var treatmentArr = downloadFormVal.treatment_received || [];
+
+    if (isChecked) {
+      treatmentArr.push(value);
+      setFormValue('treatment_received', treatmentArr);
+    } else {
+      treatmentArr = treatmentArr.filter(function (val) {
+        return val != value;
+      });
+      setFormValue('treatment_received', treatmentArr);
+    }
   };
 
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
@@ -74872,7 +74903,7 @@ var Home = function Home() {
     "class": "modal-backdrop fade show in"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     "class": "downloadModal modal fade show in",
-    tabindex: "-1",
+    tabIndex: "-1",
     role: "dialog",
     "aria-labelledby": "exampleModalLabel",
     "aria-hidden": "true"
@@ -74911,8 +74942,13 @@ var Home = function Home() {
       fontSize: 15
     }
   }, "What is the type of cancer?*"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
-    "class": "custom-select"
+    "class": "custom-select",
+    onChange: function onChange(e) {
+      return setFormValue('cancer_type', e.target.value);
+    }
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    selected: true
+  }, "Select"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
     value: "Blood Cancer"
   }, " Blood Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
     value: "Breast Cancer"
@@ -74958,7 +74994,10 @@ var Home = function Home() {
       fontSize: 15
     }
   }, "What is the stage of cancer?*"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
-    "class": "custom-select"
+    "class": "custom-select",
+    onChange: function onChange(e) {
+      return setFormValue('cancer_stage', e.target.value);
+    }
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
     selected: true
   }, "Select"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
@@ -74983,54 +75022,70 @@ var Home = function Home() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "checkbox",
     "class": "custom-control-input",
-    id: "customCheck1"
+    id: "Chemotherapy",
+    onChange: function onChange(e) {
+      return setTreatmentVal(e, 'Chemotherapy');
+    }
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
     "class": "custom-control-label",
-    "for": "customCheck1"
+    "for": "Chemotherapy"
   }, "Chemotherapy")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     "class": "custom-control custom-checkbox"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "checkbox",
     "class": "custom-control-input",
-    id: "customCheck1"
+    id: "Radiotherapy",
+    onChange: function onChange(e) {
+      return setTreatmentVal(e, 'Radiotherapy');
+    }
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
     "class": "custom-control-label",
-    "for": "customCheck1"
+    "for": "Radiotherapy"
   }, "Radiotherapy")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     "class": "custom-control custom-checkbox"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "checkbox",
     "class": "custom-control-input",
-    id: "customCheck1"
+    id: "Surgery",
+    onChange: function onChange(e) {
+      return setTreatmentVal(e, 'Surgery');
+    }
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
     "class": "custom-control-label",
-    "for": "customCheck1"
+    "for": "Surgery"
   }, "Surgery")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     "class": "custom-control custom-checkbox"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "checkbox",
     "class": "custom-control-input",
-    id: "customCheck1"
+    id: "Immunotherapy",
+    onChange: function onChange(e) {
+      return setTreatmentVal(e, 'Immunotherapy');
+    }
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
     "class": "custom-control-label",
-    "for": "customCheck1"
+    "for": "Immunotherapy"
   }, "Immunotherapy")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     "class": "custom-control custom-checkbox"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "checkbox",
     "class": "custom-control-input",
-    id: "customCheck1"
+    id: "No",
+    onChange: function onChange(e) {
+      return setTreatmentVal(e, 'No treatment recieved');
+    }
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
     "class": "custom-control-label",
-    "for": "customCheck1"
+    "for": "No"
   }, "No treatment recieved")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    disabled: !downloadFormVal.cancer_type || !downloadFormVal.cancer_stage || !downloadFormVal.treatment_received,
     className: "btn btn-primary download_btn mb-5 mt-4",
     onClick: openStartModal
   }, "Download Now")))))), showStartModal && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     "class": "modal-backdrop fade show in"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     "class": "downloadModal modal fade show in",
-    tabindex: "-1",
+    tabIndex: "-1",
     role: "dialog",
     "aria-labelledby": "exampleModalLabel",
     "aria-hidden": "true"
@@ -75067,7 +75122,10 @@ var Home = function Home() {
     type: "text",
     "class": "form-control",
     id: "exampleFormControlInput1",
-    placeholder: "Enter your name"
+    placeholder: "Enter your name",
+    onInput: function onInput(e) {
+      return setFormValue('name', e.target.value);
+    }
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     "class": "form-group"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
@@ -75079,7 +75137,10 @@ var Home = function Home() {
     type: "text",
     "class": "form-control",
     id: "exampleFormControlInput1",
-    placeholder: "Enter your email address"
+    placeholder: "Enter your email address",
+    onInput: function onInput(e) {
+      return setFormValue('email', e.target.value);
+    }
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     "class": "form-group"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
@@ -75092,7 +75153,10 @@ var Home = function Home() {
       display: 'flex'
     }
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
-    className: "phoneSelect"
+    className: "phoneSelect",
+    onChange: function onChange(e) {
+      return setFormValue('phone_code', e.target.value);
+    }
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
     value: "+93"
   }, "Afghanistan (+93)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
@@ -75530,8 +75594,12 @@ var Home = function Home() {
     type: "number",
     "class": "form-control",
     id: "exampleFormControlInput1",
-    placeholder: "Enter phone no."
+    placeholder: "Enter phone no.",
+    onInput: function onInput(e) {
+      return setFormValue('phone_no', e.target.value);
+    }
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    disabled: !downloadFormVal.name || !downloadFormVal.phone_no,
     className: "btn btn-primary download_btn mb-5 mt-4",
     onClick: closeStartModal
   }, "Start Now")))))));

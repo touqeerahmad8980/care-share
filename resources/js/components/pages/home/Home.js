@@ -55,6 +55,9 @@ const Home = () => {
     const [activeStep, setActiveStep] = React.useState('blue');
     const [showDownloadModal, setShowDownloadModal] = React.useState(false);
     const [showStartModal, setShowStartModal] = React.useState(false);
+    const [downloadFormVal, setDownloadFormVal] = React.useState({
+        phone_code: "+91"
+    });
     const doctorSliderSettings = {
         dots: true,
         infinite: true,
@@ -104,7 +107,28 @@ const Home = () => {
     }
 
     const closeStartModal = () => {
+        console.log("value", downloadFormVal)
         setShowStartModal(false);
+    }
+
+    const setFormValue = (name, value) => {
+        setDownloadFormVal({
+            ...downloadFormVal,
+            [name]: value
+        })
+    }
+
+    const setTreatmentVal = (e, value) => {
+        let isChecked = e.target.checked;
+        let treatmentArr = downloadFormVal.treatment_received || [];
+
+        if(isChecked){
+            treatmentArr.push(value);
+            setFormValue('treatment_received', treatmentArr);
+        }else{
+            treatmentArr = treatmentArr.filter(val => val != value);
+            setFormValue('treatment_received', treatmentArr);
+        }
     }
 
     return (
@@ -423,7 +447,7 @@ const Home = () => {
             {showDownloadModal &&
                 <>
                     <div class="modal-backdrop fade show in"></div>
-                    <div class="downloadModal modal fade show in" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="downloadModal modal fade show in" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-lg" role="document">
                             <div class="modal-content">
                             <div class="modal-header">
@@ -437,7 +461,8 @@ const Home = () => {
                                 <div className='row'>
                                     <div className='col-sm-5'>
                                         <h3 className='mb-3' style={{fontSize:15}}>What is the type of cancer?*</h3>
-                                        <select class="custom-select">
+                                        <select class="custom-select" onChange={(e) => setFormValue('cancer_type', e.target.value)}>
+                                            <option selected>Select</option>
                                             <option value="Blood Cancer"> Blood Cancer</option>
                                             <option value="Breast Cancer"> Breast Cancer</option>
                                             <option value="Cervical Cancer"> Cervical Cancer</option>
@@ -461,7 +486,7 @@ const Home = () => {
                                     </div>
                                     <div className='col-sm-5'>
                                         <h3 className='mb-3' style={{fontSize:15}}>What is the stage of cancer?*</h3>
-                                        <select class="custom-select">
+                                        <select class="custom-select" onChange={(e) => setFormValue('cancer_stage', e.target.value)}>
                                             <option selected>Select</option>
                                             <option value="Early">Early</option>
                                             <option value="Advanced">Locally Advanced</option>
@@ -473,28 +498,34 @@ const Home = () => {
                                     <div className='col-sm-12 mt-5'>
                                         <h3 className='mb-3' style={{fontSize:15}}>Select treatment(s) received so far*</h3>
                                         <div class="custom-control custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" id="customCheck1" />
-                                            <label class="custom-control-label" for="customCheck1">Chemotherapy</label>
+                                            <input type="checkbox" class="custom-control-input" id="Chemotherapy" onChange={(e) => setTreatmentVal(e, 'Chemotherapy')} />
+                                            <label class="custom-control-label" for="Chemotherapy">Chemotherapy</label>
                                         </div>
                                         <div class="custom-control custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" id="customCheck1" />
-                                            <label class="custom-control-label" for="customCheck1">Radiotherapy</label>
+                                            <input type="checkbox" class="custom-control-input" id="Radiotherapy" onChange={(e) => setTreatmentVal(e, 'Radiotherapy')} />
+                                            <label class="custom-control-label" for="Radiotherapy">Radiotherapy</label>
                                         </div>
                                         <div class="custom-control custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" id="customCheck1" />
-                                            <label class="custom-control-label" for="customCheck1">Surgery</label>
+                                            <input type="checkbox" class="custom-control-input" id="Surgery" onChange={(e) => setTreatmentVal(e, 'Surgery')} />
+                                            <label class="custom-control-label" for="Surgery">Surgery</label>
                                         </div>
                                         <div class="custom-control custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" id="customCheck1" />
-                                            <label class="custom-control-label" for="customCheck1">Immunotherapy</label>
+                                            <input type="checkbox" class="custom-control-input" id="Immunotherapy" onChange={(e) => setTreatmentVal(e, 'Immunotherapy')} />
+                                            <label class="custom-control-label" for="Immunotherapy">Immunotherapy</label>
                                         </div>
                                         <div class="custom-control custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" id="customCheck1" />
-                                            <label class="custom-control-label" for="customCheck1">No treatment recieved</label>
+                                            <input type="checkbox" class="custom-control-input" id="No" onChange={(e) => setTreatmentVal(e, 'No treatment recieved')} />
+                                            <label class="custom-control-label" for="No">No treatment recieved</label>
                                         </div>
                                     </div>
                                 </div>
-                                <button className='btn btn-primary download_btn mb-5 mt-4' onClick={openStartModal}>Download Now</button>
+                                <button
+                                    disabled={!downloadFormVal.cancer_type || !downloadFormVal.cancer_stage || !downloadFormVal.treatment_received}
+                                    className='btn btn-primary download_btn mb-5 mt-4'
+                                    onClick={openStartModal}
+                                >
+                                    Download Now
+                                </button>
                             </div>
                             {/* <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" onClick={closeDownloadModal}>Close</button>
@@ -508,7 +539,7 @@ const Home = () => {
             {showStartModal &&
                 <>
                     <div class="modal-backdrop fade show in"></div>
-                    <div class="downloadModal modal fade show in" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="downloadModal modal fade show in" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                             <div class="modal-header">
@@ -520,16 +551,16 @@ const Home = () => {
                             <div class="modal-body p-5">
                                 <div class="form-group">
                                     <label for="exampleFormControlInput1" style={{fontWeight:"normal"}}>Name</label>
-                                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your name" />
+                                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your name" onInput={(e) => setFormValue('name', e.target.value)} />
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleFormControlInput1" style={{fontWeight:"normal"}}>Email address</label>
-                                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your email address" />
+                                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your email address" onInput={(e) => setFormValue('email', e.target.value)} />
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleFormControlInput1" style={{fontWeight:"normal"}}>Phone No.</label>
                                     <div style={{display:'flex'}}>
-                                        <select className='phoneSelect'>
+                                        <select className='phoneSelect' onChange={(e) => setFormValue('phone_code', e.target.value)}>
                                             <option value="+93">Afghanistan (+93)</option>
                                             <option value="+213">Algeria (+213)</option>
                                             <option value="+376">Andorra (+376)</option>
@@ -747,10 +778,13 @@ const Home = () => {
                                             <option value="+260">Zambia (+260) </option>
                                             <option value="+263">Zimbabwe (+263) </option>
                                         </select>
-                                        <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Enter phone no." />
+                                        <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Enter phone no." onInput={(e) => setFormValue('phone_no', e.target.value)} />
                                     </div>
                                 </div>
-                                <button className='btn btn-primary download_btn mb-5 mt-4' onClick={closeStartModal}>Start Now</button>
+                                <button
+                                    disabled={!downloadFormVal.name || !downloadFormVal.phone_no}
+                                    className='btn btn-primary download_btn mb-5 mt-4'
+                                    onClick={closeStartModal}>Start Now</button>
                             </div>
                             {/* <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" onClick={closeDownloadModal}>Close</button>
