@@ -130,6 +130,19 @@ const Home = () => {
         }
     }
 
+    const sendDownloadRequest = () => {
+        downloadFormVal.treatment_received = JSON.stringify(downloadFormVal.treatment_received);
+        axios.post('/api/download-request/add', downloadFormVal)
+        .then(response => {
+            closeStartModal();
+            console.log(response)
+        })
+        .catch(error => {
+            closeStartModal();
+            console.log(error);
+        });
+    }
+
     return (
         <div>
             <section className='home-banner' style={{background:`url(${Banner}) no-repeat`}}>
@@ -783,7 +796,7 @@ const Home = () => {
                                 <button
                                     disabled={!downloadFormVal.name || !downloadFormVal.phone_no}
                                     className='btn btn-primary download_btn mb-5 mt-4'
-                                    onClick={closeStartModal}>Start Now</button>
+                                    onClick={sendDownloadRequest}>Start Now</button>
                             </div>
                             {/* <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" onClick={closeDownloadModal}>Close</button>

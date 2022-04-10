@@ -74625,6 +74625,17 @@ var Home = function Home() {
     }
   };
 
+  var sendDownloadRequest = function sendDownloadRequest() {
+    downloadFormVal.treatment_received = JSON.stringify(downloadFormVal.treatment_received);
+    axios.post('/api/download-request/add', downloadFormVal).then(function (response) {
+      closeStartModal();
+      console.log(response);
+    })["catch"](function (error) {
+      closeStartModal();
+      console.log(error);
+    });
+  };
+
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     className: "home-banner",
     style: {
@@ -75587,7 +75598,7 @@ var Home = function Home() {
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
     disabled: !downloadFormVal.name || !downloadFormVal.phone_no,
     className: "btn btn-primary download_btn mb-5 mt-4",
-    onClick: closeStartModal
+    onClick: sendDownloadRequest
   }, "Start Now")))))));
 };
 
