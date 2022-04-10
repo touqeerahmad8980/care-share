@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Apr 10, 2022 at 02:05 PM
+-- Generation Time: Apr 10, 2022 at 05:30 PM
 -- Server version: 10.4.10-MariaDB
 -- PHP Version: 7.4.0
 
@@ -70,14 +70,15 @@ CREATE TABLE IF NOT EXISTS `download_requests` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `download_requests`
 --
 
 INSERT INTO `download_requests` (`id`, `name`, `email`, `phone_code`, `phone_no`, `cancer_type`, `cancer_stage`, `treatment_received`, `created_at`, `updated_at`) VALUES
-(1, 'Mame', 'tsklh@mail.om', '+91', '234242432', 'Breast Cancer', 'Metastatic', '[\"Radiotherapy\",\"No treatment recieved\"]', '2022-04-10 15:00:42', '2022-04-10 15:00:42');
+(1, 'Mame', 'tsklh@mail.om', '+91', '234242432', 'Breast Cancer', 'Metastatic', '[\"Radiotherapy\",\"No treatment recieved\"]', '2022-04-10 15:00:42', '2022-04-10 15:00:42'),
+(2, 'Touqeer Ahmad', 'touqeer@mail.com', '+91', '39238293478', 'Cervical Cancer', 'Recurrence', '[\"Chemotherapy\",\"No treatment recieved\",\"Radiotherapy\"]', '2022-04-10 18:21:31', '2022-04-10 18:21:31');
 
 -- --------------------------------------------------------
 
