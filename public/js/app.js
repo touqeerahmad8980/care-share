@@ -6760,7 +6760,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, ".home-banner{\n    background-size: cover !important;\n}\n.home-banner .banner{\n    /* background-color: #0e1d2c; */\n    background: linear-gradient(90deg, rgba(2,0,36,0.5) 0%, rgba(0,0,0,0.1) 50%);\n    padding: 90px 0px;\n}\n.home-banner h2{\n    font-size: 30px;\n    color: #eb5757;\n    font-weight: 600;\n    margin: 30px 0px 10px;\n}\n.home-banner h1{\n    font-size: 40px;\n    color: #fff;\n    font-weight: 700;\n    max-width: 630px;\n    line-height: 1.2;\n    /* text-shadow: 0 0 15px #a1a1a1; */\n    margin-bottom: 20px;\n}\n.home-banner p{\n    font-size: 20px;\n    color: #fff;\n    margin-bottom: 50px;\n    max-width: 630px;\n    line-height: 1.3;\n    font-weight: 500;\n    /* text-shadow: 0 0 15px #a1a1a1; */\n}\n.home-banner .button{\n    font-size: 16px;\n    box-shadow: none;\n    padding: 15px 25px;\n    background-color: #51c185;\n    border: none;\n    font-weight: 500;\n}\n\n.home-banner .button:hover{\n    background-color: #eb5757;\n}\n\n.home-banner span{\n    font-size: 16px;\n    font-weight: 600;\n    color: #fff;\n    margin: 0px 25px;\n    text-shadow: 0 0 15px #a1a1a1;\n}\n\n.section_heading{\n    font-size: 35px;\n    font-weight: 600;\n    color: #0e1d2c;\n}\n\n.section_desc{\n    font-size: 18px;\n    color: #3e5061;\n}\n\n.home-banner .image{\n    max-width: 480px;\n    float: right;\n}\n\n.choose_careshare_section{\n    padding: 60px 0 100px;\n}\n\n.choose_careshare_section .step_blocks_wrap{\n    display: flex;\n    flex-wrap: wrap;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block{\n    /* background-color: #0e1d2c; */\n    padding: 30px 25px;\n    /* color: #fff; */\n    color: #686868;\n}\n\n.mobileWraper{\n    border: 12px solid #2e2e2e;\n    width: 280px;\n    max-height: 520px;\n    min-height: 520px;\n    overflow: hidden;\n    border-radius: 35px;\n    border-top-width: 16px;\n    border-bottom-width: 15px;\n    position: relative;\n}\n\n.mobileWraper::before{\n    content: \"\";\n    display: inline-block;\n    width: 142px;\n    height: 18px;\n    background-color: #2e2e2e;\n    position: absolute;\n    left: 57px;\n    border-radius: 0 0 30px 30px;\n    z-index: 9;\n}\n.mobileWraper-overlay{\n    content: \"\";\n    display: inline-block;\n    background: linear-gradient(0deg, rgba(2,0,36,0.5) -64%, rgba(0,0,0,0) 69%);\n    position: absolute;\n    width: 100%;\n    bottom: 0;\n    height: 210px;\n    z-index: 9;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block.pink{\n    background-color: #eb5757;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block.green{\n    background-color: #51c185;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block h3{\n    /* font-size: 30px;\n    color: #fff;\n    font-weight: 700;\n    text-transform: uppercase;\n    line-height: 1.25; */\n    font-size: 20px;\n    /* color: #fff; */\n    /* font-weight: 700; */\n    /* text-transform: uppercase; */\n    /* line-height: 1.25; */\n    margin-bottom: 8px !important;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block ul{\n    margin-left: 20px;\n}\n.choose_careshare_section .step_blocks_wrap .single_block li{\n    line-height: 1.75;\n    font-size: 14px;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block .step_img{\n    max-height: 150px;\n    float: right;\n}\n\n.section_grey{\n    background-color: #f2f5f8;\n    padding: 60px 0 70px;\n}\n\n.package_section .packages_wrap{\n    display: flex;\n    flex-wrap: wrap;\n    /* justify-content: space-between; */\n}\n\n.package_section .packages_wrap .single_package{\n    background-color: #fff;\n    width: calc(25% - 22.2px);\n    min-width: 262px;\n    padding: 30px 30px 35px;\n    border-radius: 10px;\n    text-align: center;\n    margin-right:25px;\n}\n\n.package_section .packages_wrap .single_package .title{\n    font-size: 18px;\n    font-weight: 700;\n    color: #3e5061;\n    margin-bottom: 20px;\n}\n\n.package_section .packages_wrap .single_package .price{\n    font-size: 28px;\n    font-weight: 700;\n    color: #eb5757;\n}\n\n.package_section .packages_wrap .single_package .price_cut{\n    font-size: 28px;\n    font-weight: 300;\n    color: #eb5757;\n    text-decoration: line-through;\n    margin-bottom: 20px;\n}\n\n.package_section .packages_wrap .single_package .btn-primary{\n    background-color: #51c185;\n    width: 100%;\n    text-transform: uppercase;\n    color: #fff;\n    border: none;\n    border-radius: 20px;\n    padding: 10px 15px;\n    font-weight: 500;\n    font-size: 16px;\n    box-shadow: none;\n}\n\n.package_section .packages_wrap .single_package .btn-primary:hover{\n    background-color: #eb5757;\n}\n\n.package_section .feature_list{\n    margin-top: 40px;\n    list-style: none;\n}\n\n.package_section .feature_list li{\n    font-size: 24px;\n    color: #3e5061;\n    line-height: 1.754;\n    position: relative;\n    padding-left: 65px;\n    margin-bottom: 20px;\n}\n\n.package_section .feature_list li img{\n    position: absolute;\n    left: 0;\n    /* top: 9px; */\n    max-width: 45px;\n}\n\n.section_desc .inline-logo{\n    width: 210px;\n    margin-top: -7px;\n}\n\n.hospital_section{\n    padding: 60px 0 120px;\n}\n\n.hospital_section .row_wrap{\n    margin-bottom: 40px !important;\n}\n\n.hospital_section .slick-custom-dots{\n    bottom: -60px;\n}\n\n.hospital_section .slick-custom-dots li button:before{\n    font-size: 13px;\n}\n\n.hospital_section .slick-custom-dots li.slick-active button:before{\n    color: #51c185;\n}\n\n.hospital_section .slick-arrow{\n    display: none !important;\n}\n\n.hr_line{\n    height: 1px;\n    width: 100%;\n    background-color: #cbcbcb;\n}\n\n.warriors_section{\n    padding: 60px 0 70px;\n}\n\n.warriors_section .row_wrap{\n    margin-bottom: 50px;\n}\n\n.warriors_section .warrior_wrap {\n    display: flex;\n    justify-content: space-around;\n    flex-wrap: wrap;\n}\n\n.warriors_section .warrior_wrap .single_warrior{\n    position: relative;\n    max-width: 330px;\n    padding-left: 66px;\n}\n\n.warriors_section .warrior_wrap .single_warrior h3{\n    font-size: 17px;\n    font-weight: 700;\n    color: #0e1d2c;\n    margin-bottom: 20px;\n}\n\n.warriors_section .warrior_wrap .single_warrior p{\n    font-size: 14px;\n    color: #3e5061;\n    font-style: italic;\n    line-height: 1.75;\n}\n\n.warriors_section .warrior_wrap .single_warrior .comma_icon{\n    position: absolute;\n    width: 55px;\n    left: 0;\n    top: 0;\n}\n\n.warriors_section .warrior_wrap .single_warrior .user_wrap img{\n    border-radius: 50%;\n    width: 90px;\n    height: 90px;\n    box-shadow: 0 0 6px 3px #c3c3c3;\n}\n\n.warriors_section .warrior_wrap .single_warrior .user_wrap{\n    margin-top: 25px;\n    font-size: 17px;\n    color: #0e1d2c;\n}\n\n.warriors_section .warrior_wrap .single_warrior h4{\n    font-size: 14px;\n    margin-top: 20px;\n}\n\n.warriors_section .help_link{\n    margin-top: 40px;\n    font-size: 24px;\n    font-weight: 700;\n    text-decoration: underline;\n    color: #eb5757;\n    text-align: center;\n    display: block;\n}\n\n.video_section .btn-primary{\n    font-size: 13px;\n    box-shadow: none;\n    padding: 15px 45px;\n    background-color: #51c185;\n    border: none;\n    font-weight: 500;\n}\n\n.video_section .btn-primary:hover{\n    background-color: #eb5757;\n}\n\n.hospitalLogo{\n    height:150px;\n    display: flex !important;\n}\n\n.logoWraper{\n    display: flex !important;\n    background-color: #fff;\n    flex-direction: column;\n    max-width: 200px;\n    margin: auto;\n    border-radius: 8px;\n    overflow: hidden;\n    box-shadow: 0px 7px 13px 2px #c5c3c3;\n    margin-bottom: 20px;\n    max-height: 280px;\n}\n\n.logoWraper .imageWrap{\n    height: 160px;\n    overflow: hidden;\n}\n\n.logoWraper .imageWrap img{\n    width: 100%;\n    max-height: 200px !important;\n    min-height: 160px;\n}\n\n.doctorName{\n    font-size: 17px;\n    line-height: 1;\n    min-height: 42px;\n}\n\n.doctorDesc{\n    font-size: 13px;\n    line-height: 1;\n}\n.choose_careshare_section .step_blocks_wrap .single_block.active{\n    /* flex: 0 0 100%; */\n    background-color: #51c185;\n    color: #fff;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block.active h3{\n    color: #fff;\n}\n.choose_careshare_section .step_blocks_wrap .single_block{\n    border-radius: 15px;\n    flex: 0 0 100%;\n    transition: all .3s;\n}\n\n.download_section{\n    background: #fff url(/images/download-section-bg.png) no-repeat;\n    padding: 80px 0;\n    background-position: center top;\n    background-size: cover;\n}\n\n.download_section h2{\n    color: #fff;\n    text-shadow: 0 0 15px #918c8c;\n}\n\n.download_btn{\n    background-color: #51c185;\n    border: none;\n    font-size: 16px;\n    text-transform: uppercase;\n    padding: 12px 20px 10px;\n    border-radius: 25px;\n}\n\n.download_btn:hover{\n    background-color: #eb5757;\n}\n\n@media (min-width:800px) {\n\n\n    .choose_careshare_section .step_blocks_wrap .single_block ul{\n        /* max-height: 150px; */\n        /* overflow: hidden; */\n    }\n    .choose_careshare_section .step_blocks_wrap .single_block.pink{\n        margin-left: -8px;\n    }\n    .choose_careshare_section .step_blocks_wrap .single_block.green{\n        margin-left: -8px;\n        border-radius: 8px;\n    }\n}\n\n@media (max-width:800px) {\n    .home-banner .banner{\n        padding: 50px 0px;\n    }\n    .home-banner h2{\n        font-size: 22px;\n        margin: 0;\n    }\n    .home-banner h1{\n        font-size: 22px;\n        margin-bottom: 10px;\n    }\n    .home-banner p{\n        font-size: 24px;\n        margin-bottom: 30px;\n    }\n    .home-banner p br{\n        display: none;\n    }\n    .home-banner .button{\n        font-size: 14px;\n        padding: 10px 9px;\n    }\n    .home-banner span{\n        margin: 0 15px;\n    }\n\n    .home-banner span{\n        width: 30px;\n    }\n\n    .home-banner .image{\n        width: 100%;\n        margin-top: 30px;\n    }\n    .choose_careshare_section .step_blocks_wrap{\n        flex-direction: column;\n    }\n\n    .section_heading{\n        font-size: 30px;\n    }\n\n    .section_desc{\n        font-size: 16px;\n    }\n\n    .section_heading br,\n    .section_desc br{\n        display: none;\n    }\n\n    .choose_careshare_section{\n        padding: 40px 0;\n    }\n\n    .package_section .packages_wrap{\n        flex-wrap: wrap;\n    }\n\n    .package_section .packages_wrap .single_package{\n        width: 100%;\n        margin-bottom: 20px;\n    }\n\n    .package_section .feature_list{\n        margin-top: 10px;\n    }\n\n    .package_section .feature_list li{\n        font-size: 18px;\n    }\n\n    .package_section{\n        padding: 40px 0;\n    }\n\n    .hospital_section{\n        padding: 40px 0 100px;\n    }\n\n    .video_section{\n        padding: 40px 0;\n    }\n\n    .warriors_section .warrior_wrap .single_warrior{\n        margin-bottom: 20px;\n    }\n}\n", ""]);
+exports.push([module.i, ".home-banner{\n    background-size: cover !important;\n}\n.home-banner .banner{\n    /* background-color: #0e1d2c; */\n    background: linear-gradient(90deg, rgba(2,0,36,0.5) 0%, rgba(0,0,0,0.1) 50%);\n    padding: 90px 0px;\n}\n.home-banner h2{\n    font-size: 30px;\n    color: #eb5757;\n    font-weight: 600;\n    margin: 30px 0px 10px;\n}\n.home-banner h1{\n    font-size: 40px;\n    color: #fff;\n    font-weight: 700;\n    max-width: 630px;\n    line-height: 1.2;\n    /* text-shadow: 0 0 15px #a1a1a1; */\n    margin-bottom: 20px;\n}\n.home-banner p{\n    font-size: 20px;\n    color: #fff;\n    margin-bottom: 50px;\n    max-width: 630px;\n    line-height: 1.3;\n    font-weight: 500;\n    /* text-shadow: 0 0 15px #a1a1a1; */\n}\n.home-banner .button{\n    font-size: 16px;\n    box-shadow: none;\n    padding: 15px 25px;\n    background-color: #51c185;\n    border: none;\n    font-weight: 500;\n}\n\n.home-banner .button:hover{\n    background-color: #eb5757;\n}\n\n.home-banner span{\n    font-size: 16px;\n    font-weight: 600;\n    color: #fff;\n    margin: 0px 25px;\n    text-shadow: 0 0 15px #a1a1a1;\n}\n\n.section_heading{\n    font-size: 35px;\n    font-weight: 600;\n    color: #0e1d2c;\n}\n\n.section_desc{\n    font-size: 18px;\n    color: #3e5061;\n}\n\n.home-banner .image{\n    max-width: 480px;\n    float: right;\n}\n\n.choose_careshare_section{\n    padding: 60px 0 100px;\n}\n\n.choose_careshare_section .step_blocks_wrap{\n    display: flex;\n    flex-wrap: wrap;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block{\n    /* background-color: #0e1d2c; */\n    padding: 30px 25px;\n    /* color: #fff; */\n    color: #686868;\n}\n\n.mobileWraper{\n    border: 12px solid #2e2e2e;\n    width: 280px;\n    max-height: 520px;\n    min-height: 520px;\n    overflow: hidden;\n    border-radius: 35px;\n    border-top-width: 16px;\n    border-bottom-width: 15px;\n    position: relative;\n}\n\n.mobileWraper::before{\n    content: \"\";\n    display: inline-block;\n    width: 142px;\n    height: 18px;\n    background-color: #2e2e2e;\n    position: absolute;\n    left: 57px;\n    border-radius: 0 0 30px 30px;\n    z-index: 9;\n}\n.mobileWraper-overlay{\n    content: \"\";\n    display: inline-block;\n    background: linear-gradient(0deg, rgba(2,0,36,0.5) -64%, rgba(0,0,0,0) 69%);\n    position: absolute;\n    width: 100%;\n    bottom: 0;\n    height: 210px;\n    z-index: 9;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block.pink{\n    background-color: #eb5757;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block.green{\n    background-color: #51c185;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block h3{\n    /* font-size: 30px;\n    color: #fff;\n    font-weight: 700;\n    text-transform: uppercase;\n    line-height: 1.25; */\n    font-size: 20px;\n    /* color: #fff; */\n    /* font-weight: 700; */\n    /* text-transform: uppercase; */\n    /* line-height: 1.25; */\n    margin-bottom: 8px !important;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block ul{\n    margin-left: 20px;\n}\n.choose_careshare_section .step_blocks_wrap .single_block li{\n    line-height: 1.75;\n    font-size: 14px;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block .step_img{\n    max-height: 150px;\n    float: right;\n}\n\n.section_grey{\n    background-color: #f2f5f8;\n    padding: 60px 0 70px;\n}\n\n.package_section .packages_wrap{\n    display: flex;\n    flex-wrap: wrap;\n    /* justify-content: space-between; */\n}\n\n.package_section .packages_wrap .single_package{\n    background-color: #fff;\n    width: calc(25% - 22.2px);\n    min-width: 262px;\n    padding: 30px 30px 35px;\n    border-radius: 10px;\n    text-align: center;\n    margin-right:25px;\n}\n\n.package_section .packages_wrap .single_package .title{\n    font-size: 18px;\n    font-weight: 700;\n    color: #3e5061;\n    margin-bottom: 20px;\n}\n\n.package_section .packages_wrap .single_package .price{\n    font-size: 28px;\n    font-weight: 700;\n    color: #eb5757;\n}\n\n.package_section .packages_wrap .single_package .price_cut{\n    font-size: 28px;\n    font-weight: 300;\n    color: #eb5757;\n    text-decoration: line-through;\n    margin-bottom: 20px;\n}\n\n.package_section .packages_wrap .single_package .btn-primary{\n    background-color: #51c185;\n    width: 100%;\n    text-transform: uppercase;\n    color: #fff;\n    border: none;\n    border-radius: 20px;\n    padding: 10px 15px;\n    font-weight: 500;\n    font-size: 16px;\n    box-shadow: none;\n}\n\n.package_section .packages_wrap .single_package .btn-primary:hover{\n    background-color: #eb5757;\n}\n\n.package_section .feature_list{\n    margin-top: 40px;\n    list-style: none;\n}\n\n.package_section .feature_list li{\n    font-size: 24px;\n    color: #3e5061;\n    line-height: 1.754;\n    position: relative;\n    padding-left: 65px;\n    margin-bottom: 20px;\n}\n\n.package_section .feature_list li img{\n    position: absolute;\n    left: 0;\n    /* top: 9px; */\n    max-width: 45px;\n}\n\n.section_desc .inline-logo{\n    width: 210px;\n    margin-top: -7px;\n}\n\n.hospital_section{\n    padding: 60px 0 120px;\n}\n\n.hospital_section .row_wrap{\n    margin-bottom: 40px !important;\n}\n\n.hospital_section .slick-custom-dots{\n    bottom: -60px;\n}\n\n.hospital_section .slick-custom-dots li button:before{\n    font-size: 13px;\n}\n\n.hospital_section .slick-custom-dots li.slick-active button:before{\n    color: #51c185;\n}\n\n.hospital_section .slick-arrow{\n    display: none !important;\n}\n\n.hr_line{\n    height: 1px;\n    width: 100%;\n    background-color: #cbcbcb;\n}\n\n.warriors_section{\n    padding: 60px 0 70px;\n}\n\n.warriors_section .row_wrap{\n    margin-bottom: 50px;\n}\n\n.warriors_section .warrior_wrap {\n    display: flex;\n    justify-content: space-around;\n    flex-wrap: wrap;\n}\n\n.warriors_section .warrior_wrap .single_warrior{\n    position: relative;\n    max-width: 330px;\n    padding-left: 66px;\n}\n\n.warriors_section .warrior_wrap .single_warrior h3{\n    font-size: 17px;\n    font-weight: 700;\n    color: #0e1d2c;\n    margin-bottom: 20px;\n}\n\n.warriors_section .warrior_wrap .single_warrior p{\n    font-size: 14px;\n    color: #3e5061;\n    font-style: italic;\n    line-height: 1.75;\n}\n\n.warriors_section .warrior_wrap .single_warrior .comma_icon{\n    position: absolute;\n    width: 55px;\n    left: 0;\n    top: 0;\n}\n\n.warriors_section .warrior_wrap .single_warrior .user_wrap img{\n    border-radius: 50%;\n    width: 90px;\n    height: 90px;\n    box-shadow: 0 0 6px 3px #c3c3c3;\n}\n\n.warriors_section .warrior_wrap .single_warrior .user_wrap{\n    margin-top: 25px;\n    font-size: 17px;\n    color: #0e1d2c;\n}\n\n.warriors_section .warrior_wrap .single_warrior h4{\n    font-size: 14px;\n    margin-top: 20px;\n}\n\n.warriors_section .help_link{\n    margin-top: 40px;\n    font-size: 24px;\n    font-weight: 700;\n    text-decoration: underline;\n    color: #eb5757;\n    text-align: center;\n    display: block;\n}\n\n.video_section .btn-primary{\n    font-size: 13px;\n    box-shadow: none;\n    padding: 15px 45px;\n    background-color: #51c185;\n    border: none;\n    font-weight: 500;\n}\n\n.video_section .btn-primary:hover{\n    background-color: #eb5757;\n}\n\n.hospitalLogo{\n    height:150px;\n    display: flex !important;\n}\n\n.logoWraper{\n    display: flex !important;\n    background-color: #fff;\n    flex-direction: column;\n    max-width: 200px;\n    margin: auto;\n    border-radius: 8px;\n    overflow: hidden;\n    box-shadow: 0px 7px 13px 2px #c5c3c3;\n    margin-bottom: 20px;\n    max-height: 280px;\n}\n\n.logoWraper .imageWrap{\n    height: 160px;\n    overflow: hidden;\n}\n\n.logoWraper .imageWrap img{\n    width: 100%;\n    max-height: 200px !important;\n    min-height: 160px;\n}\n\n.doctorName{\n    font-size: 17px;\n    line-height: 1;\n    min-height: 42px;\n}\n\n.doctorDesc{\n    font-size: 13px;\n    line-height: 1;\n}\n.choose_careshare_section .step_blocks_wrap .single_block.active{\n    /* flex: 0 0 100%; */\n    background-color: #51c185;\n    color: #fff;\n}\n\n.choose_careshare_section .step_blocks_wrap .single_block.active h3{\n    color: #fff;\n}\n.choose_careshare_section .step_blocks_wrap .single_block{\n    border-radius: 15px;\n    flex: 0 0 100%;\n    transition: all .3s;\n}\n\n.download_section{\n    background: #fff url(/images/download-section-bg.png) no-repeat;\n    padding: 80px 0;\n    background-position: center top;\n    background-size: cover;\n}\n\n.download_section h2{\n    color: #fff;\n    text-shadow: 0 0 15px #918c8c;\n}\n\n.download_btn{\n    background-color: #51c185;\n    border: none;\n    font-size: 16px;\n    text-transform: uppercase;\n    padding: 12px 20px 10px;\n    border-radius: 25px;\n}\n\n.download_btn:hover{\n    background-color: #eb5757;\n}\n\n.downloadModal .modal-header{\n    background-color: #51c185;\n    padding: 20px;\n}\n\n.downloadModal .modal-header h5{\n    color: #fff;\n    font-size: 30px;\n}\n\n.downloadModal .modal-header .close{\n    font-size: 27px;\n    margin-top: -6px;\n}\n\n.downloadModal select{\n    height: 40px;\n    font-size: 15px;\n}\n.downloadModal .custom-control{\n    display: inline-block;\n    margin-right: 40px;\n    margin-bottom: 15px;\n    padding-left: 25px;\n}\n\n.downloadModal .custom-control-label::before,\n.downloadModal .custom-control-label::after {\n    top: 0px;\n    width: 2rem;\n    height: 2rem;\n    left: -26px;\n}\n\n.downloadModal .custom-control .custom-control-label{\n    font-weight: normal;\n}\n\n.downloadModal .btn-primary{\n    background-color: #51c185;\n}\n\n.downloadModal .btn-primary:hover{\n    background-color: #eb5757;\n}\n\n.phoneSelect{\n    height: 33px !important;\n    border-color: #cccccc;\n    max-width: 130px;\n    border-right: none;\n    margin-right: -1px;\n    border-radius: 3px;\n}\n\n@media (min-width:800px) {\n\n\n    .choose_careshare_section .step_blocks_wrap .single_block ul{\n        /* max-height: 150px; */\n        /* overflow: hidden; */\n    }\n    .choose_careshare_section .step_blocks_wrap .single_block.pink{\n        margin-left: -8px;\n    }\n    .choose_careshare_section .step_blocks_wrap .single_block.green{\n        margin-left: -8px;\n        border-radius: 8px;\n    }\n}\n\n@media (max-width:800px) {\n    .home-banner .banner{\n        padding: 50px 0px;\n    }\n    .home-banner h2{\n        font-size: 22px;\n        margin: 0;\n    }\n    .home-banner h1{\n        font-size: 22px;\n        margin-bottom: 10px;\n    }\n    .home-banner p{\n        font-size: 24px;\n        margin-bottom: 30px;\n    }\n    .home-banner p br{\n        display: none;\n    }\n    .home-banner .button{\n        font-size: 14px;\n        padding: 10px 9px;\n    }\n    .home-banner span{\n        margin: 0 15px;\n    }\n\n    .home-banner span{\n        width: 30px;\n    }\n\n    .home-banner .image{\n        width: 100%;\n        margin-top: 30px;\n    }\n    .choose_careshare_section .step_blocks_wrap{\n        flex-direction: column;\n    }\n\n    .section_heading{\n        font-size: 30px;\n    }\n\n    .section_desc{\n        font-size: 16px;\n    }\n\n    .section_heading br,\n    .section_desc br{\n        display: none;\n    }\n\n    .choose_careshare_section{\n        padding: 40px 0;\n    }\n\n    .package_section .packages_wrap{\n        flex-wrap: wrap;\n    }\n\n    .package_section .packages_wrap .single_package{\n        width: 100%;\n        margin-bottom: 20px;\n    }\n\n    .package_section .feature_list{\n        margin-top: 10px;\n    }\n\n    .package_section .feature_list li{\n        font-size: 18px;\n    }\n\n    .package_section{\n        padding: 40px 0;\n    }\n\n    .hospital_section{\n        padding: 40px 0 100px;\n    }\n\n    .video_section{\n        padding: 40px 0;\n    }\n\n    .warriors_section .warrior_wrap .single_warrior{\n        margin-bottom: 20px;\n    }\n}\n", ""]);
 
 // exports
 
@@ -74550,8 +74550,16 @@ var Home = function Home() {
       activeStep = _React$useState2[0],
       setActiveStep = _React$useState2[1];
 
-  var _window = window,
-      screenWidth = _window.innerWidth;
+  var _React$useState3 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(false),
+      _React$useState4 = _slicedToArray(_React$useState3, 2),
+      showDownloadModal = _React$useState4[0],
+      setShowDownloadModal = _React$useState4[1];
+
+  var _React$useState5 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(false),
+      _React$useState6 = _slicedToArray(_React$useState5, 2),
+      showStartModal = _React$useState6[0],
+      setShowStartModal = _React$useState6[1];
+
   var doctorSliderSettings = {
     dots: true,
     infinite: true,
@@ -74582,6 +74590,24 @@ var Home = function Home() {
       }
     }]
   };
+
+  var openDownloadModal = function openDownloadModal() {
+    setShowDownloadModal(true);
+  };
+
+  var closeDownloadModal = function closeDownloadModal() {
+    setShowDownloadModal(false);
+  };
+
+  var openStartModal = function openStartModal() {
+    closeDownloadModal();
+    setShowStartModal(true);
+  };
+
+  var closeStartModal = function closeStartModal() {
+    setShowStartModal(false);
+  };
+
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     className: "home-banner",
     style: {
@@ -74773,7 +74799,9 @@ var Home = function Home() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     "class": "mb-5"
   }, "Get a free personalized cancer management guide"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-    className: "btn btn-primary download_btn"
+    type: "button",
+    className: "btn btn-primary download_btn",
+    onClick: openDownloadModal
   }, "Download now")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-sm-6"
   })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
@@ -74826,19 +74854,687 @@ var Home = function Home() {
     className: "section_heading mb-4"
   }, "You are a warrior, we have well-trained soldiers.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " Let's battle out cancer together!")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "text-center"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_images_video_img_png__WEBPACK_IMPORTED_MODULE_2___default.a,
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("video", {
+    width: "450",
     style: {
-      maxWidth: 450,
-      width: "100%",
-      margin: "auto"
-    }
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      borderRadius: 10
+    },
+    controls: true
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("source", {
+    src: "/images/banner-video.mp4",
+    type: "video/mp4"
+  }), "Your browser does not support HTML video.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "text-center mt-5"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "#",
     className: "btn btn-primary mt-3"
-  }, "Sign up For Free Consultation")))));
+  }, "Sign up For Free Consultation")))), showDownloadModal && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "modal-backdrop fade show in"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "downloadModal modal fade show in",
+    tabindex: "-1",
+    role: "dialog",
+    "aria-labelledby": "exampleModalLabel",
+    "aria-hidden": "true"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "modal-dialog modal-lg",
+    role: "document"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "modal-content"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "modal-header"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
+    "class": "modal-title",
+    id: "exampleModalLabel"
+  }, "Get Your Treatment Guide"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    type: "button",
+    "class": "close",
+    onClick: closeDownloadModal,
+    "aria-label": "Close"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    "aria-hidden": "true"
+  }, "x"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "modal-body p-5"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "mb-5",
+    style: {
+      fontSize: 20,
+      fontWeight: 500
+    }
+  }, "Please fill out the information below"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-sm-5"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "mb-3",
+    style: {
+      fontSize: 15
+    }
+  }, "What is the type of cancer?*"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
+    "class": "custom-select"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Blood Cancer"
+  }, " Blood Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Breast Cancer"
+  }, " Breast Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Cervical Cancer"
+  }, " Cervical Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Colon Cancer"
+  }, " Colon Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Extremity Soft Tissue Sarcoma"
+  }, " Extremity Soft Tissue Sarcoma"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Gallbladder Cancer"
+  }, " Gallbladder Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Gastric Cancer"
+  }, " Gastric Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "High Grade Glioma (Brain Tumor)"
+  }, " High Grade Glioma (Brain Tumor)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Liver Cancer"
+  }, " Liver Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Low Grade Glioma (Brain Tumor)"
+  }, " Low Grade Glioma (Brain Tumor)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Lung Cancer"
+  }, " Lung Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Oral Cavity Cancer"
+  }, " Oral Cavity Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Osteosarcoma (Bone Cancer)"
+  }, " Osteosarcoma (Bone Cancer)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Ovarian Cancer"
+  }, " Ovarian Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Prostate Cancer"
+  }, " Prostate Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Rectum Cancer"
+  }, " Rectum Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Throat Cancer"
+  }, " Throat Cancer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Don't Know"
+  }, " Don't Know"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Other"
+  }, " Other"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-sm-5"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "mb-3",
+    style: {
+      fontSize: 15
+    }
+  }, "What is the stage of cancer?*"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
+    "class": "custom-select"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    selected: true
+  }, "Select"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Early"
+  }, "Early"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Advanced"
+  }, "Locally Advanced"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Metastatic"
+  }, "Metastatic"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Recurrence"
+  }, "Recurrence"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-sm-2"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-sm-12 mt-5"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "mb-3",
+    style: {
+      fontSize: 15
+    }
+  }, "Select treatment(s) received so far*"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "custom-control custom-checkbox"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "checkbox",
+    "class": "custom-control-input",
+    id: "customCheck1"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    "class": "custom-control-label",
+    "for": "customCheck1"
+  }, "Chemotherapy")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "custom-control custom-checkbox"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "checkbox",
+    "class": "custom-control-input",
+    id: "customCheck1"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    "class": "custom-control-label",
+    "for": "customCheck1"
+  }, "Radiotherapy")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "custom-control custom-checkbox"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "checkbox",
+    "class": "custom-control-input",
+    id: "customCheck1"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    "class": "custom-control-label",
+    "for": "customCheck1"
+  }, "Surgery")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "custom-control custom-checkbox"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "checkbox",
+    "class": "custom-control-input",
+    id: "customCheck1"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    "class": "custom-control-label",
+    "for": "customCheck1"
+  }, "Immunotherapy")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "custom-control custom-checkbox"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "checkbox",
+    "class": "custom-control-input",
+    id: "customCheck1"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    "class": "custom-control-label",
+    "for": "customCheck1"
+  }, "No treatment recieved")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: "btn btn-primary download_btn mb-5 mt-4",
+    onClick: openStartModal
+  }, "Download Now")))))), showStartModal && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "modal-backdrop fade show in"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "downloadModal modal fade show in",
+    tabindex: "-1",
+    role: "dialog",
+    "aria-labelledby": "exampleModalLabel",
+    "aria-hidden": "true"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "modal-dialog",
+    role: "document"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "modal-content"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "modal-header"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
+    "class": "modal-title",
+    id: "exampleModalLabel",
+    style: {
+      fontSize: 18
+    }
+  }, "Tell us more to get started on your cancer treatment"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    type: "button",
+    "class": "close",
+    onClick: closeDownloadModal,
+    "aria-label": "Close"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    "aria-hidden": "true"
+  }, "x"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "modal-body p-5"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "form-group"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    "for": "exampleFormControlInput1",
+    style: {
+      fontWeight: "normal"
+    }
+  }, "Name"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "text",
+    "class": "form-control",
+    id: "exampleFormControlInput1",
+    placeholder: "Enter your name"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "form-group"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    "for": "exampleFormControlInput1",
+    style: {
+      fontWeight: "normal"
+    }
+  }, "Email address"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "text",
+    "class": "form-control",
+    id: "exampleFormControlInput1",
+    placeholder: "Enter your email address"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "form-group"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    "for": "exampleFormControlInput1",
+    style: {
+      fontWeight: "normal"
+    }
+  }, "Phone No."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      display: 'flex'
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
+    className: "phoneSelect"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+93"
+  }, "Afghanistan (+93)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+213"
+  }, "Algeria (+213)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+376"
+  }, "Andorra (+376)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+244"
+  }, "Angola (+244)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+1264"
+  }, "Anguilla (+1264)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+1268"
+  }, "Antigua & Barbuda (+1268)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+54"
+  }, "Argentina (+54)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+374"
+  }, "Armenia (+374)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+297"
+  }, "Aruba (+297)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+61"
+  }, "Australia (+61)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+43"
+  }, "Austria (+43)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+994"
+  }, "Azerbaijan (+994)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+1242"
+  }, "Bahamas (+1242)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+973"
+  }, "Bahrain (+973)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+880"
+  }, "Bangladesh (+880)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+1246"
+  }, "Barbados (+1246)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+375"
+  }, "Belarus (+375)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+32"
+  }, "Belgium (+32)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+501"
+  }, "Belize (+501)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+229"
+  }, "Benin (+229)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+1441"
+  }, "Bermuda (+1441)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+975"
+  }, "Bhutan (+975)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+591"
+  }, "Bolivia (+591)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+387"
+  }, "Bosnia Herzegovina (+387)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+267"
+  }, "Botswana (+267)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+55"
+  }, "Brazil (+55)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+673"
+  }, "Brunei (+673)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+359"
+  }, "Bulgaria (+359)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+226"
+  }, "Burkina Faso (+226)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+257"
+  }, "Burundi (+257)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+855"
+  }, "Cambodia (+855)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+237"
+  }, "Cameroon (+237)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+1"
+  }, "Canada (+1)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+238"
+  }, "Cape Verde Islands (+238)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+1345"
+  }, "Cayman Islands (+1345)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+236"
+  }, "Central African Republic (+236)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+56"
+  }, "Chile (+56)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+86"
+  }, "China (+86)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+57"
+  }, "Colombia (+57)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+269"
+  }, "Comoros (+269)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+242"
+  }, "Congo (+242)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+682"
+  }, "Cook Islands (+682)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+506"
+  }, "Costa Rica (+506)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+385"
+  }, "Croatia (+385)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+53"
+  }, "Cuba (+53)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+90392"
+  }, "Cyprus North (+90392)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+357"
+  }, "Cyprus South (+357)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+42"
+  }, "Czech Republic (+42)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+45"
+  }, "Denmark (+45)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+253"
+  }, "Djibouti (+253)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+1809"
+  }, "Dominica (+1809)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+1809"
+  }, "Dominican Republic (+1809)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+593"
+  }, "Ecuador (+593)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+20"
+  }, "Egypt (+20)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+503"
+  }, "El Salvador (+503)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+240"
+  }, "Equatorial Guinea (+240)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+291"
+  }, "Eritrea (+291)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+372"
+  }, "Estonia (+372)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+251"
+  }, "Ethiopia (+251)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+500"
+  }, "Falkland Islands (+500)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+298"
+  }, "Faroe Islands (+298)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+679"
+  }, "Fiji (+679)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+358"
+  }, "Finland (+358)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+33"
+  }, "France (+33)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+594"
+  }, "French Guiana (+594)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+689"
+  }, "French Polynesia (+689)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+241"
+  }, "Gabon (+241)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+220"
+  }, "Gambia (+220)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+7880"
+  }, "Georgia (+7880)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+49"
+  }, "Germany (+49)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+233"
+  }, "Ghana (+233)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+350"
+  }, "Gibraltar (+350)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+30"
+  }, "Greece (+30)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+299"
+  }, "Greenland (+299)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+1473"
+  }, "Grenada (+1473)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+590"
+  }, "Guadeloupe (+590)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+671"
+  }, "Guam (+671)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+502"
+  }, "Guatemala (+502)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+224"
+  }, "Guinea (+224)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+245"
+  }, "Guinea - Bissau (+245)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+592"
+  }, "Guyana (+592)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+509"
+  }, "Haiti (+509)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+504"
+  }, "Honduras (+504)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+852"
+  }, "Hong Kong (+852)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+36"
+  }, "Hungary (+36)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+354"
+  }, "Iceland (+354)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+91",
+    selected: true
+  }, "India (+91)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+62"
+  }, "Indonesia (+62)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+98"
+  }, "Iran (+98)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+964"
+  }, "Iraq (+964)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+353"
+  }, "Ireland (+353)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+972"
+  }, "Israel (+972)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+39"
+  }, "Italy (+39)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+1876"
+  }, "Jamaica (+1876)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+81"
+  }, "Japan (+81)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+962"
+  }, "Jordan (+962)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+7"
+  }, "Kazakhstan (+7)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+254"
+  }, "Kenya (+254)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+686"
+  }, "Kiribati (+686)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+850"
+  }, "Korea North (+850)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+82"
+  }, "Korea South (+82)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+965"
+  }, "Kuwait (+965)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+996"
+  }, "Kyrgyzstan (+996)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+856"
+  }, "Laos (+856)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+371"
+  }, "Latvia (+371)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+961"
+  }, "Lebanon (+961)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+266"
+  }, "Lesotho (+266)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+231"
+  }, "Liberia (+231)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+218"
+  }, "Libya (+218)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+417"
+  }, "Liechtenstein (+417)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+370"
+  }, "Lithuania (+370) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+352"
+  }, "Luxembourg (+352) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+853"
+  }, "Macao (+853) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+389"
+  }, "Macedonia (+389) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+261"
+  }, "Madagascar (+261) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+265"
+  }, "Malawi (+265) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+60"
+  }, "Malaysia (+60) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+960"
+  }, "Maldives (+960) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+223"
+  }, "Mali (+223) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+356"
+  }, "Malta (+356) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+692"
+  }, "Marshall Islands (+692) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+596"
+  }, "Martinique (+596) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+222"
+  }, "Mauritania (+222) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+230"
+  }, "Mauritius (+230) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+269"
+  }, "Mayotte (+269) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+52"
+  }, "Mexico (+52) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+691"
+  }, "Micronesia (+691) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+373"
+  }, "Moldova (+373) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+377"
+  }, "Monaco (+377) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+976"
+  }, "Mongolia (+976) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+1664"
+  }, "Montserrat (+1664) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+212"
+  }, "Morocco (+212) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+258"
+  }, "Mozambique (+258) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+95"
+  }, "Myanmar (+95) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+264"
+  }, "Namibia (+264) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+674"
+  }, "Nauru (+674) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+977"
+  }, "Nepal (+977) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+31"
+  }, "Netherlands (+31) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+687"
+  }, "New Caledonia (+687) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+64"
+  }, "New Zealand (+64) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+505"
+  }, "Nicaragua (+505) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+227"
+  }, "Niger (+227) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+234"
+  }, "Nigeria (+234) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+683"
+  }, "Niue (+683) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+672"
+  }, "Norfolk Islands (+672) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+670"
+  }, "Northern Marianas (+670) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+47"
+  }, "Norway (+47) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+968"
+  }, "Oman (+968) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+680"
+  }, "Palau (+680) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+507"
+  }, "Panama (+507) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+675"
+  }, "Papua New Guinea (+675) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+595"
+  }, "Paraguay (+595) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+51"
+  }, "Peru (+51) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+63"
+  }, "Philippines (+63) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+48"
+  }, "Poland (+48) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+351"
+  }, "Portugal (+351) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+1787"
+  }, "Puerto Rico (+1787) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+974"
+  }, "Qatar (+974) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+262"
+  }, "Reunion (+262) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+40"
+  }, "Romania (+40) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+7"
+  }, "Russia (+7) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+250"
+  }, "Rwanda (+250) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+378"
+  }, "San Marino (+378) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+239"
+  }, "Sao Tome & Principe (+239) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+966"
+  }, "Saudi Arabia (+966) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+221"
+  }, "Senegal (+221) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+381"
+  }, "Serbia (+381) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+248"
+  }, "Seychelles (+248) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+232"
+  }, "Sierra Leone (+232) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+65"
+  }, "Singapore (+65) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+421"
+  }, "Slovak Republic (+421) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+386"
+  }, "Slovenia (+386) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+677"
+  }, "Solomon Islands (+677) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+252"
+  }, "Somalia (+252) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+27"
+  }, "South Africa (+27) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+34"
+  }, "Spain (+34) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+94"
+  }, "Sri Lanka (+94) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+290"
+  }, "St. Helena (+290) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+1869"
+  }, "St. Kitts (+1869) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+1758"
+  }, "St. Lucia (+1758) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+249"
+  }, "Sudan (+249) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+597"
+  }, "Suriname (+597) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+268"
+  }, "Swaziland (+268) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+46"
+  }, "Sweden (+46) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+41"
+  }, "Switzerland (+41) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+963"
+  }, "Syria (+963) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+886"
+  }, "Taiwan (+886) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+7"
+  }, "Tajikstan (+7) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+66"
+  }, "Thailand (+66) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+228"
+  }, "Togo (+228) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+676"
+  }, "Tonga (+676) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+1868"
+  }, "Trinidad & Tobago (+1868) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+216"
+  }, "Tunisia (+216) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+90"
+  }, "Turkey (+90) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+7"
+  }, "Turkmenistan (+7) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+993"
+  }, "Turkmenistan (+993) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+1649"
+  }, "Turks & Caicos Islands (+1649) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+688"
+  }, "Tuvalu (+688) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+256"
+  }, "Uganda (+256) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+44"
+  }, "UK (+44) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+380"
+  }, "Ukraine (+380) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+971"
+  }, "United Arab Emirates (+971) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+598"
+  }, "Uruguay (+598) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+1"
+  }, "USA (+1) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+7"
+  }, "Uzbekistan (+7) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+678"
+  }, "Vanuatu (+678) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+379"
+  }, "Vatican City (+379) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+58"
+  }, "Venezuela (+58) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+84"
+  }, "Vietnam (+84) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+1284"
+  }, "Virgin Islands - British (+1284) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+1340"
+  }, "Virgin Islands - US (+1340) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+681"
+  }, "Wallis & Futuna (+681) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+969"
+  }, "Yemen (North)(+969) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+967"
+  }, "Yemen (South)(+967) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+260"
+  }, "Zambia (+260) "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "+263"
+  }, "Zimbabwe (+263) ")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "number",
+    "class": "form-control",
+    id: "exampleFormControlInput1",
+    placeholder: "Enter phone no."
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: "btn btn-primary download_btn mb-5 mt-4",
+    onClick: closeStartModal
+  }, "Start Now")))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);

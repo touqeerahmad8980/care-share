@@ -428,6 +428,61 @@
     background-color: #eb5757;
 }
 
+.downloadModal .modal-header{
+    background-color: #51c185;
+    padding: 20px;
+}
+
+.downloadModal .modal-header h5{
+    color: #fff;
+    font-size: 30px;
+}
+
+.downloadModal .modal-header .close{
+    font-size: 27px;
+    margin-top: -6px;
+}
+
+.downloadModal select{
+    height: 40px;
+    font-size: 15px;
+}
+.downloadModal .custom-control{
+    display: inline-block;
+    margin-right: 40px;
+    margin-bottom: 15px;
+    padding-left: 25px;
+}
+
+.downloadModal .custom-control-label::before,
+.downloadModal .custom-control-label::after {
+    top: 0px;
+    width: 2rem;
+    height: 2rem;
+    left: -26px;
+}
+
+.downloadModal .custom-control .custom-control-label{
+    font-weight: normal;
+}
+
+.downloadModal .btn-primary{
+    background-color: #51c185;
+}
+
+.downloadModal .btn-primary:hover{
+    background-color: #eb5757;
+}
+
+.phoneSelect{
+    height: 33px !important;
+    border-color: #cccccc;
+    max-width: 130px;
+    border-right: none;
+    margin-right: -1px;
+    border-radius: 3px;
+}
+
 @media (min-width:800px) {
 
 
