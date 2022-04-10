@@ -333,6 +333,18 @@ const Home = () => {
                     </ul>
                 </div>
             </section>
+            <section className='download_section'>
+                <div className='container'>
+                    <div className='row'>
+                        <div className='col-sm-6'>
+                            <h2 class="mb-5">Get a free personalized cancer management guide</h2>
+                            <button className='btn btn-primary download_btn'>Download now</button>
+                        </div>
+                        <div className='col-sm-6'>
+                        </div>
+                    </div>
+                </div>
+            </section>
             {/* <div className='container'>
                 <div className='hr_line'></div>
             </div> */}
