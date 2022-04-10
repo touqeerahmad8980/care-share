@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import { NavLink } from 'react-router-dom';
-import blogImage from '../../../assets/images/blog-image.jpg';
 import './BlogListing.css';
 
 const BlogListing = () => {

@@ -25,6 +25,7 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     const [cancerBlogs, setCancerBlogs] = useState([]);
+    const [posts, setPosts] = useState([]);
     const cancerIcons = {
         "BreastCancer": BreastCancer,
         "OvarianCancer": OvarianCancer,
@@ -47,23 +48,29 @@ const Header = () => {
     };
 
     useEffect(() => {
+        fetchCancerPost();
         fetchPosts();
     },[])
 
 
     const fetchPosts = () => {
-
-        axios.get('/api/blogCancer', {
-            // params: {
-            //     category: this.props.category, limit: this.props.limit
-            // }
+        axios.get('/api/blogWidget')
+        .then(response => {
+            setPosts(response.data.result)
         })
-            .then(response => {
-                setCancerBlogs(response.data.result)
-            })
-            .catch(error => {
-                console.log(error);
-            });
+        .catch(error => {
+            console.log(error);
+        });
+    }
+
+    const fetchCancerPost = () => {
+        axios.get('/api/blogCancer')
+        .then(response => {
+            setCancerBlogs(response.data.result)
+        })
+        .catch(error => {
+            console.log(error);
+        });
     }
 
     return (
@@ -85,17 +92,21 @@ const Header = () => {
                                         <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-5">
                                             <NavLink className="nav-link" to="/">HOME</NavLink>
                                         </li>
-                                        <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-5">
-                                            <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">ABOUT CANCER <img height="9" src={chervonDown} /></a>
-                                            <div className="dropdown-menu cancer-dropdown">
-                                                {cancerBlogs.length>0 && cancerBlogs.map((blog) => (
-                                                    <NavLink className="dropdown-item" to={`/blog/${blog.id}`}><img src={cancerIcons[blog.title.replaceAll(" ","")]} /> {blog.title}</NavLink>
-                                                ))}
-                                            </div>
-                                        </li>
-                                        <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-5">
-                                            <NavLink className="nav-link" to="/blogs">BLOGS</NavLink>
-                                        </li>
+                                        {cancerBlogs && cancerBlogs.length>0 &&
+                                            <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-5">
+                                                <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">ABOUT CANCER <img height="9" src={chervonDown} /></a>
+                                                <div className="dropdown-menu cancer-dropdown">
+                                                    {cancerBlogs.length>0 && cancerBlogs.map((blog) => (
+                                                        <NavLink className="dropdown-item" to={`/blog/${blog.id}`}><img src={cancerIcons[blog.title.replaceAll(" ","")]} /> {blog.title}</NavLink>
+                                                    ))}
+                                                </div>
+                                            </li>
+                                        }
+                                        {posts && posts.length>0 &&
+                                            <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-5">
+                                                <NavLink className="nav-link" to="/blogs">BLOGS</NavLink>
+                                            </li>
+                                        }
                                         <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-5 signup-btn-wrap">
                                             <button className="btn btn-primary header-signup-btn" type="button">SIGNUP FOR FREE CONSULTATION</button>
                                         </li>

@@ -73726,6 +73726,11 @@ var Header = function Header() {
       cancerBlogs = _useState2[0],
       setCancerBlogs = _useState2[1];
 
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])([]),
+      _useState4 = _slicedToArray(_useState3, 2),
+      posts = _useState4[0],
+      setPosts = _useState4[1];
+
   var cancerIcons = {
     "BreastCancer": _assets_images_cancer_category_icons_breast_cancer_svg__WEBPACK_IMPORTED_MODULE_3___default.a,
     "OvarianCancer": _assets_images_cancer_category_icons_ovarian_cancer_svg__WEBPACK_IMPORTED_MODULE_4___default.a,
@@ -73747,14 +73752,20 @@ var Header = function Header() {
     "GallbladderCancer": _assets_images_cancer_category_icons_gallbladder_cancer_svg__WEBPACK_IMPORTED_MODULE_20___default.a
   };
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
+    fetchCancerPost();
     fetchPosts();
   }, []);
 
   var fetchPosts = function fetchPosts() {
-    axios.get('/api/blogCancer', {// params: {
-      //     category: this.props.category, limit: this.props.limit
-      // }
-    }).then(function (response) {
+    axios.get('/api/blogWidget').then(function (response) {
+      setPosts(response.data.result);
+    })["catch"](function (error) {
+      console.log(error);
+    });
+  };
+
+  var fetchCancerPost = function fetchCancerPost() {
+    axios.get('/api/blogCancer').then(function (response) {
       setCancerBlogs(response.data.result);
     })["catch"](function (error) {
       console.log(error);
@@ -73801,7 +73812,7 @@ var Header = function Header() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_22__["NavLink"], {
     className: "nav-link",
     to: "/"
-  }, "HOME")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "HOME")), cancerBlogs && cancerBlogs.length > 0 && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "nav-item pl-4 pl-md-0 ml-0 ml-md-5"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "nav-link dropdown-toggle",
@@ -73822,7 +73833,7 @@ var Header = function Header() {
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
       src: cancerIcons[blog.title.replaceAll(" ", "")]
     }), " ", blog.title);
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }))), posts && posts.length > 0 && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "nav-item pl-4 pl-md-0 ml-0 ml-md-5"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_22__["NavLink"], {
     className: "nav-link",
@@ -74118,10 +74129,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var _assets_images_blog_image_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../assets/images/blog-image.jpg */ "./resources/js/assets/images/blog-image.jpg");
-/* harmony import */ var _assets_images_blog_image_jpg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_images_blog_image_jpg__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _BlogListing_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./BlogListing.css */ "./resources/js/components/pages/blog-listing/BlogListing.css");
-/* harmony import */ var _BlogListing_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_BlogListing_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _BlogListing_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./BlogListing.css */ "./resources/js/components/pages/blog-listing/BlogListing.css");
+/* harmony import */ var _BlogListing_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_BlogListing_css__WEBPACK_IMPORTED_MODULE_2__);
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
 
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
@@ -74129,7 +74138,6 @@ function _nonIterableRest() { throw new TypeError("Invalid attempt to destructur
 function _iterableToArrayLimit(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
 
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
-
 
 
 
