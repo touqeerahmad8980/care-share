@@ -1,6 +1,5 @@
 import React from 'react'
 import caresharePlusInline from '../../../assets/images/careshare-plus-inline.png';
-import videoImg from '../../../assets/images/video-img.png';
 import Banner from '../../../assets/banners/banner-1.jpg';
 import whatsappIcon from '../../../assets/images/whatsapp-icon.png';
 import commaIcon from '../../../assets/images/comma-icon.png';
