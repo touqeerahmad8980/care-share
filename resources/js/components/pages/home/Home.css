@@ -311,6 +311,7 @@
 .warriors_section .warrior_wrap .single_warrior .user_wrap img{
     border-radius: 50%;
     width: 90px;
+    height: 90px;
     box-shadow: 0 0 6px 3px #c3c3c3;
 }
 

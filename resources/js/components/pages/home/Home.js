@@ -2,8 +2,6 @@ import React from 'react'
 import caresharePlusInline from '../../../assets/images/careshare-plus-inline.png';
 import videoImg from '../../../assets/images/video-img.png';
 import Banner from '../../../assets/banners/banner-1.jpg';
-import avatar1 from '../../../assets/images/avatar-1.jpg';
-import checkIcon from '../../../assets/images/check-icon.png';
 import whatsappIcon from '../../../assets/images/whatsapp-icon.png';
 import commaIcon from '../../../assets/images/comma-icon.png';
 import apolloHospital from '../../../assets/images/hospital-logos/Apollo Hospitals.jpg';
@@ -349,7 +347,7 @@ const Home = () => {
                             <h3>No Waiting Time</h3>
                             <p>"Whenever my father has any symptoms, I'll just put that in the CareShare app and I will immediately get management instructions. It even automatically gets the consultation done when needed. It has made our lives much simpler.”</p>
                             <div className='user_wrap'>
-                                <img src={avatar1} />
+                                <img src="/images/mandeep.png" />
                                 <h4>- Mandeep Kaur</h4>
                             </div>
                         </div>
@@ -358,8 +356,8 @@ const Home = () => {
                             <h3>24/7 Remote Monitoring</h3>
                             <p>"It was late at night around 2 am during lockdown when my mother had stomach pain and vomiting. We just put the symptoms in the app and within 2 minutes, we got in touch with Dr. Paavas who immediately helped us.”</p>
                             <div className='user_wrap'>
-                                <img src={avatar1} />
-                                <h4>- Punit Sharma</h4>
+                                <img src="/images/puneet.png" />
+                                <h4>- Puneet Sharma</h4>
                             </div>
                         </div>
                         <div className='single_warrior'>
@@ -367,8 +365,8 @@ const Home = () => {
                             <h3>Empowers the Whole Family</h3>
                             <p>"We came across CareShare through a senior oncologist when my brother got diagnosed with cancer. When we started using it, I wished it existed before. It automatically provides personalized feedback and alerts the doctor if needed”</p>
                             <div className='user_wrap'>
-                                <img src={avatar1} />
-                                <h4>- Kishan Reddy</h4>
+                                <img src="/images/kishan.png" />
+                                <h4>- Kishan Singh</h4>
                             </div>
                         </div>
                     </div>
@@ -378,7 +376,7 @@ const Home = () => {
             <section className='section_grey video_section'>
                 <div className='container'>
                     <div className='row_wrap mb-5 text-center'>
-                        <h2 className='section_heading mb-4'>You Are A Warrior, We Have Well-trained Soldiers.<br /> Let's Battle Out Cancer Together!</h2>
+                        <h2 className='section_heading mb-4'>You are a warrior, we have well-trained soldiers.<br /> Let's battle out cancer together!</h2>
                     </div>
                     <div className='text-center'>
                         <img src={videoImg} style={{maxWidth:450,width:"100%",margin:"auto"}} />
